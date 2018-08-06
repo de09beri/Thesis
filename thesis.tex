@@ -1,0 +1,169 @@
+\documentclass[12pt]{report}
+% \documentclass[12pt]{revtex4-1}
+
+%: ----------------------------------------------------------------------
+%: Macros and includes
+%: ----------------------------------------------------------------------
+% Macros help you summarise frequently repeated Latex commands.
+% Here, they are placed in an external file /Latex/Macros/MacroFile1.tex
+% A macro that you may use frequently is the figuremacro (see introduction.tex)
+% NOTE: The specified packages are located in: ./Latex/packages.tex,
+% and is called by ./Latex/Classes/PhDthesisPSnPDF.cls.
+
+%\include{Latex/StyleFiles/lineno}
+\include{Latex/Macros/MacroFile1}
+%\include{Latex/Macros/commands}
+%\include{Latex/StyleFiles/simplemargins}
+\input{Latex/packages}
+
+\usepackage{units}
+\usepackage{hhline}
+
+\captionsetup{belowskip=12pt,aboveskip=4pt}
+
+
+%: ----------------------------------------------------------------------
+%\setleftmargin{1.5in}
+%\setrightmargin{1.0in}
+%\settopmargin{1.0in}
+%\setbottommargin{1.0in}
+
+
+%\makeindex
+
+
+%: ----------------------------------------------------------------------
+%: Begin the document
+%: ----------------------------------------------------------------------
+
+% turn of those nasty overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+
+\begin{document}
+
+% center the chapter titles
+\renewcommand{\chaptername}{CHAPTER}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries\centering}{\chaptername\ \thechapter}{20pt}{\Huge}
+
+\newcommand{\mychapter}[2]{
+    \setcounter{chapter}{#1}
+    \setcounter{section}{0}
+    \chapter*{#2}
+    \addcontentsline{toc}{chapter}{#2}
+}
+
+% font parameters
+% \fontfamily{times}
+\fontsize{12}{15}
+\selectfont
+
+%\language{english}
+
+%: ----------------------------------------------------------------------
+%: Title page
+%: ----------------------------------------------------------------------
+% below is to generate the title page with crest and author name
+
+% sets line spacing
+\renewcommand\baselinestretch{1.2}
+\baselineskip=18pt plus1pt
+
+\input{tex/0-Title_Page.tex}
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+
+%: ----------------------------------------------------------------------
+%: Front matter: dedication and acknowledgements
+%: ----------------------------------------------------------------------
+\renewcommand\abstractname{\normalfont\huge\bfseries\centering ABSTRACT}
+
+\include{tex/0-Abstract}
+
+%\input{TOC/dedication}
+%\input{TOC/acknowledgement}
+
+\setcounter{page}{2}
+%: ----------------------------------------------------------------------
+%: Contents
+%: ----------------------------------------------------------------------
+
+\setcounter{secnumdepth}{5} % organisational level that receives a numbers
+\setcounter{tocdepth}{5}    % print table of contents for level 3
+% \maxtocdepth{paragraph}
+\renewcommand{\contentsname}{CONTENTS}
+\tableofcontents            % print the table of contents
+% levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
+
+%: ----------------------------------------------------------------------
+%: List of figures and tables
+%: ----------------------------------------------------------------------
+\begingroup
+\renewcommand\addvspace[1]{}
+\setlength\parskip{\baselineskip}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\renewcommand{\listtablename}{LIST OF TABLES}
+\listoffigures % print list of figures
+\listoftables  % print list of tables
+\endgroup
+
+%: ----------------------------------------------------------------------
+%: Glossary
+%: ----------------------------------------------------------------------
+
+% Tie in external source file for definitions: /TOC/glossary.tex
+% Glossary entries can also be defined in the main text. See glossary.tex
+% \include{TOC/glossary}
+
+% \begin{multicols}{2}      % \begin{multicols}{#columns}[header text][space]
+% \begin{footnotesize}      % scriptsize(7) < footnotesize(8) < small (9) < normal (10)
+%
+% \printnomenclature[1.5cm] % [] = distance between entry and description
+% \label{nom}               % target name for links to glossary
+%
+% \end{footnotesize}
+% \end{multicols}
+
+%: ----------------------------------------------------------------------
+%: Main document section
+%: ----------------------------------------------------------------------
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+
+\include{tex/1-Introduction}
+\include{tex/2-Results}
+\include{tex/3-Conclusions}
+
+%: ----------------------------------------------------------------------
+%: Back matter: appendicies, references, etc.
+%: ----------------------------------------------------------------------
+
+% the back matter: appendix and references close the thesis
+
+%: ----------------------------------------------------------------------
+%: Bibliography
+%: ----------------------------------------------------------------------
+
+\bibliographystyle{apsrev}
+\renewcommand{\bibname}{REFERENCES} % changes the header; default: Bibliography
+
+
+\input{tex/99-References} % adjust this to fit your BibTex file
+
+
+\bibliographystyle{unsrt}   % unsorted references: appear in order they're cited
+
+% Appendix
+% NOTE: We add special commands in the ./Appendix/*.tex files
+% to make sure that only chapter-level information shows up in the TOC.
+%\renewcommand\chaptername{APPENDIX}
+%\renewcommand{\appendixname}{APPENDIX}
+%\include{Appendix/appendix}
+
+\printindex
+\end{document}
