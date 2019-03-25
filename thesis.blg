@@ -14,6 +14,10 @@ A level-1 auxiliary file: tex/9-Conclusions.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ThesisBib.bib
+I was expecting a `,' or a `}'---line 634 of file ThesisBib.bib
+ :  author 
+ :         = "A. G. Ward ",
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 1 entry,
@@ -57,3 +61,4 @@ warning$ -- 0
 while$ -- 3
 width$ -- 0
 write$ -- 26
+(There was 1 error message)

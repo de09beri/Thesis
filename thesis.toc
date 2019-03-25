@@ -5,8 +5,8 @@
 \contentsline {chapter}{LIST OF TABLES}{v}{chapter*.3}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Neutrinos}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}Neutrinos in the Standard Model}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Discovery of the Neutrino}{2}{section.2.2}
+\contentsline {section}{\numberline {2.1}Discovery of the Neutrino}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Neutrinos in the Standard Model}{2}{section.2.2}
 \contentsline {section}{\numberline {2.3}Lepton Mixing}{2}{section.2.3}
 \contentsline {section}{\numberline {2.4}Neutrino Oscillation}{2}{section.2.4}
 \contentsline {section}{\numberline {2.5}Discovery of Neutrino Oscillation}{2}{section.2.5}
