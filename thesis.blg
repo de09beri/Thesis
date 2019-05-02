@@ -14,51 +14,46 @@ A level-1 auxiliary file: tex/9-Conclusions.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ThesisBib.bib
-I was expecting a `,' or a `}'---line 634 of file ThesisBib.bib
- :  author 
- :         = "A. G. Ward ",
-I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
+You've used 8 entries,
             3411 wiz_defined-function locations,
-            1171 strings with 10365 characters,
-and the built_in function-call counts, 614 in all, are:
-= -- 39
-> -- 7
-< -- 2
-+ -- 4
-- -- 2
-* -- 73
-:= -- 77
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 5
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 51
-empty$ -- 54
-format.name$ -- 5
-if$ -- 114
+            1234 strings with 11748 characters,
+and the built_in function-call counts, 5424 in all, are:
+= -- 314
+> -- 168
+< -- 25
++ -- 136
+- -- 42
+* -- 738
+:= -- 608
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 32
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 490
+empty$ -- 461
+format.name$ -- 106
+if$ -- 1021
 int.to.chr$ -- 1
-int.to.str$ -- 2
-missing$ -- 9
-newline$ -- 18
-num.names$ -- 3
-pop$ -- 9
+int.to.str$ -- 9
+missing$ -- 77
+newline$ -- 39
+num.names$ -- 24
+pop$ -- 114
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 32
 quote$ -- 0
-skip$ -- 24
+skip$ -- 198
 stack$ -- 0
-substring$ -- 32
-swap$ -- 38
-text.length$ -- 1
+substring$ -- 174
+swap$ -- 390
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 48
 warning$ -- 0
-while$ -- 3
+while$ -- 24
 width$ -- 0
-write$ -- 26
-(There was 1 error message)
+write$ -- 101

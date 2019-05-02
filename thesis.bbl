@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{8}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -12,10 +12,64 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{\citenamefont{Huber}(2011)}]{Huber}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Huber}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{C84}},
-  \bibinfo{pages}{024617} (\bibinfo{year}{2011}), \bibinfo{note}{[Erratum:
-  Phys. Rev.C85,029901(2012)]}, \eprint{1106.0687}.
+\bibitem[{\citenamefont{O~von Baeyer}(1911)}]{Hahn:1911}
+\bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{O~von Baeyer},
+  \bibfnamefont{O~Hahn}}, \bibinfo{journal}{Zeitschrift f¨ur Physik}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{273} (\bibinfo{year}{1911}).
+
+\bibitem[{\citenamefont{Chadwick}(1914)}]{Chadwick:1914zz}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Chadwick}},
+  \bibinfo{journal}{Verh. Phys. Gesell.} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{383} (\bibinfo{year}{1914}).
+
+\bibitem[{\citenamefont{Ellis and Wooster}(1927)}]{Ellis:1927}
+\bibinfo{author}{\bibfnamefont{C.~D.} \bibnamefont{Ellis}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~A.} \bibnamefont{Wooster}},
+  \bibinfo{journal}{Proceedings of the Royal Society of London Series A}
+  \textbf{\bibinfo{volume}{117}}, \bibinfo{pages}{109} (\bibinfo{year}{1927}),
+  \urlprefix\url{https://royalsocietypublishing.org/doi/abs/10.1098/rspa.1927.0168}.
+
+\bibitem[{\citenamefont{Fermi}(1934)}]{Fermi:1934hr}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Fermi}}, \bibinfo{journal}{Z.
+  Phys.} \textbf{\bibinfo{volume}{88}}, \bibinfo{pages}{161}
+  (\bibinfo{year}{1934}).
+
+\bibitem[{\citenamefont{Cowan et~al.}(1956)\citenamefont{Cowan, Reines,
+  Harrison, Kruse, and McGuire}}]{Cowan}
+\bibinfo{author}{\bibfnamefont{C.~L.} \bibnamefont{Cowan}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Reines}},
+  \bibinfo{author}{\bibfnamefont{F.~B.} \bibnamefont{Harrison}},
+  \bibinfo{author}{\bibfnamefont{H.~W.} \bibnamefont{Kruse}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~D.} \bibnamefont{McGuire}},
+  \bibinfo{journal}{Science} \textbf{\bibinfo{volume}{124}},
+  \bibinfo{pages}{103} (\bibinfo{year}{1956}), ISSN \bibinfo{issn}{0036-8075},
+  \eprint{http://science.sciencemag.org/content/124/3212/103.full.pdf},
+  \urlprefix\url{http://science.sciencemag.org/content/124/3212/103}.
+
+\bibitem[{\citenamefont{Danby et~al.}(1962)\citenamefont{Danby, Gaillard,
+  Goulianos, Lederman, Mistry, Schwartz, and Steinberger}}]{Lederman}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Danby}},
+  \bibinfo{author}{\bibfnamefont{J.-M.} \bibnamefont{Gaillard}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Goulianos}},
+  \bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{Lederman}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Mistry}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schwartz}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Steinberger}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{36} (\bibinfo{year}{1962}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.9.36}.
+
+\bibitem[{\citenamefont{Kodama et~al.}(2001)}]{TauDONUT}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Kodama}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{DONUT}), \bibinfo{journal}{Phys. Lett.}
+  \textbf{\bibinfo{volume}{B504}}, \bibinfo{pages}{218} (\bibinfo{year}{2001}),
+  \eprint{hep-ex/0012035}.
+
+\bibitem[{\citenamefont{Kodama et~al.}(2008)}]{DONUT}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Kodama}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{DONuT Collaboration}), \bibinfo{journal}{Phys. Rev.
+  D} \textbf{\bibinfo{volume}{78}}, \bibinfo{pages}{052002}
+  (\bibinfo{year}{2008}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.78.052002}.
 
 \end{thebibliography}

@@ -6,35 +6,35 @@
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Neutrinos}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Discovery of the Neutrino}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Neutrinos in the Standard Model}{2}{section.2.2}
-\contentsline {section}{\numberline {2.3}Lepton Mixing}{2}{section.2.3}
-\contentsline {section}{\numberline {2.4}Neutrino Oscillation}{2}{section.2.4}
-\contentsline {section}{\numberline {2.5}Discovery of Neutrino Oscillation}{2}{section.2.5}
-\contentsline {chapter}{\numberline {3}Reactor Neutrinos}{3}{chapter.3}
-\contentsline {section}{\numberline {3.1}Production of Reactor Neutrinos}{3}{section.3.1}
-\contentsline {section}{\numberline {3.2}Measuring the Reactor Antineutrino Flux and Spectrum}{3}{section.3.2}
-\contentsline {section}{\numberline {3.3}The Reactor Antineutrino Anomaly}{3}{section.3.3}
-\contentsline {chapter}{\numberline {4}Sterile Neutrinos}{4}{chapter.4}
-\contentsline {section}{\numberline {4.1}Theory of Sterile Neutrinos}{4}{section.4.1}
-\contentsline {section}{\numberline {4.2}Experimental Searches for Sterile Neutrinos}{4}{section.4.2}
-\contentsline {chapter}{\numberline {5}PROSPECT}{5}{chapter.5}
-\contentsline {section}{\numberline {5.1}Motivation}{5}{section.5.1}
-\contentsline {section}{\numberline {5.2}Experimental Site}{5}{section.5.2}
-\contentsline {section}{\numberline {5.3}Design}{5}{section.5.3}
-\contentsline {section}{\numberline {5.4}Detecting Inverse Beta Decays}{5}{section.5.4}
-\contentsline {section}{\numberline {5.5}From Signal to Result}{5}{section.5.5}
-\contentsline {chapter}{\numberline {6}$^{227}$Ac as a Calibration Source}{6}{chapter.6}
-\contentsline {section}{\numberline {6.1}Motivation}{6}{section.6.1}
-\contentsline {section}{\numberline {6.2}Material Compatibility}{6}{section.6.2}
-\contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{6}{section.6.3}
-\contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{6}{section.6.4}
-\contentsline {section}{\numberline {6.5}Detector Stability Results}{6}{section.6.5}
-\contentsline {section}{\numberline {6.6}Volume Variation Results}{6}{section.6.6}
-\contentsline {chapter}{\numberline {7}Inverse Beta Decay Event Selection}{7}{chapter.7}
-\contentsline {section}{\numberline {7.1}Selection Criteria and Efficiency}{7}{section.7.1}
-\contentsline {section}{\numberline {7.2}Properties of the Event Selection}{7}{section.7.2}
-\contentsline {chapter}{\numberline {8}Neutrino Oscillation in the PROSPECT AD}{8}{chapter.8}
-\contentsline {section}{\numberline {8.1}Analysis Method}{8}{section.8.1}
-\contentsline {section}{\numberline {8.2}Result}{8}{section.8.2}
-\contentsline {chapter}{\numberline {9}CONCLUSIONS}{9}{chapter.9}
-\contentsline {chapter}{REFERENCES}{10}{chapter*.4}
+\contentsline {section}{\numberline {2.2}Neutrinos in the Standard Model}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Lepton Mixing}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Neutrino Oscillation}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Discovery of Neutrino Oscillation}{4}{section.2.5}
+\contentsline {chapter}{\numberline {3}Reactor Neutrinos}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Production of Reactor Neutrinos}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Measuring the Reactor Antineutrino Flux and Spectrum}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}The Reactor Antineutrino Anomaly}{5}{section.3.3}
+\contentsline {chapter}{\numberline {4}Sterile Neutrinos}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}Theory of Sterile Neutrinos}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experimental Searches for Sterile Neutrinos}{6}{section.4.2}
+\contentsline {chapter}{\numberline {5}PROSPECT}{7}{chapter.5}
+\contentsline {section}{\numberline {5.1}Motivation}{7}{section.5.1}
+\contentsline {section}{\numberline {5.2}Experimental Site}{7}{section.5.2}
+\contentsline {section}{\numberline {5.3}Design}{7}{section.5.3}
+\contentsline {section}{\numberline {5.4}Detecting Inverse Beta Decays}{7}{section.5.4}
+\contentsline {section}{\numberline {5.5}From Signal to Result}{7}{section.5.5}
+\contentsline {chapter}{\numberline {6}$^{227}$Ac as a Calibration Source}{8}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{8}{section.6.1}
+\contentsline {section}{\numberline {6.2}Material Compatibility}{8}{section.6.2}
+\contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{8}{section.6.3}
+\contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{8}{section.6.4}
+\contentsline {section}{\numberline {6.5}Detector Stability Results}{8}{section.6.5}
+\contentsline {section}{\numberline {6.6}Volume Variation Results}{8}{section.6.6}
+\contentsline {chapter}{\numberline {7}Inverse Beta Decay Event Selection}{9}{chapter.7}
+\contentsline {section}{\numberline {7.1}Selection Criteria and Efficiency}{9}{section.7.1}
+\contentsline {section}{\numberline {7.2}Properties of the Event Selection}{9}{section.7.2}
+\contentsline {chapter}{\numberline {8}Neutrino Oscillation in the PROSPECT AD}{10}{chapter.8}
+\contentsline {section}{\numberline {8.1}Analysis Method}{10}{section.8.1}
+\contentsline {section}{\numberline {8.2}Result}{10}{section.8.2}
+\contentsline {chapter}{\numberline {9}CONCLUSIONS}{11}{chapter.9}
+\contentsline {chapter}{REFERENCES}{12}{chapter*.4}
