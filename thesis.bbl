@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -71,5 +71,14 @@
   D} \textbf{\bibinfo{volume}{78}}, \bibinfo{pages}{052002}
   (\bibinfo{year}{2008}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.78.052002}.
+
+\bibitem[{\citenamefont{Goldhaber et~al.}(1958)\citenamefont{Goldhaber,
+  Grodzins, and Sunyar}}]{PhysRev.109.1015}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Goldhaber}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Grodzins}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~W.} \bibnamefont{Sunyar}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{109}},
+  \bibinfo{pages}{1015} (\bibinfo{year}{1958}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.109.1015}.
 
 \end{thebibliography}

@@ -1,6 +1,6 @@
-\chapter{Neutrinos}
+\chapter{Neutrinos} \label{ch:Neutrinos}
 
-\section{Discovery of the Neutrino}
+\section{Discovery of the Neutrino} \label{sec:NeutrinoDiscovery}
 
 The study of radioactive decay in the early 20th century brought to light discrepancies that would lead to the postulation of the neutrino and later on its discovery. 
 An experiment performed by Lise Meitner and Otto Hahn in 1911 offered some of the first evidence that the energy spectrum of electrons emitted by beta decay is continuous \cite{Hahn:1911}. 
@@ -36,23 +36,83 @@ By looking for this delayed-coincidence signature Cowan and Reines were able to 
 Shortly after, in 1962, Lederman, Schwartz, and Steinberger discovered the muon neutrino, $\nu_{\mu}$ \cite{Lederman}, but it would take until 2000 for the DONUT (Direct Observation of the Nu Tau) experiment to discover the tau neutrino, $\nu_{\tau}$ \cite{TauDONUT,DONUT}.
 
 
-\section{Neutrinos in the Standard Model} 
+\section{Neutrinos in the Standard Model and Beyond} \label{ch:NeutrinosInSM}
 
-\section{Lepton Mixing}
+The Standard Model (SM) of particle physics is the result of the work of many scientists over several decades. It is a field theory that describes three of the four fundamental forces, the electromagnetic, strong and weak forces, and classifies all known elementary particles as outlined in Table~\ref{tab:SM}.
 
-\section{Neutrino Oscillation}
+%It is invariant under SU(2)$_L \times$ U(1) transformations, where the subscript $L$ indicates that the SU(2) transformation operates on the left-handed chiral components of the fields.
 
-\section{Discovery of Neutrino Oscillation}
+\begin{table}
+	\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+	\hline 
+	& \multicolumn{3}{c|}{\textbf{Fermions}} & & \multicolumn{2}{c|}{\textbf{Bosons}}  \\ 
+	& \multicolumn{3}{c|}{spin = 1/2} & & spin = 1 & spin = 0 \\
+	\hline 
+	Generation & I & II & III & & Gauge Bosons & Scalar Bosons \\ 
+	\hline 
+	Quarks & u & c & t & & g & H \\ 
+	%\hline 
+	& d & s & b & & $\gamma$ &  \\ 
+	%\hline 
+	Leptons & e & $\mu$ & $\tau$ & &  Z &  \\ 
+	%\hline 
+	& $\nu_{e}$ & $\nu_{\mu}$ & $\nu_{\tau}$ & & W &  \\ 
+	\hline 
+\end{tabular}
+\caption{The Standard Model of particle physics.}
+\label{tab:SM}
+\end{table}
+
+Classified as leptons, neutrinos exist in three flavors, electron neutrinos ($\nu_{e}$), muon neutrinos ($\nu_{\mu}$), and tau neutrinos ($\nu_{\tau}$), that correspond to the electron (e), muon ($\mu$), and tau ($\tau$) leptons.
+For each there exists a corresponding antiparticle, $\bar{\nu_e}, \bar{\nu_\mu}, \bar{\nu_\tau}$.
+
+If neutrinos have exactly zero mass and travel at the speed of light, then their helicity, or handedness, is a permanent property. 
+Since all experiments had only measured left-handed neutrinos \cite{PhysRev.109.1015}, it was assumed that all neutrinos in the SM were massless.
+As discussed in greater depth in Section~\ref{sec:NeutrinoOsc}, it was later discovered that neutrinos oscillate, indicating that at least two of the three neutrinos do have mass.
+
+Their ability to oscillate arises from the fact that neutrinos exist as flavor eigenstates, $\nu_\alpha$: $\alpha = e, \mu, \tau$, where each is a superposition of mass eigenstates, $\nu_i$: $i = 1, 2, 3$:
+
+\begin{equation}
+	\ket{\nu_\alpha} = \sum_{i}U_{\alpha i}\ket{\nu_i}
+\end{equation}
+
+where U$_{\alpha i}$ is the unitary Pontecorvo-Maki-Nakagawa-Sakata (PMNS) mixing matrix. 
+The PMNS matrix relates flavor to mass eigenstates and can be written in factorized form as:
+
+\begin{equation}	
+	U = 
+	\begin{pmatrix}
+		1 & & \\
+		& c_{23} & s_{23} \\
+		& -s_{23} & c_{23}
+	\end{pmatrix}
+	\begin{pmatrix}
+		c_{13} & & s_{13}e^{-i\delta} \\
+		& 1 &	\\
+		-s_{13}e^{i\delta} & & c_{13}
+	\end{pmatrix}
+	\begin{pmatrix}
+		c_{12} & s_{12} & \\
+		-s_{12} & c_{12} & \\
+		& & 1
+	\end{pmatrix}
+	\begin{pmatrix}
+		1 & & \\
+		& e^{i\alpha}  & \\
+		& & e^{i\beta}
+	\end{pmatrix}
+\end{equation}
+
+where $s_{ij} = \sin\theta_{ij}$ and $c_{ij} = \cos\theta_{ij}$, $\delta$ is a Dirac phase, and $\alpha$ and $\beta$ are Majorana phases.
+
+If we let a neutrino, $\nu_\alpha$, propagate in time the mass eigenstates will evolve differently (assuming that $m_{1} \neq m_{2} \neq m_{3}$), resulting in a new flavor state, $\nu_{\beta}$.
 
 
-%\begin {table}[!htbp]
-%\end{table}
 
 
-%begin{figure}[!htbp]
-%\center
-%\includegraphics[width = 0.5\columnwidth]{tex/2-neutrinos-images/blank.eps}
-%\caption{Figure in a subfolder.} 
-%\label{fig:test2}
-%\end{figure}
+
+
+\section{Discovery of Neutrino Oscillation} \label{sec:NeutrinoOsc}
+
 
