@@ -68,8 +68,8 @@ Classified as leptons, neutrinos exist in three flavors, electron neutrinos ($\n
 For each there exists a corresponding antiparticle, $\bar{\nu_e}, \bar{\nu_\mu}, \bar{\nu_\tau}$.
 
 If neutrinos have exactly zero mass and travel at the speed of light, then their helicity, or handedness, is a permanent property. 
-Since all experiments had only measured left-handed neutrinos \cite{PhysRev.109.1015}, it was assumed that all neutrinos in the SM were massless.
-As discussed in greater depth in Section~\ref{sec:NeutrinoOsc}, it was later discovered that neutrinos oscillate, indicating that at least two of the three neutrinos do have mass.
+Since experiments had only measured left-handed neutrinos \cite{PhysRev.109.1015}, it was assumed that all neutrinos in the SM were massless.
+As discussed in greater depth in Section~\ref{sec:NeutrinoOsc}, it was later discovered that neutrinos oscillate, indicating that at least two of the three neutrinos must have mass.
 
 Their ability to oscillate arises from the fact that neutrinos exist as flavor eigenstates, $\nu_\alpha$: $\alpha = e, \mu, \tau$, where each is a superposition of mass eigenstates, $\nu_i$: $i = 1, 2, 3$:
 
@@ -104,10 +104,69 @@ The PMNS matrix relates flavor to mass eigenstates and can be written in factori
 	\end{pmatrix}
 \end{equation}
 
-where $s_{ij} = \sin\theta_{ij}$ and $c_{ij} = \cos\theta_{ij}$, $\delta$ is a Dirac phase, and $\alpha$ and $\beta$ are Majorana phases.
+where $s_{ij} = \sin\theta_{ij}$ and $c_{ij} = \cos\theta_{ij}$, $\theta_{ij} = [0,\pi/2]$,
+$\delta = [0,2\pi]$ is the Dirac charge parity (CP) violation phase, and $\alpha$ and $\beta$ are two Majorana CP violation phases.
 
 If we let a neutrino, $\nu_\alpha$, propagate in time the mass eigenstates will evolve differently (assuming that $m_{1} \neq m_{2} \neq m_{3}$), resulting in a new flavor state, $\nu_{\beta}$.
+Massive neutrinos move through time and space as
 
+\begin{equation}
+	\ket{\nu_i(x,t)} = e^{-i(E_{i}t-\vec{p}_{i}\cdot\vec{x})}\ket{\nu_i(0,0)} = e^{-i\phi}\ket{\nu_i(0,0)} 
+\end{equation}
+
+With this we can describe the flavor state $\alpha$ at some point in space and time as
+
+\begin{equation}
+	\ket{\nu_{\alpha}(x,t)} = \sum_{i}U_{\alpha i}\ket{\nu_{i}(x,t)} = \sum_{i}U_{\alpha i}e^{-i\phi_{i}}\ket{\nu_{i}(0,0)}
+\end{equation}
+
+So, the probability that a neutrino produced as flavor $\nu_\alpha$ will be detected as flavor $\nu_\beta$ after traveling for a period of time is 
+
+\begin{equation}	
+\begin{split}
+	P(\nu_\alpha \rightarrow \nu_\beta) &= \abs{\bra{\nu_\alpha(0,0)}\ket{\nu_\beta(x,t)}}^2 \\
+	&=\abs{\sum_i U^{*}_{\alpha i} \sum_{j}U_{\beta j}e^{-i\phi_j}\bra{\nu_i(0,0)}\ket{\nu_j(0,0)}}^2 \\
+	&=\abs{\sum_{i}\sum_{j}U^{*}_{\alpha i}e^{-i\phi_j}U_{\beta j}\delta_{ij}}^2 \\
+	&=\abs{\sum_{i}U^{*}_{\alpha i}e^{-i\phi_i}U_{\beta i}}^2 \\
+	&=\sum_{i}U^{*}_{\alpha i}e^{-i\phi_i}U_{\beta i} \sum_{k}U_{\alpha k}e^{i\phi_k}U^{*}_{\beta k} \\
+	&=\sum_{i}\sum_{k}U^{*}_{\alpha i}U_{\beta i}U_{\alpha k}U^{*}_{\beta k}e^{-i(\phi_{i}-\phi_{k})}
+\end{split}
+\end{equation}
+
+For simplicity we can first consider the case of two neutrino oscillation. In this case the mixing matrix can be written as 
+
+\begin{equation}	
+U = 
+\begin{pmatrix}
+U_{\alpha 1} & U_{\alpha 2} \\
+U_{\beta 1} & U_{\beta 2}
+\end{pmatrix} = 
+\begin{pmatrix}
+\cos\theta_{12} & \sin\theta_{12} \\
+-\sin\theta_{12} & \cos\theta_{12}
+\end{pmatrix}
+\end{equation}
+
+and the probability can be worked out as
+
+\begin{equation}
+\begin{split}
+P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta) 
+&= \sum_{i=1,2}\sum_{k=1,2}U^{*}_{\alpha i}U_{\beta i}U_{\alpha k}U^{*}_{\beta k}e^{-i(\phi_{i}-\phi_{k})} \\
+%&= \abs{U_{\alpha 1}}^{2}\abs{U_{\beta 1}}^2 + 
+%U^{*}_{\alpha 1}U_{\beta 1}U_{\alpha 2}U^{*}_{\beta 2}e^{-i(E_1-E_2)} + 
+%U^{*}_{\alpha 2}U_{\beta 2}U_{\alpha 1}U^{*}_{\beta 1}e^{-i(E_2 - E_1)} +
+%\abs{U_{\alpha 2}}^2\abs{U_{\beta 2}}^2 \\
+&=  \abs{U_{\alpha 1}}^{2}\abs{U_{\beta 1}}^2 + \abs{U_{\alpha 2}}^2\abs{U_{\beta 2}}^2 +
+U^{*}_{\alpha 1}U_{\beta 1}U_{\alpha 2}U^{*}_{\beta 2}(e^{i(\phi_2-\phi_1)} + e^{-i(\phi_2 - \phi_1)}) \\ 
+%&= \cos^2\theta \sin^2\theta  + \sin^2\theta\cos^2\theta - 2\cos\theta \sin\theta \sin\theta \cos\theta \cos(E_2-E_1) \\
+%&= 2\cos^2\theta\sin^2\theta -2\cos^2\theta\sin^2\theta\cos(E_2-E_1)\\
+%&= 2\cos^2\theta\sin^2\theta(1-cos(E_2-E_1)) \\
+%&= 2\cos^2\theta\sin^2\theta(2\sin^2(\frac{E_2-E_1}{2})) \\
+%&= 2(\frac{1}{2}\sin{2\theta})^2(2\sin^2(\frac{E_2-E_1}{2})) \\
+&= \sin^22\theta_{12}\sin^2\left(\frac{\phi_2-\phi_1}{2}\right)
+\end{split}
+\end{equation}
 
 
 
