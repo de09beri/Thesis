@@ -111,7 +111,7 @@ If we let a neutrino, $\nu_\alpha$, propagate in time the mass eigenstates will 
 Massive neutrinos move through time and space as
 
 \begin{equation}
-	\ket{\nu_i(x,t)} = e^{-i(E_{i}t-\vec{p}_{i}\cdot\vec{x})}\ket{\nu_i(0,0)} = e^{-i\phi}\ket{\nu_i(0,0)} 
+	\ket{\nu_i(x,t)} = e^{-\frac{i}{\hbar}(E_{i}t-\vec{p}_{i}\cdot\vec{x})}\ket{\nu_i(0,0)} = e^{-i\phi}\ket{\nu_i(0,0)} 
 \end{equation}
 
 With this we can describe the flavor state $\alpha$ at some point in space and time as
@@ -168,8 +168,23 @@ U^{*}_{\alpha 1}U_{\beta 1}U_{\alpha 2}U^{*}_{\beta 2}(e^{i(\phi_2-\phi_1)} + e^
 \end{split}
 \end{equation}
 
+Recall that 
 
+\begin{equation}
+	\phi = \frac{1}{\hbar}(E_{i}t - \vec{p}_{i}\cdot\vec{x})
+\end{equation}
 
+The mass of the neutrino is very small compared to its energy ($m_\nu << E_\nu$) so we can approximate the momentum as
+
+\begin{equation}
+	p_i = \frac{1}{c}\sqrt{E^2_i-m^2_ic^4 } = \frac{1}{c}\left(E_i - \frac{m^2_ic^4}{2E_i} \right)
+\end{equation}
+
+If we make the reasonable assumption that neutrinos are moving at the speed of light, $c$, then we can approximate the phase difference as 
+
+\begin{equation}
+	\phi_2 - \phi_1 = \frac{1}{\hbar}\left( (E_1 - E_2)\frac{L}{c} - (p_2 - p_1)L  \right)
+\end{equation}
 
 
 \section{Discovery of Neutrino Oscillation} \label{sec:NeutrinoOsc}
