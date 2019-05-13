@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -11,6 +11,13 @@
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Tanabashi et~al.}(2018)}]{PDG}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tanabashi}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{Particle Data Group}),
+  \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{98}},
+  \bibinfo{pages}{030001} (\bibinfo{year}{2018}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.98.030001}.
 
 \bibitem[{\citenamefont{O~von Baeyer}(1911)}]{Hahn:1911}
 \bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{O~von Baeyer},
@@ -80,5 +87,57 @@
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{109}},
   \bibinfo{pages}{1015} (\bibinfo{year}{1958}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.109.1015}.
+
+\bibitem[{\citenamefont{Davis et~al.}(1968)\citenamefont{Davis, Harmer, and
+  Hoffman}}]{Davis}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Davis}},
+  \bibinfo{author}{\bibfnamefont{D.~S.} \bibnamefont{Harmer}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{K.~C.}
+  \bibnamefont{Hoffman}}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{1205} (\bibinfo{year}{1968}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.20.1205}.
+
+\bibitem[{\citenamefont{Pontecorvo}(1968)}]{Pont1968}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Pontecorvo}},
+  \bibinfo{journal}{Sov. Phys. JETP} \textbf{\bibinfo{volume}{26}},
+  \bibinfo{pages}{984} (\bibinfo{year}{1968}), \bibinfo{note}{[Zh. Eksp. Teor.
+  Fiz.53,1717(1967)]}.
+
+\bibitem[{\citenamefont{Bilen'kiĭ and Pontecorvo}(1977)}]{Pont1977}
+\bibinfo{author}{\bibfnamefont{S.~M.} \bibnamefont{Bilen'kiĭ}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Pontecorvo}},
+  \bibinfo{journal}{Soviet Physics Uspekhi} \textbf{\bibinfo{volume}{20}},
+  \bibinfo{pages}{776} (\bibinfo{year}{1977}),
+  \urlprefix\url{http://stacks.iop.org/0038-5670/20/i=10/a=R02}.
+
+\bibitem[{\citenamefont{Abdurashitov et~al.}(1994)}]{Abdurashitov:1994bc}
+\bibinfo{author}{\bibfnamefont{J.~N.} \bibnamefont{Abdurashitov}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{SAGE}), \bibinfo{journal}{Phys.
+  Lett.} \textbf{\bibinfo{volume}{B328}}, \bibinfo{pages}{234}
+  (\bibinfo{year}{1994}).
+
+\bibitem[{\citenamefont{Hampel et~al.}(1999)}]{Hampel:1998xg}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Hampel}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{GALLEX}), \bibinfo{journal}{Phys. Lett.}
+  \textbf{\bibinfo{volume}{B447}}, \bibinfo{pages}{127} (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Altmann et~al.}(2000)}]{Altmann:2000ft}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Altmann}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{GNO}), \bibinfo{journal}{Phys. Lett.}
+  \textbf{\bibinfo{volume}{B490}}, \bibinfo{pages}{16} (\bibinfo{year}{2000}),
+  \eprint{hep-ex/0006034}.
+
+\bibitem[{\citenamefont{Bellotti}(2001)}]{Bellotti:2001ta}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Bellotti}},
+  \bibinfo{journal}{Nucl. Phys. Proc. Suppl.} \textbf{\bibinfo{volume}{91}},
+  \bibinfo{pages}{44} (\bibinfo{year}{2001}), \bibinfo{note}{[,44(2001)]}.
+
+\bibitem[{\citenamefont{Fukuda et~al.}(1998)}]{SuperKOsc}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Fukuda}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Super-Kamiokande Collaboration}),
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{81}},
+  \bibinfo{pages}{1562} (\bibinfo{year}{1998}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.81.1562}.
 
 \end{thebibliography}

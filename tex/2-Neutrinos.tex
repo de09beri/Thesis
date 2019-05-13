@@ -1,4 +1,4 @@
-\chapter{Neutrinos} \label{ch:Neutrinos}
+\chapter{\uppercase{Neutrinos}} \label{ch:Neutrinos}
 
 \section{Discovery of the Neutrino} \label{sec:NeutrinoDiscovery}
 
@@ -114,26 +114,26 @@ Massive neutrinos move through time and space as
 	\ket{\nu_i(x,t)} = e^{-\frac{i}{\hbar}(E_{i}t-\vec{p}_{i}\cdot\vec{x})}\ket{\nu_i(0,0)} = e^{-i\phi}\ket{\nu_i(0,0)} 
 \end{equation}
 
-With this we can describe the flavor state $\alpha$ at some point in space and time as
+Allowing us to describe the flavor state $\alpha$ at some point in space and time as
 
 \begin{equation}
 	\ket{\nu_{\alpha}(x,t)} = \sum_{i}U_{\alpha i}\ket{\nu_{i}(x,t)} = \sum_{i}U_{\alpha i}e^{-i\phi_{i}}\ket{\nu_{i}(0,0)}
 \end{equation}
 
-So, the probability that a neutrino produced as flavor $\nu_\alpha$ will be detected as flavor $\nu_\beta$ after traveling for a period of time is 
+The oscillation probability that a neutrino produced as flavor $\nu_\alpha$ will be detected as flavor $\nu_\beta$ after traveling for a period of time is then given by
 
 \begin{equation}	
 \begin{split}
 	P(\nu_\alpha \rightarrow \nu_\beta) &= \abs{\bra{\nu_\alpha(0,0)}\ket{\nu_\beta(x,t)}}^2 \\
-	&=\abs{\sum_i U^{*}_{\alpha i} \sum_{j}U_{\beta j}e^{-i\phi_j}\bra{\nu_i(0,0)}\ket{\nu_j(0,0)}}^2 \\
-	&=\abs{\sum_{i}\sum_{j}U^{*}_{\alpha i}e^{-i\phi_j}U_{\beta j}\delta_{ij}}^2 \\
+	%&=\abs{\sum_i U^{*}_{\alpha i} \sum_{j}U_{\beta j}e^{-i\phi_j}\bra{\nu_i(0,0)}\ket{\nu_j(0,0)}}^2 \\
+	%&=\abs{\sum_{i}\sum_{j}U^{*}_{\alpha i}e^{-i\phi_j}U_{\beta j}\delta_{ij}}^2 \\
 	&=\abs{\sum_{i}U^{*}_{\alpha i}e^{-i\phi_i}U_{\beta i}}^2 \\
-	&=\sum_{i}U^{*}_{\alpha i}e^{-i\phi_i}U_{\beta i} \sum_{k}U_{\alpha k}e^{i\phi_k}U^{*}_{\beta k} \\
+	%&=\sum_{i}U^{*}_{\alpha i}e^{-i\phi_i}U_{\beta i} \sum_{k}U_{\alpha k}e^{i\phi_k}U^{*}_{\beta k} \\
 	&=\sum_{i}\sum_{k}U^{*}_{\alpha i}U_{\beta i}U_{\alpha k}U^{*}_{\beta k}e^{-i(\phi_{i}-\phi_{k})}
 \end{split}
 \end{equation}
 
-For simplicity we can first consider the case of two neutrino oscillation. In this case the mixing matrix can be written as 
+This is true for any number of neutrino generations, but for simplicity we can consider the case of two neutrino oscillation. In this scenario the mixing matrix can be written as 
 
 \begin{equation}	
 U = 
@@ -147,12 +147,12 @@ U_{\beta 1} & U_{\beta 2}
 \end{pmatrix}
 \end{equation}
 
-and the probability can be worked out as
+and the probability of oscillation is
 
 \begin{equation}
 \begin{split}
 P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta) 
-&= \sum_{i=1,2}\sum_{k=1,2}U^{*}_{\alpha i}U_{\beta i}U_{\alpha k}U^{*}_{\beta k}e^{-i(\phi_{i}-\phi_{k})} \\
+%&= \sum_{i=1,2}\sum_{k=1,2}U^{*}_{\alpha i}U_{\beta i}U_{\alpha k}U^{*}_{\beta k}e^{-i(\phi_{i}-\phi_{k})} \\
 %&= \abs{U_{\alpha 1}}^{2}\abs{U_{\beta 1}}^2 + 
 %U^{*}_{\alpha 1}U_{\beta 1}U_{\alpha 2}U^{*}_{\beta 2}e^{-i(E_1-E_2)} + 
 %U^{*}_{\alpha 2}U_{\beta 2}U_{\alpha 1}U^{*}_{\beta 1}e^{-i(E_2 - E_1)} +
@@ -168,10 +168,10 @@ U^{*}_{\alpha 1}U_{\beta 1}U_{\alpha 2}U^{*}_{\beta 2}(e^{i(\phi_2-\phi_1)} + e^
 \end{split}
 \end{equation}
 
-Recall that 
+Now we can recall that 
 
 \begin{equation}
-	\phi = \frac{1}{\hbar}(E_{i}t - \vec{p}_{i}\cdot\vec{x})
+	\phi_i = \frac{1}{\hbar}(E_{i}t - \vec{p}_{i}\cdot\vec{x})
 \end{equation}
 
 The mass of the neutrino is very small compared to its energy ($m_\nu << E_\nu$) so we can approximate the momentum as
@@ -180,13 +180,85 @@ The mass of the neutrino is very small compared to its energy ($m_\nu << E_\nu$)
 	p_i = \frac{1}{c}\sqrt{E^2_i-m^2_ic^4 } = \frac{1}{c}\left(E_i - \frac{m^2_ic^4}{2E_i} \right)
 \end{equation}
 
-If we make the reasonable assumption that neutrinos are moving at the speed of light, $c$, then we can approximate the phase difference as 
+If we make the reasonable assumption that neutrinos are moving at the speed of light, $c$, then we can approximate the phase difference, $\phi_2 - \phi_1$, as 
 
 \begin{equation}
-	\phi_2 - \phi_1 = \frac{1}{\hbar}\left( (E_1 - E_2)\frac{L}{c} - (p_2 - p_1)L  \right)
+\begin{split}
+	\phi_2 - \phi_1 &= \frac{1}{\hbar}\left( (E_2 - E_1)\frac{L}{c} - (p_2 - p_1)L  \right)\\
+	%&= \frac{1}{\hbar}\left( (E_2 - E_1)\frac{L}{c} - \left(E_2 - \frac{m_2^2c^4}{2E_2} - E_1 + \frac{m_1^2c^4}{2E_1}\right)\frac{L}{c}\right) \\
+	%&=\frac{1}{\hbar}\frac{L}{c}\left(E_2 - E_1 - E_2 + \frac{m_2^2c^4}{2E_2} + E_1 - \frac{m_1^2c^4}{2E_1} \right) \\
+	&=\frac{1}{\hbar}\frac{L}{c}\left(\frac{m_2^2c^4}{2E_2} - \frac{m_1^2c^4}{2E_1}\right) \\
+	%&=\frac{1}{\hbar}\frac{L}{c}\frac{c^4}{2}\left(\frac{m_2^2}{E_2}-\frac{m_1^2}{E_1}\right) \\
+	&=\frac{L}{\hbar c}\frac{\Delta m^2_{21}c^4}{2E}
+\end{split}
 \end{equation}
+
+where $t = \frac{L}{c}$, $\Delta m^2_{21} = m_2^2 - m_1^2$ and $E_1 = E_2 = E$.
+
+We can now state the oscillation probability of a neutrino, $\nu_\alpha$, being detected as flavor $\nu_\beta$ in the two neutrino mixing case as
+
+\begin{equation}
+	P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta) = \sin^2\left(2\theta_{12}\right)\sin^2\left(\frac{c^4}{4\hbar c}\frac{\Delta m^2_{12}L}{E}\right) 
+\end{equation}
+
+The corresponding survival probability, the chance that a neutrino $\nu_\alpha$ is detected as $\nu_\alpha$, can be described by $P^{2\nu}(\nu_\alpha \rightarrow \nu_\alpha) = 1 - P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta)$.
+
+There are several interesting things to note about this probability. We can see that the amplitude of the oscillation probability, $\sin^2\left(2\theta_{12}\right)$, depends on the mixing angle $\theta_{12}$, while the mass splitting, $\Delta m^2_{12}$, the energy of the neutrino, $E$, and the distance traveled, $L$ determine the frequency of oscillation. 
+The probability is only non-zero when $\Delta m^2_{12}$ is non-zero, indicating that if experiments observe neutrino oscillation then at least one of the neutrinos must have mass.
+Finally, the dependence of oscillation on the factor $\frac{L}{E}$, allows experiments to tune where they place neutrino detectors based on what features of neutrinos they would like to study. 
+The current best-fit values of the 3-neutrino oscillation parameters are shown in Table~\ref{tab:ParamValues}.
+
+
+\begin{table}
+	\centering
+\begin{tabular}{ccc}
+	\hline
+	\vspace{-0.3cm} \\ 
+	\textbf{Parameter} & \textbf{Best-fit} & \textbf{3$\sigma$} \vspace{0.1cm} \\ 
+	\hline 
+	\vspace{-0.3cm} \\
+	$\Delta m^2_{21}$ [10$^{-5}$ eV$^2$] & 7.37 & 6.93 - 7.96 \\ 
+	%\hline 
+	\vspace{-0.3cm} \\
+	$\Delta m^2_{31(23)}$ [10$^{-3}$ eV$^2$] & 2.56 (2.54) & 2.45 - 2.69 (2.42 - 2.66) \\ 
+	%\hline 
+	\vspace{-0.3cm} \\
+	$\sin^2\theta_{12}$  & 0.297 & 0.250 - 0.354 \\ 
+	%\hline 
+	\vspace{-0.3cm} \\
+	$\sin^2\theta_{23}$  & 0.425 (0.589) & 0.381 - 0.615 (0.384 - 0.636) \\ 
+	%\hline 
+	\vspace{-0.3cm} \\
+	$\sin^2\theta_{13}$  & 0.0215 (0.0216) & 0.0190 - 0.0240 (0.0190 - 0.0242) \\ 
+	%\hline 
+	\vspace{-0.3cm} \\
+	$\delta/\pi$ & 1.38 (1.31) & 2$\sigma$: 1.0 - 1.9 (2$\sigma$: 0.92 - 1.88) \\ 
+	\hline 
+\end{tabular} 
+\caption{The current best-fit values and 3$\sigma$ allowed ranges of the 3-neutrino oscillation parameters as determined experimentally \cite{PDG}. The values (values in brackets) correspond to $m_1 < m_2 < m_3 \hspace{0.1cm} (m_3 < m_1 < m_2)$.}
+\label{tab:ParamValues}
+\end{table}
 
 
 \section{Discovery of Neutrino Oscillation} \label{sec:NeutrinoOsc}
+
+About a decade after Cowan and Reines discovered the first neutrino astrophysicists Raymond Davis and John Bahcall designed an experiment to collect and count solar neutrinos, neutrinos emitted by nuclear fusion taking place in the Sun. 
+Davis placed a 380 cubic meter tank filled with perchloroethylene, dry-cleaning fluid, 1,478 meters underground in the Homestake Gold Mine in South Dakota. 
+Perchloroethylene was chosen because it is rich in chlorine and the tank was placed deep underground to shield the experiment from cosmic rays. 
+
+Davis was looking for the reaction 
+\begin{equation}
+	\mathrm{\nu _{e}+ ^{37}Cl \rightarrow  ^{37}Ar+e^{-}} 
+	\label{eq:ClAr}
+\end{equation}
+in which a neutrino would enter the tank, transform chlorine into argon, which he would then extract and count.
+In the end Davis and the Homestake experiment calculated a rate of solar neutrinos that was one third of the rate predicted by calculations made by Bahcall using the Standard Model \cite{Davis}. 
+This became known as the solar neutrino problem and in the following years Bruno Pontecorvo wrote several theoretical papers proposing neutrino oscillation as a solution \cite{Pont1968,Pont1977}.
+
+Several experiments followed Davis' including SAGE \cite{Abdurashitov:1994bc}, GALLEX \cite{Hampel:1998xg}, and GNO \cite{Altmann:2000ft,Bellotti:2001ta}, hoping to also calculate the flux of solar neutrinos.
+All three experiments built detectors based on the reaction $\mathrm{^{71}Ga(\nu,e^{-})^{71}Ge}$ and all experiments showed a deficit in neutrino flux compared to Standard Model calculations. 
+
+More proof for neutrino oscillation came with results from the Super-Kamiokande Experiment \cite{SuperKOsc}. Unlike previous experiments that were only sensitive to electron neutrinos, Super-K detected neutrinos through elastic scattering of electrons which is sensitive to all neutrino flavors.
+With their large mass, good energy resolution, and ability to determine neutrino directionality, Super-K was able to confirm the solar neutrino problem effect with high statistics and place limits on the parameters of oscillation.
 
 
