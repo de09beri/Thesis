@@ -8,11 +8,11 @@
 \contentsline {section}{\numberline {2.1}Discovery of the Neutrino}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Neutrinos in the Standard Model and Beyond}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Discovery of Neutrino Oscillation}{7}{section.2.3}
-\contentsline {chapter}{\numberline {3}Reactor Neutrinos}{9}{chapter.3}
+\contentsline {chapter}{\numberline {3}\uppercase {Reactor Neutrinos}}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Production of Reactor Neutrinos}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Measuring the Reactor Antineutrino Flux and Spectrum}{9}{section.3.2}
 \contentsline {section}{\numberline {3.3}The Reactor Antineutrino Anomaly}{9}{section.3.3}
-\contentsline {chapter}{\numberline {4}Sterile Neutrinos}{10}{chapter.4}
+\contentsline {chapter}{\numberline {4}\uppercase {Sterile Neutrinos}}{10}{chapter.4}
 \contentsline {section}{\numberline {4.1}Theory of Sterile Neutrinos}{10}{section.4.1}
 \contentsline {section}{\numberline {4.2}Experimental Searches for Sterile Neutrinos}{10}{section.4.2}
 \contentsline {chapter}{\numberline {5}PROSPECT}{11}{chapter.5}
@@ -21,17 +21,17 @@
 \contentsline {section}{\numberline {5.3}Design}{11}{section.5.3}
 \contentsline {section}{\numberline {5.4}Detecting Inverse Beta Decays}{11}{section.5.4}
 \contentsline {section}{\numberline {5.5}From Signal to Result}{11}{section.5.5}
-\contentsline {chapter}{\numberline {6}$^{227}$Ac as a Calibration Source}{12}{chapter.6}
+\contentsline {chapter}{\numberline {6}\uppercase {$^{227}$Ac as a Calibration Source}}{12}{chapter.6}
 \contentsline {section}{\numberline {6.1}Motivation}{12}{section.6.1}
 \contentsline {section}{\numberline {6.2}Material Compatibility}{12}{section.6.2}
 \contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{12}{section.6.3}
 \contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{12}{section.6.4}
 \contentsline {section}{\numberline {6.5}Detector Stability Results}{12}{section.6.5}
 \contentsline {section}{\numberline {6.6}Volume Variation Results}{12}{section.6.6}
-\contentsline {chapter}{\numberline {7}Inverse Beta Decay Event Selection}{13}{chapter.7}
+\contentsline {chapter}{\numberline {7}\uppercase {Inverse Beta Decay Event Selection}}{13}{chapter.7}
 \contentsline {section}{\numberline {7.1}Selection Criteria and Efficiency}{13}{section.7.1}
 \contentsline {section}{\numberline {7.2}Properties of the Event Selection}{13}{section.7.2}
-\contentsline {chapter}{\numberline {8}Neutrino Oscillation in the PROSPECT AD}{14}{chapter.8}
+\contentsline {chapter}{\numberline {8}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{14}{chapter.8}
 \contentsline {section}{\numberline {8.1}Analysis Method}{14}{section.8.1}
 \contentsline {section}{\numberline {8.2}Result}{14}{section.8.2}
 \contentsline {chapter}{\numberline {9}CONCLUSIONS}{15}{chapter.9}

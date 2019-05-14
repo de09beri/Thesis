@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{20}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -139,5 +139,19 @@
   \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{81}},
   \bibinfo{pages}{1562} (\bibinfo{year}{1998}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.81.1562}.
+
+\bibitem[{\citenamefont{Ahmad et~al.}(2001)}]{SNO}
+\bibinfo{author}{\bibfnamefont{Q.~R.} \bibnamefont{Ahmad}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{SNO Collaboration}), \bibinfo{journal}{Phys. Rev.
+  Lett.} \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{071301}
+  (\bibinfo{year}{2001}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.87.071301}.
+
+\bibitem[{\citenamefont{Ahmad et~al.}(2002)}]{SNOOsc}
+\bibinfo{author}{\bibfnamefont{Q.~R.} \bibnamefont{Ahmad}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{SNO Collaboration}), \bibinfo{journal}{Phys. Rev.
+  Lett.} \textbf{\bibinfo{volume}{89}}, \bibinfo{pages}{011301}
+  (\bibinfo{year}{2002}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.89.011301}.
 
 \end{thebibliography}
