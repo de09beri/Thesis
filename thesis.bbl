@@ -1,157 +1,114 @@
-\begin{thebibliography}{20}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
+\begin{thebibliography}{10}
 
-\bibitem[{\citenamefont{Tanabashi et~al.}(2018)}]{PDG}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tanabashi}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{Particle Data Group}),
-  \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{98}},
-  \bibinfo{pages}{030001} (\bibinfo{year}{2018}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.98.030001}.
+\bibitem{Hahn:1911}
+L~Meitner O~von Baeyer, O~Hahn.
+\newblock {Uber die β-Strahlen des aktiven Niederschlags des Thoriums}.
+\newblock {\em Zeitschrift f¨ur Physik}, 12:273--279, 1911.
 
-\bibitem[{\citenamefont{O~von Baeyer}(1911)}]{Hahn:1911}
-\bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{O~von Baeyer},
-  \bibfnamefont{O~Hahn}}, \bibinfo{journal}{Zeitschrift f¨ur Physik}
-  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{273} (\bibinfo{year}{1911}).
+\bibitem{Chadwick:1914zz}
+J.~Chadwick.
+\newblock {The intensity distribution in the magnetic spectrum of beta
+  particles from radium (B + C)}.
+\newblock {\em Verh. Phys. Gesell.}, 16:383--391, 1914.
 
-\bibitem[{\citenamefont{Chadwick}(1914)}]{Chadwick:1914zz}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Chadwick}},
-  \bibinfo{journal}{Verh. Phys. Gesell.} \textbf{\bibinfo{volume}{16}},
-  \bibinfo{pages}{383} (\bibinfo{year}{1914}).
+\bibitem{Ellis:1927}
+C.~D. Ellis and W.~A. Wooster.
+\newblock {The average energy of disintegration of radium E}.
+\newblock {\em Proceedings of the Royal Society of London Series A},
+  117:109--123, 1927.
 
-\bibitem[{\citenamefont{Ellis and Wooster}(1927)}]{Ellis:1927}
-\bibinfo{author}{\bibfnamefont{C.~D.} \bibnamefont{Ellis}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{W.~A.} \bibnamefont{Wooster}},
-  \bibinfo{journal}{Proceedings of the Royal Society of London Series A}
-  \textbf{\bibinfo{volume}{117}}, \bibinfo{pages}{109} (\bibinfo{year}{1927}),
-  \urlprefix\url{https://royalsocietypublishing.org/doi/abs/10.1098/rspa.1927.0168}.
+\bibitem{Fermi:1934hr}
+E.~Fermi.
+\newblock {An attempt of a theory of beta radiation. 1.}
+\newblock {\em Z. Phys.}, 88:161--177, 1934.
 
-\bibitem[{\citenamefont{Fermi}(1934)}]{Fermi:1934hr}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Fermi}}, \bibinfo{journal}{Z.
-  Phys.} \textbf{\bibinfo{volume}{88}}, \bibinfo{pages}{161}
-  (\bibinfo{year}{1934}).
+\bibitem{Cowan}
+C.~L. Cowan, F.~Reines, F.~B. Harrison, H.~W. Kruse, and A.~D. McGuire.
+\newblock Detection of the free neutrino: a confirmation.
+\newblock {\em Science}, 124(3212):103--104, 1956.
 
-\bibitem[{\citenamefont{Cowan et~al.}(1956)\citenamefont{Cowan, Reines,
-  Harrison, Kruse, and McGuire}}]{Cowan}
-\bibinfo{author}{\bibfnamefont{C.~L.} \bibnamefont{Cowan}},
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Reines}},
-  \bibinfo{author}{\bibfnamefont{F.~B.} \bibnamefont{Harrison}},
-  \bibinfo{author}{\bibfnamefont{H.~W.} \bibnamefont{Kruse}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.~D.} \bibnamefont{McGuire}},
-  \bibinfo{journal}{Science} \textbf{\bibinfo{volume}{124}},
-  \bibinfo{pages}{103} (\bibinfo{year}{1956}), ISSN \bibinfo{issn}{0036-8075},
-  \eprint{http://science.sciencemag.org/content/124/3212/103.full.pdf},
-  \urlprefix\url{http://science.sciencemag.org/content/124/3212/103}.
+\bibitem{Lederman}
+G.~Danby, J-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
+  and J.~Steinberger.
+\newblock Observation of high-energy neutrino reactions and the existence of
+  two kinds of neutrinos.
+\newblock {\em Phys. Rev. Lett.}, 9:36--44, Jul 1962.
 
-\bibitem[{\citenamefont{Danby et~al.}(1962)\citenamefont{Danby, Gaillard,
-  Goulianos, Lederman, Mistry, Schwartz, and Steinberger}}]{Lederman}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Danby}},
-  \bibinfo{author}{\bibfnamefont{J.-M.} \bibnamefont{Gaillard}},
-  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Goulianos}},
-  \bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{Lederman}},
-  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Mistry}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schwartz}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Steinberger}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{9}},
-  \bibinfo{pages}{36} (\bibinfo{year}{1962}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.9.36}.
+\bibitem{TauDONUT}
+K.~Kodama et~al.
+\newblock {Observation of tau neutrino interactions}.
+\newblock {\em Phys. Lett.}, B504:218--224, 2001.
 
-\bibitem[{\citenamefont{Kodama et~al.}(2001)}]{TauDONUT}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Kodama}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{DONUT}), \bibinfo{journal}{Phys. Lett.}
-  \textbf{\bibinfo{volume}{B504}}, \bibinfo{pages}{218} (\bibinfo{year}{2001}),
-  \eprint{hep-ex/0012035}.
+\bibitem{DONUT}
+K.~Kodama et~al.
+\newblock Final tau-neutrino results from the donut experiment.
+\newblock {\em Phys. Rev. D}, 78:052002, Sep 2008.
 
-\bibitem[{\citenamefont{Kodama et~al.}(2008)}]{DONUT}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Kodama}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{DONuT Collaboration}), \bibinfo{journal}{Phys. Rev.
-  D} \textbf{\bibinfo{volume}{78}}, \bibinfo{pages}{052002}
-  (\bibinfo{year}{2008}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.78.052002}.
+\bibitem{PhysRev.109.1015}
+M.~Goldhaber, L.~Grodzins, and A.~W. Sunyar.
+\newblock Helicity of neutrinos.
+\newblock {\em Phys. Rev.}, 109:1015--1017, Feb 1958.
 
-\bibitem[{\citenamefont{Goldhaber et~al.}(1958)\citenamefont{Goldhaber,
-  Grodzins, and Sunyar}}]{PhysRev.109.1015}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Goldhaber}},
-  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Grodzins}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.~W.} \bibnamefont{Sunyar}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{109}},
-  \bibinfo{pages}{1015} (\bibinfo{year}{1958}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.109.1015}.
+\bibitem{Davis}
+Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
+\newblock Search for neutrinos from the sun.
+\newblock {\em Phys. Rev. Lett.}, 20:1205--1209, May 1968.
 
-\bibitem[{\citenamefont{Davis et~al.}(1968)\citenamefont{Davis, Harmer, and
-  Hoffman}}]{Davis}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Davis}},
-  \bibinfo{author}{\bibfnamefont{D.~S.} \bibnamefont{Harmer}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{K.~C.}
-  \bibnamefont{Hoffman}}, \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{1205} (\bibinfo{year}{1968}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.20.1205}.
+\bibitem{Pont1968}
+B.~Pontecorvo.
+\newblock {Neutrino Experiments and the Problem of Conservation of Leptonic
+  Charge}.
+\newblock {\em Sov. Phys. JETP}, 26:984--988, 1968.
+\newblock [Zh. Eksp. Teor. Fiz.53,1717(1967)].
 
-\bibitem[{\citenamefont{Pontecorvo}(1968)}]{Pont1968}
-\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Pontecorvo}},
-  \bibinfo{journal}{Sov. Phys. JETP} \textbf{\bibinfo{volume}{26}},
-  \bibinfo{pages}{984} (\bibinfo{year}{1968}), \bibinfo{note}{[Zh. Eksp. Teor.
-  Fiz.53,1717(1967)]}.
+\bibitem{Pont1977}
+S~M Bilen'kiĭ and Bruno Pontecorvo.
+\newblock Lepton mixing and neutrino oscillations.
+\newblock {\em Soviet Physics Uspekhi}, 20(10):776, 1977.
 
-\bibitem[{\citenamefont{Bilen'kiĭ and Pontecorvo}(1977)}]{Pont1977}
-\bibinfo{author}{\bibfnamefont{S.~M.} \bibnamefont{Bilen'kiĭ}}
-  \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Pontecorvo}},
-  \bibinfo{journal}{Soviet Physics Uspekhi} \textbf{\bibinfo{volume}{20}},
-  \bibinfo{pages}{776} (\bibinfo{year}{1977}),
-  \urlprefix\url{http://stacks.iop.org/0038-5670/20/i=10/a=R02}.
+\bibitem{Abdurashitov:1994bc}
+J.~N. Abdurashitov et~al.
+\newblock {Results from SAGE}.
+\newblock {\em Phys. Lett.}, B328:234--248, 1994.
 
-\bibitem[{\citenamefont{Abdurashitov et~al.}(1994)}]{Abdurashitov:1994bc}
-\bibinfo{author}{\bibfnamefont{J.~N.} \bibnamefont{Abdurashitov}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{SAGE}), \bibinfo{journal}{Phys.
-  Lett.} \textbf{\bibinfo{volume}{B328}}, \bibinfo{pages}{234}
-  (\bibinfo{year}{1994}).
+\bibitem{Hampel:1998xg}
+W.~Hampel et~al.
+\newblock {GALLEX solar neutrino observations: Results for GALLEX IV}.
+\newblock {\em Phys. Lett.}, B447:127--133, 1999.
 
-\bibitem[{\citenamefont{Hampel et~al.}(1999)}]{Hampel:1998xg}
-\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Hampel}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{GALLEX}), \bibinfo{journal}{Phys. Lett.}
-  \textbf{\bibinfo{volume}{B447}}, \bibinfo{pages}{127} (\bibinfo{year}{1999}).
+\bibitem{Altmann:2000ft}
+M.~Altmann et~al.
+\newblock {GNO solar neutrino observations: Results for GNO I}.
+\newblock {\em Phys. Lett.}, B490:16--26, 2000.
 
-\bibitem[{\citenamefont{Altmann et~al.}(2000)}]{Altmann:2000ft}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Altmann}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{GNO}), \bibinfo{journal}{Phys. Lett.}
-  \textbf{\bibinfo{volume}{B490}}, \bibinfo{pages}{16} (\bibinfo{year}{2000}),
-  \eprint{hep-ex/0006034}.
+\bibitem{Bellotti:2001ta}
+E.~Bellotti.
+\newblock {First results from GNO}.
+\newblock {\em Nucl. Phys. Proc. Suppl.}, 91:44--49, 2001.
+\newblock [,44(2001)].
 
-\bibitem[{\citenamefont{Bellotti}(2001)}]{Bellotti:2001ta}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Bellotti}},
-  \bibinfo{journal}{Nucl. Phys. Proc. Suppl.} \textbf{\bibinfo{volume}{91}},
-  \bibinfo{pages}{44} (\bibinfo{year}{2001}), \bibinfo{note}{[,44(2001)]}.
+\bibitem{SuperKOsc}
+Y.~Fukuda et~al.
+\newblock Evidence for oscillation of atmospheric neutrinos.
+\newblock {\em Phys. Rev. Lett.}, 81:1562--1567, Aug 1998.
 
-\bibitem[{\citenamefont{Fukuda et~al.}(1998)}]{SuperKOsc}
-\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Fukuda}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{Super-Kamiokande Collaboration}),
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{81}},
-  \bibinfo{pages}{1562} (\bibinfo{year}{1998}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.81.1562}.
+\bibitem{SNO}
+Q.~R. Ahmad et~al.
+\newblock Measurement of the rate of
+  ${\ensuremath{\nu}}_{e}+\mathit{d}\ensuremath{\rightarrow}\mathit{p}+\mathit{p}+{\mathit{e}}^{\ensuremath{-}}$
+  interactions produced by $^{8}b$ solar neutrinos at the sudbury neutrino
+  observatory.
+\newblock {\em Phys. Rev. Lett.}, 87:071301, Jul 2001.
 
-\bibitem[{\citenamefont{Ahmad et~al.}(2001)}]{SNO}
-\bibinfo{author}{\bibfnamefont{Q.~R.} \bibnamefont{Ahmad}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{SNO Collaboration}), \bibinfo{journal}{Phys. Rev.
-  Lett.} \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{071301}
-  (\bibinfo{year}{2001}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.87.071301}.
+\bibitem{SNOOsc}
+Q.~R. Ahmad et~al.
+\newblock Direct evidence for neutrino flavor transformation from
+  neutral-current interactions in the sudbury neutrino observatory.
+\newblock {\em Phys. Rev. Lett.}, 89:011301, Jun 2002.
 
-\bibitem[{\citenamefont{Ahmad et~al.}(2002)}]{SNOOsc}
-\bibinfo{author}{\bibfnamefont{Q.~R.} \bibnamefont{Ahmad}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{SNO Collaboration}), \bibinfo{journal}{Phys. Rev.
-  Lett.} \textbf{\bibinfo{volume}{89}}, \bibinfo{pages}{011301}
-  (\bibinfo{year}{2002}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.89.011301}.
+\bibitem{PDG}
+M.~Tanabashi et~al.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 JUL 2019 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 JUL 2019 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1361,30 +1361,54 @@ CHAPTER 2.
 
 
 
-]
-Overfull \hbox (280.95143pt too wide) in paragraph at lines 39--41
-\OT1/cmr/m/n/12 Stein-berger dis-cov-ered the muon neu-trino, $\OML/cmm/m/it/12
- ^^W[]$ \OT1/cmr/m/n/12 [[]],
- []
-
-[3] [4] [5] [6]
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ­ in font cmr12!
- [7]) [8]
+] [3] [4] [5] [6] [7]) [8]
 \openout2 = `tex/3-ReactorNeutrinos.aux'.
 
  (./tex/3-ReactorNeutrinos.tex
 CHAPTER 3.
-) [9
+
+<tex/3-reactorneutrinos-images/PLACEHOLDER_NucChart.png, id=64, 459.7175pt x 32
+3.2075pt>
+File: tex/3-reactorneutrinos-images/PLACEHOLDER_NucChart.png Graphic file (type
+ png)
+ <use tex/3-reactorneutrinos-images/PLACEHOLDER_NucChart.png>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/PLACEHOLDER_NucChart.png
+ used on input line 18.
+(pdftex.def)             Requested size: 303.53267pt x 213.4113pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9
 
 
 
-]
+] [10 <./tex/3-reactorneutrinos-images/PLACEHOLDER_NucChart.png>]
+<tex/3-reactorneutrinos-images/Spectrum.png, id=73, 489.83pt x 345.29pt>
+File: tex/3-reactorneutrinos-images/Spectrum.png Graphic file (type png)
+
+<use tex/3-reactorneutrinos-images/Spectrum.png>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrum.png used on inp
+ut line 49.
+(pdftex.def)             Requested size: 303.53267pt x 213.9722pt.
+ [11 <./tex/3-reactorneutrinos-images/Spectrum.png>]
+<tex/3-reactorneutrinos-images/IBDSpectrum.png, id=78, 349.305pt x 326.21875pt>
+File: tex/3-reactorneutrinos-images/IBDSpectrum.png Graphic file (type png)
+<use tex/3-reactorneutrinos-images/IBDSpectrum.png>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/IBDSpectrum.png used on 
+input line 94.
+(pdftex.def)             Requested size: 260.17465pt x 242.99095pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [12] [13 <./tex/3-reactorneutrinos-images/IBDSpectrum.png>]
 \openout2 = `tex/4-SterileNeutrinos.aux'.
 
- (./tex/4-SterileNeutrinos.tex
+
+(./tex/4-SterileNeutrinos.tex
 CHAPTER 4.
-) [10
+) [14
 
 
 
@@ -1393,7 +1417,7 @@ CHAPTER 4.
 
  (./tex/5-Prospect.tex
 CHAPTER 5.
-) [11
+) [15
 
 
 
@@ -1402,7 +1426,7 @@ CHAPTER 5.
 
  (./tex/6-Ac227.tex
 CHAPTER 6.
-) [12
+) [16
 
 
 
@@ -1411,7 +1435,7 @@ CHAPTER 6.
 
  (./tex/7-IBDSelection.tex
 CHAPTER 7.
-) [13
+) [17
 
 
 
@@ -1420,7 +1444,7 @@ CHAPTER 7.
 
  (./tex/8-Oscillation.tex
 CHAPTER 8.
-) [14
+) [18
 
 
 
@@ -1429,37 +1453,32 @@ CHAPTER 8.
 
  (./tex/9-Conclusions.tex
 CHAPTER 9.
-) [15
+) [19
 
 
 
 ] (./thesis.bbl
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-
-Overfull \hbox (54.44441pt too wide) in paragraph at lines 58--68
-[]
- []
-
-[16
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ² in font cmr12!
+Missing character: There is no Â in font cmti12!
+Missing character: There is no ¨ in font cmti12!
+ [20
 
 
 ]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ­ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ­ in font cmr12!
-) [17]
+) [21]
 \openout2 = `tex/Appendix.aux'.
 
  (./tex/Appendix.tex
 Appendix A.
-[18
+[22
 
 
 ]
 Appendix B.
-) [19
+) [23
 
 ]
 No file thesis.ind.
@@ -1469,11 +1488,11 @@ No file thesis.ind.
 (./tex/5-Prospect.aux) (./tex/6-Ac227.aux) (./tex/7-IBDSelection.aux)
 (./tex/8-Oscillation.aux) (./tex/9-Conclusions.aux) (./tex/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12576 strings out of 492995
- 224737 string characters out of 6132704
- 276835 words of memory out of 5000000
- 15946 multiletter control sequences out of 15000+600000
- 13349 words of font info for 48 fonts, out of 8000000 for 9000
+ 12591 strings out of 492995
+ 225463 string characters out of 6132704
+ 277618 words of memory out of 5000000
+ 15955 multiletter control sequences out of 15000+600000
+ 13881 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 </us
@@ -1491,12 +1510,11 @@ ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (26 pages, 203095 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (30 pages, 710025 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 168 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

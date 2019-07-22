@@ -12,34 +12,35 @@
 \contentsline {section}{\numberline {2.3}Discovery of Neutrino Oscillation}{7}
 \contentsline {chapter}{\numberline {3}\uppercase {Reactor Neutrinos}}{9}
 \contentsline {section}{\numberline {3.1}Production of Reactor Neutrinos}{9}
-\contentsline {section}{\numberline {3.2}Measuring the Reactor Antineutrino Flux and Spectrum}{9}
-\contentsline {section}{\numberline {3.3}The Reactor Antineutrino Anomaly}{9}
-\contentsline {chapter}{\numberline {4}\uppercase {Sterile Neutrinos}}{10}
-\contentsline {section}{\numberline {4.1}Theory of Sterile Neutrinos}{10}
-\contentsline {section}{\numberline {4.2}Experimental Searches for Sterile Neutrinos}{10}
-\contentsline {chapter}{\numberline {5}PROSPECT}{11}
-\contentsline {section}{\numberline {5.1}Motivation}{11}
-\contentsline {section}{\numberline {5.2}Experimental Site}{11}
-\contentsline {section}{\numberline {5.3}Design}{11}
-\contentsline {section}{\numberline {5.4}Detecting Inverse Beta Decays}{11}
-\contentsline {section}{\numberline {5.5}From Signal to Result}{11}
-\contentsline {chapter}{\numberline {6}\uppercase {$^{227}$Ac as a Calibration Source}}{12}
-\contentsline {section}{\numberline {6.1}Motivation}{12}
-\contentsline {section}{\numberline {6.2}Material Compatibility}{12}
-\contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{12}
-\contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{12}
-\contentsline {section}{\numberline {6.5}Detector Stability Results}{12}
-\contentsline {section}{\numberline {6.6}Volume Variation Results}{12}
-\contentsline {chapter}{\numberline {7}\uppercase {Inverse Beta Decay Event Selection}}{13}
-\contentsline {section}{\numberline {7.1}Selection Criteria and Efficiency}{13}
-\contentsline {section}{\numberline {7.2}Properties of the Event Selection}{13}
-\contentsline {chapter}{\numberline {8}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{14}
-\contentsline {section}{\numberline {8.1}Analysis Method}{14}
-\contentsline {section}{\numberline {8.2}Result}{14}
-\contentsline {chapter}{\numberline {9}CONCLUSIONS}{15}
+\contentsline {section}{\numberline {3.2}Measuring the Reactor Antineutrino Flux and Spectrum}{10}
+\contentsline {section}{\numberline {3.3}Detection of Reactor Neutrinos}{12}
+\contentsline {section}{\numberline {3.4}The Reactor Antineutrino Anomaly}{13}
+\contentsline {chapter}{\numberline {4}\uppercase {Sterile Neutrinos}}{14}
+\contentsline {section}{\numberline {4.1}Theory of Sterile Neutrinos}{14}
+\contentsline {section}{\numberline {4.2}Experimental Searches for Sterile Neutrinos}{14}
+\contentsline {chapter}{\numberline {5}PROSPECT}{15}
+\contentsline {section}{\numberline {5.1}Motivation}{15}
+\contentsline {section}{\numberline {5.2}Experimental Site}{15}
+\contentsline {section}{\numberline {5.3}Design}{15}
+\contentsline {section}{\numberline {5.4}Detecting Inverse Beta Decays}{15}
+\contentsline {section}{\numberline {5.5}From Signal to Result}{15}
+\contentsline {chapter}{\numberline {6}\uppercase {$^{227}$Ac as a Calibration Source}}{16}
+\contentsline {section}{\numberline {6.1}Motivation}{16}
+\contentsline {section}{\numberline {6.2}Material Compatibility}{16}
+\contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{16}
+\contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{16}
+\contentsline {section}{\numberline {6.5}Detector Stability Results}{16}
+\contentsline {section}{\numberline {6.6}Volume Variation Results}{16}
+\contentsline {chapter}{\numberline {7}\uppercase {Inverse Beta Decay Event Selection}}{17}
+\contentsline {section}{\numberline {7.1}Selection Criteria and Efficiency}{17}
+\contentsline {section}{\numberline {7.2}Properties of the Event Selection}{17}
+\contentsline {chapter}{\numberline {8}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{18}
+\contentsline {section}{\numberline {8.1}Analysis Method}{18}
+\contentsline {section}{\numberline {8.2}Result}{18}
+\contentsline {chapter}{\numberline {9}CONCLUSIONS}{19}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{16}
+\contentsline {chapter}{BIBLIOGRAPHY}{20}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{18}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{19}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{22}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{23}
