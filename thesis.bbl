@@ -1,5 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{NucChart}
+NNDC.
+\newblock {Chart of Nuclides}.
+
+\bibitem{HayesVogel}
+A.~C. Hayes and Petr Vogel.
+\newblock {Reactor Neutrino Spectra}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 66:219--244, 2016.
+
 \bibitem{Hahn:1911}
 L~Meitner O~von Baeyer, O~Hahn.
 \newblock {Uber die β-Strahlen des aktiven Niederschlags des Thoriums}.
@@ -110,5 +119,10 @@ Q.~R. Ahmad et~al.
 M.~Tanabashi et~al.
 \newblock Review of particle physics.
 \newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+
+\bibitem{Qian:2018wid}
+Xin Qian and Jen-Chieh Peng.
+\newblock {Physics with Reactor Neutrinos}.
+\newblock {\em Rept. Prog. Phys.}, 82(3):036201, 2019.
 
 \end{thebibliography}

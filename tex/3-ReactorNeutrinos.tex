@@ -9,15 +9,15 @@ Nuclear reactors are powered by the fission of Uranium and Plutonium isotopes in
 Specifically, in a power reactor, 99.9\% of the power comes from the fission of $^{235}$U, $^{239}$Pu, $^{241}$Pu, and $^{238}$U isotopes. 
 The chain reaction begins with a neutron colliding with a nucleus of one of the isotopes. 
 This causes the nucleus to split into two fragments, usually of unequal mass, creating an unstable system.
-In order to reach stability neutrons have to transform into protons, a process only accomplished through $\beta$ decay. \todo{Add reference to nuclear chart figure}
+In order to reach stability neutrons have to transform into protons, a process only accomplished through $\beta$ decay, see Figure~\ref{fig:nucchart}.
 Each beta decay produces an electron and corresponding electron antineutrino. 
-In general a nuclear reactor will produce $\sim 6 \times 10^{20} \bar{\nu_e}$ per GW of thermal energy power.
+In general a nuclear reactor will produce $\sim 6 \times 10^{20} \bar{\nu_e}$ per GW of thermal energy power \cite{HayesVogel}.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/PLACEHOLDER_NucChart}
-	\caption{}
-	\label{fig:placeholdernucchart}
+	\includegraphics[width=0.75\linewidth]{tex/3-reactorneutrinos-images/NuclideChart_U235}
+	\caption{A schematic of the fission of $^{235}$U \cite{NucChart}. After collision with a neutron $^{235}$U will split into two unstable nuclei (pink arrows) which will then $\beta$ decay (white arrows) until stable.}
+	\label{fig:nucchart}
 \end{figure}
 
 
@@ -47,31 +47,39 @@ For this reason another method can be considered.
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/Spectrum}
-	\caption{The $\bar{\nu_e}$ spectrum predicted by the summation method using the JEFF-3.1.1 database fission fragment yields and the ENDF/B-VII.1 decay library. \todo{Add citation}}
+	\caption{The $\bar{\nu_e}$ spectrum predicted by the summation method using the JEFF-3.1.1 database fission fragment yields and the ENDF/B-VII.1 decay library \cite{HayesVogel}.}
 	\label{fig:spectrum}
 \end{figure}
 
 The electron spectrum conversion method involves converting a measured electron spectrum into an antineutrino spectrum. 
-This is done by defining a set of virtual end-point energies and then fitting experimental data to these end-points according to their amplitudes, $a_i$, 
+This involves fitting an experimentally defined total beta spectrum with individual beta spectrum  according to their amplitudes, $a_i$, 
 
 \begin{equation}
 	\frac{dN_i}{dE_e} = \sum_{i}a_iP(E,E^i_0,Z)
 \end{equation}
 
-The conversion to the antineutrino spectrum is then accomplished by replacing the energy $E_e$ in each branch by $E_0 - E_{\bar{nu}}$, because the electron and the $\bar{\nu_e}$ share the total energy of each $\beta$-decay branch.
+The conversion to the antineutrino spectrum is then accomplished by replacing the energy $E_e$ in each branch by $E_0 - E_{\bar{\nu}}$, because the electron and the $\bar{\nu_e}$ share the total energy of each $\beta$-decay branch.
 The flux per fission is then given as the sum of $\bar{\nu_e}$ spectrum converted from each virtual $\beta$ branch,
 
 \begin{equation}
 	\frac{dN_i}{dE_{\bar{\nu}}} = \sum_{i}a_iP(E^i_0-E,E^i_0)
 \end{equation}
 
-\todo{Highly edit this section, esp conversion method}
+\todo{New figure?}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/betaspecconversion_fixed}
+	\caption{}
+	\label{fig:betaspecconversionfixed}
+\end{figure}
+
+
 
 
 \section{Detection of Reactor Neutrinos}
 
 Though there are several methods that can be used to detect reactor neutrinos, including charge-current ($\bar{\nu_e} + d \rightarrow n + n + e^+$), neutral-current ($\bar{\nu_e} + d \rightarrow n + p + \bar{\nu_e}$), and antineutrino-electron elastic scattering ($\bar{\nu_e} + e^- \rightarrow \bar{\nu_e} + e^-$), the one employed by most experiments is IBD ($\bar{\nu_e} + p \rightarrow e^+ + n$).
-The IBD reaction energy threshold is 1.8 MeV and the cross section is relatively high, $\sim 63 \times 10^{-44} cm^2/fisson$ integrated over the entire reactor neutrino energy spectrum \todo{Add cite to 'Physics with reactor neutrinos'}, and can be written as
+The IBD reaction energy threshold is 1.8 MeV and the cross section is relatively high, $\sim 63 \times 10^{-44} \textrm{cm}^2/\textrm{fisson}$ integrated over the entire reactor neutrino energy spectrum \cite{Qian:2018wid}, and can be written as
 
 \begin{equation}
 	\sigma^{(0)} \simeq 9.52 \times \left(\frac{E_e^{(0)}p_e^{(0)}}{\textrm{MeV}^2}\right) \times 10^{-44}\textrm{cm}^2
@@ -85,16 +93,17 @@ The neutron energy can be backtracked from the prompt signal as
 	E_{\bar{\nu}} = E_{prompt} + 0.78~\textrm{MeV} + T_n
 \end{equation}
 where $T_n$ is the kinetic energy of the recoil neutron which is much smaller than the energy of the neutrino and can therefore be ignored in most cases. 
-The IBD cross-section increases with energy, whereas the $\bar{\nu_{e}}$ spectrum decreases with energy creating a detected energy spectrum that peaks around 3.8 MeV \todo{?} and dies off after $\sim$8 MeV, as seen in Figure~\ref{fig:ibdspectrum}. 
+The IBD cross-section increases with energy, whereas the $\bar{\nu_{e}}$ spectrum decreases with energy creating a detected energy spectrum that peaks around 3.8 MeV and dies off after $\sim$8 MeV, as seen in Figure~\ref{fig:vogel-fig02}. 
 
-In addition to great background rejection, good reconstruction of the neutrino energy, the IBD method of detecting neutrinos also allows the use of liquid scintillators and water as detection mediums. 
+In addition to great background rejection and good reconstruction of the neutrino energy, the IBD method of detecting neutrinos also allows the use of liquid scintillators and water as detection mediums. 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{tex/3-reactorneutrinos-images/IBDSpectrum}
-	\caption{\todo{REPLACE}}
-	\label{fig:ibdspectrum}
+	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/vogel-fig02}
+	\caption{The IBD spectrum (curve (a)) measured by a 12-ton fiducial mass detector located 0.8 km from a 12-GW$_{th}$ power reactor along with the reactor flux (curve (b)) and IBD cross section (curve (c)) as a function of energy \cite{PDG}.}
+	\label{fig:vogel-fig02}
 \end{figure}
+
 
 
 

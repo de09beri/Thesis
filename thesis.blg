@@ -15,44 +15,44 @@ A level-1 auxiliary file: tex/9-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
 Database file #1: ThesisBib.bib.bib
-You've used 20 entries,
+You've used 23 entries,
             1791 wiz_defined-function locations,
-            615 strings with 6723 characters,
-and the built_in function-call counts, 4560 in all, are:
-= -- 421
-> -- 170
+            635 strings with 6989 characters,
+and the built_in function-call counts, 5117 in all, are:
+= -- 468
+> -- 190
 < -- 0
-+ -- 65
-- -- 45
-* -- 326
-:= -- 747
-add.period$ -- 62
-call.type$ -- 20
-change.case$ -- 20
++ -- 73
+- -- 50
+* -- 358
+:= -- 834
+add.period$ -- 70
+call.type$ -- 23
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 180
-empty$ -- 455
-format.name$ -- 45
-if$ -- 1001
+cite$ -- 23
+duplicate$ -- 203
+empty$ -- 519
+format.name$ -- 50
+if$ -- 1127
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 20
-newline$ -- 105
-num.names$ -- 20
-pop$ -- 18
+int.to.str$ -- 23
+missing$ -- 22
+newline$ -- 119
+num.names$ -- 23
+pop$ -- 25
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 70
+skip$ -- 85
 stack$ -- 0
-substring$ -- 416
-swap$ -- 20
+substring$ -- 455
+swap$ -- 23
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 45
-width$ -- 22
-write$ -- 226
+while$ -- 50
+width$ -- 25
+write$ -- 255
