@@ -5,7 +5,7 @@ In order to perform precision reactor neutrino studies it is important to unders
 
 \section{Production of Reactor Neutrinos}
 
-Nuclear reactors are powered by the fission of Uranium and Plutonium isotopes in their cores. 
+Nuclear reactors are powered by the fission of uranium and plutonium isotopes in their cores. 
 Specifically, in a power reactor, 99.9\% of the power comes from the fission of $^{235}$U, $^{239}$Pu, $^{241}$Pu, and $^{238}$U isotopes. 
 The chain reaction begins with a neutron colliding with a nucleus of one of the isotopes. 
 This causes the nucleus to split into two fragments, usually of unequal mass, creating an unstable system.
@@ -15,7 +15,7 @@ In general a nuclear reactor will produce $\sim 6 \times 10^{20} \bar{\nu_e}$ pe
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.75\linewidth]{tex/3-reactorneutrinos-images/NuclideChart_U235}
+	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/NuclideChart_U235}
 	\caption{A schematic of the fission of $^{235}$U \cite{NucChart}. After collision with a neutron $^{235}$U will split into two unstable nuclei (pink arrows) which will then $\beta$ decay (white arrows) until stable.}
 	\label{fig:nucchart}
 \end{figure}
@@ -23,13 +23,14 @@ In general a nuclear reactor will produce $\sim 6 \times 10^{20} \bar{\nu_e}$ pe
 
 \section{Measuring the Reactor Antineutrino Flux and Spectrum}
 
-The total antineutrino spectrum produced by a nuclear reactor can be expressed as the sum over the spectra for the dominant fissioning isotopes,
+The total $\bar{\nu_{e}}$ flux, $S(E_\nu)$, produced by a nuclear reactor can be expressed as the sum over the spectra of the dominant fissioning isotopes,
 
 \begin{equation}
 	S(E_\nu) = \frac{W_{th}}{\sum_{i}(f_i/F)e_i}\sum_{i}\frac{f_i}{F}\left(\frac{dN_i}{dE_\nu}\right) ,
 \end{equation}
 
-where $f_i$ is the number of fissions from isotope $i$, $F$ is the total number of fissions, $W_{th}$ is the total reactor thermal energy, $e_i$ is the effective thermal energy per fission contributed by each isotope $i$, and $dN_i/dE_\nu$ is the cumulative $\bar{\nu_e}$ spectrum of $i$ normalized per fission.
+where $f_i/F$ is the fission fraction for each given isotope $i$, $W_{th}$ is the reactor thermal energy, $e_i$ is the 
+average energy released per fission by each isotope, and $dN_i/dE_\nu$ is the cumulative $\bar{\nu_e}$ spectrum of $i$ normalized per fission.
 
 There are two methods to determine the $\bar{\nu_e}$ spectrum, \textit{ab initio} summation and electron spectrum conversion.
 In the \textit{ab initio} approach the spectrum is determined by summing the contributions of all $\beta$-decay branches of all fission fragments,
@@ -39,10 +40,11 @@ In the \textit{ab initio} approach the spectrum is determined by summing the con
 \end{equation}
 
 where $Y_n(Z,A,t)$ is the number of $\beta$ decays of the fission fragment $Z, A$ at time $t$, $b_{n,i}(E^i_0)$ are the branching ratios with endpoint energies $E^i_0$, and $P_{\bar{\nu}}(E_{\bar{\nu}},E^i_0,Z)$ is the normalized $\bar{\nu_e}$ spectrum for the branch $n, i$.
-The antineutrino spectrum for the four main reactor isotopes calculated using this method can be seen in Figure~\ref{fig:spectrum}. 
-Unfortunately, with this method comes several sources of uncertainty. 
-The fission yields, $Y_n$ have been determined by a few different groups, but don't always agree and have large uncertainties and not all branching ratios are known. 
-For this reason another method can be considered. 
+This method relies on nuclear databases, such as the Evaluated Nuclear Data File (ENDF) and Joint Evaluated Fission and Fusion (JEFF) databases, for information about the branching ratios and decay energies. 
+The antineutrino spectrum for the four main reactor isotopes calculated using \textit{ab initio} summation was done in Ref.~\cite{HayesVogel} and the result can be seen in Figure~\ref{fig:spectrum}. 
+Though seemingly straightforward, this approach comes with some caveats.
+The shear number of daughter isotopes ($>$1000) and individual $\beta$ decay branches ($>$6000) make the summation non-trivial.
+This, along with the fact that not all branching ratios are known, and that the fission yields have been determined by several different database groups but don't always agree and have large uncertainties bring into question the validity of using only this method. 
 
 \begin{figure}[t]
 	\centering
@@ -51,7 +53,7 @@ For this reason another method can be considered.
 	\label{fig:spectrum}
 \end{figure}
 
-The electron spectrum conversion method involves converting a measured electron spectrum into an antineutrino spectrum. 
+The other approach to determine the $\bar{\nu_{e}}$ spectrum, the conversion method, relies on converting a measured electron spectrum into an antineutrino spectrum. 
 This involves fitting an experimentally defined total beta spectrum with individual beta spectrum  according to their amplitudes, $a_i$, 
 
 \begin{equation}
@@ -73,6 +75,8 @@ The flux per fission is then given as the sum of $\bar{\nu_e}$ spectrum converte
 	\label{fig:betaspecconversionfixed}
 \end{figure}
 
+The electron spectra for $^{235}$U, $^{239}$Pu, and $^{241}$Pu were measured at the Institut
+Laue-Langevin (ILL) reactor in Grenoble, France in the 1980s \cite{VonFeilitzsch:1982jw,Schreckenbach:1985ep,Hahn:1989zr}, while the spectrum of $^{238}$U was more recently measured at the neutron source FRMII in Garching, Germany \cite{Haag:2013raa}.
 
 
 

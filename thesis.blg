@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -14,45 +14,45 @@ A level-1 auxiliary file: tex/8-Oscillation.aux
 A level-1 auxiliary file: tex/9-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
-Database file #1: ThesisBib.bib.bib
-You've used 23 entries,
+Database file #1: ThesisBib.bib
+You've used 27 entries,
             1791 wiz_defined-function locations,
-            635 strings with 6989 characters,
-and the built_in function-call counts, 5117 in all, are:
-= -- 468
-> -- 190
+            663 strings with 7931 characters,
+and the built_in function-call counts, 6166 in all, are:
+= -- 550
+> -- 258
 < -- 0
-+ -- 73
-- -- 50
-* -- 358
-:= -- 834
-add.period$ -- 70
-call.type$ -- 23
-change.case$ -- 23
++ -- 97
+- -- 70
+* -- 448
+:= -- 1013
+add.period$ -- 82
+call.type$ -- 27
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 203
-empty$ -- 519
-format.name$ -- 50
-if$ -- 1127
+cite$ -- 27
+duplicate$ -- 239
+empty$ -- 611
+format.name$ -- 70
+if$ -- 1352
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 22
-newline$ -- 119
-num.names$ -- 23
-pop$ -- 25
+int.to.str$ -- 27
+missing$ -- 26
+newline$ -- 139
+num.names$ -- 27
+pop$ -- 29
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 85
+skip$ -- 97
 stack$ -- 0
-substring$ -- 455
-swap$ -- 23
+substring$ -- 536
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 50
-width$ -- 25
-write$ -- 255
+while$ -- 58
+width$ -- 29
+write$ -- 299

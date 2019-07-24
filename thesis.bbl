@@ -9,10 +9,15 @@ A.~C. Hayes and Petr Vogel.
 \newblock {Reactor Neutrino Spectra}.
 \newblock {\em Ann. Rev. Nucl. Part. Sci.}, 66:219--244, 2016.
 
+\bibitem{PDG}
+M.~Tanabashi et~al.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+
 \bibitem{Hahn:1911}
 L~Meitner O~von Baeyer, O~Hahn.
-\newblock {Uber die β-Strahlen des aktiven Niederschlags des Thoriums}.
-\newblock {\em Zeitschrift f¨ur Physik}, 12:273--279, 1911.
+\newblock {Uber die $\beta$-Strahlen des aktiven Niederschlags des Thoriums}.
+\newblock {\em Zeitschrift fur Physik}, 12:273--279, 1911.
 
 \bibitem{Chadwick:1914zz}
 J.~Chadwick.
@@ -115,10 +120,31 @@ Q.~R. Ahmad et~al.
   neutral-current interactions in the sudbury neutrino observatory.
 \newblock {\em Phys. Rev. Lett.}, 89:011301, Jun 2002.
 
-\bibitem{PDG}
-M.~Tanabashi et~al.
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+\bibitem{VonFeilitzsch:1982jw}
+F.~Von~Feilitzsch, A.~A. Hahn, and K.~Schreckenbach.
+\newblock {EXPERIMENTAL BETA SPECTRA FROM PU-239 AND U-235 THERMAL NEUTRON
+  FISSION PRODUCTS AND THEIR CORRELATED ANTI-NEUTRINOS SPECTRA}.
+\newblock {\em Phys. Lett.}, 118B:162--166, 1982.
+
+\bibitem{Schreckenbach:1985ep}
+K.~Schreckenbach, G.~Colvin, W.~Gelletly, and F.~Von~Feilitzsch.
+\newblock {DETERMINATION OF THE ANTI-NEUTRINO SPECTRUM FROM U-235 THERMAL
+  NEUTRON FISSION PRODUCTS UP TO 9.5-MEV}.
+\newblock {\em Phys. Lett.}, 160B:325--330, 1985.
+
+\bibitem{Hahn:1989zr}
+A.~A. Hahn, K.~Schreckenbach, G.~Colvin, B.~Krusche, W.~Gelletly, and
+  F.~Von~Feilitzsch.
+\newblock {Anti-neutrino Spectra From $^{241}$Pu and $^{239}$Pu Thermal Neutron
+  Fission Products}.
+\newblock {\em Phys. Lett.}, B218:365--368, 1989.
+
+\bibitem{Haag:2013raa}
+N.~Haag, A.~Gütlein, M.~Hofmann, L.~Oberauer, W.~Potzel, K.~Schreckenbach, and
+  F.~M. Wagner.
+\newblock {Experimental Determination of the Antineutrino Spectrum of the
+  Fission Products of $^{238}$U}.
+\newblock {\em Phys. Rev. Lett.}, 112(12):122501, 2014.
 
 \bibitem{Qian:2018wid}
 Xin Qian and Jen-Chieh Peng.

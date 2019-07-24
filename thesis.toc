@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
 \contentsline {chapter}{LIST OF FIGURES}{v}
@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {3.1}Production of Reactor Neutrinos}{9}
 \contentsline {section}{\numberline {3.2}Measuring the Reactor Antineutrino Flux and Spectrum}{10}
 \contentsline {section}{\numberline {3.3}Detection of Reactor Neutrinos}{12}
-\contentsline {section}{\numberline {3.4}The Reactor Antineutrino Anomaly}{14}
+\contentsline {section}{\numberline {3.4}The Reactor Antineutrino Anomaly}{13}
 \contentsline {chapter}{\numberline {4}\uppercase {Sterile Neutrinos}}{15}
 \contentsline {section}{\numberline {4.1}Theory of Sterile Neutrinos}{15}
 \contentsline {section}{\numberline {4.2}Experimental Searches for Sterile Neutrinos}{15}
@@ -42,5 +42,5 @@
 \contentsline {chapter}{BIBLIOGRAPHY}{21}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{23}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{24}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{24}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{25}

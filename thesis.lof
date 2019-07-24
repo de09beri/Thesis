@@ -1,11 +1,11 @@
-\select@language {english}
+\babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces A schematic of the fission of $^{235}$U \cite {NucChart}. After collision with a neutron $^{235}$U will split into two unstable nuclei (pink arrows) which will then $\beta $ decay (white arrows) until stable.\relax }}{10}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The $\mathaccentV {bar}016{\nu _e}$ spectrum predicted by the summation method using the JEFF-3.1.1 database fission fragment yields and the ENDF/B-VII.1 decay library \cite {HayesVogel}.\relax }}{11}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \relax }}{12}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The IBD spectrum (curve (a)) measured by a 12-ton fiducial mass detector located 0.8 km from a 12-GW$_{th}$ power reactor along with the reactor flux (curve (b)) and IBD cross section (curve (c)) as a function of energy \cite {PDG}.\relax }}{13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The IBD spectrum (curve (a)) measured by a 12-ton fiducial mass detector located 0.8 km from a 12-GW$_{th}$ power reactor along with the reactor flux (curve (b)) and IBD cross section (curve (c)) as a function of energy \cite {PDG}.\relax }}{14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
