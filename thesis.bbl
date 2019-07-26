@@ -1,19 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{NucChart}
-NNDC.
-\newblock {Chart of Nuclides}.
-
-\bibitem{HayesVogel}
-A.~C. Hayes and Petr Vogel.
-\newblock {Reactor Neutrino Spectra}.
-\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 66:219--244, 2016.
-
-\bibitem{PDG}
-M.~Tanabashi et~al.
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
-
 \bibitem{Hahn:1911}
 L~Meitner O~von Baeyer, O~Hahn.
 \newblock {Uber die $\beta$-Strahlen des aktiven Niederschlags des Thoriums}.
@@ -120,6 +106,20 @@ Q.~R. Ahmad et~al.
   neutral-current interactions in the sudbury neutrino observatory.
 \newblock {\em Phys. Rev. Lett.}, 89:011301, Jun 2002.
 
+\bibitem{PDG}
+M.~Tanabashi et~al.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+
+\bibitem{HayesVogel}
+A.~C. Hayes and Petr Vogel.
+\newblock {Reactor Neutrino Spectra}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 66:219--244, 2016.
+
+\bibitem{NucChart}
+NNDC.
+\newblock {Chart of Nuclides}.
+
 \bibitem{VonFeilitzsch:1982jw}
 F.~Von~Feilitzsch, A.~A. Hahn, and K.~Schreckenbach.
 \newblock {EXPERIMENTAL BETA SPECTRA FROM PU-239 AND U-235 THERMAL NEUTRON
@@ -168,5 +168,36 @@ Patrick Huber.
 Xin Qian and Jen-Chieh Peng.
 \newblock {Physics with Reactor Neutrinos}.
 \newblock {\em Rept. Prog. Phys.}, 82(3):036201, 2019.
+
+\bibitem{An:2015qga}
+F.~P. An et~al.
+\newblock {The Detector System of The Daya Bay Reactor Neutrino Experiment}.
+\newblock {\em Nucl. Instrum. Meth.}, A811:133--161, 2016.
+
+\bibitem{DayaBayAnomaly}
+Feng~Peng An et~al.
+\newblock {Measurement of the Reactor Antineutrino Flux and Spectrum at Daya
+  Bay}.
+\newblock {\em Phys. Rev. Lett.}, 116(6):061801, 2016.
+\newblock [Erratum: Phys. Rev. Lett.118,no.9,099902(2017)].
+
+\bibitem{DayaBayFlux2018}
+D.~Adey et~al.
+\newblock {Improved Measurement of the Reactor Antineutrino Flux at Daya Bay}.
+\newblock 2018.
+\newblock arXiv:1808.10836 [hep-ex].
+
+\bibitem{Seo:2016uom}
+S.~H. Seo et~al.
+\newblock {Spectral Measurement of the Electron Antineutrino Oscillation
+  Amplitude and Frequency using 500 Live Days of RENO Data}.
+\newblock {\em Phys. Rev.}, D98(1):012002, 2018.
+
+\bibitem{DoubleChooz:2019qbj}
+H.~De~Kerret et~al.
+\newblock {First Double Chooz $\mathbf{\theta_{13}}$ Measurement via Total
+  Neutron Capture Detection}.
+\newblock 2019.
+\newblock arXiv:1901.09445 [hep-ex].
 
 \end{thebibliography}

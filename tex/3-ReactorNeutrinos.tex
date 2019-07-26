@@ -16,7 +16,7 @@ In general a nuclear reactor will produce $\sim 6 \times 10^{20} \bar{\nu_e}$ pe
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/NuclideChart_U235}
-	\caption{A schematic of the fission of $^{235}$U \cite{NucChart}. After collision with a neutron $^{235}$U will split into two unstable nuclei (pink arrows) which will then $\beta$ decay (white arrows) until stable.}
+	\caption[Fission of $^{235}$U.]{A schematic of the fission of $^{235}$U \cite{NucChart}. After collision with a neutron $^{235}$U will split into two unstable nuclei (pink arrows) which will then $\beta$ decay (white arrows) until stable.}
 	\label{fig:nucchart}
 \end{figure}
 
@@ -46,7 +46,7 @@ This, along with the fact that not all branching ratios are known, and that the 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.65\linewidth]{tex/3-reactorneutrinos-images/Spectrum}
-	\caption{The $\bar{\nu_e}$ spectrum predicted by the summation method using the JEFF-3.1.1 database fission fragment yields and the ENDF/B-VII.1 decay library \cite{HayesVogel}.}
+	\caption[The $\bar{\nu_e}$ spectrum.]{The $\bar{\nu_e}$ spectrum predicted by the summation method using the JEFF-3.1.1 database fission fragment yields and the ENDF/B-VII.1 decay library \cite{HayesVogel}.}
 	\label{fig:spectrum}
 \end{figure}
 
@@ -101,20 +101,54 @@ The IBD cross-section increases with energy, whereas the $\bar{\nu_{e}}$ spectru
 
 In addition to great background rejection and good reconstruction of the neutrino energy, the IBD method of detecting neutrinos also allows the use of liquid scintillators and water as detection mediums. 
 
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=0.4\linewidth]{tex/3-reactorneutrinos-images/vogel-fig02}
+	\caption[The IBD spectrum.]{The IBD spectrum (curve (a)) measured by a 12-ton fiducial mass detector located 0.8 km from a 12-GW$_{th}$ power reactor along with the reactor flux (curve (b)) and IBD cross section (curve (c)) as a function of energy \cite{PDG}.}
+	\label{fig:vogel-fig02}
+\end{figure}
+
+
+\section{The Reactor Antineutrino Anomaly}
+
+Several experiments have, and continue to use reactor antineutrinos as a probe of neutrino oscillation. 
+A reactor neutrino disappearance $P(\bar{\nu_{e}} \rightarrow \bar{\nu_{e}})$ experiment located at a distance L $\sim$ 1 km can measure $\sin^2\Delta_{31}$. At that baseline, the amplitude of the oscillation at the first maximum of $\sin^2\Delta_{31}$ is $\sin^22\theta_{13}$, providing a direct measurement of $\theta_{13}$.
+Three experiments were designed to make a measurement of this mixing angle, Daya Bay in China, RENO in Korea, and Double Chooz in France. 
+
+The Daya Bay Reactor Neutrino Experiment was located at the Daya Bay nuclear reactor power plant in southern China that consists of six 2.9 GW$_{th}$ reactors. They employed two groups of near (512 m, 561 m) and one group of far (1,579 m) antineutrino detectors (AD) in order to suppress the reactor flux uncertainties \cite{An:2015qga,DayaBayAnomaly}.
+The IBD yield measured for each AD is shown in Figure~\ref{fig:dayabayflux} and it can be seen that, after correcting for small variations of fission fractions among the different sites, all rates are consistent with each other. Though results between detectors agree, the disagreement between the experimental results and most recent model calculations (Huber+Mueller) is troubling. 
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{tex/3-reactorneutrinos-images/vogel-fig02}
-	\caption{The IBD spectrum (curve (a)) measured by a 12-ton fiducial mass detector located 0.8 km from a 12-GW$_{th}$ power reactor along with the reactor flux (curve (b)) and IBD cross section (curve (c)) as a function of energy \cite{PDG}.}
-	\label{fig:vogel-fig02}
+	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/DayaBayFlux}
+	\caption[Daya Bay $\bar{\nu_{e}}$ flux.]{Rate of reactor antineutrino candidate events in Daya Bay's six detectors \cite{DayaBayAnomaly}. The average of the three near detectors is shown as the gray line, extended though the far detectors as a dotted gray line. Also shown are the rates predicted using the Huber+Mueller (blue) and ILL+Vogel (orange) models.}
+	\label{fig:dayabayflux}
+\end{figure}
+
+In order to obtain a wider picture, the Daya Bay average IBD yield at the flux-weighted baseline (573 m) of the two near detector sites was compared to measurements from nineteen other short-baseline ($<$1000 m) experiments as shown in Figure~\ref{fig:worldavgflux}. 
+The global average, including the most recent Daya Bay calculation, results in a ratio of measured to expected yield of 0.945 $\pm$ 0.007 (exp.) $\pm$ 0.023 (model) with respect to the Huber+Mueller model, a $\sim$6\% deficit \cite{DayaBayFlux2018}.
+If the model uncertainty is to be trusted this ratio suggests reactor $\bar{\nu_{e}}$ disappearance as close as L$<$10 m, a phenomenon not covered in the standard 3-flavor neutrino mixing model \cite{HayesVogel}.  
+Thus labeling this predicament as the ``reactor antineutrino anomaly" (RAA). 
+
+There are two favored hypotheses for explaining the reactor anomaly. One is that the flux predictions are incorrect and/or have larger uncertainty than is currently applied. 
+The second is that there exists one or more additional neutrino types, so called sterile neutrinos, with mass of the order 1 eV$^2$.
+
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/3-reactorneutrinos-images/WorldAvgFlux}
+	\caption[World average of reactor $\bar{\nu_{e}}$ flux. ]{The measured reactor $\bar{\nu_{e}}$ rate, normalized to the Huber+Mueller model prediction, as a function of distance from the reactor \cite{DayaBayFlux2018}. The rate is corrected for 3-flavor neutrino oscillations at each baseline. The blue shaded region represents the global average and its 1$\sigma$ uncertainty. The 2.7$\sigma$ model uncertainty is shown as a band around unity.}
+	\label{fig:worldavgflux}
 \end{figure}
 
 
 
 
-\section{The Reactor Antineutrino Anomaly}
-
-
-
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{tex/3-reactorneutrinos-images/Spectrums}
+	\caption[Spectrums.]{\cite{DayaBayAnomaly,Seo:2016uom,DoubleChooz:2019qbj}}
+	\label{fig:spectrums}
+\end{figure}
 
 

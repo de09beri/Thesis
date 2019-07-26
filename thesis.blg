@@ -15,44 +15,47 @@ A level-1 auxiliary file: tex/9-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
 Database file #1: ThesisBib.bib.bib
-You've used 30 entries,
+Warning--empty journal in DayaBayFlux2018
+Warning--empty journal in DoubleChooz:2019qbj
+You've used 35 entries,
             1791 wiz_defined-function locations,
-            686 strings with 8393 characters,
-and the built_in function-call counts, 6863 in all, are:
-= -- 615
-> -- 284
+            717 strings with 9201 characters,
+and the built_in function-call counts, 7838 in all, are:
+= -- 702
+> -- 324
 < -- 0
-+ -- 107
-- -- 77
-* -- 498
-:= -- 1127
-add.period$ -- 92
-call.type$ -- 30
-change.case$ -- 30
++ -- 122
+- -- 87
+* -- 552
+:= -- 1291
+add.period$ -- 110
+call.type$ -- 35
+change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 266
-empty$ -- 680
-format.name$ -- 77
-if$ -- 1503
+cite$ -- 37
+duplicate$ -- 309
+empty$ -- 777
+format.name$ -- 87
+if$ -- 1718
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 29
-newline$ -- 155
-num.names$ -- 30
-pop$ -- 31
+int.to.str$ -- 35
+missing$ -- 34
+newline$ -- 183
+num.names$ -- 35
+pop$ -- 41
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 107
+skip$ -- 127
 stack$ -- 0
-substring$ -- 603
-swap$ -- 30
+substring$ -- 660
+swap$ -- 33
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 65
-width$ -- 32
-write$ -- 334
+warning$ -- 2
+while$ -- 73
+width$ -- 37
+write$ -- 391
+(There were 2 warnings)
