@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 JUL 2019 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 AUG 2019 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1194,9 +1194,9 @@ LaTeX Info: Redefining \] on input line 2818.
 ))
 (./thesis.aux (./tex/0-Abstract.aux) (./tex/0-Acknowledgements.aux)
 (./tex/1-Introduction.aux) (./tex/2-Neutrinos.aux)
-(./tex/3-ReactorNeutrinos.aux) (./tex/4-SterileNeutrinos.aux)
-(./tex/5-Prospect.aux) (./tex/6-Ac227.aux) (./tex/7-IBDSelection.aux)
-(./tex/8-Oscillation.aux) (./tex/9-Conclusions.aux) (./tex/Appendix.aux))
+(./tex/3-ReactorNeutrinos.aux) (./tex/4-Prospect.aux) (./tex/5-Ac227.aux)
+(./tex/6-IBDSelection.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
+(./tex/Appendix.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -1429,7 +1429,7 @@ input line 123.
 File: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf used on
- input line 139.
+ input line 142.
 (pdftex.def)             Requested size: 260.17465pt x 181.30229pt.
 
 <tex/3-reactorneutrinos-images/Spectrums.pdf, id=137, 1770.28087pt x 751.42572p
@@ -1437,124 +1437,110 @@ t>
 File: tex/3-reactorneutrinos-images/Spectrums.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/Spectrums.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrums.pdf used on in
-put line 149.
+put line 152.
 (pdftex.def)             Requested size: 433.62001pt x 184.04932pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) [15 <./tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>] [16 <./tex/3-reactorn
 eutrinos-images/Spectrums.pdf>]
-\openout2 = `tex/4-SterileNeutrinos.aux'.
+\openout2 = `tex/4-Prospect.aux'.
 
- (./tex/4-SterileNeutrinos.tex
+ (./tex/4-Prospect.tex
 CHAPTER 4.
 ) [17
 
 
 
 ]
-\openout2 = `tex/5-Prospect.aux'.
+\openout2 = `tex/5-Ac227.aux'.
 
- (./tex/5-Prospect.tex
+ (./tex/5-Ac227.tex
 CHAPTER 5.
 ) [18
 
 
 
 ]
-\openout2 = `tex/6-Ac227.aux'.
+\openout2 = `tex/6-IBDSelection.aux'.
 
- (./tex/6-Ac227.tex
+ (./tex/6-IBDSelection.tex
 CHAPTER 6.
 ) [19
 
 
 
 ]
-\openout2 = `tex/7-IBDSelection.aux'.
+\openout2 = `tex/7-Oscillation.aux'.
 
- (./tex/7-IBDSelection.tex
+ (./tex/7-Oscillation.tex
 CHAPTER 7.
 ) [20
 
 
 
 ]
-\openout2 = `tex/8-Oscillation.aux'.
+\openout2 = `tex/8-Conclusions.aux'.
 
- (./tex/8-Oscillation.tex
+ (./tex/8-Conclusions.tex
 CHAPTER 8.
 ) [21
 
 
 
-]
-\openout2 = `tex/9-Conclusions.aux'.
-
- (./tex/9-Conclusions.tex
-CHAPTER 9.
-) [22
-
-
-
-] (./thesis.bbl [23
+] (./thesis.bbl [22
 
 
 ]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ­ in font cmr12!
- [24]
+ [23]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [25]) [26]
+ [24]) [25]
 \openout2 = `tex/Appendix.aux'.
 
  (./tex/Appendix.tex
 Appendix A.
-[27
+[26
 
 
 ]
 Appendix B.
-) [28
+) [27
 
 ]
 No file thesis.ind.
 (./thesis.aux (./tex/0-Abstract.aux) (./tex/0-Acknowledgements.aux)
 (./tex/1-Introduction.aux) (./tex/2-Neutrinos.aux)
-(./tex/3-ReactorNeutrinos.aux) (./tex/4-SterileNeutrinos.aux)
-(./tex/5-Prospect.aux) (./tex/6-Ac227.aux) (./tex/7-IBDSelection.aux)
-(./tex/8-Oscillation.aux) (./tex/9-Conclusions.aux) (./tex/Appendix.aux)) ) 
+(./tex/3-ReactorNeutrinos.aux) (./tex/4-Prospect.aux) (./tex/5-Ac227.aux)
+(./tex/6-IBDSelection.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
+(./tex/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12640 strings out of 492995
- 226504 string characters out of 6132704
- 277726 words of memory out of 5000000
- 15987 multiletter control sequences out of 15000+600000
+ 12632 strings out of 492995
+ 226299 string characters out of 6132704
+ 277389 words of memory out of 5000000
+ 15986 multiletter control sequences out of 15000+600000
  14502 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
-</us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (35 pages, 1074552 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (34 pages, 1075295 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
+ 278 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
