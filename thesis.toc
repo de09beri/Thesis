@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
 \contentsline {chapter}{LIST OF FIGURES}{v}
@@ -15,29 +15,29 @@
 \contentsline {section}{\numberline {3.2}Measuring the Reactor Antineutrino Flux and Spectrum}{10}
 \contentsline {section}{\numberline {3.3}Detection of Reactor Neutrinos}{12}
 \contentsline {section}{\numberline {3.4}The Reactor Antineutrino Anomaly}{14}
-\contentsline {chapter}{\numberline {4}PROSPECT}{17}
-\contentsline {section}{\numberline {4.1}Motivation}{17}
-\contentsline {section}{\numberline {4.2}Experimental Site}{17}
-\contentsline {section}{\numberline {4.3}Design}{17}
-\contentsline {section}{\numberline {4.4}Detecting Inverse Beta Decays}{17}
-\contentsline {section}{\numberline {4.5}From Signal to Result}{17}
-\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{18}
-\contentsline {section}{\numberline {5.1}Motivation}{18}
-\contentsline {section}{\numberline {5.2}Material Compatibility}{18}
-\contentsline {section}{\numberline {5.3}Prototype Testing in P50X}{18}
-\contentsline {section}{\numberline {5.4}Event Selection in the PROSPECT AD}{18}
-\contentsline {section}{\numberline {5.5}Detector Stability Results}{18}
-\contentsline {section}{\numberline {5.6}Volume Variation Results}{18}
-\contentsline {chapter}{\numberline {6}\uppercase {Inverse Beta Decay Event Selection}}{19}
-\contentsline {section}{\numberline {6.1}Selection Criteria and Efficiency}{19}
-\contentsline {section}{\numberline {6.2}Properties of the Event Selection}{19}
-\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{20}
-\contentsline {section}{\numberline {7.1}Analysis Method}{20}
-\contentsline {section}{\numberline {7.2}Result}{20}
-\contentsline {chapter}{\numberline {8}CONCLUSIONS}{21}
+\contentsline {chapter}{\numberline {4}PROSPECT}{18}
+\contentsline {section}{\numberline {4.1}Motivation}{18}
+\contentsline {section}{\numberline {4.2}Experimental Site}{18}
+\contentsline {section}{\numberline {4.3}Design}{18}
+\contentsline {section}{\numberline {4.4}Detecting Inverse Beta Decays}{18}
+\contentsline {section}{\numberline {4.5}From Signal to Result}{18}
+\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{19}
+\contentsline {section}{\numberline {5.1}Motivation}{19}
+\contentsline {section}{\numberline {5.2}Material Compatibility}{19}
+\contentsline {section}{\numberline {5.3}Prototype Testing in P50X}{19}
+\contentsline {section}{\numberline {5.4}Event Selection in the PROSPECT AD}{19}
+\contentsline {section}{\numberline {5.5}Detector Stability Results}{19}
+\contentsline {section}{\numberline {5.6}Volume Variation Results}{19}
+\contentsline {chapter}{\numberline {6}\uppercase {Inverse Beta Decay Event Selection}}{20}
+\contentsline {section}{\numberline {6.1}Selection Criteria and Efficiency}{20}
+\contentsline {section}{\numberline {6.2}Properties of the Event Selection}{20}
+\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{21}
+\contentsline {section}{\numberline {7.1}Analysis Method}{21}
+\contentsline {section}{\numberline {7.2}Result}{21}
+\contentsline {chapter}{\numberline {8}CONCLUSIONS}{22}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{22}
+\contentsline {chapter}{BIBLIOGRAPHY}{23}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{26}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{27}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{27}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{28}

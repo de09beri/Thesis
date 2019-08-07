@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -6,56 +6,56 @@ A level-1 auxiliary file: tex/0-Acknowledgements.aux
 A level-1 auxiliary file: tex/1-Introduction.aux
 A level-1 auxiliary file: tex/2-Neutrinos.aux
 A level-1 auxiliary file: tex/3-ReactorNeutrinos.aux
-A level-1 auxiliary file: tex/4-SterileNeutrinos.aux
-A level-1 auxiliary file: tex/5-Prospect.aux
-A level-1 auxiliary file: tex/6-Ac227.aux
-A level-1 auxiliary file: tex/7-IBDSelection.aux
-A level-1 auxiliary file: tex/8-Oscillation.aux
-A level-1 auxiliary file: tex/9-Conclusions.aux
+A level-1 auxiliary file: tex/4-Prospect.aux
+A level-1 auxiliary file: tex/5-Ac227.aux
+A level-1 auxiliary file: tex/6-IBDSelection.aux
+A level-1 auxiliary file: tex/7-Oscillation.aux
+A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
-Database file #1: ThesisBib.bib.bib
+Database file #1: ThesisBib.bib
 Warning--empty journal in DayaBayFlux2018
+Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 35 entries,
+You've used 40 entries,
             1791 wiz_defined-function locations,
-            717 strings with 9201 characters,
-and the built_in function-call counts, 7838 in all, are:
-= -- 702
-> -- 324
+            745 strings with 9964 characters,
+and the built_in function-call counts, 8898 in all, are:
+= -- 789
+> -- 379
 < -- 0
-+ -- 122
-- -- 87
-* -- 552
-:= -- 1291
-add.period$ -- 110
-call.type$ -- 35
-change.case$ -- 35
++ -- 142
+- -- 102
+* -- 621
+:= -- 1472
+add.period$ -- 125
+call.type$ -- 40
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 309
-empty$ -- 777
-format.name$ -- 87
-if$ -- 1718
+cite$ -- 43
+duplicate$ -- 353
+empty$ -- 879
+format.name$ -- 102
+if$ -- 1947
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 34
-newline$ -- 183
-num.names$ -- 35
-pop$ -- 41
+int.to.str$ -- 40
+missing$ -- 39
+newline$ -- 208
+num.names$ -- 40
+pop$ -- 50
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 127
+skip$ -- 146
 stack$ -- 0
-substring$ -- 660
-swap$ -- 33
+substring$ -- 732
+swap$ -- 37
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 73
-width$ -- 37
-write$ -- 391
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 82
+width$ -- 42
+write$ -- 444
+(There were 3 warnings)
