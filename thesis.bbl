@@ -228,4 +228,23 @@ H.~De~Kerret et~al.
 \newblock 2019.
 \newblock arXiv:1901.09445 [hep-ex].
 
+\bibitem{PhysRevLett.121.251802}
+J.~Ashenfelter et~al.
+\newblock {First Search for Short-Baseline Neutrino Oscillations at HFIR with
+  PROSPECT}.
+\newblock {\em Phys. Rev. Lett.}, 121:251802, Dec 2018.
+
+\bibitem{Ashenfelter:2018jrx}
+J.~Ashenfelter et~al.
+\newblock {Measurement of the Antineutrino Spectrum from $^{235}$U Fission at
+  HFIR with PROSPECT}.
+\newblock {\em Phys. Rev. Lett.}, 122(25):251801, 2019.
+
+\bibitem{HFIRTech}
+Germina Ilas, David Chandler, Brian Ade, Eva Sunny, Ben Betzler, and Dan
+  Pinkston.
+\newblock Modeling and simulations for the high flux isotope reactor cycle 400.
+\newblock Technical report, Oak Ridge National Laboratory, 3 2015.
+\newblock https://info.ornl.gov/sites/publications/Files/Pub54181.pdf.
+
 \end{thebibliography}
