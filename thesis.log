@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 AUG 2019 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 AUG 2019 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1457,23 +1457,38 @@ put line 162.
 
  (./tex/4-Prospect.tex
 CHAPTER 4.
-<tex/4-prospect-images/HFIRCore.pdf, id=206, 482.23026pt x 406.63478pt>
-File: tex/4-prospect-images/HFIRCore.pdf Graphic file (type pdf)
-
-<use tex/4-prospect-images/HFIRCore.pdf>
-Package pdftex.def Info: tex/4-prospect-images/HFIRCore.pdf used on input line 
-15.
-(pdftex.def)             Requested size: 303.53267pt x 255.95168pt.
-) [18
+[18
 
 
 
-] [19 <./tex/4-prospect-images/HFIRCore.pdf>]
+] <tex/4-prospect-images/HFIR.pdf, id=210, 932.19421pt x 356.56631pt>
+File: tex/4-prospect-images/HFIR.pdf Graphic file (type pdf)
+
+<use tex/4-prospect-images/HFIR.pdf>
+Package pdftex.def Info: tex/4-prospect-images/HFIR.pdf used on input line 20.
+(pdftex.def)             Requested size: 390.25536pt x 149.2726pt.
+ [19 <./tex/4-prospect-images/HFIR.pdf>]
+<tex/4-prospect-images/Shielding.pdf, id=244, 385.68768pt x 289.85017pt>
+File: tex/4-prospect-images/Shielding.pdf Graphic file (type pdf)
+
+<use tex/4-prospect-images/Shielding.pdf>
+Package pdftex.def Info: tex/4-prospect-images/Shielding.pdf used on input line
+ 41.
+(pdftex.def)             Requested size: 216.81pt x 162.93858pt.
+
+<tex/4-prospect-images/AD.pdf, id=245, 762.22186pt x 507.68507pt>
+File: tex/4-prospect-images/AD.pdf Graphic file (type pdf)
+
+<use tex/4-prospect-images/AD.pdf>
+Package pdftex.def Info: tex/4-prospect-images/AD.pdf used on input line 55.
+(pdftex.def)             Requested size: 346.89732pt x 231.0513pt.
+) [20 <./tex/4-prospect-images/Shielding.pdf>] [21 <./tex/4-prospect-images/AD.
+pdf>]
 \openout2 = `tex/5-Ac227.aux'.
 
  (./tex/5-Ac227.tex
 CHAPTER 5.
-) [20
+) [22
 
 
 
@@ -1482,7 +1497,7 @@ CHAPTER 5.
 
  (./tex/6-IBDSelection.tex
 CHAPTER 6.
-) [21
+) [23
 
 
 
@@ -1491,7 +1506,7 @@ CHAPTER 6.
 
  (./tex/7-Oscillation.tex
 CHAPTER 7.
-) [22
+) [24
 
 
 
@@ -1500,30 +1515,30 @@ CHAPTER 7.
 
  (./tex/8-Conclusions.tex
 CHAPTER 8.
-) [23
+) [25
 
 
 
-] (./thesis.bbl [24
+] (./thesis.bbl [26
 
 
 ]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ­ in font cmr12!
- [25]
+ [27]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [26]) [27]
+ [28] [29]) [30]
 \openout2 = `tex/Appendix.aux'.
 
  (./tex/Appendix.tex
 Appendix A.
-[28
+[31
 
 
 ]
 Appendix B.
-) [29
+) [32
 
 ]
 No file thesis.ind.
@@ -1533,11 +1548,11 @@ No file thesis.ind.
 (./tex/6-IBDSelection.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
 (./tex/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12653 strings out of 492995
- 226907 string characters out of 6132704
- 277451 words of memory out of 5000000
- 16004 multiletter control sequences out of 15000+600000
- 14502 words of font info for 51 fonts, out of 8000000 for 9000
+ 12682 strings out of 492995
+ 227496 string characters out of 6132704
+ 277493 words of memory out of 5000000
+ 16031 multiletter control sequences out of 15000+600000
+ 15107 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
@@ -1556,10 +1571,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (36 pages, 2448831 bytes).
+Output written on thesis.pdf (39 pages, 4765314 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
+ 508 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

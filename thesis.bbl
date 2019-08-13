@@ -228,6 +228,11 @@ H.~De~Kerret et~al.
 \newblock 2019.
 \newblock arXiv:1901.09445 [hep-ex].
 
+\bibitem{LongNIM}
+J.~Ashenfelter et~al.
+\newblock {The PROSPECT Reactor Antineutrino Experiment}.
+\newblock {\em Nucl. Instrum. Meth.}, A922:287--309, 2019.
+
 \bibitem{PhysRevLett.121.251802}
 J.~Ashenfelter et~al.
 \newblock {First Search for Short-Baseline Neutrino Oscillations at HFIR with
@@ -246,5 +251,19 @@ Germina Ilas, David Chandler, Brian Ade, Eva Sunny, Ben Betzler, and Dan
 \newblock Modeling and simulations for the high flux isotope reactor cycle 400.
 \newblock Technical report, Oak Ridge National Laboratory, 3 2015.
 \newblock https://info.ornl.gov/sites/publications/Files/Pub54181.pdf.
+
+\bibitem{Ashenfelter:2015tpm}
+J.~Ashenfelter et~al.
+\newblock {Background Radiation Measurements at High Power Research Reactors}.
+\newblock {\em Nucl. Instrum. Meth.}, A806:401--419, 2016.
+
+\bibitem{Heffron}
+Blaine~Alexander Heffron.
+\newblock Characterization of reactor background radiation at hfir for the
+  prospect experiment.
+
+\bibitem{Hackett}
+Brennan Hackett.
+\newblock Dang and the background characterisation of hfir for prospect.
 
 \end{thebibliography}

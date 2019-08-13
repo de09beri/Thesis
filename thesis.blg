@@ -14,48 +14,52 @@ A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
 Database file #1: ThesisBib.bib.bib
+Warning--entry type for "Heffron" isn't style-file defined
+--line 937 of file ThesisBib.bib.bib
+Warning--entry type for "Hackett" isn't style-file defined
+--line 947 of file ThesisBib.bib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 43 entries,
+You've used 47 entries,
             1791 wiz_defined-function locations,
-            765 strings with 10527 characters,
-and the built_in function-call counts, 9531 in all, are:
-= -- 842
-> -- 415
+            786 strings with 10987 characters,
+and the built_in function-call counts, 10207 in all, are:
+= -- 898
+> -- 439
 < -- 0
-+ -- 155
-- -- 112
-* -- 667
-:= -- 1584
-add.period$ -- 135
-call.type$ -- 43
-change.case$ -- 44
++ -- 165
+- -- 118
+* -- 695
+:= -- 1688
+add.period$ -- 145
+call.type$ -- 47
+change.case$ -- 48
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 377
-empty$ -- 936
-format.name$ -- 112
-if$ -- 2082
+cite$ -- 50
+duplicate$ -- 405
+empty$ -- 1018
+format.name$ -- 118
+if$ -- 2238
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 41
-newline$ -- 224
-num.names$ -- 43
-pop$ -- 53
+int.to.str$ -- 47
+missing$ -- 43
+newline$ -- 242
+num.names$ -- 47
+pop$ -- 65
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 155
+skip$ -- 177
 stack$ -- 0
-substring$ -- 768
-swap$ -- 39
+substring$ -- 810
+swap$ -- 43
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 87
-width$ -- 45
-write$ -- 479
-(There were 3 warnings)
+while$ -- 93
+width$ -- 49
+write$ -- 515
+(There were 5 warnings)
