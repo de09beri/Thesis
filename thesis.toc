@@ -1,8 +1,8 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
-\contentsline {chapter}{LIST OF FIGURES}{v}
-\contentsline {chapter}{LIST OF TABLES}{vi}
+\contentsline {chapter}{LIST OF FIGURES}{vii}
+\contentsline {chapter}{LIST OF TABLES}{viii}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }CHAPTER\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
@@ -21,31 +21,31 @@
 \contentsline {subsection}{\numberline {4.1.2}Backgrounds at HFIR}{19}
 \contentsline {section}{\numberline {4.2}Design}{20}
 \contentsline {subsection}{\numberline {4.2.1}Inner Detector}{21}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Optical Grid}{21}
-\contentsline {subsubsection}{\numberline {4.2.1.2}PMT Housings}{21}
-\contentsline {subsubsection}{\numberline {4.2.1.3}Liquid Scintillator}{21}
-\contentsline {subsubsection}{\numberline {4.2.1.4}Segment Supports}{21}
-\contentsline {subsubsection}{\numberline {4.2.1.5}Calibration}{21}
-\contentsline {subsection}{\numberline {4.2.2}Containment Vessels and Shielding}{21}
-\contentsline {section}{\numberline {4.3}Detecting Inverse Beta Decays}{21}
-\contentsline {section}{\numberline {4.4}From Signal to Result}{21}
-\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{22}
-\contentsline {section}{\numberline {5.1}Motivation}{22}
-\contentsline {section}{\numberline {5.2}Material Compatibility}{22}
-\contentsline {section}{\numberline {5.3}Prototype Testing in P50X}{22}
-\contentsline {section}{\numberline {5.4}Event Selection in the PROSPECT AD}{22}
-\contentsline {section}{\numberline {5.5}Detector Stability Results}{22}
-\contentsline {section}{\numberline {5.6}Volume Variation Results}{22}
-\contentsline {chapter}{\numberline {6}\uppercase {Inverse Beta Decay Event Selection}}{23}
-\contentsline {section}{\numberline {6.1}Selection Criteria and Efficiency}{23}
-\contentsline {section}{\numberline {6.2}Properties of the Event Selection}{23}
-\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{24}
-\contentsline {section}{\numberline {7.1}Analysis Method}{24}
-\contentsline {section}{\numberline {7.2}Result}{24}
-\contentsline {chapter}{\numberline {8}CONCLUSIONS}{25}
+\contentsline {subsubsection}{\numberline {4.2.1.1}PMT Housings}{21}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Optical Grid}{21}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Segment Supports}{22}
+\contentsline {subsubsection}{\numberline {4.2.1.4}Liquid Scintillator}{24}
+\contentsline {subsubsection}{\numberline {4.2.1.5}Calibration}{24}
+\contentsline {subsection}{\numberline {4.2.2}Containment Vessels and Shielding}{24}
+\contentsline {section}{\numberline {4.3}Detecting Inverse Beta Decays}{24}
+\contentsline {section}{\numberline {4.4}From Signal to Result}{24}
+\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{25}
+\contentsline {section}{\numberline {5.1}Motivation}{25}
+\contentsline {section}{\numberline {5.2}Material Compatibility}{25}
+\contentsline {section}{\numberline {5.3}Prototype Testing in P50X}{25}
+\contentsline {section}{\numberline {5.4}Event Selection in the PROSPECT AD}{25}
+\contentsline {section}{\numberline {5.5}Detector Stability Results}{25}
+\contentsline {section}{\numberline {5.6}Volume Variation Results}{25}
+\contentsline {chapter}{\numberline {6}\uppercase {Inverse Beta Decay Event Selection}}{26}
+\contentsline {section}{\numberline {6.1}Selection Criteria and Efficiency}{26}
+\contentsline {section}{\numberline {6.2}Properties of the Event Selection}{26}
+\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{27}
+\contentsline {section}{\numberline {7.1}Analysis Method}{27}
+\contentsline {section}{\numberline {7.2}Result}{27}
+\contentsline {chapter}{\numberline {8}CONCLUSIONS}{28}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{26}
+\contentsline {chapter}{BIBLIOGRAPHY}{29}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{31}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{32}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{34}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{35}

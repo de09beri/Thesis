@@ -45,9 +45,9 @@ The locally installed shield wall, along with the addition of passive shielding,
 
 \section{Design}
 
-The PROSPECT antineutrino detector (AD) consists of a segmented inner detector filled with liquid scintillator (LS) viewed by photomultiplier tubes (PMT), contained in an acrylic and aluminum tanks, and surrounded by layers of passive shielding. 
-The active detector is made up of a 14  $\times$ 11 array of optically separated segments, viewed on each end by a PMT enclosed in an acrylic housing and filled with LS. 
-The AD is placed with the segments parallel to the reactor pool wall, $\sim$7 m from the reactor core, and measures $\sim$3 m including all shielding \todo{Check this measurement}. 
+The PROSPECT antineutrino detector (AD) consists of a segmented inner detector filled with $^6$Li doped liquid scintillator (LiLS), contained in an acrylic and aluminum tank, and surrounded by layers of passive shielding. 
+The active detector is made up of a 14  $\times$ 11 array of optically separated segments, viewed on each end by a photomultiplier tube (PMT) enclosed in an acrylic housing. 
+The AD is placed with the segments parallel to the reactor pool wall, $\sim$7 m from the reactor core, and measures $\sim$3 m tall including all shielding \todo{Check this measurement}. 
 See Figure~\ref{fig:ad} for a schematic of the detector. 
 
 \begin{figure}[t]
@@ -57,17 +57,108 @@ See Figure~\ref{fig:ad} for a schematic of the detector.
 	\label{fig:ad}
 \end{figure}
 
+%===========================================================
 \subsection{Inner Detector}
 
-\subsubsection{Optical Grid}
 \subsubsection{PMT Housings}
-\subsubsection{Liquid Scintillator}
+
+A total of 308 PMTs are installed in the AD; 240 Hamamatsu R6594 SEL PMTs used in the inner segments (fiducial volume) and 68 ADIT Electron Tubes 9372KB PMTs used in the outer segments as shown in Figure~\ref{fig:adcrosssection}.
+Each PMT is mounted inside a rectangular acrylic housing facing a clear 144-mm-square front window constructed from ultraviolet transmitting (UVT) acrylic, allowing them to exist inside of the LiLS. 
+Conical reflectors were installed at the face of the housing to improve light collection efficiency in the corners. 
+The housing is filled with optical grade mineral oil and sealed with an O-ring and a 32-mm-thick back plug. 
+For a detailed drawing of the PMT housing module see Figure~\ref{fig:pmthousing}.
+For more information on the PMT housing design and construction see Ref.\cite{LongNIM}.
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[t]{0.48\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{tex/4-prospect-images/ADCrossSection}
+		\caption[Cross-section of inner detector]{A cross-section of the inner AD showing 68 ET PMTs (red) in the outer columns and top row and 240 Hamamatsu PMTs (blue) in the remaining segments.}
+		\label{fig:adcrosssection}
+	\end{minipage}
+	\begin{minipage}[t]{0.48\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{tex/4-prospect-images/PMTHousing}
+		\caption[PMT housing module]{A PMT housing module.}
+		\label{fig:pmthousing}
+	\end{minipage}
+\end{figure}
+
+
+\subsubsection{Optical Grid}
+
+The active volume of the detector, measuring 2.045 m wide $\times$ 1.607 m high $\times$ 1.176 m long, is separated into 154 optically separated long segments with a 0.145 m $\times$ 0.145 m square cross-sectional area. 
+The optical grid that creates the individual segments consists of low-mass, highly specularly reflective optical separators held in position by white 3D-printed support rods. 
+The optical separators (reflectors) are composed of a carbon fiber backbone covered on both sides with adhesive-backed 3M DF2000MA specularly reflecting film, an optically clear adhesive film, and a thin surface layer of fluorinated ethylene propylene (FEP) film.
+Two types of pinwheel shaped support rods were produced and strung on acrylic rods to grip the reflectors and hold them in place and separate the PMT housings from each other.
+The pinwheels were 3D printed using white-dyed 100-micron polylactic acid (PLA) filament and are pictured in Figure~\ref{fig:pinwheels}.
+For more details on the fabrication of the optical grid see Ref.\cite{Ashenfelter:2019lbf}.
+
+Each segment contains a PMT housing at each end and four reflectors held in place by pinwheel rods that extend from one PMT to the other, as show in Figure~\ref{fig:fullsegment}.
+The front windows of the PMT housings protrude $\sim$ 1 cm into the optical grid, minimizing cross-talk 
+between segments. 
+Figure~\ref{fig:rowassembly} shows the assembly of the top row of the detector, demonstrating the placement of the housings and optical grid. 
+
+
+\begin{figure}[]
+	\centering
+	\begin{minipage}[t]{0.4\linewidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{tex/4-prospect-images/Pinwheels}
+		\caption[Pinwheels]{Representative pinwheel types. (a) Central pinwheel - Three tabs per side hold the optical
+		separator in place. (b) End pinwheel - spacer arms separate the PMT housing bodies and support the
+		pinwheel string.}
+		\label{fig:pinwheels}
+	\end{minipage}
+	\begin{minipage}[t]{0.48\linewidth}
+		\centering
+		\includegraphics[width=0.98\linewidth]{tex/4-prospect-images/FullSegment}
+		\caption{Three complete segments, including PMT housings at each end with reflectors kept in in place between segments by pinwheel rods.}
+		\label{fig:fullsegment}
+	\end{minipage}
+\end{figure}
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/4-prospect-images/RowAssembly}
+	\caption[Construction of a row]{Assembly of the top row of the PROSPECT AD, demonstrating the placement of the PMT housings and optical grid.}
+	\label{fig:rowassembly}
+\end{figure}
+
+
 \subsubsection{Segment Supports}
+
+While the optical grid creates the inner volume segmentation, acrylic segment supports hold the total volume in place and determine the size of the active volume.
+A slab of ship-lack style acrylic underneath the bottom row of segments position them at a 5.5$^{\circ}$ tilt with a 0.146 m pitch.
+Horizontal planks are screwed onto the backs of the PMT housings and attach together along the sides of the volume, while side walls constrain the outer pinwheel rows. 
+Baffles at the top of the detector tie the four surrounding walls together and keep the top reflector layer in place. 
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/4-prospect-images/CompletedDetector}
+	\caption{}
+	\label{fig:completeddetector}
+\end{figure}
+
+
+\subsubsection{Liquid Scintillator}
+
+
+
 \subsubsection{Calibration}
 
+
+%===========================================================
 \subsection{Containment Vessels and Shielding}
 
 
+
+
+%===========================================================
+%===========================================================
 \section{Detecting Inverse Beta Decays}
 
 \section{From Signal to Result}

@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -13,44 +13,45 @@ A level-1 auxiliary file: tex/7-Oscillation.aux
 A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
-Database file #1: ThesisBib.bib.bib
+Database file #1: ThesisBib.bib
 Warning--entry type for "Heffron" isn't style-file defined
---line 937 of file ThesisBib.bib.bib
+--line 937 of file ThesisBib.bib
 Warning--entry type for "Hackett" isn't style-file defined
---line 947 of file ThesisBib.bib.bib
+--line 947 of file ThesisBib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 47 entries,
+Warning--empty journal in Ashenfelter:2019lbf
+You've used 48 entries,
             1791 wiz_defined-function locations,
-            786 strings with 10987 characters,
-and the built_in function-call counts, 10207 in all, are:
-= -- 898
-> -- 439
+            790 strings with 11131 characters,
+and the built_in function-call counts, 10361 in all, are:
+= -- 911
+> -- 447
 < -- 0
-+ -- 165
-- -- 118
-* -- 695
-:= -- 1688
-add.period$ -- 145
-call.type$ -- 47
-change.case$ -- 48
++ -- 168
+- -- 120
+* -- 699
+:= -- 1716
+add.period$ -- 149
+call.type$ -- 48
+change.case$ -- 49
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 405
-empty$ -- 1018
-format.name$ -- 118
-if$ -- 2238
+cite$ -- 52
+duplicate$ -- 413
+empty$ -- 1032
+format.name$ -- 120
+if$ -- 2271
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 43
-newline$ -- 242
-num.names$ -- 47
-pop$ -- 65
+int.to.str$ -- 48
+missing$ -- 44
+newline$ -- 248
+num.names$ -- 48
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 177
+skip$ -- 181
 stack$ -- 0
 substring$ -- 810
 swap$ -- 43
@@ -58,8 +59,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 93
-width$ -- 49
-write$ -- 515
-(There were 5 warnings)
+warning$ -- 4
+while$ -- 94
+width$ -- 50
+write$ -- 526
+(There were 6 warnings)
