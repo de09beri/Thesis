@@ -7,42 +7,40 @@ A level-1 auxiliary file: tex/1-Introduction.aux
 A level-1 auxiliary file: tex/2-Neutrinos.aux
 A level-1 auxiliary file: tex/3-ReactorNeutrinos.aux
 A level-1 auxiliary file: tex/4-Prospect.aux
-A level-1 auxiliary file: tex/5-Ac227.aux
-A level-1 auxiliary file: tex/6-IBDSelection.aux
+A level-1 auxiliary file: tex/5-Analysis.aux
+A level-1 auxiliary file: tex/6-Ac227.aux
 A level-1 auxiliary file: tex/7-Oscillation.aux
 A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
 Database file #1: ThesisBib.bib.bib
 Warning--entry type for "Heffron" isn't style-file defined
---line 953 of file ThesisBib.bib.bib
+--line 961 of file ThesisBib.bib.bib
 Warning--entry type for "Hackett" isn't style-file defined
---line 963 of file ThesisBib.bib.bib
+--line 972 of file ThesisBib.bib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-Warning--empty journal in Ashenfelter:2019lbf
-Warning--empty journal in Ashenfelter:2019iqj
 You've used 50 entries,
             1791 wiz_defined-function locations,
-            798 strings with 11409 characters,
-and the built_in function-call counts, 10709 in all, are:
-= -- 941
+            804 strings with 11504 characters,
+and the built_in function-call counts, 10853 in all, are:
+= -- 957
 > -- 463
 < -- 0
 + -- 174
 - -- 124
-* -- 714
-:= -- 1777
+* -- 738
+:= -- 1795
 add.period$ -- 156
 call.type$ -- 50
 change.case$ -- 51
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 430
-empty$ -- 1066
+cite$ -- 53
+duplicate$ -- 432
+empty$ -- 1084
 format.name$ -- 124
-if$ -- 2347
+if$ -- 2381
 int.to.chr$ -- 0
 int.to.str$ -- 50
 missing$ -- 46
@@ -52,16 +50,16 @@ pop$ -- 74
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 189
+skip$ -- 181
 stack$ -- 0
-substring$ -- 822
-swap$ -- 44
+substring$ -- 858
+swap$ -- 46
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 97
+warning$ -- 3
+while$ -- 99
 width$ -- 52
-write$ -- 548
-(There were 7 warnings)
+write$ -- 552
+(There were 5 warnings)

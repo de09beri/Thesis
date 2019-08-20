@@ -259,19 +259,21 @@ J.~Ashenfelter et~al.
 
 \bibitem{Heffron}
 Blaine~Alexander Heffron.
-\newblock Characterization of reactor background radiation at hfir for the
-  prospect experiment.
+\newblock {Characterization of Reactor Background Radiation at HFIR for the
+  PROSPECT Experiment}.
+\newblock https://trace.tennessee.edu/utk\_gradthes/4747/.
 
 \bibitem{Hackett}
 Brennan Hackett.
-\newblock Dang and the background characterisation of hfir for prospect.
+\newblock {DANG and the Background Characterisation of HFIR for PROSPECT}.
+\newblock
+  https://prospect.yale.edu/sites/default/files/hackett\_brennan\_-\_university\_of\_surrey.pdf.
 
 \bibitem{Ashenfelter:2019lbf}
 J.~Ashenfelter et~al.
 \newblock {A Low Mass Optical Grid for the PROSPECT Reactor Antineutrino
   Detector}.
-\newblock 2019.
-\newblock arXiv:1902.06430 [physics.ins-det].
+\newblock {\em JINST}, 14(04):P04014, 2019.
 
 \bibitem{Ashenfelter:2019jzp}
 J.~Ashenfelter et~al.
@@ -283,7 +285,6 @@ J.~Ashenfelter et~al.
 J.~Ashenfelter et~al.
 \newblock {Lithium-loaded Liquid Scintillator Production for the PROSPECT
   experiment}.
-\newblock 2019.
-\newblock arXiv:1901.05569 [physics.ins-det].
+\newblock {\em JINST}, 14(03):P03026, 2019.
 
 \end{thebibliography}

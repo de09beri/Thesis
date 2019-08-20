@@ -28,19 +28,15 @@
 \contentsline {subsubsection}{\numberline {4.2.1.5}Liquid Scintillator}{26}
 \contentsline {subsection}{\numberline {4.2.2}Containment Vessels and Shielding}{27}
 \contentsline {section}{\numberline {4.3}Data Acquisition System}{28}
-\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{29}
-\contentsline {section}{\numberline {5.1}Motivation}{29}
-\contentsline {section}{\numberline {5.2}Material Compatibility}{29}
-\contentsline {section}{\numberline {5.3}Prototype Testing in P50X}{29}
-\contentsline {section}{\numberline {5.4}Event Selection in the PROSPECT AD}{29}
-\contentsline {section}{\numberline {5.5}Detector Stability Results}{29}
-\contentsline {section}{\numberline {5.6}Volume Variation Results}{29}
-\contentsline {chapter}{\numberline {6}\uppercase {Inverse Beta Decay Event Selection}}{30}
-\contentsline {section}{\numberline {6.1}Selection Criteria and Efficiency}{30}
-\contentsline {section}{\numberline {6.2}Properties of the Event Selection}{30}
+\contentsline {chapter}{\numberline {5}PROSPECT Analysis Framework and Performance}{29}
+\contentsline {chapter}{\numberline {6}\uppercase {$^{227}$Ac as a Calibration Source}}{30}
+\contentsline {section}{\numberline {6.1}Motivation}{30}
+\contentsline {section}{\numberline {6.2}Material Compatibility}{30}
+\contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{30}
+\contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{30}
+\contentsline {section}{\numberline {6.5}Detector Stability Results}{30}
+\contentsline {section}{\numberline {6.6}Volume Variation Results}{30}
 \contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{31}
-\contentsline {section}{\numberline {7.1}Analysis Method}{31}
-\contentsline {section}{\numberline {7.2}Result}{31}
 \contentsline {chapter}{\numberline {8}CONCLUSIONS}{32}
 \vspace *{0.25in}
 \contentsline {chapter}{BIBLIOGRAPHY}{33}
