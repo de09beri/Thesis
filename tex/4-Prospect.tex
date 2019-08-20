@@ -58,7 +58,7 @@ See Figure~\ref{fig:ad} for a schematic of the detector.
 \end{figure}
 
 %===========================================================
-\subsection{Inner Detector}
+\subsection{Active Detector} \label{sec:InnerDetector}
 
 \subsubsection{PMT Housings}
 
@@ -114,7 +114,7 @@ Figure~\ref{fig:rowassembly} shows the assembly of the top row of the detector, 
 	\begin{minipage}[t]{0.48\linewidth}
 		\centering
 		\includegraphics[width=0.98\linewidth]{tex/4-prospect-images/FullSegment}
-		\caption{Three complete segments, including PMT housings at each end with reflectors kept in in place between segments by pinwheel rods.}
+		\caption[Schematic of a segment]{Three complete segments, including PMT housings at each end with reflectors kept in in place between segments by pinwheel rods.}
 		\label{fig:fullsegment}
 	\end{minipage}
 \end{figure}
@@ -133,34 +133,135 @@ While the optical grid creates the inner volume segmentation, acrylic segment su
 A slab of ship-lack style acrylic underneath the bottom row of segments position them at a 5.5$^{\circ}$ tilt with a 0.146 m pitch.
 Horizontal planks are screwed onto the backs of the PMT housings and attach together along the sides of the volume, while side walls constrain the outer pinwheel rows. 
 Baffles at the top of the detector tie the four surrounding walls together and keep the top reflector layer in place. 
-
-
-
+The construction of the inner detector, including all segment supports, allows the liquid scintillator to flow around all objects and therefore fill the whole space.
+For a photograph of the constructed inner detector see Figure~\ref{fig:completeddetector}.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/4-prospect-images/CompletedDetector}
-	\caption{}
+	\caption[Completed inner detector]{A photograph of the constructed inner detector.}
 	\label{fig:completeddetector}
 \end{figure}
 
 
+\subsubsection{Radioactive Calibration System}
+
+The radioactive calibration system is designed to measure and calibrate the energy and position response of the detector as well as to study topological effects. 
+It does this my moving radioactive sources through a system of tubes routed throughout the active detector, the positions of which are pictured in Figure~\ref{fig:adcalibrationtubes}.
+PROSPECT deploys $^{137}$Cs, $^{22}$Na, $^{60}$Co, $^{252}$Cf, and an AmBe source, the features of which are listed in Table~\ref{tab:Sources}.
+
+Each source is encapsulated in a small aluminum cylinder, about 12 mm long, and then connected to a timing belt as pictured in Figure~\ref{fig:sourcecapsule}.
+The timing belts are placed in source tubes that run along the length of the segments and are controlled by motors mounted outside of the detector volume. 
+For more information on the construction of the calibration system see Ref.\cite{Ashenfelter:2019jzp}.
+
+PROSPECT also makes use of intrinsic radioactive sources for calibration and monitoring of detector characteristics. 
+Two of these are colloquially known as ``BiPo" decays, and they arise from the $^{212}$Bi $\rightarrow ^{212}$Po + $\beta \rightarrow ^{208}$Pb + $\alpha$ and $^{214}$Bi $\rightarrow ^{214}$Po + $\beta \rightarrow ^{210}$Pb + $\alpha$ decay chains which stem from naturally occurring $^{232}$Th ($t_{1/2}$ = 14 Gyr) and $^{238}$U ($t_{1/2}$ = 4.5 Gyr), respectively.
+Along with these, a solution of $^{227}$Ac was added to the liquid scintillator to provide a source of ``RnPo" decays from the chain $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + $\alpha$.
+Further details on the motivation and results from adding actinium will be discussed in Chapter~\ref{ch:Ac}.
+
+
+\begin{table}[t]
+\begin{tabular}{|c|c|c|c|c|}
+	\hline 
+	\bf{Source} & \bf{Decay} & \bf{$\gamma$ Energy [MeV]} & Purpose & Rate \\ 
+	\hline 
+	$^{137}$Cs & $\beta^-$ & 0.662 & segment comparison & 0.1 $\mu$C \\ 
+	\hline 
+	$^{22}$Na & $\beta^+$ & 2$\times$ 0.511, 1.275 & positron, edge effects & 0.1 $\mu$C \\ 
+	\hline 
+	$^{60}$Co & $\beta^-$ & 1.173, 1.332 & energy scale & 0.1 $\mu$C \\ 
+	\hline 
+	$^{252}$Cf & n (fisson) & 2.223 (n-H capture) & neutron response & 866 n/s \\ 
+	\hline 
+	AmBe & n (fission)? & - & neutron response & 70 n/s \\ 
+	\hline 
+\end{tabular} 
+\caption[Calibration sources]{Calibration sources and their properties.}
+\label{tab:Sources}
+\end{table}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/4-prospect-images/ADCalibrationTubes}
+	\caption[Source tube positions]{Location of the source tubes (red) routed through the active detector volume.}
+	\label{fig:adcalibrationtubes}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/4-prospect-images/SourceCapsule}
+	\caption[Source capsule on timing belt]{An example of a source capsule attached to the timing belt.}
+	\label{fig:sourcecapsule}
+\end{figure}
+
+
+
 \subsubsection{Liquid Scintillator}
 
+The liquid scintillator (LS) used in PROSPECT needed to accomplish two goals: (i) provide very good pulse shape discrimination (PSD) for sufficient background rejection of fast neutrons and ambient gammas and (ii) have high light yield in order to obtain good energy resolution. 
+The LS also needed to remain stable over time and non-flammable according to facility requirements. 
+In order to accomplish these tasks PROSPECT developed a novel lithium-doped liquid scintillator (LiLS). 
+$^6$Li was chosen as the doping agent due to it's high neutron capture cross section, which produces an $\alpha$ and a $^3$H with about 540 keV of visible energy in the scintillator. 
+These particles are also spatially localized, which is necessary for the compact detector size of PROSPECT.
 
+The LiLS was created by adding a surfactant to the base LS which allows the addition of a $^6$LiCl solution to obtain a final doping of 0.082\%$\pm$0.001\% by mass. 
+The combination of the surfactant and chloride solution forms a thermodynamically stable micro emulsion, ensuring material uniformity and allowing the addition of an actinide chloride solution ($^{227}$Ac). 
+A total of 5,040 liters were produced and stored in 28 separate drums. 
+One drum was doped with a $^{227}$Ac chloride solution. 
+For more information on the fabrication of the LiLS see Ref.\cite{Ashenfelter:2019iqj}.
 
-\subsubsection{Calibration}
+Prior to filling the detector, all drums of LiLS were pumped into an ISO tank storage container. 
+Nitrogen was then bubbled through the liquid for ten days to sufficiently mix together the solution.
+Samples were taken from each barrel and from the mixed solution in the ISO tank with a Shimadzu UV-Vis spectrometer, the results of which can be seen in Figure~\ref{fig:lils}.
+4841 kg of LiLS was pumped into the ISO tank and a total of 4340 kg was then added to the detector. 
+For more information on the process of filling the detector with the LiLS see Ref.\cite{LongNIM}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/4-prospect-images/LiLS}
+	\caption[LiLS UV-Vis absorption spectra]{UV-Vis absorption spectra of the 28 drums if LiLS (gray+green) added to the ISO tank. The only outlier is the $^{227}$Ac spiked barrel (green). The mixed sample (red) falls within the average of all individual barrels.}
+	\label{fig:lils}
+\end{figure}
 
 
 %===========================================================
 \subsection{Containment Vessels and Shielding}
 
+The inner primary containment vessel is made of acrylic and holds all active detector components described in Section~\ref{sec:InnerDetector}. 
+The acrylic tank was built as three separate parts, the base, vertical walls, and lid. 
+The inner detector was assembled on the acrylic base. After its constructions the vertical walls were lowered onto the base and secured with a Viton seal at the base. 
+
+The secondary containment vessel is made of aluminum and the top is sealed in order to control the gas environment around the detector.
+The space between the aluminum and acrylic tanks is filled with sheets of borated polyethylene and demineralized water for absorption of thermal neutrons.
+
+A lead layer of 0.025 m $\times$ 0.10 m $\times$ 0.30 m interlocking brick was stacked around the perimeter of the aluminum tank. 
+Rows of 0.10 m $\times$ 0.10 m recycled polyethylene lumber were stacked on each other log cabin style and then placed around the lead layer.
+Polyethylene lumber was also used to create roof beams on top of the log cabin walls.
+The entire surface was then covered with a 0.025 m thick layer of borated polyethylene and thin aluminum sheets. 
+To complete the passive shielding an array of water bricks were added to the top of the assembly. 
+For a schematic of the entire construction see Figure~\ref{fig:ad}.
 
 
 
 %===========================================================
 %===========================================================
-\section{Detecting Inverse Beta Decays}
+\section{Data Acquisition System}
 
-\section{From Signal to Result}
+In order to perform pulse discrimination analysis of LiLS signals PROSPECT uses commercial Waveform Digitizer Modules (WFDs).
+A total of twenty-one CAEN V1725 WFD modules, operated in two Weiner 6023VME crates, are used to readout the 308 PMTs. 
+Readout and control of the WFD modules is performed by two individual PCs, which are run by a control PC. 
+A single Phillips Scientific 757D NIM Fan-In/Fan-Out module operated in a NIM bin is used for trigger signal distribution.
+A diagram of this system can be seen in Figure~\ref{fig:daq}.
+
+Acquisition of waveforms 148 samples long by all WFD channels is triggered if both PMTs in any segment exceed a signal level of 50 ADC counts above baseline ($\sim$100 keV) within a 64 ns coincidence window.  
+Acquired samples from each WFD are only recorded to disk if they exceed a threshold limit of 20 ADC counts above baseline ($\sim$40 keV). 
+These are labeled the segment and Zero Length Encoding (ZLE) thresholds and allow the acceptance of low energy events while maintaining a manageable data collection. 
+For more information of the data acquisition system and data rates see Ref.~\cite{LongNIM}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/4-prospect-images/DAQ}
+	\caption[DAQ schematic]{Diagram of the data acquisition system.}
+	\label{fig:daq}
+\end{figure}
 
 

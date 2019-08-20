@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -15,9 +15,13 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-section of inner detector}}{22}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces PMT housing module}}{22}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Pinwheels}}{23}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Three complete segments, including PMT housings at each end with reflectors kept in in place between segments by pinwheel rods.\relax }}{23}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Schematic of a segment}}{23}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Construction of a row}}{23}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces \relax }}{24}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Completed inner detector}}{24}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Source tube positions}}{25}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Source capsule on timing belt}}{26}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces LiLS UV-Vis absorption spectra}}{27}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces DAQ schematic}}{28}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
