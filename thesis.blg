@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -13,17 +13,17 @@ A level-1 auxiliary file: tex/7-Oscillation.aux
 A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
-Database file #1: ThesisBib.bib.bib
+Database file #1: ThesisBib.bib
 Warning--entry type for "Heffron" isn't style-file defined
---line 961 of file ThesisBib.bib.bib
+--line 961 of file ThesisBib.bib
 Warning--entry type for "Hackett" isn't style-file defined
---line 972 of file ThesisBib.bib.bib
+--line 972 of file ThesisBib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
 You've used 50 entries,
             1791 wiz_defined-function locations,
-            804 strings with 11504 characters,
+            804 strings with 11513 characters,
 and the built_in function-call counts, 10853 in all, are:
 = -- 957
 > -- 463

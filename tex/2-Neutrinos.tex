@@ -4,7 +4,7 @@
 
 The study of radioactive decay in the early 20th century exposed discrepancies that would lead to the postulation and eventual discovery of the neutrino.
 An experiment performed by Lise Meitner and Otto Hahn in 1911 offered some of the first evidence that the energy spectrum of electrons emitted by beta decay is continuous \cite{Hahn:1911}. 
-This was in stark contrast to the expected discrete spectra that had been observed in gamma and alpha emission, and suggested that the laws of conservation were broken during beta decay. 
+This was in stark contrast to the expected discrete spectra that had been observed in gamma and alpha emission, and suggested that three laws of conservation (energy, linear momentum, and angular momentum) were broken during beta decay. 
 Their findings were later confirmed by experiments performed by Chadwick in 1914 \cite{Chadwick:1914zz} and Ellis and Wooster in 1927 \cite{Ellis:1927}. 
 
 At the time, beta decay was thought to be a two-particle decay, a process that yields a product nucleus and an electron.
@@ -19,11 +19,11 @@ In 1956 Clyde Cowan and Fred Reines accomplished the amazing feat of discovering
 	\bar{\nu} + p \rightarrow n + e^{+}
 \end{equation}
 
-Their idea was to place a detector near a generated flux of neutrinos, fill it with an ample number of protons, and observe the resulting positrons. 
+Their idea was to place a detector near an intense source of neutrinos, fill it with an ample number of protons, and observe the resulting positrons. 
 However, any source that generates a large enough flux of neutrinos will create large backgrounds for the experiment. 
 As would become the challenge for every neutrino detector thereafter, Cowan and Reines had to devise a way to reduce the background such that they could obtain a measurable and believable number of neutrinos.
 Their original idea was to place a detector underground about 40 meters away from a fission bomb. 
-This would create a neutrino flux  large enough to provide a sufficient signal to background ratio. 
+This would create a large instantaneous flux of neutrinos providing a sufficient signal to background ratio. 
 
 After some thought, though, they realized that by detecting the neutron \textit{and} the positron they could discriminate the IBD signal from the background with much higher success. 
 This would allow the use of a nuclear reactor instead of a fission bomb as a neutrino source, giving them the opportunity to patiently watch for neutrinos rather than be restricted to one chance with a bomb. 
@@ -71,12 +71,18 @@ The Standard Model (SM) of particle physics is the result of several decades of 
 Classified in three generations of leptons, neutrinos exist in corresponding flavors, electron neutrinos ($\nu_{e}$), muon neutrinos ($\nu_{\mu}$), and tau neutrinos ($\nu_{\tau}$), to the electron (e), muon ($\mu$), and tau ($\tau$) leptons, respectively.
 For each of these flavors a corresponding antiparticle also exists, $\bar{\nu_e}, \bar{\nu_\mu}, \bar{\nu_\tau}$.
 
-If neutrinos have exactly zero mass and travel at the speed of light, then by definition their helicity, or handedness, is a permanent property. 
+If neutrinos have exactly zero mass and travel at the speed of light, then by definition their helicity, or handedness, is a conserved property. 
 Since experiments only measured left-handed neutrinos \cite{PhysRev.109.1015}, it was assumed that all neutrinos in the SM were massless.
 As will be discussed in greater depth in Section~\ref{sec:NeutrinoOsc}, it was later experimentally discovered that neutrinos oscillate, or change flavors, indicating that at least two of the three neutrinos must have mass.
 
-Their ability to oscillate arises from the fact that neutrinos exist as flavor eigenstates, $\nu_\alpha$: $\alpha = e, \mu, \tau$, where each flavor is a superposition of mass eigenstates, $\nu_i$: $i = 1, 2, 3$:
+Their ability to oscillate arises from the fact that neutrinos exist as flavor eigenstates of the weak interaction, $\nu_\alpha$: $\alpha = e, \mu, \tau$, that are not identical to their mass states, $\nu_i$: $i = 1, 2, 3$, which are eigenstates of the Hamilton describing the free neutrino.
+This means that a neutrino produced at a source has a known flavor, but its mass is described as a superposition of all possible mass eigenstates, creating three possibly scenarios:
+(1) The mass states are the same as the flavor states, therefore, a neutrino produced as a $\nu_x$ will remain $\nu_x$ forever. 
+(2) The mass states and flavor states are different, but the mass states are all the same or all zero, therefore, a neutrino produced as $\nu_x$ will still remain $\nu_x$ because the combination of mass states does not change over time. 
+(3) The mass states and flavor states are different and at least two of the mass states are not the same, therefore, the phase between mass states will change as the neutrino propagates through time and space causing a change of flavor state.
+Experimental discoveries of neutrino oscillation require that the third scenario is correct.
 
+Given this we can define the probability that a neutrino oscillation by first describing the flavor eigenstates as:
 \begin{equation}
 	\ket{\nu_\alpha} = \sum_{i}U_{\alpha i}\ket{\nu_i}
 \end{equation}
@@ -151,7 +157,7 @@ U_{\beta 1} & U_{\beta 2}
 \end{pmatrix}
 \end{equation}
 
-\newpage
+%\newpage
 \noindent Therefore, the probability of oscillation is given by
 
 \begin{equation}
