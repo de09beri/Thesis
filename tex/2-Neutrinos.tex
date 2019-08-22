@@ -76,20 +76,18 @@ Since experiments only measured left-handed neutrinos \cite{PhysRev.109.1015}, i
 As will be discussed in greater depth in Section~\ref{sec:NeutrinoOsc}, it was later experimentally discovered that neutrinos oscillate, or change flavors, indicating that at least two of the three neutrinos must have mass.
 
 Their ability to oscillate arises from the fact that neutrinos exist as flavor eigenstates of the weak interaction, $\nu_\alpha$: $\alpha = e, \mu, \tau$, that are not identical to their mass states, $\nu_i$: $i = 1, 2, 3$, which are eigenstates of the Hamilton describing the free neutrino.
-This means that a neutrino produced at a source has a known flavor, but its mass is described as a superposition of all possible mass eigenstates, creating three possibly scenarios:
-(1) The mass states are the same as the flavor states, therefore, a neutrino produced as a $\nu_x$ will remain $\nu_x$ forever. 
-(2) The mass states and flavor states are different, but the mass states are all the same or all zero, therefore, a neutrino produced as $\nu_x$ will still remain $\nu_x$ because the combination of mass states does not change over time. 
-(3) The mass states and flavor states are different and at least two of the mass states are not the same, therefore, the phase between mass states will change as the neutrino propagates through time and space causing a change of flavor state.
+This means that a neutrino produced at a source has a known flavor, but its mass is described as a superposition of all possible mass eigenstates, creating three possible scenarios:
+(i) The mass states are the same as the flavor states, therefore, a neutrino produced as a $\nu_x$ will remain $\nu_x$ forever. 
+(ii) The mass states and flavor states are different, but the mass states are all the same or all zero, therefore, a neutrino produced as $\nu_x$ will still remain $\nu_x$ because the combination of mass states does not change over time. 
+(iii) The mass states and flavor states are different and at least two of the mass states are not the same, therefore, the phase between mass states will change as the neutrino propagates through time and space causing a change of flavor state.
 Experimental discoveries of neutrino oscillation require that the third scenario is correct.
 
-Given this we can define the probability that a neutrino oscillation by first describing the flavor eigenstates as:
+Given this we can define the probability that a neutrino oscillates by first describing the flavor eigenstates as:
 \begin{equation}
 	\ket{\nu_\alpha} = \sum_{i}U_{\alpha i}\ket{\nu_i}
 \end{equation}
-
-\noindent where U$_{\alpha i}$ is the unitary Pontecorvo-Maki-Nakagawa-Sakata (PMNS) mixing matrix. 
+where U$_{\alpha i}$ is the unitary Pontecorvo-Maki-Nakagawa-Sakata (PMNS) mixing matrix \cite{PDG}. 
 The PMNS matrix relates flavor to mass eigenstates and can be written in factorized form as:
-
 \begin{equation}	
 	U = 
 	\begin{pmatrix}
@@ -113,25 +111,19 @@ The PMNS matrix relates flavor to mass eigenstates and can be written in factori
 		& & e^{i\beta}
 	\end{pmatrix}
 \end{equation}
-
-\noindent where $s_{ij} = \sin\theta_{ij}$ and $c_{ij} = \cos\theta_{ij}$, $\theta_{ij} = [0,\pi/2]$,
+where $s_{ij} = \sin\theta_{ij}$ and $c_{ij} = \cos\theta_{ij}$, $\theta_{ij} = [0,\pi/2]$,
 $\delta = [0,2\pi]$ is the Dirac charge parity (CP) violation phase, and $\alpha$ and $\beta$ are two Majorana CP violation phases.
 
 As a neutrino, $\nu_\alpha$, propagates in time the mass eigenstates evolve differently (assuming that $m_{1} \neq m_{2} \neq m_{3}$), resulting in a new flavor state, $\nu_{\beta}$.
 Massive neutrinos move through time and space as
-
 \begin{equation}
 	\ket{\nu_i(x,t)} = e^{-\frac{i}{\hbar}(E_{i}t-\vec{p}_{i}\cdot\vec{x})}\ket{\nu_i(0,0)} = e^{-i\phi}\ket{\nu_i(0,0)} 
 \end{equation}
-
-\noindent The flavor state $\alpha$ at some point in time and space can then be defined as:
-
+The flavor state $\alpha$ at some point in time and space can then be defined as:
 \begin{equation}
 	\ket{\nu_{\alpha}(x,t)} = \sum_{i}U_{\alpha i}\ket{\nu_{i}(x,t)} = \sum_{i}U_{\alpha i}e^{-i\phi_{i}}\ket{\nu_{i}(0,0)}
 \end{equation}
-
-\noindent Therefore, the oscillation probability that a neutrino produced as flavor $\nu_\alpha$ will be detected as flavor $\nu_\beta$ after traveling for a period of time is given by
-
+Therefore, the oscillation probability that a neutrino produced as flavor $\nu_\alpha$ will be detected as flavor $\nu_\beta$ after traveling for a period of time is given by 
 \begin{equation}	
 \begin{split}
 	P(\nu_\alpha \rightarrow \nu_\beta) &= \abs{\bra{\nu_\alpha(0,0)}\ket{\nu_\beta(x,t)}}^2 \\
@@ -144,7 +136,6 @@ Massive neutrinos move through time and space as
 \end{equation}
 
 This is true for any number of neutrino generations, but for the sake of simplicity, consider the case of two neutrino oscillation. In this scenario the mixing matrix can be written as 
-
 \begin{equation}	
 U = 
 \begin{pmatrix}
@@ -156,10 +147,7 @@ U_{\beta 1} & U_{\beta 2}
 -\sin\theta_{12} & \cos\theta_{12}
 \end{pmatrix}
 \end{equation}
-
-%\newpage
-\noindent Therefore, the probability of oscillation is given by
-
+Therefore, the probability of oscillation is given by
 \begin{equation}
 \begin{split}
 P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta) 
@@ -178,23 +166,17 @@ U^{*}_{\alpha 1}U_{\beta 1}U_{\alpha 2}U^{*}_{\beta 2}(e^{i(\phi_2-\phi_1)} + e^
 &= \sin^22\theta_{12}\sin^2\left(\frac{\phi_2-\phi_1}{2}\right)
 \end{split}
 \end{equation}
-
-\noindent Now, recall that 
-
+Now, recall that 
 \begin{equation}
 	\phi_i = \frac{1}{\hbar}(E_{i}t - \vec{p}_{i}\cdot\vec{x})
 \end{equation}
-
-\noindent The mass of the neutrino is very small compared to its energy ($m_\nu << E_\nu$) so 
+The mass of the neutrino is very small compared to its energy ($m_\nu << E_\nu$) so 
 the momentum can be approximated as
-
 \begin{equation}
 	p_i = \frac{1}{c}\sqrt{E^2_i-m^2_ic^4 } = \frac{1}{c}\left(E_i - \frac{m^2_ic^4}{2E_i} \right)
 \end{equation}
-
-\noindent If it is reasonably assumed that neutrinos move at the speed of light, $c$, then
+If it is reasonably assumed that neutrinos move at the speed of light, $c$, then
 the phase difference, $\phi_2 - \phi_1$, can be approximated as
-
 \begin{equation}
 \begin{split}
 	\phi_2 - \phi_1 &= \frac{1}{\hbar}\left( (E_2 - E_1)\frac{L}{c} - (p_2 - p_1)L  \right)\\
@@ -205,16 +187,13 @@ the phase difference, $\phi_2 - \phi_1$, can be approximated as
 	&=\frac{L}{\hbar c}\frac{\Delta m^2_{21}c^4}{2E}
 \end{split}
 \end{equation}
-
-\noindent where $t = \frac{L}{c}$, $\Delta m^2_{21} = m_2^2 - m_1^2$ and $E_1 = E_2 = E$.
+where $t = \frac{L}{c}$, $\Delta m^2_{21} = m_2^2 - m_1^2$ and $E_1 = E_2 = E$.
 
 It can now be shown that the oscillation probability of a neutrino $\nu_\alpha$, being detected as flavor $\nu_\beta$ in the two neutrino mixing case is
-
 \begin{equation}
 	P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta) = \sin^2\left(2\theta_{12}\right)\sin^2\left(\frac{c^4}{4\hbar c}\frac{\Delta m^2_{12}L}{E}\right) 
 \end{equation}
-
-\noindent The corresponding survival probability, the chance that a neutrino $\nu_\alpha$ is detected as $\nu_\alpha$, can be described by $P^{2\nu}(\nu_\alpha \rightarrow \nu_\alpha) = 1 - P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta)$.
+The corresponding survival probability, the chance that a neutrino $\nu_\alpha$ is detected as $\nu_\alpha$, can be described by $P^{2\nu}(\nu_\alpha \rightarrow \nu_\alpha) = 1 - P^{2\nu}(\nu_\alpha \rightarrow \nu_\beta)$.
 
 There are several aspects of note about this probability. It can be seen that the amplitude of the oscillation probability, $\sin^2\left(2\theta_{12}\right)$, depends on the mixing angle $\theta_{12}$, while the mass splitting, $\Delta m^2_{12}$, the energy of the neutrino, $E$, and the distance traveled, $L$, determine the frequency of oscillation. 
 The probability is non-zero only when $\Delta m^2_{12}$ is non-zero, indicating that if an experiment observes neutrino oscillation, then at least one of the neutrinos must have mass.
@@ -223,7 +202,14 @@ Theoretical models alone do not prove neutrino oscillation, however. The first e
 
 \section{Discovery of Neutrino Oscillation} \label{sec:NeutrinoOsc}
 
-In the late 1960's, about a decade after Cowan and Reines discovered the first neutrino, astrophysicists Raymond Davis and John Bahcall designed an experiment to collect and count solar neutrinos, neutrinos emitted by nuclear fusion taking place in the Sun. 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/2-neutrinos-images/SolarFlux}
+	\caption[Spectrum of solar neutrino fluxes]{Spectrum of solar neutrino fluxes corresponding to the SFII-GS98 standard solar model. Electron capture CNO neutrinos (ecCNO) have been added in addition to standard fluxes. Electron capture fluxes are given in cm$^{-2}$s$^{-1}$. Figure from Ref.~\cite{Serenelli:2016dgz}.}
+	\label{fig:solarflux}
+\end{figure}
+
+In the late 1960's, about a decade after Cowan and Reines discovered the first neutrino, astrophysicist John Bahcall and physical chemist Raymond Davis designed an experiment to collect and count solar neutrinos, neutrinos emitted by nuclear fusion taking place in the Sun. 
 Davis placed a 380 cubic meter tank filled with perchloroethylene (dry-cleaning fluid) 1,478 meters underground in the Homestake Gold Mine in South Dakota. 
 Perchloroethylene was chosen because it is rich in chlorine and the tank was placed deep underground to shield the experiment from cosmic rays. 
 
@@ -232,19 +218,28 @@ Davis was looking for the reaction
 	\mathrm{\nu _{e}+ ^{37}Cl \rightarrow  ^{37}Ar+e^{-}} 
 	\label{eq:ClAr}
 \end{equation}
-in which a neutrino would enter the tank and transform chlorine into argon, which he would then extract and count.
+in which a neutrino would enter the tank and transform chlorine into argon. 
+Argon is a noble gas, making it easy to chemically separate from a large amount of chlorine-rich solvent.
+This allowed Davis to extract and count the argon atoms, essentially counting the number of neutrinos that had been captured.
+The chlorine reaction has a threshold of 814 keV, which, according to standard solar models (see Figure~\ref{fig:solarflux}), allowed the Homestake experiment to detect neutrinos created by $^8$Be in the sun (and $^7$Be, \textit{pep}, $^{13}$N, and $^{15}$O at lower rates).
+
 In the end, with the Homestake experiment Davis calculated a rate of solar neutrinos that was one third of the rate predicted by calculations made by Bahcall using the Standard Model \cite{Davis}. 
 This discrepancy became known as the solar neutrino problem, and in the following years Bruno Pontecorvo wrote several theoretical papers proposing neutrino oscillation as a solution \cite{Pont1968,Pont1977}.
 
-Several experiments designed to calculate the flux of solar neutrinos followed the Homestake Experiment including SAGE \cite{Abdurashitov:1994bc}, GALLEX \cite{Hampel:1998xg}, and GNO \cite{Altmann:2000ft,Bellotti:2001ta}.
-All three experiments built detectors based on the reaction $\mathrm{^{71}Ga(\nu,e^{-})^{71}Ge}$, and all three experiments showed a deficit in neutrino flux compared to Standard Model calculations. 
+Several experiments designed to measure the flux of solar neutrinos followed the Homestake Experiment including SAGE \cite{Abdurashitov:1994bc}, GALLEX \cite{Hampel:1998xg}, and GNO \cite{Altmann:2000ft,Bellotti:2001ta}.
+All three experiments built detectors based on the reaction $\mathrm{^{71}Ga(\nu,e^{-})^{71}Ge}$ which has a threshold of 233 keV.
+This made them sensitive to neutrinos created by \textit{pp} reactions in the Sun, neutrinos that the Homestake experiment was unable to measure.
+Even with the different energy threshold, though, all three experiments showed a deficit in neutrino flux compared to Standard Model calculations and the solar neutrino problem persisted.
 
 Further experimental proof of neutrino oscillation came with results from the Super-Kamiokande Experiment. Unlike previous experiments that were only sensitive to electron neutrinos, Super-K detected neutrinos through elastic scattering of electrons - a process sensitive to all neutrino flavors.
+Operating a high threshold of 4 MeV they observed pure $^{8}$Be solar neutrinos, a different selection than previous solar neutrino experiments.
 With their large mass, good energy resolution, and ability to determine neutrino directionality, Super-K was able to confirm the solar neutrino problem effect with high statistics and place limits on the parameters of oscillation \cite{SuperKOsc}.
 
 The first direct evidence for solar neutrino flavor change came from the Sudbury Neutrino Observatory (SNO) in 2001 \cite{SNO,SNOOsc}. 
 The SNO detector was an imaging Cherenkov detector using heavy water.
-They were able to observe neutrino flavor change through three different processes (elastic scattering of electrons, the $\nu_e - d$ charged current reaction, and the $\nu_x - d$ neutral current interaction) that, combined, were sensitive to all three neutrino flavors.
+They were able to observe neutrino flavor change through three different processes: elastic scattering of electrons, the $\nu_e - d$ charged current reaction (CC), and the $\nu_x - d$ neutral current reaction (NC).
+The CC reaction has a threshold of -1.4 MeV, allowing SNO to accurately measure the shape of the $^{8}$B neutrino spectrum.
+The CC is also only sensitive to $\nu_{e}$, whereas the NC reaction is sensitive to all three active neutrino flavors, allowing SNO to compare measured fluxes from each reaction and ultimately confirm the theory of neutrino oscillation.
 
 Nearly a century after the initial postulation of the neutrino the scientific community has in hand experimental evidence of three neutrino flavors, mathematical models that include these neutrinos in the Standard Model of Particle Physics, and theoretical and experimental proof that neutrinos oscillate and therefore have mass.
 These findings, along with developments in technology and techniques, set the stage for current, and future, neutrino experiments to transform their goals from observing anomalies to making precise measurements of the physics behind the anomalies.

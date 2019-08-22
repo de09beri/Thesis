@@ -49,6 +49,16 @@ M.~Goldhaber, L.~Grodzins, and A.~W. Sunyar.
 \newblock Helicity of neutrinos.
 \newblock {\em Phys. Rev.}, 109:1015--1017, Feb 1958.
 
+\bibitem{PDG}
+M.~Tanabashi et~al.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+
+\bibitem{Serenelli:2016dgz}
+Aldo Serenelli.
+\newblock {Alive and well: a short review about standard solar models}.
+\newblock {\em Eur. Phys. J.}, A52(4):78, 2016.
+
 \bibitem{Davis}
 Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
 \newblock Search for neutrinos from the sun.
@@ -105,11 +115,6 @@ Q.~R. Ahmad et~al.
 \newblock Direct evidence for neutrino flavor transformation from
   neutral-current interactions in the sudbury neutrino observatory.
 \newblock {\em Phys. Rev. Lett.}, 89:011301, Jun 2002.
-
-\bibitem{PDG}
-M.~Tanabashi et~al.
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
 
 \bibitem{HayesVogel}
 A.~C. Hayes and Petr Vogel.
