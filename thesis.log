@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 AUG 2019 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 AUG 2019 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,27 +1434,37 @@ le (type pdf)
 <use tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/vogel-fig02-eps-converte
 d-to.pdf used on input line 106.
-(pdftex.def)             Requested size: 173.44534pt x 170.02248pt.
- [15 <./tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>]
-<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=142, 561.6992pt x 258.60815p
+(pdftex.def)             Requested size: 238.49232pt x 233.78851pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]
+<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=133, 561.6992pt x 258.60815p
 t>
 File: tex/3-reactorneutrinos-images/DayaBayFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/DayaBayFlux.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/DayaBayFlux.pdf used on 
 input line 123.
 (pdftex.def)             Requested size: 303.53267pt x 139.74892pt.
- [16 <./tex/3-reactorneutrinos-images/DayaBayFlux.pdf>]
-<tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=158, 540.55484pt x 376.6756
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=134, 540.55484pt x 376.6756
 6pt>
 File: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf used on
  input line 135.
 (pdftex.def)             Requested size: 260.17465pt x 181.30229pt.
+ [16 <./tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [17 <./tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>]
+ [17 <./tex/3-reactorneutrinos-images/DayaBayFlux.pdf> <./tex/3-reactorneutrino
+s-images/WorldAvgFlux.pdf>]
 <tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, id=176, 618.8849pt x 448.6
 1086pt>
 File: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf Graphic file (type pdf
@@ -1463,16 +1473,16 @@ File: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf Graphic file (type pdf
 Package pdftex.def Info: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf use
 d on input line 152.
 (pdftex.def)             Requested size: 303.53267pt x 220.01974pt.
-
-<tex/3-reactorneutrinos-images/Spectrums.pdf, id=177, 1770.28087pt x 751.42572p
+ [18 <./tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, page is rotated 90 
+degrees>]
+<tex/3-reactorneutrinos-images/Spectrums.pdf, id=192, 1770.28087pt x 751.42572p
 t>
 File: tex/3-reactorneutrinos-images/Spectrums.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/Spectrums.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrums.pdf used on in
-put line 162.
+put line 164.
 (pdftex.def)             Requested size: 433.62001pt x 184.04932pt.
-) [18 <./tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, page is rotated 90
- degrees>] [19 <./tex/3-reactorneutrinos-images/Spectrums.pdf>]
+) [19 <./tex/3-reactorneutrinos-images/Spectrums.pdf>]
 \openout2 = `tex/4-Prospect.aux'.
 
  (./tex/4-Prospect.tex
@@ -1670,10 +1680,10 @@ No file thesis.ind.
 (./tex/6-Ac227.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
 (./tex/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12807 strings out of 492995
- 230494 string characters out of 6132704
- 278386 words of memory out of 5000000
- 16140 multiletter control sequences out of 15000+600000
+ 12810 strings out of 492995
+ 230531 string characters out of 6132704
+ 278410 words of memory out of 5000000
+ 16143 multiletter control sequences out of 15000+600000
  15107 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1693,7 +1703,7 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (49 pages, 11648688 bytes).
+Output written on thesis.pdf (49 pages, 11648722 bytes).
 PDF statistics:
  736 PDF objects out of 1000 (max. 8388607)
  499 compressed objects within 5 object streams
