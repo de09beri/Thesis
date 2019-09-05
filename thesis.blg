@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -13,53 +13,53 @@ A level-1 auxiliary file: tex/7-Oscillation.aux
 A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
-Database file #1: ThesisBib.bib.bib
+Database file #1: ThesisBib.bib
 Warning--entry type for "Heffron" isn't style-file defined
---line 978 of file ThesisBib.bib.bib
+--line 978 of file ThesisBib.bib
 Warning--entry type for "Hackett" isn't style-file defined
---line 989 of file ThesisBib.bib.bib
+--line 989 of file ThesisBib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 51 entries,
+You've used 54 entries,
             1791 wiz_defined-function locations,
-            811 strings with 11639 characters,
-and the built_in function-call counts, 11017 in all, are:
-= -- 971
-> -- 467
+            824 strings with 11862 characters,
+and the built_in function-call counts, 11410 in all, are:
+= -- 1004
+> -- 479
 < -- 0
-+ -- 176
-- -- 125
-* -- 749
-:= -- 1823
-add.period$ -- 159
-call.type$ -- 51
-change.case$ -- 52
++ -- 182
+- -- 128
+* -- 758
+:= -- 1883
+add.period$ -- 168
+call.type$ -- 54
+change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 54
-duplicate$ -- 441
-empty$ -- 1103
-format.name$ -- 125
-if$ -- 2417
+cite$ -- 57
+duplicate$ -- 456
+empty$ -- 1157
+format.name$ -- 128
+if$ -- 2510
 int.to.chr$ -- 0
-int.to.str$ -- 51
+int.to.str$ -- 54
 missing$ -- 47
-newline$ -- 264
-num.names$ -- 51
-pop$ -- 75
+newline$ -- 279
+num.names$ -- 54
+pop$ -- 93
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 184
+skip$ -- 193
 stack$ -- 0
 substring$ -- 864
-swap$ -- 47
+swap$ -- 50
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 101
-width$ -- 53
-write$ -- 563
+while$ -- 104
+width$ -- 56
+write$ -- 593
 (There were 5 warnings)
