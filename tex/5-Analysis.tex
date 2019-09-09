@@ -36,7 +36,16 @@ An example of this for a single segment can be seen in Figure~\ref{fig:psdvss}, 
 \end{figure}
 
 
-\section{From Waveform to Physics Event}
+\section{Data Processing and Calibration}
 
+For simplicity consider one event contained in one segment. 
+Both PMTs in the segment will collect photons from this event that are saved as individual waveforms. 
+These are analyzed and information such as pulse area and height in analog-to-digital converter (ADC) units, PSD, and arrival time are saved. 
+The next step involves combining information from both PMTs, calibrating the energy, and reconstructing the position. 
+
+The PSD is calculated as an average of the individual PMTs PSD weighted by the number of photoelectrons, $N$,
+\begin{equation}
+	PSD = \frac{N_0PSD_0 + N_1PSD_1}{N_0 + N_1}
+\end{equation}
 
 
