@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Spectrum of solar neutrino fluxes}}{8}
@@ -26,6 +26,9 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Typical waveform}}{32}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces PSD vs. psuedo-energy for neutron coincident events}}{33}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Muon $dt$ versus signal amplitude}}{34}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Muon $dt$ for a single segment}}{34}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces $z(dt)$ curves for all cells}}{34}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

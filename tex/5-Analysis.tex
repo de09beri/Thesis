@@ -43,9 +43,50 @@ Both PMTs in the segment will collect photons from this event that are saved as 
 These are analyzed and information such as pulse area and height in analog-to-digital converter (ADC) units, PSD, and arrival time are saved. 
 The next step involves combining information from both PMTs, calibrating the energy, and reconstructing the position. 
 
-The PSD is calculated as an average of the individual PMTs PSD weighted by the number of photoelectrons, $N$,
+%The PSD is calculated as an average of the individual PMTs PSD weighted by the number of photoelectrons, $N$,
+%\begin{equation}
+%	PSD = \frac{N_0PSD_0 + N_1PSD_1}{N_0 + N_1}
+%\end{equation}
+
+\subsection{Timing to Position Curves}
+
+Through-going muons provide a large and consistent data set which can be used to reconstruct positions based on timing.
+As muons travel through the pinwheel rod tabs the light transport is distorted in timing and magnitude. 
+This creates a striping effect in the timing between the two PMTs, $dt$, versus the signal amplitude ($S_0 + S_1$) distribution as shown in Figure~\ref{fig:dtshobbes}.
+
+The striping becomes even clearer when plotting $dt$ for events with signal amplitudes in the range  1$e$4 -  2$e$4 ADC for a single segment as shown in Figure~\ref{fig:hobbesfit}.
+For each segment this distribution is first fit with an ``M"-shaped curve, $M(dt)$. 
+Then, the residual structure is fit to a sinusoidal curve with a slowly varying phase shift term,
 \begin{equation}
-	PSD = \frac{N_0PSD_0 + N_1PSD_1}{N_0 + N_1}
+	n(dt) = M(dt)\left[1 + k\cos\left(\frac{2\pi}{\delta}\left(a~dt + b~dt^3\right)\right)\right]
 \end{equation}
+where $\delta$ = 78.5 mm is the average spacing between pinwheel tabs, and $k, a, b$ are fit parameters.
+The inner phase term provides the position calibration $z(dt) = a~dt + b~dt^3$, whose resulting curves are shown in Figure~\ref{fig:zvsdt}.
+
+\begin{figure}
+	\begin{minipage}[t]{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{tex/5-analysis-images/dt_S_Hobbes}
+		\caption[Muon $dt$ versus signal amplitude]{$dt$ versus signal amplitude for through-going cosmogenic muons \cite{MM:2314}. Striping is visible at time intervals corresponding to pinwheel placement.}
+		\label{fig:dtshobbes}
+	\end{minipage}
+	\begin{minipage}[t]{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{tex/5-analysis-images/HobbesFit}
+		\caption[Muon $dt$ for a single segment]{$dt$ of through-going muons in a single segment for events with signal amplitudes in the range  1$e$4 -  2$e$4 ADC \cite{MM:2314}. Data (blue points) are fit with an ``M"-shaped curve (red) and a sinusoidal curve (magenta).}
+		\label{fig:hobbesfit}
+	\end{minipage}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/5-analysis-images/z_vs_dt}
+	\caption[$z(dt)$ curves for all cells]{$z(dt)$ curves for all cells, extracted from fitting muon dt distributions \cite{MM:2314}. Blue: Hamamatsu segments, red: ET segments.}
+	\label{fig:zvsdt}
+\end{figure}
+
+\subsection{Energy Calibration}
+
+
 
 
