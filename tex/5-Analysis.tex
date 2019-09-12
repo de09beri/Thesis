@@ -113,7 +113,35 @@ where $E_n$ is the energy of the neutron capture peak.
 
 \section{Monte Carlo Simulation}
 
+Due to the geometry of the PROSPECT detector and properties of the scintillator, reconstructed events are highly position and energy dependent. 
+In order perform an oscillation analysis it is important to understand the detector response to incoming antineutrino events. 
+This is done by modeling the detector, including all material and scintillator properties, in a GEANT-4 based simulation package hereto referred to as PROSPECT-G4 (PG4).
+Monte Carlo (MC) simulations with PG4 generate a position-dependent energy response that is used to then interpret physics data. 
+This can only be done if PG4 behaves the same way that the PROSPECT detector does. 
+This is ensured by tuning values in PG4 to reproduce distributions measured by a variety of radioactive calibration sources and intrinsic background energy depositions.
 
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/5-analysis-images/GammaE}
+	\caption[]{Reconstructed distributions for calibration and best-fit PG4 Monte Carlo datasets \cite{XZhang:2815}. Top: $E_{rec}$ for detector-center $\gamma$-ray source deployments; Center top: $E_{rec}$ for n-H captures from a detector-center $^{252}$Cf source deployment; Center bottom: $E_{rec}$ for cosmogenically produced $^{12}$B; Bottom: pulse multiplicity for detector-center $^{137}$Cs and $^{22}$Na source deployments. Error bands indicate statistical (data) and systematic (PG4) uncertainties.}
+	\label{fig:gammae}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/5-analysis-images/GammaScale}
+	\caption[]{Ratios of $\gamma$ calibration source reconstructed energy peak locations between data and PG4 Monte Carlo simulations utilizing best-fit energy response modeling, plotted versus mean true gamma energy \cite{XZhang:2815}. Error bands indicate statistical and systematic uncertainties. Top: ratios for calibration source datasets used in the determination of the best-fit PG4 response model. Bottom: ratios for calibration source datasets taken during different run periods. Ratios for all datasets are within $\sim$1\% of unity, indicating excellent response modeling in PG4 for a wide variety of signal energies and multiplicities.}
+	\label{fig:gammascale}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/5-analysis-images/GammaRes}
+	\caption[]{Fractional PG4-modeled energy resolution variation versus mean true gamma energy \cite{XZhang:2815}. Error bands indicate statistical and systematic uncertainties. Good agreement is visible between the PG4 model and the pictured gamma calibration datasets.}
+	\label{fig:gammares}
+\end{figure}
 
 
 

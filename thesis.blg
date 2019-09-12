@@ -21,45 +21,45 @@ Warning--entry type for "Hackett" isn't style-file defined
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 55 entries,
+You've used 56 entries,
             1791 wiz_defined-function locations,
-            828 strings with 11928 characters,
-and the built_in function-call counts, 11541 in all, are:
-= -- 1015
-> -- 483
+            833 strings with 12022 characters,
+and the built_in function-call counts, 11672 in all, are:
+= -- 1026
+> -- 487
 < -- 0
-+ -- 184
-- -- 129
-* -- 761
-:= -- 1903
-add.period$ -- 171
-call.type$ -- 55
-change.case$ -- 56
++ -- 186
+- -- 130
+* -- 764
+:= -- 1923
+add.period$ -- 174
+call.type$ -- 56
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 461
-empty$ -- 1175
-format.name$ -- 129
-if$ -- 2541
+cite$ -- 59
+duplicate$ -- 466
+empty$ -- 1193
+format.name$ -- 130
+if$ -- 2572
 int.to.chr$ -- 0
-int.to.str$ -- 55
+int.to.str$ -- 56
 missing$ -- 47
-newline$ -- 284
-num.names$ -- 55
-pop$ -- 99
+newline$ -- 289
+num.names$ -- 56
+pop$ -- 105
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 196
+skip$ -- 199
 stack$ -- 0
 substring$ -- 864
-swap$ -- 51
+swap$ -- 52
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 105
-width$ -- 57
-write$ -- 603
+while$ -- 106
+width$ -- 58
+write$ -- 613
 (There were 5 warnings)

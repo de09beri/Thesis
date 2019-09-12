@@ -1,8 +1,8 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
-\contentsline {chapter}{LIST OF FIGURES}{vi}
-\contentsline {chapter}{LIST OF TABLES}{vii}
+\contentsline {chapter}{LIST OF FIGURES}{vii}
+\contentsline {chapter}{LIST OF TABLES}{viii}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }CHAPTER\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
@@ -34,18 +34,18 @@
 \contentsline {subsection}{\numberline {5.2.1}Timing to Position Curves}{33}
 \contentsline {subsection}{\numberline {5.2.2}Energy Calibration}{34}
 \contentsline {section}{\numberline {5.3}Monte Carlo Simulation}{35}
-\contentsline {chapter}{\numberline {6}\uppercase {$^{227}$Ac as a Calibration Source}}{36}
-\contentsline {section}{\numberline {6.1}Motivation}{36}
-\contentsline {section}{\numberline {6.2}Material Compatibility}{36}
-\contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{36}
-\contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{36}
-\contentsline {section}{\numberline {6.5}Detector Stability Results}{36}
-\contentsline {section}{\numberline {6.6}Volume Variation Results}{36}
-\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{37}
-\contentsline {chapter}{\numberline {8}CONCLUSIONS}{38}
+\contentsline {chapter}{\numberline {6}\uppercase {$^{227}$Ac as a Calibration Source}}{40}
+\contentsline {section}{\numberline {6.1}Motivation}{40}
+\contentsline {section}{\numberline {6.2}Material Compatibility}{40}
+\contentsline {section}{\numberline {6.3}Prototype Testing in P50X}{40}
+\contentsline {section}{\numberline {6.4}Event Selection in the PROSPECT AD}{40}
+\contentsline {section}{\numberline {6.5}Detector Stability Results}{40}
+\contentsline {section}{\numberline {6.6}Volume Variation Results}{40}
+\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{41}
+\contentsline {chapter}{\numberline {8}CONCLUSIONS}{42}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{39}
+\contentsline {chapter}{BIBLIOGRAPHY}{43}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{44}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{45}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{48}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{49}
