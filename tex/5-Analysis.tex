@@ -78,14 +78,41 @@ The inner phase term provides the position calibration $z(dt) = a~dt + b~dt^3$, 
 	\end{minipage}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{tex/5-analysis-images/z_vs_dt}
+	\includegraphics[width=0.5\linewidth]{tex/5-analysis-images/z_vs_dt}
 	\caption[$z(dt)$ curves for all cells]{$z(dt)$ curves for all cells, extracted from fitting muon dt distributions \cite{MM:2314}. Blue: Hamamatsu segments, red: ET segments.}
 	\label{fig:zvsdt}
 \end{figure}
 
 \subsection{Energy Calibration}
+
+The energy of an event is first defined as the sum of the integral of the waveforms from both segment PMTs in ADC units. 
+The next step involves converting to energy units of MeV and correcting for longitudinal light collection variation.
+These procedures are performing using neutron captures on $^6$Li (nLi) because they are well understood and always peak at a quenched energy of around 0.53 MeV electron equivalent (MeVee). 
+
+After combining the waveforms for all events, the neutron captures at the center of the segment are calibrated to 0.526 MeVee, defining the energy scale for all segments and all classes of events. 
+Constraining the energy scale in this way creates a quadratic dependence of energy on position, as seen in the left panel of Figure~\ref{fig:ecorrection}.
+This is corrected for by calibrating a gain factor for each PMT using two metrics. 
+The first is the neutron capture signal at cell center, $S = \sqrt{S_0S_1}$, which is found by fitting the distribution in the left panel of Figure~\ref{fig:ecorrection} with a quadratic polynomial.
+The second is the light ratio, $R = S_1/S_0$, at cell center which is found by fitting the distribution in the right panel of Figure~\ref{fig:ecorrection} with a cubic polynomial.
+The gain factors for both PMTs are then defined as, 
+\begin{equation}
+	g_0 = \frac{S}{\sqrt{R}E_n} ~~~~~~~~~~~ g_1 = \frac{S\sqrt{R}}{E_n}
+\end{equation}
+where $E_n$ is the energy of the neutron capture peak. 
+
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/5-analysis-images/ECorrection}
+	\caption[Energy position dependence]{(Left) Neutron capture events in one segment versus dt, with a quadratic fit in red. (Right) The ln signal ratio versus dt for muon events in one segment, with a cubic polynomial fit in magenta.}
+	\label{fig:ecorrection}
+\end{figure}
+
+
+\section{Monte Carlo Simulation}
+
 
 
 

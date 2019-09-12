@@ -1,25 +1,25 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 SEP 2019 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 SEP 2019 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -28,26 +28,26 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \openout2 = `Latex/Macros/MacroFile1.aux'.
 
 (./Latex/Macros/MacroFile1.tex) (./Latex/packages.tex
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/03/24 v5.7 Page Geometry
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -58,31 +58,25 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/05/19 3.10 The Babel package
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/01/24 v3.3q English support from the babel system
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count92
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count91
 \U@D=\dimen111
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count93
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen112
@@ -93,9 +87,9 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen117
 \caption@hangindent=\dimen118
 )
-\c@ContinuedFloat=\count94
+\c@ContinuedFloat=\count92
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip43
@@ -107,59 +101,66 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen122
 \titlewidthfirst=\dimen123
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
 ))
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count95
-\c@@ppsavesec=\count96
-\c@@ppsaveapp=\count97
+\c@@pps=\count94
+\c@@ppsavesec=\count95
+\c@@ppsaveapp=\count96
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/physics/physics.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2018/03/05 L3 programming layer (loader) 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/13 L3 programming layer (loader) 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count98
-\l_tmpa_int=\count99
-\l_tmpb_int=\count100
-\g_tmpa_int=\count101
-\g_tmpb_int=\count102
-\g__intarray_font_int=\count103
-\g__prg_map_int=\count104
-\c_log_iow=\count105
-\l_iow_line_count_int=\count106
-\l__iow_line_target_int=\count107
-\l__iow_one_indent_int=\count108
-\l__iow_indent_int=\count109
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/13 L3 programming layer (code)
+\c_max_int=\count97
+\l_tmpa_int=\count98
+\l_tmpb_int=\count99
+\g_tmpa_int=\count100
+\g_tmpb_int=\count101
+\g__prg_map_int=\count102
+\c_log_iow=\count103
+\l_iow_line_count_int=\count104
+\l__iow_line_target_int=\count105
+\l__iow_one_indent_int=\count106
+\l__iow_indent_int=\count107
 \c_zero_dim=\dimen126
 \c_max_dim=\dimen127
 \l_tmpa_dim=\dimen128
@@ -178,77 +179,30 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count110
-\c__fp_leading_shift_int=\count111
-\c__fp_middle_shift_int=\count112
-\c__fp_trailing_shift_int=\count113
-\c__fp_big_leading_shift_int=\count114
-\c__fp_big_middle_shift_int=\count115
-\c__fp_big_trailing_shift_int=\count116
-\c__fp_Bigg_leading_shift_int=\count117
-\c__fp_Bigg_middle_shift_int=\count118
-\c__fp_Bigg_trailing_shift_int=\count119
-\c__fp_rand_size_int=\count120
-\c__fp_rand_four_int=\count121
-\c__fp_rand_eight_int=\count122
-\l__sort_length_int=\count123
-\l__sort_min_int=\count124
-\l__sort_top_int=\count125
-\l__sort_max_int=\count126
-\l__sort_true_max_int=\count127
-\l__sort_block_int=\count128
-\l__sort_begin_int=\count129
-\l__sort_end_int=\count130
-\l__sort_A_int=\count131
-\l__sort_B_int=\count132
-\l__sort_C_int=\count133
-\l__tl_build_start_index_int=\count134
-\l__tl_build_index_int=\count135
-\l__tl_analysis_normal_int=\count136
-\l__tl_analysis_index_int=\count137
-\l__tl_analysis_nesting_int=\count138
-\l__tl_analysis_type_int=\count139
-\l__regex_internal_a_int=\count140
-\l__regex_internal_b_int=\count141
-\l__regex_internal_c_int=\count142
-\l__regex_balance_int=\count143
-\l__regex_group_level_int=\count144
-\l__regex_mode_int=\count145
-\c__regex_cs_in_class_mode_int=\count146
-\c__regex_cs_mode_int=\count147
-\l__regex_catcodes_int=\count148
-\l__regex_default_catcodes_int=\count149
-\c__regex_catcode_D_int=\count150
-\c__regex_catcode_S_int=\count151
-\c__regex_catcode_L_int=\count152
-\c__regex_catcode_O_int=\count153
-\c__regex_catcode_A_int=\count154
-\c__regex_all_catcodes_int=\count155
-\l__regex_show_lines_int=\count156
-\l__regex_min_state_int=\count157
-\l__regex_max_state_int=\count158
-\l__regex_left_state_int=\count159
-\l__regex_right_state_int=\count160
-\l__regex_capturing_group_int=\count161
-\l__regex_min_pos_int=\count162
-\l__regex_max_pos_int=\count163
-\l__regex_curr_pos_int=\count164
-\l__regex_start_pos_int=\count165
-\l__regex_success_pos_int=\count166
-\l__regex_curr_char_int=\count167
-\l__regex_curr_catcode_int=\count168
-\l__regex_last_char_int=\count169
-\l__regex_case_changed_char_int=\count170
-\l__regex_curr_state_int=\count171
-\l__regex_step_int=\count172
-\l__regex_min_active_int=\count173
-\l__regex_max_active_int=\count174
-\l__regex_replacement_csnames_int=\count175
-\l__regex_match_count_int=\count176
-\l__regex_min_submatch_int=\count177
-\l__regex_submatch_int=\count178
-\l__regex_zeroth_submatch_int=\count179
-\g__regex_trace_regex_int=\count180
+\l_keys_choice_int=\count108
+\c__fp_leading_shift_int=\count109
+\c__fp_middle_shift_int=\count110
+\c__fp_trailing_shift_int=\count111
+\c__fp_big_leading_shift_int=\count112
+\c__fp_big_middle_shift_int=\count113
+\c__fp_big_trailing_shift_int=\count114
+\c__fp_Bigg_leading_shift_int=\count115
+\c__fp_Bigg_middle_shift_int=\count116
+\c__fp_Bigg_trailing_shift_int=\count117
+\c__fp_rand_size_int=\count118
+\c__fp_rand_four_int=\count119
+\c__fp_rand_eight_int=\count120
+\l__sort_length_int=\count121
+\l__sort_min_int=\count122
+\l__sort_top_int=\count123
+\l__sort_max_int=\count124
+\l__sort_true_max_int=\count125
+\l__sort_block_int=\count126
+\l__sort_begin_int=\count127
+\l__sort_end_int=\count128
+\l__sort_A_int=\count129
+\l__sort_B_int=\count130
+\l__sort_C_int=\count131
 \c_empty_box=\box27
 \l_tmpa_box=\box28
 \l_tmpb_box=\box29
@@ -290,61 +244,62 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l__coffin_scaled_total_height_dim=\dimen155
 \l__coffin_scaled_width_dim=\dimen156
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count181
+\l__driver_color_stack_int=\count132
+\l__driver_tmp_box=\box42
 ))
-Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count182
-\g__xparse_grabber_int=\count183
-\l__xparse_m_args_int=\count184
-\l__xparse_mandatory_args_int=\count185
-\l__xparse_v_nesting_int=\count186
+Package: xparse 2017/05/13 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count133
+\g__xparse_grabber_int=\count134
+\l__xparse_m_args_int=\count135
+\l__xparse_mandatory_args_int=\count136
+\l__xparse_v_nesting_int=\count137
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen157
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen158
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count187
+\inf@bad=\count138
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count188
-\leftroot@=\count189
+\uproot@=\count139
+\leftroot@=\count140
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count190
-\DOTSCASE@=\count191
+\classnum@=\count141
+\DOTSCASE@=\count142
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box42
-\strutbox@=\box43
+\Mathstrutbox@=\box43
+\strutbox@=\box44
 \big@size=\dimen159
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count192
-\c@MaxMatrixCols=\count193
+\macc@depth=\count143
+\c@MaxMatrixCols=\count144
 \dotsspace@=\muskip16
-\c@parentequation=\count194
-\dspbrk@lvl=\count195
+\c@parentequation=\count145
+\dspbrk@lvl=\count146
 \tag@help=\toks18
-\row@=\count196
-\column@=\count197
-\maxfields@=\count198
+\row@=\count147
+\column@=\count148
+\maxfields@=\count149
 \andhelp@=\toks19
 \eqnshift@=\dimen160
 \alignsep@=\dimen161
@@ -395,31 +350,6 @@ LaTeX Info: Redefining \] on input line 2818.
 . Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
 . d|| ' on line 62.
 .................................................
-
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\big ' for the command '\@quantity' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Big ' for the command '\@quantity' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\bigg ' for the command '\@quantity' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Bigg ' for the command '\@quantity' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -552,60 +482,12 @@ LaTeX Info: Redefining \] on input line 2818.
 . Defining command \@braces with sig. ' s t\big t\Big t\bigg t\Bigg m m m ' on
 . line 156.
 .................................................
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\big ' for the command '\@braces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Big ' for the command '\@braces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\bigg ' for the command '\@braces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Bigg ' for the command '\@braces' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \fbraces with sig. ' s t\big t\Big t\bigg t\Bigg m m m m '
 . on line 174.
 .................................................
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\big ' for the command '\fbraces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Big ' for the command '\fbraces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\bigg ' for the command '\fbraces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Bigg ' for the command '\fbraces' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1137,12 +1019,6 @@ LaTeX Info: Redefining \] on input line 2818.
 . 
 . Defining command \bra with sig. ' s m t\ket s g ' on line 526.
 .................................................
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\ket ' for the command '\bra' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1315,18 +1191,19 @@ LaTeX Info: Redefining \] on input line 2818.
 . 
 . Defining command \homework with sig. '' on line 764.
 .................................................
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count199
+\c@float@type=\count150
 \float@exts=\toks22
-\float@box=\box44
+\float@box=\box45
 \@float@everytoks=\toks23
-\@floatcapt=\box45
-) (./thesis.aux (./tex/0-Abstract.aux) (./tex/0-Acknowledgements.aux)
-(./tex/1-Introduction.aux) (./tex/2-Neutrinos.aux)
-(./tex/3-ReactorNeutrinos.aux) (./tex/4-Prospect.aux) (./tex/5-Analysis.aux)
-(./tex/6-Ac227.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
-(./tex/Appendix.aux))
+\@floatcapt=\box46
+) (./thesis.aux
+(./tex/0-Abstract.aux) (./tex/0-Acknowledgements.aux) (./tex/1-Introduction.aux
+) (./tex/2-Neutrinos.aux) (./tex/3-ReactorNeutrinos.aux) (./tex/4-Prospect.aux)
+(./tex/5-Analysis.aux) (./tex/6-Ac227.aux) (./tex/7-Oscillation.aux)
+(./tex/8-Conclusions.aux) (./tex/Appendix.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -1379,68 +1256,62 @@ LaTeX Font Info:    ... okay on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count266
+\scratchcounter=\count151
 \scratchdimen=\dimen166
-\scratchbox=\box46
-\nofMPsegments=\count267
-\nofMParguments=\count268
+\scratchbox=\box47
+\nofMPsegments=\count152
+\nofMParguments=\count153
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count269
+\MPscratchCnt=\count154
 \MPscratchDim=\dimen167
-\MPnumerator=\count270
-\makeMPintoPDFobject=\count271
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
 \everyMPtoPDFconversion=\toks25
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -1448,7 +1319,7 @@ e
 
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `tex/0-Abstract.aux'.
 
  (./tex/0-Abstract.tex [1
@@ -1501,9 +1372,10 @@ CHAPTER 2.
 ] [3] [4] [5] [6]
 <tex/2-neutrinos-images/SolarFlux.pdf, id=60, 580.2208pt x 410.11418pt>
 File: tex/2-neutrinos-images/SolarFlux.pdf Graphic file (type pdf)
+
 <use tex/2-neutrinos-images/SolarFlux.pdf>
-Package pdftex.def Info: tex/2-neutrinos-images/SolarFlux.pdf  used on input li
-ne 207.
+Package pdftex.def Info: tex/2-neutrinos-images/SolarFlux.pdf used on input lin
+e 207.
 (pdftex.def)             Requested size: 303.53267pt x 214.54346pt.
 
 
@@ -1515,14 +1387,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./tex/3-ReactorNeutrinos.tex
 CHAPTER 3.
+
 <tex/3-reactorneutrinos-images/NuclideChart_U235.pdf, id=86, 1027.84pt x 770.88
 pt>
 File: tex/3-reactorneutrinos-images/NuclideChart_U235.pdf Graphic file (type pd
 f)
-<use tex/3-reactorneutrinos-images/NuclideChart_U235.pdf>
-Package pdftex.def Info: tex/3-reactorneutrinos-images/NuclideChart_U235.pdf  u
-sed on input line 18.
+ <use tex/3-reactorneutrinos-images/NuclideChart_U235.pdf>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/NuclideChart_U235.pdf us
+ed on input line 18.
 (pdftex.def)             Requested size: 303.53267pt x 227.65465pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1532,33 +1406,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [12 <./tex/3-reactorneutrinos-images/NuclideChart_U235.pdf>]
 <tex/3-reactorneutrinos-images/Spectrum.png, id=120, 454.69875pt x 314.67563pt>
-
 File: tex/3-reactorneutrinos-images/Spectrum.png Graphic file (type png)
 <use tex/3-reactorneutrinos-images/Spectrum.png>
-Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrum.png  used on in
-put line 48.
+Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrum.png used on inp
+ut line 48.
 (pdftex.def)             Requested size: 281.85036pt x 195.05846pt.
  [13 <./tex/3-reactorneutrinos-images/Spectrum.png>] [14]
 Package epstopdf Info: Source file: <tex/3-reactorneutrinos-images/vogel-fig02.
 eps>
-(epstopdf)                    date: 2019-07-24 11:15:03
+(epstopdf)                    date: 2019-07-22 17:47:09
 (epstopdf)                    size: 29675 bytes
 (epstopdf)             Output file: <tex/3-reactorneutrinos-images/vogel-fig02-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-24 11:15:03
+(epstopdf)                    date: 2019-07-22 17:47:52
 (epstopdf)                    size: 17821 bytes
 (epstopdf)             Command: <repstopdf --outfile=tex/3-reactorneutrinos-ima
 ges/vogel-fig02-eps-converted-to.pdf tex/3-reactorneutrinos-images/vogel-fig02.
 eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
+
 <tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf, id=129, 508.90
 125pt x 498.86375pt>
 File: tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf Graphic fi
 le (type pdf)
+
 <use tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/vogel-fig02-eps-converte
-d-to.pdf  used on input line 106.
+d-to.pdf used on input line 106.
 (pdftex.def)             Requested size: 238.49232pt x 233.78851pt.
 
 
@@ -1568,40 +1443,44 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=133, 561.6992pt x 258.60815p
 t>
 File: tex/3-reactorneutrinos-images/DayaBayFlux.pdf Graphic file (type pdf)
-<use tex/3-reactorneutrinos-images/DayaBayFlux.pdf>
-Package pdftex.def Info: tex/3-reactorneutrinos-images/DayaBayFlux.pdf  used on
- input line 123.
+ <use tex/3-reactorneutrinos-images/DayaBayFlux.pdf>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/DayaBayFlux.pdf used on 
+input line 123.
 (pdftex.def)             Requested size: 303.53267pt x 139.74892pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
 <tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=134, 540.55484pt x 376.6756
 6pt>
 File: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf Graphic file (type pdf)
-<use tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>
-Package pdftex.def Info: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf  used o
-n input line 135.
+ <use tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf used on
+ input line 135.
 (pdftex.def)             Requested size: 260.17465pt x 181.30229pt.
-[16 <./tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>]
-[17 <./tex/3-reactorneutrinos-images/DayaBayFlux.pdf> <./tex/3-reactorneutrinos
--images/WorldAvgFlux.pdf>]
+ [16 <./tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [17 <./tex/3-reactorneutrinos-images/DayaBayFlux.pdf> <./tex/3-reactorneutrino
+s-images/WorldAvgFlux.pdf>]
 <tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, id=176, 618.8849pt x 448.6
 1086pt>
 File: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf Graphic file (type pdf
 )
-<use tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf>
-Package pdftex.def Info: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf  us
-ed on input line 152.
+ <use tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf use
+d on input line 152.
 (pdftex.def)             Requested size: 303.53267pt x 220.01974pt.
  [18 <./tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, page is rotated 90 
 degrees>]
 <tex/3-reactorneutrinos-images/Spectrums.pdf, id=192, 1770.28087pt x 751.42572p
 t>
 File: tex/3-reactorneutrinos-images/Spectrums.pdf Graphic file (type pdf)
-<use tex/3-reactorneutrinos-images/Spectrums.pdf>
-Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrums.pdf  used on i
-nput line 164.
+ <use tex/3-reactorneutrinos-images/Spectrums.pdf>
+Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrums.pdf used on in
+put line 164.
 (pdftex.def)             Requested size: 433.62001pt x 184.04932pt.
 ) [19 <./tex/3-reactorneutrinos-images/Spectrums.pdf>]
 \openout2 = `tex/4-Prospect.aux'.
@@ -1612,37 +1491,42 @@ CHAPTER 4.
 
 
 
-]
-<tex/4-prospect-images/HFIR.pdf, id=232, 932.19421pt x 356.56631pt>
+] <tex/4-prospect-images/HFIR.pdf, id=232, 932.19421pt x 356.56631pt>
 File: tex/4-prospect-images/HFIR.pdf Graphic file (type pdf)
-<use tex/4-prospect-images/HFIR.pdf>
-Package pdftex.def Info: tex/4-prospect-images/HFIR.pdf  used on input line 20.
 
+<use tex/4-prospect-images/HFIR.pdf>
+Package pdftex.def Info: tex/4-prospect-images/HFIR.pdf used on input line 20.
 (pdftex.def)             Requested size: 390.25536pt x 149.2726pt.
  [21 <./tex/4-prospect-images/HFIR.pdf>]
 <tex/4-prospect-images/Shielding.pdf, id=266, 385.68768pt x 289.85017pt>
 File: tex/4-prospect-images/Shielding.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/Shielding.pdf>
-Package pdftex.def Info: tex/4-prospect-images/Shielding.pdf  used on input lin
-e 41.
+Package pdftex.def Info: tex/4-prospect-images/Shielding.pdf used on input line
+ 41.
 (pdftex.def)             Requested size: 216.81pt x 162.93858pt.
+
 <tex/4-prospect-images/AD.pdf, id=267, 762.22186pt x 507.68507pt>
 File: tex/4-prospect-images/AD.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/AD.pdf>
-Package pdftex.def Info: tex/4-prospect-images/AD.pdf  used on input line 55.
+Package pdftex.def Info: tex/4-prospect-images/AD.pdf used on input line 55.
 (pdftex.def)             Requested size: 346.89732pt x 231.0513pt.
- [22 <./tex/4-prospect-images/Shielding.pdf>]
-<tex/4-prospect-images/ADCrossSection.pdf, id=303, 794.97pt x 614.295pt>
+ [22 <./tex/4-prospect-images/Shielding.pdf>] <tex/4-prospect-images/ADCrossSec
+tion.pdf, id=303, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/ADCrossSection.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/ADCrossSection.pdf>
-Package pdftex.def Info: tex/4-prospect-images/ADCrossSection.pdf  used on inpu
-t line 76.
+Package pdftex.def Info: tex/4-prospect-images/ADCrossSection.pdf used on input
+ line 76.
 (pdftex.def)             Requested size: 197.72832pt x 152.786pt.
+
 <tex/4-prospect-images/PMTHousing.pdf, id=304, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/PMTHousing.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/PMTHousing.pdf>
-Package pdftex.def Info: tex/4-prospect-images/PMTHousing.pdf  used on input li
-ne 82.
+Package pdftex.def Info: tex/4-prospect-images/PMTHousing.pdf used on input lin
+e 82.
 (pdftex.def)             Requested size: 197.72832pt x 152.786pt.
 
 
@@ -1655,47 +1539,57 @@ LaTeX Warning: No positions in optional float specifier.
 
 <tex/4-prospect-images/Pinwheels.pdf, id=442, 441.59581pt x 467.7706pt>
 File: tex/4-prospect-images/Pinwheels.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/Pinwheels.pdf>
-Package pdftex.def Info: tex/4-prospect-images/Pinwheels.pdf  used on input lin
-e 108.
+Package pdftex.def Info: tex/4-prospect-images/Pinwheels.pdf used on input line
+ 108.
 (pdftex.def)             Requested size: 138.75679pt x 146.97736pt.
+
 <tex/4-prospect-images/FullSegment.pdf, id=443, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/FullSegment.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/FullSegment.pdf>
-Package pdftex.def Info: tex/4-prospect-images/FullSegment.pdf  used on input l
-ine 116.
+Package pdftex.def Info: tex/4-prospect-images/FullSegment.pdf used on input li
+ne 116.
 (pdftex.def)             Requested size: 203.97214pt x 157.61328pt.
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 122.
 
 <tex/4-prospect-images/RowAssembly.pdf, id=444, 791.73323pt x 446.40424pt>
 File: tex/4-prospect-images/RowAssembly.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/RowAssembly.pdf>
-Package pdftex.def Info: tex/4-prospect-images/RowAssembly.pdf  used on input l
-ine 124.
+Package pdftex.def Info: tex/4-prospect-images/RowAssembly.pdf used on input li
+ne 124.
 (pdftex.def)             Requested size: 303.53267pt x 171.14072pt.
+
 <tex/4-prospect-images/CompletedDetector.pdf, id=445, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/CompletedDetector.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/CompletedDetector.pdf>
-Package pdftex.def Info: tex/4-prospect-images/CompletedDetector.pdf  used on i
-nput line 140.
+Package pdftex.def Info: tex/4-prospect-images/CompletedDetector.pdf used on in
+put line 140.
 (pdftex.def)             Requested size: 303.53267pt x 234.54994pt.
-[24 <./tex/4-prospect-images/ADCrossSection.pdf> <./tex/4-prospect-images/PMTHo
-using.pdf>] [25 <./tex/4-prospect-images/Pinwheels.pdf> <./tex/4-prospect-image
-s/FullSegment.pdf> <./tex/4-prospect-images/RowAssembly.pdf, page is rotated 90
- degrees>] [26 <./tex/4-prospect-images/CompletedDetector.pdf>]
+ [24 <./tex/4-prospect-images/ADCrossSection.pdf> <./tex/4-prospect-images/PMTH
+ousing.pdf>] [25 <./tex/4-prospect-images/Pinwheels.pdf> <./tex/4-prospect-imag
+es/FullSegment.pdf> <./tex/4-prospect-images/RowAssembly.pdf, page is rotated 9
+0 degrees>] [26 <./tex/4-prospect-images/CompletedDetector.pdf>]
 <tex/4-prospect-images/ADCalibrationTubes.pdf, id=572, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/ADCalibrationTubes.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/ADCalibrationTubes.pdf>
-Package pdftex.def Info: tex/4-prospect-images/ADCalibrationTubes.pdf  used on 
-input line 184.
+Package pdftex.def Info: tex/4-prospect-images/ADCalibrationTubes.pdf used on i
+nput line 184.
 (pdftex.def)             Requested size: 303.53267pt x 234.54994pt.
+
 <tex/4-prospect-images/SourceCapsule.pdf, id=573, 451.19441pt x 122.07768pt>
 File: tex/4-prospect-images/SourceCapsule.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/SourceCapsule.pdf>
-Package pdftex.def Info: tex/4-prospect-images/SourceCapsule.pdf  used on input
- line 191.
+Package pdftex.def Info: tex/4-prospect-images/SourceCapsule.pdf used on input 
+line 191.
 (pdftex.def)             Requested size: 303.53267pt x 82.12503pt.
 
 
@@ -1704,9 +1598,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [27 <./tex/4-prospect-images/ADCalibrationTubes.pdf>]
 <tex/4-prospect-images/LiLS.pdf, id=593, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/LiLS.pdf Graphic file (type pdf)
+
 <use tex/4-prospect-images/LiLS.pdf>
-Package pdftex.def Info: tex/4-prospect-images/LiLS.pdf  used on input line 220
-.
+Package pdftex.def Info: tex/4-prospect-images/LiLS.pdf used on input line 220.
+
 (pdftex.def)             Requested size: 260.17465pt x 201.04951pt.
 
 
@@ -1716,9 +1611,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 iLS.pdf, page is rotated 90 degrees>]
 <tex/4-prospect-images/DAQ.pdf, id=628, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/DAQ.pdf Graphic file (type pdf)
-<use tex/4-prospect-images/DAQ.pdf>
-Package pdftex.def Info: tex/4-prospect-images/DAQ.pdf  used on input line 262.
 
+<use tex/4-prospect-images/DAQ.pdf>
+Package pdftex.def Info: tex/4-prospect-images/DAQ.pdf used on input line 262.
 (pdftex.def)             Requested size: 303.53267pt x 234.54994pt.
 ) [30 <./tex/4-prospect-images/DAQ.pdf, page is rotated 90 degrees>]
 \openout2 = `tex/5-Analysis.aux'.
@@ -1729,18 +1624,20 @@ CHAPTER 5.
 
 
 
-]
-<tex/5-analysis-images/PSD_Define.pdf, id=649, 975.10391pt x 333.86061pt>
+] <tex/5-analysis-images/PSD_Define.pdf, id=649, 975.10391pt x 333.86061pt>
 File: tex/5-analysis-images/PSD_Define.pdf Graphic file (type pdf)
+
 <use tex/5-analysis-images/PSD_Define.pdf>
-Package pdftex.def Info: tex/5-analysis-images/PSD_Define.pdf  used on input li
-ne 26.
+Package pdftex.def Info: tex/5-analysis-images/PSD_Define.pdf used on input lin
+e 26.
 (pdftex.def)             Requested size: 429.28618pt x 146.98062pt.
+
 <tex/5-analysis-images/PSD_vs_S.pdf, id=650, 597.95784pt x 424.07283pt>
 File: tex/5-analysis-images/PSD_vs_S.pdf Graphic file (type pdf)
+
 <use tex/5-analysis-images/PSD_vs_S.pdf>
-Package pdftex.def Info: tex/5-analysis-images/PSD_vs_S.pdf  used on input line
- 33.
+Package pdftex.def Info: tex/5-analysis-images/PSD_vs_S.pdf used on input line 
+33.
 (pdftex.def)             Requested size: 260.17465pt x 184.52196pt.
 
 
@@ -1749,15 +1646,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [32 <./tex/5-analysis-images/PSD_Define.pdf>]
 <tex/5-analysis-images/dt_S_Hobbes.pdf, id=684, 473.778pt x 423.58633pt>
 File: tex/5-analysis-images/dt_S_Hobbes.pdf Graphic file (type pdf)
+
 <use tex/5-analysis-images/dt_S_Hobbes.pdf>
-Package pdftex.def Info: tex/5-analysis-images/dt_S_Hobbes.pdf  used on input l
-ine 69.
+Package pdftex.def Info: tex/5-analysis-images/dt_S_Hobbes.pdf used on input li
+ne 69.
 (pdftex.def)             Requested size: 205.96883pt x 184.14868pt.
+
 <tex/5-analysis-images/HobbesFit.pdf, id=685, 448.0274pt x 459.66742pt>
 File: tex/5-analysis-images/HobbesFit.pdf Graphic file (type pdf)
+
 <use tex/5-analysis-images/HobbesFit.pdf>
-Package pdftex.def Info: tex/5-analysis-images/HobbesFit.pdf  used on input lin
-e 75.
+Package pdftex.def Info: tex/5-analysis-images/HobbesFit.pdf used on input line
+ 75.
 (pdftex.def)             Requested size: 184.28981pt x 189.08208pt.
 
 Overfull \hbox (2.61107pt too wide) in paragraph at lines 67--79
@@ -1766,21 +1666,27 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 67--79
 
 <tex/5-analysis-images/z_vs_dt.pdf, id=686, 666.1079pt x 448.73868pt>
 File: tex/5-analysis-images/z_vs_dt.pdf Graphic file (type pdf)
+
 <use tex/5-analysis-images/z_vs_dt.pdf>
-Package pdftex.def Info: tex/5-analysis-images/z_vs_dt.pdf  used on input line 
-83.
-(pdftex.def)             Requested size: 260.17465pt x 175.27441pt.
+Package pdftex.def Info: tex/5-analysis-images/z_vs_dt.pdf used on input line 8
+3.
+(pdftex.def)             Requested size: 216.81pt x 146.05745pt.
+ [33 <./tex/5-analysis-images/PSD_vs_S.pdf>] [34 <./tex/5-analysis-images/dt_S_
+Hobbes.pdf> <./tex/5-analysis-images/HobbesFit.pdf> <./tex/5-analysis-images/z_
+vs_dt.pdf, page is rotated 90 degrees>]
+<tex/5-analysis-images/ECorrection.pdf, id=754, 1234.32738pt x 566.17792pt>
+File: tex/5-analysis-images/ECorrection.pdf Graphic file (type pdf)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [33 <./tex/5-analysis-images/PSD_vs_S.pdf>] [34 <./tex/5-analysis-images/dt_S
-_Hobbes.pdf> <./tex/5-analysis-images/HobbesFit.pdf> <./tex/5-analysis-images/z
-_vs_dt.pdf, page is rotated 90 degrees>]
+<use tex/5-analysis-images/ECorrection.pdf>
+Package pdftex.def Info: tex/5-analysis-images/ECorrection.pdf used on input li
+ne 108.
+(pdftex.def)             Requested size: 390.25536pt x 179.00356pt.
+) [35 <./tex/5-analysis-images/ECorrection.pdf>]
 \openout2 = `tex/6-Ac227.aux'.
 
  (./tex/6-Ac227.tex
 CHAPTER 6.
-) [35
+) [36
 
 
 
@@ -1789,7 +1695,7 @@ CHAPTER 6.
 
  (./tex/7-Oscillation.tex
 CHAPTER 7.
-) [36
+) [37
 
 
 
@@ -1798,24 +1704,30 @@ CHAPTER 7.
 
  (./tex/8-Conclusions.tex
 CHAPTER 8.
-) [37
+) [38
 
 
 
-] (./thesis.bbl [38
+] (./thesis.bbl [39
 
 
-] [39] [40] [41]) [42]
+]
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ­ in font cmr12!
+ [40]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+ [41] [42]) [43]
 \openout2 = `tex/Appendix.aux'.
 
  (./tex/Appendix.tex
 Appendix A.
-[43
+[44
 
 
 ]
 Appendix B.
-) [44
+) [45
 
 ]
 No file thesis.ind.
@@ -1825,33 +1737,33 @@ No file thesis.ind.
 (./tex/6-Ac227.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
 (./tex/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 13801 strings out of 492649
- 255380 string characters out of 6129622
- 309446 words of memory out of 5000000
- 17453 multiletter control sequences out of 15000+600000
- 541739 words of font info for 61 fonts, out of 8000000 for 9000
+ 12852 strings out of 492995
+ 231725 string characters out of 6132704
+ 278507 words of memory out of 5000000
+ 16178 multiletter control sequences out of 15000+600000
+ 15107 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
-fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (52 pages, 12295062 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (53 pages, 12468267 bytes).
 PDF statistics:
- 842 PDF objects out of 1000 (max. 8388607)
- 574 compressed objects within 6 object streams
+ 868 PDF objects out of 1000 (max. 8388607)
+ 591 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
