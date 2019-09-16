@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -13,53 +13,53 @@ A level-1 auxiliary file: tex/7-Oscillation.aux
 A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
-Database file #1: ThesisBib.bib
+Database file #1: ThesisBib.bib.bib
 Warning--entry type for "Heffron" isn't style-file defined
---line 978 of file ThesisBib.bib
+--line 978 of file ThesisBib.bib.bib
 Warning--entry type for "Hackett" isn't style-file defined
---line 989 of file ThesisBib.bib
+--line 989 of file ThesisBib.bib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 56 entries,
+You've used 57 entries,
             1791 wiz_defined-function locations,
-            833 strings with 12022 characters,
-and the built_in function-call counts, 11672 in all, are:
-= -- 1026
-> -- 487
-< -- 0
-+ -- 186
-- -- 130
-* -- 764
-:= -- 1923
-add.period$ -- 174
-call.type$ -- 56
-change.case$ -- 57
+            842 strings with 12235 characters,
+and the built_in function-call counts, 12083 in all, are:
+= -- 1069
+> -- 495
+< -- 1
++ -- 189
+- -- 132
+* -- 785
+:= -- 1977
+add.period$ -- 178
+call.type$ -- 57
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 466
-empty$ -- 1193
-format.name$ -- 130
-if$ -- 2572
+cite$ -- 60
+duplicate$ -- 490
+empty$ -- 1235
+format.name$ -- 132
+if$ -- 2677
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 47
-newline$ -- 289
-num.names$ -- 56
-pop$ -- 105
+int.to.str$ -- 57
+missing$ -- 48
+newline$ -- 294
+num.names$ -- 59
+pop$ -- 109
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 199
+skip$ -- 217
 stack$ -- 0
-substring$ -- 864
-swap$ -- 52
-text.length$ -- 0
+substring$ -- 900
+swap$ -- 64
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 106
-width$ -- 58
-write$ -- 613
+while$ -- 110
+width$ -- 59
+write$ -- 626
 (There were 5 warnings)

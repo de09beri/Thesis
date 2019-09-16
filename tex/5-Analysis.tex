@@ -63,14 +63,16 @@ Then, the residual structure is fit to a sinusoidal curve with a slowly varying 
 where $\delta$ = 78.5 mm is the average spacing between pinwheel tabs, and $k, a, b$ are fit parameters.
 The inner phase term provides the position calibration $z(dt) = a~dt + b~dt^3$, whose resulting curves are shown in Figure~\ref{fig:zvsdt}.
 
-\begin{figure}
-	\begin{minipage}[t]{0.5\linewidth}
+\newpage
+
+\begin{figure}[h]
+	\begin{minipage}[h]{0.5\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{tex/5-analysis-images/dt_S_Hobbes}
 		\caption[Muon $dt$ versus signal amplitude]{$dt$ versus signal amplitude for through-going cosmogenic muons \cite{MM:2314}. Striping is visible at time intervals corresponding to pinwheel placement.}
 		\label{fig:dtshobbes}
 	\end{minipage}
-	\begin{minipage}[t]{0.5\linewidth}
+	\begin{minipage}[h]{0.5\linewidth}
 		\centering
 		\includegraphics[width=0.85\linewidth]{tex/5-analysis-images/HobbesFit}
 		\caption[Muon $dt$ for a single segment]{$dt$ of through-going muons in a single segment for events with signal amplitudes in the range  1$e$4 -  2$e$4 ADC \cite{MM:2314}. Data (blue points) are fit with an ``M"-shaped curve (red) and a sinusoidal curve (magenta).}
@@ -85,6 +87,7 @@ The inner phase term provides the position calibration $z(dt) = a~dt + b~dt^3$, 
 	\label{fig:zvsdt}
 \end{figure}
 
+\newpage
 \subsection{Energy Calibration}
 
 The energy of an event is first defined as the sum of the integral of the waveforms from both segment PMTs in ADC units. 
@@ -103,7 +106,7 @@ The gain factors for both PMTs are then defined as,
 where $E_n$ is the energy of the neutron capture peak. 
 
 
-\begin{figure}[t]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/5-analysis-images/ECorrection}
 	\caption[Energy position dependence]{(Left) Neutron capture events in one segment versus dt, with a quadratic fit in red. (Right) The ln signal ratio versus dt for muon events in one segment, with a cubic polynomial fit in magenta.}
@@ -116,9 +119,33 @@ where $E_n$ is the energy of the neutron capture peak.
 Due to the geometry of the PROSPECT detector and properties of the scintillator, reconstructed events are highly position and energy dependent. 
 In order perform an oscillation analysis it is important to understand the detector response to incoming antineutrino events. 
 This is done by modeling the detector, including all material and scintillator properties, in a GEANT-4 based simulation package hereto referred to as PROSPECT-G4 (PG4).
-Monte Carlo (MC) simulations with PG4 generate a position-dependent energy response that is used to then interpret physics data. 
+Monte Carlo (MC) simulations with PG4 generate a position-dependent energy response that is used to interpret real physics data. 
 This can only be done if PG4 behaves the same way that the PROSPECT detector does. 
 This is ensured by tuning values in PG4 to reproduce distributions measured by a variety of radioactive calibration sources and intrinsic background energy depositions.
+
+\subsection{Nonlinearity}
+
+The nonlinearity of the scintillator response at low energies is parameterized in PG4 using a combination of Birks' quenching model \cite{BIRKS1964269} and a Cherenkov radiation model.
+Birks' law defines the light yield per path length as a function of the energy loss per path length for a particle traveling through scintillator and at each simulation step $i$ is applied using
+\begin{equation}
+	\frac{dE_{scint}}{dx} = \frac{\frac{dE}{dx}}{1 + k_{B1}\frac{dE}{dx} + k_{B2}\left(\frac{dE}{dx}\right)^2}
+\end{equation}
+where $k_{B1}$ and $k_{B2}$ are the Birks' constants which depend on the material and $dE/dx$ is the true deposited energy.
+
+Particles traveling faster than the speed of light in the scintillator can emit Cherenkov radiation, therefore, the number of Cherenkov photons, $N$, generated at each simulation step is calculated as
+\begin{equation}
+	\frac{d^2N}{dxd\lambda} = \frac{2\pi \alpha z^2}{\lambda}\left(1-\frac{1}{\beta^2n^2(\lambda)}\right)
+\end{equation}
+where $\alpha$ is the fine structure constant, $z$ is the particle's electric charge, $\beta$ is the speed of the particle, and $n(\lambda)$ is the index of refraction.
+The energy emitted from the Cherenkov radiation is then calculated as the summed energy of detected Cherenkov photons,
+\begin{equation}
+	E_c = k_c \sum_{\lambda}N_\lambda E_\lambda
+\end{equation}
+where $k_c$ is the efficiency of detecting Cherenkov light. 
+Comparison between data and MC allows the tuning of both Birks' constants, $k_{B1}$ and $k_{B2}$, and $k_c$.
+
+\subsection{Energy Response}
+
 
 
 
