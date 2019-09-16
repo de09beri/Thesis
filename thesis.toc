@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
 \contentsline {chapter}{LIST OF FIGURES}{vii}
