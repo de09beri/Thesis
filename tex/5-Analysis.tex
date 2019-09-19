@@ -158,26 +158,37 @@ The best-fit parameters determined by these studies are $(A,k_{B1},k_{B2},k_c) =
 
 Further agreement can be seen when comparing the peak locations for all $\gamma$-ray sources as seen in Figure~\ref{fig:gammascale}. The ratio between data and MC is shown to be within $\pm$1\% for all sources for three different time periods.
 
-
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/5-analysis-images/GammaE}
-	\caption[]{Reconstructed distributions for calibration and best-fit PG4 Monte Carlo datasets \cite{XZhang:2815}. Top: $E_{rec}$ for detector-center $\gamma$-ray source deployments; Center top: $E_{rec}$ for n-H captures from a detector-center $^{252}$Cf source deployment; Center bottom: $E_{rec}$ for cosmogenically produced $^{12}$B; Bottom: pulse multiplicity for detector-center $^{137}$Cs and $^{22}$Na source deployments. Error bands indicate statistical (data) and systematic (PG4) uncertainties.}
+	\caption[MC-data comparison of reconstructed energy]{Reconstructed energy distributions for calibration data and PG4 Monte Carlo simulations \cite{XZhang:2815}. (i): $E_{rec}$ for $\gamma$-ray source deployments; (ii): $E_{rec}$ for n-H captures from a $^{252}$Cf source deployment; (iii): $E_{rec}$ for cosmogenically produced $^{12}$B; (iv): pulse multiplicity for $^{137}$Cs and $^{22}$Na source deployments. Error bands indicate statistical (data) and systematic (PG4) uncertainties.}
 	\label{fig:gammae}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/5-analysis-images/GammaScale}
-	\caption[]{Ratios of $\gamma$ calibration source reconstructed energy peak locations between data and PG4 Monte Carlo simulations utilizing best-fit energy response modeling, plotted versus mean true gamma energy \cite{XZhang:2815}. Error bands indicate statistical and systematic uncertainties. Top: ratios for calibration source datasets used in the determination of the best-fit PG4 response model. Bottom: ratios for calibration source datasets taken during different run periods. Ratios for all datasets are within $\sim$1\% of unity, indicating excellent response modeling in PG4 for a wide variety of signal energies and multiplicities.}
+	\caption[MC-data reconstructed energy peak ratio for $\gamma$ sources]{Ratio of data versus PG4 Monte Carlo simulation energy peak locations of the given $\gamma$ sources, plotted versus true gamma energy for three different time periods \cite{XZhang:2815}. Error bands indicate statistical and systematic uncertainties. Ratios for all datasets are within $\sim$1\% of unity, indicating accurate energy response modeling in PG4 for a wide energy range.}
 	\label{fig:gammascale}
 \end{figure}
+
+\subsection{Energy Resolution}
+
+A comparison of MC and data energy distributions of the $\gamma$-ray sources can also be used to define an energy resolution function. 
+MC simulated energy distributions are smeared according to Gaussian distributions until they match data. 
+The resolution of the smeared distributions is then compared to the true deposited energy and fit with the function
+\begin{equation}
+	\frac{\sigma_E}{E_{rec}} = \sqrt{a^2 + \frac{b^2}{E_{rec}} + \frac{c^2}{E^2_{rec}}}
+	\label{eq:ERes}
+\end{equation}
+where $a, b$, and $c$ are dependent on detector geometry, photostatistics (PE/MeV), and PMT quantum efficiency respectively. 
+The results of this can be seen in Figure~\ref{fig:gammares}, where the parameters are found to be $(a,b,c) = (1.15\%\pm0.47\%, 4.61\%\pm0.24\%, 0\pm1.3\%)$, resulting in an energy resolution at 1 MeV of $4.76\%\pm0.2\%$.
+
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/5-analysis-images/GammaRes}
-	\caption[]{Fractional PG4-modeled energy resolution variation versus mean true gamma energy \cite{XZhang:2815}. Error bands indicate statistical and systematic uncertainties. Good agreement is visible between the PG4 model and the pictured gamma calibration datasets.}
+	\caption[]{Energy resolution of PG4 Monte Carlo simulation distributions matched to data versus true gamma energy for the given calibration sources fit with the function in Eq.~\ref{eq:ERes} \cite{XZhang:2815}. Error bands indicate statistical and systematic uncertainties.}
 	\label{fig:gammares}
 \end{figure}
 
