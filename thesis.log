@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 SEP 2019 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 SEP 2019 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1722,16 +1722,33 @@ f, page is rotated 90 degrees>]
 
  (./tex/6-Ac227.tex
 CHAPTER 6.
-) [41
+<tex/6-ac227-images/Ac227Chain.png, id=912, 754.82pt x 731.73375pt>
+File: tex/6-ac227-images/Ac227Chain.png Graphic file (type png)
+
+<use tex/6-ac227-images/Ac227Chain.png>
+Package pdftex.def Info: tex/6-ac227-images/Ac227Chain.png used on input line 9
+.
+(pdftex.def)             Requested size: 303.53267pt x 294.2403pt.
+
+<tex/6-ac227-images/Actinium_agSpectrum.pdf, id=913, 1027.84pt x 391.4625pt>
+File: tex/6-ac227-images/Actinium_agSpectrum.pdf Graphic file (type pdf)
+
+<use tex/6-ac227-images/Actinium_agSpectrum.pdf>
+Package pdftex.def Info: tex/6-ac227-images/Actinium_agSpectrum.pdf used on inp
+ut line 16.
+(pdftex.def)             Requested size: 303.53267pt x 115.60587pt.
+ [41
 
 
 
-]
+ <./tex/6-ac227-images/Ac227Chain.png>]) [42 <./tex/6-ac227-images/Actinium_agS
+pectrum.pdf>]
 \openout2 = `tex/7-Oscillation.aux'.
 
- (./tex/7-Oscillation.tex
+
+(./tex/7-Oscillation.tex
 CHAPTER 7.
-) [42
+) [43
 
 
 
@@ -1740,30 +1757,30 @@ CHAPTER 7.
 
  (./tex/8-Conclusions.tex
 CHAPTER 8.
-) [43
+) [44
 
 
 
-] (./thesis.bbl [44
+] (./thesis.bbl [45
 
 
 ]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ­ in font cmr12!
- [45]
+ [46]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [46] [47]) [48]
+ [47] [48] [49]) [50]
 \openout2 = `tex/Appendix.aux'.
 
  (./tex/Appendix.tex
 Appendix A.
-[49
+[51
 
 
 ]
 Appendix B.
-) [50
+) [52
 
 ]
 No file thesis.ind.
@@ -1773,10 +1790,10 @@ No file thesis.ind.
 (./tex/6-Ac227.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
 (./tex/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12873 strings out of 492995
- 232304 string characters out of 6132704
- 278561 words of memory out of 5000000
- 16196 multiletter control sequences out of 15000+600000
+ 12888 strings out of 492995
+ 232751 string characters out of 6132704
+ 278599 words of memory out of 5000000
+ 16208 multiletter control sequences out of 15000+600000
  15107 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1796,10 +1813,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (59 pages, 12578596 bytes).
+Output written on thesis.pdf (61 pages, 13305617 bytes).
 PDF statistics:
- 999 PDF objects out of 1000 (max. 8388607)
- 658 compressed objects within 7 object streams
+ 1031 PDF objects out of 1200 (max. 8388607)
+ 678 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
