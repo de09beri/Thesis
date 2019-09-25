@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 SEP 2019 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 SEP 2019 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,17 +1345,17 @@ e
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [7] (./thesis.lot)
+ [7] [8] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [8
+
+[9
 
 ]
 \openout2 = `tex/1-Introduction.aux'.
 
-
-(./tex/1-Introduction.tex
+ (./tex/1-Introduction.tex
 CHAPTER 1.
 ) [1
 
@@ -1370,7 +1370,7 @@ CHAPTER 2.
 
 
 ] [3] [4] [5] [6]
-<tex/2-neutrinos-images/SolarFlux.pdf, id=63, 580.2208pt x 410.11418pt>
+<tex/2-neutrinos-images/SolarFlux.pdf, id=66, 580.2208pt x 410.11418pt>
 File: tex/2-neutrinos-images/SolarFlux.pdf Graphic file (type pdf)
 
 <use tex/2-neutrinos-images/SolarFlux.pdf>
@@ -1388,7 +1388,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  (./tex/3-ReactorNeutrinos.tex
 CHAPTER 3.
 
-<tex/3-reactorneutrinos-images/NuclideChart_U235.pdf, id=90, 1027.84pt x 770.88
+<tex/3-reactorneutrinos-images/NuclideChart_U235.pdf, id=93, 1027.84pt x 770.88
 pt>
 File: tex/3-reactorneutrinos-images/NuclideChart_U235.pdf Graphic file (type pd
 f)
@@ -1405,7 +1405,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [12 <./tex/3-reactorneutrinos-images/NuclideChart_U235.pdf>]
-<tex/3-reactorneutrinos-images/Spectrum.png, id=123, 454.69875pt x 314.67563pt>
+<tex/3-reactorneutrinos-images/Spectrum.png, id=126, 454.69875pt x 314.67563pt>
 File: tex/3-reactorneutrinos-images/Spectrum.png Graphic file (type png)
 <use tex/3-reactorneutrinos-images/Spectrum.png>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrum.png used on inp
@@ -1426,7 +1426,7 @@ eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf, id=132, 508.90
+<tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf, id=135, 508.90
 125pt x 498.86375pt>
 File: tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1440,7 +1440,7 @@ d-to.pdf used on input line 106.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15]
-<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=136, 561.6992pt x 258.60815p
+<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=140, 561.6992pt x 258.60815p
 t>
 File: tex/3-reactorneutrinos-images/DayaBayFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/DayaBayFlux.pdf>
@@ -1452,7 +1452,7 @@ input line 123.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=137, 540.55484pt x 376.6756
+<tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=141, 540.55484pt x 376.6756
 6pt>
 File: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>
@@ -1465,7 +1465,7 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [17 <./tex/3-reactorneutrinos-images/DayaBayFlux.pdf> <./tex/3-reactorneutrino
 s-images/WorldAvgFlux.pdf>]
-<tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, id=179, 618.8849pt x 448.6
+<tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, id=182, 618.8849pt x 448.6
 1086pt>
 File: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf Graphic file (type pdf
 )
@@ -1475,7 +1475,7 @@ d on input line 152.
 (pdftex.def)             Requested size: 303.53267pt x 220.01974pt.
  [18 <./tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, page is rotated 90 
 degrees>]
-<tex/3-reactorneutrinos-images/Spectrums.pdf, id=195, 1770.28087pt x 751.42572p
+<tex/3-reactorneutrinos-images/Spectrums.pdf, id=198, 1770.28087pt x 751.42572p
 t>
 File: tex/3-reactorneutrinos-images/Spectrums.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/Spectrums.pdf>
@@ -1491,14 +1491,14 @@ CHAPTER 4.
 
 
 
-] <tex/4-prospect-images/HFIR.pdf, id=235, 932.19421pt x 356.56631pt>
+] <tex/4-prospect-images/HFIR.pdf, id=238, 932.19421pt x 356.56631pt>
 File: tex/4-prospect-images/HFIR.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/HFIR.pdf>
 Package pdftex.def Info: tex/4-prospect-images/HFIR.pdf used on input line 20.
 (pdftex.def)             Requested size: 390.25536pt x 149.2726pt.
  [21 <./tex/4-prospect-images/HFIR.pdf>]
-<tex/4-prospect-images/Shielding.pdf, id=269, 385.68768pt x 289.85017pt>
+<tex/4-prospect-images/Shielding.pdf, id=273, 385.68768pt x 289.85017pt>
 File: tex/4-prospect-images/Shielding.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/Shielding.pdf>
@@ -1506,14 +1506,14 @@ Package pdftex.def Info: tex/4-prospect-images/Shielding.pdf used on input line
  41.
 (pdftex.def)             Requested size: 216.81pt x 162.93858pt.
 
-<tex/4-prospect-images/AD.pdf, id=270, 762.22186pt x 507.68507pt>
+<tex/4-prospect-images/AD.pdf, id=274, 762.22186pt x 507.68507pt>
 File: tex/4-prospect-images/AD.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/AD.pdf>
 Package pdftex.def Info: tex/4-prospect-images/AD.pdf used on input line 55.
 (pdftex.def)             Requested size: 346.89732pt x 231.0513pt.
  [22 <./tex/4-prospect-images/Shielding.pdf>] <tex/4-prospect-images/ADCrossSec
-tion.pdf, id=307, 794.97pt x 614.295pt>
+tion.pdf, id=310, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/ADCrossSection.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/ADCrossSection.pdf>
@@ -1521,7 +1521,7 @@ Package pdftex.def Info: tex/4-prospect-images/ADCrossSection.pdf used on input
  line 76.
 (pdftex.def)             Requested size: 197.72832pt x 152.786pt.
 
-<tex/4-prospect-images/PMTHousing.pdf, id=308, 794.97pt x 614.295pt>
+<tex/4-prospect-images/PMTHousing.pdf, id=311, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/PMTHousing.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/PMTHousing.pdf>
@@ -1537,7 +1537,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 104.
 
-<tex/4-prospect-images/Pinwheels.pdf, id=445, 441.59581pt x 467.7706pt>
+<tex/4-prospect-images/Pinwheels.pdf, id=448, 441.59581pt x 467.7706pt>
 File: tex/4-prospect-images/Pinwheels.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/Pinwheels.pdf>
@@ -1545,7 +1545,7 @@ Package pdftex.def Info: tex/4-prospect-images/Pinwheels.pdf used on input line
  108.
 (pdftex.def)             Requested size: 138.75679pt x 146.97736pt.
 
-<tex/4-prospect-images/FullSegment.pdf, id=446, 794.97pt x 614.295pt>
+<tex/4-prospect-images/FullSegment.pdf, id=449, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/FullSegment.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/FullSegment.pdf>
@@ -1557,7 +1557,7 @@ ne 116.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 122.
 
-<tex/4-prospect-images/RowAssembly.pdf, id=447, 791.73323pt x 446.40424pt>
+<tex/4-prospect-images/RowAssembly.pdf, id=450, 791.73323pt x 446.40424pt>
 File: tex/4-prospect-images/RowAssembly.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/RowAssembly.pdf>
@@ -1565,7 +1565,7 @@ Package pdftex.def Info: tex/4-prospect-images/RowAssembly.pdf used on input li
 ne 124.
 (pdftex.def)             Requested size: 303.53267pt x 171.14072pt.
 
-<tex/4-prospect-images/CompletedDetector.pdf, id=448, 794.97pt x 614.295pt>
+<tex/4-prospect-images/CompletedDetector.pdf, id=451, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/CompletedDetector.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/CompletedDetector.pdf>
@@ -1576,7 +1576,7 @@ put line 140.
 ousing.pdf>] [25 <./tex/4-prospect-images/Pinwheels.pdf> <./tex/4-prospect-imag
 es/FullSegment.pdf> <./tex/4-prospect-images/RowAssembly.pdf, page is rotated 9
 0 degrees>] [26 <./tex/4-prospect-images/CompletedDetector.pdf>]
-<tex/4-prospect-images/ADCalibrationTubes.pdf, id=575, 794.97pt x 614.295pt>
+<tex/4-prospect-images/ADCalibrationTubes.pdf, id=578, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/ADCalibrationTubes.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/ADCalibrationTubes.pdf>
@@ -1584,7 +1584,7 @@ Package pdftex.def Info: tex/4-prospect-images/ADCalibrationTubes.pdf used on i
 nput line 184.
 (pdftex.def)             Requested size: 303.53267pt x 234.54994pt.
 
-<tex/4-prospect-images/SourceCapsule.pdf, id=576, 451.19441pt x 122.07768pt>
+<tex/4-prospect-images/SourceCapsule.pdf, id=579, 451.19441pt x 122.07768pt>
 File: tex/4-prospect-images/SourceCapsule.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/SourceCapsule.pdf>
@@ -1596,7 +1596,7 @@ line 191.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27 <./tex/4-prospect-images/ADCalibrationTubes.pdf>]
-<tex/4-prospect-images/LiLS.pdf, id=596, 794.97pt x 614.295pt>
+<tex/4-prospect-images/LiLS.pdf, id=600, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/LiLS.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/LiLS.pdf>
@@ -1609,7 +1609,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <./tex/4-prospect-images/SourceCapsule.pdf>] [29 <./tex/4-prospect-images/L
 iLS.pdf, page is rotated 90 degrees>]
-<tex/4-prospect-images/DAQ.pdf, id=631, 794.97pt x 614.295pt>
+<tex/4-prospect-images/DAQ.pdf, id=634, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/DAQ.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/DAQ.pdf>
@@ -1624,7 +1624,7 @@ CHAPTER 5.
 
 
 
-] <tex/5-analysis-images/PSD_Define.pdf, id=652, 975.10391pt x 333.86061pt>
+] <tex/5-analysis-images/PSD_Define.pdf, id=655, 975.10391pt x 333.86061pt>
 File: tex/5-analysis-images/PSD_Define.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/PSD_Define.pdf>
@@ -1632,7 +1632,7 @@ Package pdftex.def Info: tex/5-analysis-images/PSD_Define.pdf used on input lin
 e 26.
 (pdftex.def)             Requested size: 429.28618pt x 146.98062pt.
 
-<tex/5-analysis-images/PSD_vs_S.pdf, id=653, 597.95784pt x 424.07283pt>
+<tex/5-analysis-images/PSD_vs_S.pdf, id=656, 597.95784pt x 424.07283pt>
 File: tex/5-analysis-images/PSD_vs_S.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/PSD_vs_S.pdf>
@@ -1645,7 +1645,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32 <./tex/5-analysis-images/PSD_Define.pdf>] [33 <./tex/5-analysis-images/PSD_
 vs_S.pdf>]
-<tex/5-analysis-images/dt_S_Hobbes.pdf, id=715, 473.778pt x 423.58633pt>
+<tex/5-analysis-images/dt_S_Hobbes.pdf, id=719, 473.778pt x 423.58633pt>
 File: tex/5-analysis-images/dt_S_Hobbes.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/dt_S_Hobbes.pdf>
@@ -1653,7 +1653,7 @@ Package pdftex.def Info: tex/5-analysis-images/dt_S_Hobbes.pdf used on input li
 ne 71.
 (pdftex.def)             Requested size: 205.96883pt x 184.14868pt.
 
-<tex/5-analysis-images/HobbesFit.pdf, id=716, 448.0274pt x 459.66742pt>
+<tex/5-analysis-images/HobbesFit.pdf, id=720, 448.0274pt x 459.66742pt>
 File: tex/5-analysis-images/HobbesFit.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/HobbesFit.pdf>
@@ -1665,7 +1665,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 69--81
 []$[]$ $[]$ 
  []
 
-<tex/5-analysis-images/z_vs_dt.pdf, id=717, 666.1079pt x 448.73868pt>
+<tex/5-analysis-images/z_vs_dt.pdf, id=721, 666.1079pt x 448.73868pt>
 File: tex/5-analysis-images/z_vs_dt.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/z_vs_dt.pdf>
@@ -1674,7 +1674,7 @@ Package pdftex.def Info: tex/5-analysis-images/z_vs_dt.pdf used on input line 8
 (pdftex.def)             Requested size: 216.81pt x 146.05745pt.
  [34 <./tex/5-analysis-images/dt_S_Hobbes.pdf> <./tex/5-analysis-images/HobbesF
 it.pdf> <./tex/5-analysis-images/z_vs_dt.pdf, page is rotated 90 degrees>]
-<tex/5-analysis-images/ECorrection.pdf, id=758, 1234.32738pt x 566.17792pt>
+<tex/5-analysis-images/ECorrection.pdf, id=761, 1234.32738pt x 566.17792pt>
 File: tex/5-analysis-images/ECorrection.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/ECorrection.pdf>
@@ -1682,7 +1682,7 @@ Package pdftex.def Info: tex/5-analysis-images/ECorrection.pdf used on input li
 ne 111.
 (pdftex.def)             Requested size: 390.25536pt x 179.00356pt.
  [35 <./tex/5-analysis-images/ECorrection.pdf>] [36]
-<tex/5-analysis-images/GammaE.pdf, id=788, 614.295pt x 794.97pt>
+<tex/5-analysis-images/GammaE.pdf, id=791, 614.295pt x 794.97pt>
 File: tex/5-analysis-images/GammaE.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/GammaE.pdf>
@@ -1693,7 +1693,7 @@ Package pdftex.def Info: tex/5-analysis-images/GammaE.pdf used on input line 16
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<tex/5-analysis-images/GammaScale.pdf, id=789, 569.12625pt x 414.54875pt>
+<tex/5-analysis-images/GammaScale.pdf, id=792, 569.12625pt x 414.54875pt>
 File: tex/5-analysis-images/GammaScale.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/GammaScale.pdf>
@@ -1704,7 +1704,7 @@ e 170.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37] <tex/5-analysis-images/GammaRes.pdf, id=793, 569.12625pt x 367.3725pt>
+[37] <tex/5-analysis-images/GammaRes.pdf, id=796, 569.12625pt x 367.3725pt>
 File: tex/5-analysis-images/GammaRes.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/GammaRes.pdf>
@@ -1722,33 +1722,44 @@ f, page is rotated 90 degrees>]
 
  (./tex/6-Ac227.tex
 CHAPTER 6.
-<tex/6-ac227-images/Ac227Chain.png, id=912, 754.82pt x 731.73375pt>
-File: tex/6-ac227-images/Ac227Chain.png Graphic file (type png)
+<tex/6-ac227-images/LoverE_1yr.pdf, id=915, 569.12625pt x 212.795pt>
+File: tex/6-ac227-images/LoverE_1yr.pdf Graphic file (type pdf)
 
-<use tex/6-ac227-images/Ac227Chain.png>
-Package pdftex.def Info: tex/6-ac227-images/Ac227Chain.png used on input line 9
-.
-(pdftex.def)             Requested size: 303.53267pt x 294.2403pt.
-
-<tex/6-ac227-images/Actinium_agSpectrum.pdf, id=913, 1027.84pt x 391.4625pt>
-File: tex/6-ac227-images/Actinium_agSpectrum.pdf Graphic file (type pdf)
-
-<use tex/6-ac227-images/Actinium_agSpectrum.pdf>
-Package pdftex.def Info: tex/6-ac227-images/Actinium_agSpectrum.pdf used on inp
-ut line 16.
-(pdftex.def)             Requested size: 303.53267pt x 115.60587pt.
+<use tex/6-ac227-images/LoverE_1yr.pdf>
+Package pdftex.def Info: tex/6-ac227-images/LoverE_1yr.pdf used on input line 1
+3.
+(pdftex.def)             Requested size: 303.53267pt x 113.49513pt.
  [41
 
 
 
- <./tex/6-ac227-images/Ac227Chain.png>]) [42 <./tex/6-ac227-images/Actinium_agS
-pectrum.pdf>]
+ <./tex/6-ac227-images/LoverE_1yr.pdf, page is rotated 90 degrees>]
+<tex/6-ac227-images/Ac227Chain.png, id=963, 754.82pt x 731.73375pt>
+File: tex/6-ac227-images/Ac227Chain.png Graphic file (type png)
+
+<use tex/6-ac227-images/Ac227Chain.png>
+Package pdftex.def Info: tex/6-ac227-images/Ac227Chain.png used on input line 3
+0.
+(pdftex.def)             Requested size: 303.53267pt x 294.2403pt.
+
+<tex/6-ac227-images/Actinium_agSpectrum.pdf, id=964, 1027.84pt x 391.4625pt>
+File: tex/6-ac227-images/Actinium_agSpectrum.pdf Graphic file (type pdf)
+
+<use tex/6-ac227-images/Actinium_agSpectrum.pdf>
+Package pdftex.def Info: tex/6-ac227-images/Actinium_agSpectrum.pdf used on inp
+ut line 57.
+(pdftex.def)             Requested size: 303.53267pt x 115.60587pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [42 <./tex/6-ac227-images/Ac227Chain.png>] [43 <./tex/6-ac227-images/Actinium
+_agSpectrum.pdf>]
 \openout2 = `tex/7-Oscillation.aux'.
 
-
-(./tex/7-Oscillation.tex
+ (./tex/7-Oscillation.tex
 CHAPTER 7.
-) [43
+) [44
 
 
 
@@ -1757,30 +1768,30 @@ CHAPTER 7.
 
  (./tex/8-Conclusions.tex
 CHAPTER 8.
-) [44
+) [45
 
 
 
-] (./thesis.bbl [45
+] (./thesis.bbl [46
 
 
 ]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ­ in font cmr12!
- [46]
+ [47]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [47] [48] [49]) [50]
+ [48] [49] [50]) [51]
 \openout2 = `tex/Appendix.aux'.
 
  (./tex/Appendix.tex
 Appendix A.
-[51
+[52
 
 
 ]
 Appendix B.
-) [52
+) [53
 
 ]
 No file thesis.ind.
@@ -1790,10 +1801,10 @@ No file thesis.ind.
 (./tex/6-Ac227.aux) (./tex/7-Oscillation.aux) (./tex/8-Conclusions.aux)
 (./tex/Appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12888 strings out of 492995
- 232751 string characters out of 6132704
- 278599 words of memory out of 5000000
- 16208 multiletter control sequences out of 15000+600000
+ 12899 strings out of 492995
+ 232958 string characters out of 6132704
+ 278660 words of memory out of 5000000
+ 16218 multiletter control sequences out of 15000+600000
  15107 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1813,10 +1824,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (61 pages, 13305617 bytes).
+Output written on thesis.pdf (63 pages, 13323389 bytes).
 PDF statistics:
- 1031 PDF objects out of 1200 (max. 8388607)
- 678 compressed objects within 7 object streams
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 700 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

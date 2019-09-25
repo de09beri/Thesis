@@ -2,14 +2,55 @@
 
 \section{Motivation}
 
+In the absence of an eV-scale sterile neutrino PROSPECT should measure IBD rates that fall like one over distance from the reactor squared. 
+If sterile neutrino oscillation was detected, after one year PROSPECT would measure the spectrum seen in Figure~\ref{fig:lovere1yr}, given a mass splitting of 1.78 eV$^2$, .
+However, a situation could occur in which a sterile neutrino did not exist, or could not be measured with PROSPECT, and an oscillation is still measured.
+This could happen if there are segment to segment volume variations throughout the detector, mimicking an oscillation signal.
+Therefore, it becomes important that the product of efficiency$\times$volume for all segments is well known. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/LoverE_1yr}
+	\caption[Monte Carlo neutrino spectrum as a function of L/E]{The ratio of the oscillated to un-oscillated neutrino spectrum as a function of L/E that would be observed by PROSPECT after 1 year if a sterile neutrino signal was detected \cite{PSurukuchi:1534}.}
+	\label{fig:lovere1yr}
+\end{figure}
+
+
+This measurement can be accomplished if an event source is uniformly distributed throughout the active volume of the detector. 
+By measuring the rate of this source in each segment the relative volumes can be compared and tracked through time.
+\Ac was chosen as the source and a chloride solution was prepared and dissolved in the liquid scintillator to ensure uniform distribution.
+
+\Ac was chosen for several reasons. First, because an \AaAa coincidence occurs in its decay chain, specifically $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + \Aa, as highlighted in Figure~\ref{fig:ac227chain}.
+\Rn has a half-life of 3.96 $\pm$ 0.01 s and $\alpha$-decays 100\% of the time, while \Po has a half-life of 1.781 $\pm$ 0.005 ms and $\alpha$-decays  99.99977(2)\% of the time, so the \AaAa coincidences happen frequently and quickly.
+
 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/Ac227Chain}
-	\caption[\Ac decay chain]{\cite{Kirby2011}}
+	\caption[\Ac decay chain]{The full decay chain of \Ac (a daughter of $^{235}$U), in which the \AaAa coincidence of interest is highlighted \cite{Kirby2011}.}
 	\label{fig:ac227chain}
 \end{figure}
+
+\begin{table}
+	\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline 
+	& E$_\alpha$ [keV] & I$_\alpha$ \% &  & E$_\gamma$ [keV] & I$_\gamma$ \% \\ 
+	\hline 
+	\Rn & 6425.0(10) & 7.5(6) &  & 271.23(1) & 10.8(6) \\ 
+	%\hline 
+	& 6530(2) & 0.110(10) &  & 401.81(1) & 6.6(4) \\ 
+	%\hline 
+	& 6552.6(10) & 12.9(6) &  &  &  \\ 
+	%\hline 
+	& 6819.1(3) & 79.4(10) &  &  &  \\ 
+	\hline 
+	\Po & 7386.1(8) & 99.999770(20) &  &  &  \\ 
+	\hline 
+\end{tabular} 
+\caption[$\alpha$ and $\gamma$ energies of \Rn and \Po decays]{Energy and absolute intensity of $\alpha$ and $\gamma$ decay radiation for \Rn and \Po.}
+\end{table}
 
 \begin{figure}[h]
 	\centering
