@@ -21,8 +21,8 @@ By measuring the rate of this source in each segment the relative volumes can be
 \Ac was chosen as the source and a chloride solution was prepared and dissolved in the liquid scintillator to ensure uniform distribution.
 
 \Ac was chosen for several reasons. First, because an \AaAa coincidence occurs in its decay chain, specifically $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + \Aa, as highlighted in Figure~\ref{fig:ac227chain}.
-\Rn has a half-life of 3.96 $\pm$ 0.01 s and $\alpha$-decays 100\% of the time, while \Po has a half-life of 1.781 $\pm$ 0.005 ms and $\alpha$-decays  99.99977(2)\% of the time \cite{ENSDF}, so the \AaAa coincidences happen frequently and quickly.
-The \Aa decay of \Po is mono-energetic at 7.39 MeV which results in a $\sim$0.78 MeV signal after quenching, well removed from nLi captures that occur around 0.5 MeV. 
+\Rn has a half-life of 3.96 $\pm$ 0.01 s and $\alpha$-decays 100\% of the time, while \Po has a half-life of 1.781 $\pm$ 0.005 ms and $\alpha$-decays  99.99977(2)\% of the time \cite{ENSDF}, so the \AaAa coincidences happen frequently.
+The \Aa decay of \Po is mono-energetic at 7.39 MeV which results in a $\sim$0.78 MeVee signal after quenching, well removed from nLi captures that occur around 0.5 MeVee. 
 In addition, there are no corresponding gammas with the \Po decay, making this a very clean and well defined signal.
 The \Rn \Aa decays are not so nice, as there are four dominant alpha energies and three dominant gamma energies for these decays, as listed in Table~\ref{tab:RnPoE}, but the use of time, energy, and PSD cuts make them easy to pair with corresponding \Po decays.
 
@@ -62,8 +62,83 @@ The \Rn \Aa decays are not so nice, as there are four dominant alpha energies an
 %\end{figure}
 
 
-
 \section{Material Compatibility}
+
+Before \Ac could be added to the PROSPECT detector, it had to be determined that \Ac and its daughters would not adsorb onto detector materials.
+If it was adsorbed then it would not be a uniform source in the detector, nullifying its use as a method to track relative efficiency$\times$volume throughout the detector.
+To test this six material samples were placed in vials of $^6$Li-LS spiked with \Ac. The rate of \Ac in each sample vial and one reference vial with no material was measured and tracked over a period of 6 months. 
+
+\subsection{Material and Scintillator Preparation}
+The materials tested were: ultraviolet transmitting (UVT) acrylic, flourinated ethylene propylene (FEP), polylactide (PLA), polyether ether ketone (PEEK), a RG 188 cable, and viton o-rings. See Table~\ref{tab:materials} for a list of their uses in the detector and sample sizes.
+To prepare the materials they were all placed in a single beaker with ultra-pure water and cleaned ultrasonically for 30 minutes.
+They were then transferred to a watch glass and placed in a 50 C over for two hours.
+After drying they were placed in empty 12 mL vials.
+
+The \Ac used to spike the scintillator was obtained from Eckert and Ziegler as a solution of 3.711$\times$10$^4$ Bq $\pm$ 1.32\% of \Ac in 10.22710 g of 1 M HCl, measured on September 6, 2016.
+0.503 g of this solution was added to 192 g of $^6$Li-LS on December 15, 2016.
+With a half-life of 21.772 $\pm$ 0.003 yrs \cite{ENSDF}, the activity of the \Ac solution before adding to the LiLS was 36788 Bq, yielding a final activity of 94.2 Bq/10 g. 
+This is the stock solution from which all LS will be taken for the material studies and later on for spiking the detector.
+
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{|p{0.17\textwidth}|p{0.45\textwidth}|p{0.33\textwidth}|}
+	\hline 
+	\textbf{Material} & \textbf{Detector Use} & \textbf{Sample Size} \\ 
+	\hline 
+	UVT Acrylic & Front window of PMT housing & 1.0 $\times$ 1.15 $\times$ 0.1 cm$^3$ \\ 
+	\hline 
+	FEP  & Film on optical separators & 1.5 $\times$ 1.5 cm$^2$, 3 mm thick \\ 
+	\hline 
+	PLA & 3D printed pinwheels & 10 disks; 0.5 cm diameter, 0.1 cm thick \\ 
+	\hline 
+	PEEK & Seal plugs through which the high voltage and signal cables were threaded. Screws used to bolt together segment supports. Spacers at the base of the acrylic tank. & 1 Nut; ID 0.5 cm, small OD 1cm, large OD 1.1cm, thickness 0.5 cm \\ 
+	\hline 
+	RG188 Cable & High voltage and signal cables & 4.5'' long \\ 
+	\hline 
+	Viton O-ring & Seal back plugs of PMT housings and seal acrylic tank & 10 O-rings; OD 6mm, ID ~3mm, thickness 1.5mm \\ 
+	\hline 
+\end{tabular} 
+\caption{Samples used to test if \Ac or its daughters would adsorb onto detector materials.}
+\label{tab:materials}
+\end{table}
+
+\begin{tabular}{|c|c|c|c|}
+	\hline 
+	Material & Date Filled & Weight of LS (g) & Expected Activity on Fill Day (Bq) \\ 
+	\hline 
+	Reference & 12/15/2016 & 10.030 & 94.5 \\ 
+	\hline 
+	UVT Acrylic & 02/24/2017 & 9.98 & 93.4 \\ 
+	\hline 
+	FEP &  & 9.98 &  \\ 
+	\hline 
+	PLA &  & 9.999 &  \\ 
+	\hline 
+	PEEK &  & 9.99 &  \\ 
+	\hline 
+	RG188 Cable &  & 9.981 &  \\ 
+	\hline 
+	Viton O-ring &  & 10.011 &  \\ 
+	\hline 
+\end{tabular} 
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/BNL/Samples}
+	\caption{}
+	\label{fig:samples}
+\end{figure}
+
+\subsection{Measurement Scheme}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/BNL/BlackBox}
+	\caption{}
+	\label{fig:blackbox}
+\end{figure}
 
 
 \begin{figure}[H]
@@ -89,7 +164,7 @@ The \Rn \Aa decays are not so nice, as there are four dominant alpha energies an
 	\label{fig:rnpoenpsd}
 \end{figure}
 
-
+\subsection{Results}
 
 \begin{figure}[H]
 	\centering
