@@ -41,16 +41,17 @@
 \contentsline {section}{\numberline {6.1}Motivation}{41}
 \contentsline {section}{\numberline {6.2}Material Compatibility}{43}
 \contentsline {subsection}{\numberline {6.2.1}Material and Scintillator Preparation}{43}
-\contentsline {subsection}{\numberline {6.2.2}Measurement Scheme}{45}
-\contentsline {subsection}{\numberline {6.2.3}Results}{46}
-\contentsline {section}{\numberline {6.3}Event Selection in the PROSPECT AD}{48}
-\contentsline {section}{\numberline {6.4}Detector Stability Results}{48}
-\contentsline {section}{\numberline {6.5}Volume Variation Results}{48}
-\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{49}
-\contentsline {chapter}{\numberline {8}CONCLUSIONS}{50}
+\contentsline {subsection}{\numberline {6.2.2}Detector}{45}
+\contentsline {subsection}{\numberline {6.2.3}Data Analysis}{46}
+\contentsline {subsection}{\numberline {6.2.4}Results}{47}
+\contentsline {section}{\numberline {6.3}Event Selection in the PROSPECT AD}{51}
+\contentsline {section}{\numberline {6.4}Detector Stability Results}{51}
+\contentsline {section}{\numberline {6.5}Volume Variation Results}{51}
+\contentsline {chapter}{\numberline {7}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{52}
+\contentsline {chapter}{\numberline {8}CONCLUSIONS}{53}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{51}
+\contentsline {chapter}{BIBLIOGRAPHY}{54}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{57}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{58}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{60}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{61}

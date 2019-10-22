@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -13,55 +13,59 @@ A level-1 auxiliary file: tex/7-Oscillation.aux
 A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: tex/Appendix.aux
-Database file #1: ThesisBib.bib
+Database file #1: ThesisBib.bib.bib
 Warning--entry type for "Heffron" isn't style-file defined
---line 975 of file ThesisBib.bib
+--line 975 of file ThesisBib.bib.bib
 Warning--entry type for "Hackett" isn't style-file defined
---line 984 of file ThesisBib.bib
+--line 984 of file ThesisBib.bib.bib
 Warning--entry type for "ENSDF" isn't style-file defined
---line 1218 of file ThesisBib.bib
+--line 1218 of file ThesisBib.bib.bib
+Warning--entry type for "CAENDigit" isn't style-file defined
+--line 1226 of file ThesisBib.bib.bib
+Warning--entry type for "CAENWD" isn't style-file defined
+--line 1234 of file ThesisBib.bib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 60 entries,
+You've used 62 entries,
             1791 wiz_defined-function locations,
-            860 strings with 12567 characters,
-and the built_in function-call counts, 12721 in all, are:
-= -- 1121
-> -- 522
+            869 strings with 12722 characters,
+and the built_in function-call counts, 12967 in all, are:
+= -- 1139
+> -- 530
 < -- 3
-+ -- 199
-- -- 139
++ -- 203
+- -- 141
 * -- 815
-:= -- 2069
-add.period$ -- 187
-call.type$ -- 60
-change.case$ -- 61
+:= -- 2105
+add.period$ -- 193
+call.type$ -- 62
+change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 63
-duplicate$ -- 521
-empty$ -- 1309
-format.name$ -- 139
-if$ -- 2832
+cite$ -- 65
+duplicate$ -- 531
+empty$ -- 1345
+format.name$ -- 141
+if$ -- 2890
 int.to.chr$ -- 0
-int.to.str$ -- 60
+int.to.str$ -- 62
 missing$ -- 49
-newline$ -- 308
-num.names$ -- 64
-pop$ -- 126
+newline$ -- 318
+num.names$ -- 66
+pop$ -- 142
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 239
+skip$ -- 245
 stack$ -- 0
 substring$ -- 920
-swap$ -- 75
+swap$ -- 77
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 116
-width$ -- 62
-write$ -- 655
-(There were 6 warnings)
+while$ -- 118
+width$ -- 64
+write$ -- 673
+(There were 8 warnings)
