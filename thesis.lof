@@ -1,51 +1,50 @@
 \select@language {english}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Spectrum of solar neutrino fluxes}}{7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Spectrum of solar neutrino fluxes}}{8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Fission of $^{235}$U.}}{11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The $\mathaccentV {bar}016{\nu _e}$ spectrum.}}{12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The IBD spectrum.}}{15}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Daya Bay $\mathaccentV {bar}016{\nu _{e}}$ flux.}}{16}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces World average of reactor $\mathaccentV {bar}016{\nu _{e}}$ flux. }}{16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Spectrums.}}{18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Fission of $^{235}$U.}}{12}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The $\mathaccentV {bar}016{\nu _e}$ spectrum.}}{13}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The IBD spectrum.}}{16}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Daya Bay $\mathaccentV {bar}016{\nu _{e}}$ flux.}}{17}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces World average of reactor $\mathaccentV {bar}016{\nu _{e}}$ flux. }}{17}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Spectrums.}}{19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The HFIR core and flux distribution}}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout of PROSPECT at HFIR}}{21}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Schematic of the PROSPECT detector}}{22}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cross-section of inner detector}}{23}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces PMT housing module}}{23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Pinwheels}}{24}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic of a segment}}{24}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Construction of a row}}{24}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Completed inner detector}}{25}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Source tube positions}}{26}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Source capsule on timing belt}}{27}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces LiLS UV-Vis absorption spectra}}{28}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces DAQ schematic}}{29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The HFIR core and flux distribution}}{21}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Layout of PROSPECT at HFIR}}{22}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic of the PROSPECT detector}}{23}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-section of inner detector}}{24}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces PMT housing module}}{24}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Pinwheels}}{25}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Schematic of a segment}}{25}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Construction of a row}}{25}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Completed inner detector}}{26}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Source tube positions}}{27}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Source capsule on timing belt}}{28}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces LiLS UV-Vis absorption spectra}}{29}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces DAQ schematic}}{30}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Typical waveform}}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces PSD vs. psuedo-energy for neutron coincident events}}{32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Muon $dt$ versus signal amplitude}}{33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Muon $dt$ for a single segment}}{33}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces $z(dt)$ curves for all cells}}{33}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Energy position dependence}}{34}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces MC-data comparison of reconstructed energy}}{38}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces MC-data reconstructed energy peak ratio for $\gamma $ sources}}{39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Typical waveform}}{32}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces PSD vs. psuedo-energy for neutron coincident events}}{33}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Muon $dt$ versus signal amplitude}}{34}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Muon $dt$ for a single segment}}{34}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces $z(dt)$ curves for all cells}}{34}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Energy position dependence}}{35}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces MC-data comparison of reconstructed energy}}{39}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces MC-data reconstructed energy peak ratio for $\gamma $ sources}}{40}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Monte Carlo neutrino spectrum as a function of L/E}}{41}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces $^{227}$Ac decay chain}}{42}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Material sample vials}}{45}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Detector used for material adsorption studies}}{45}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Typical RnPo energy and PSD distributions}}{46}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Typical RnPo $\Delta $t distribution}}{47}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces $^{227}$Ac rate for each material sample}}{48}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces $^{215}$Po energy distribution for reference sample with two Gaussian fit}}{49}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces $^{215}$Po mean versus time for the reference sample}}{49}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces $^{215}$Po 1$\sigma $ width versus time for the reference sample}}{49}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces $^{227}$Ac rate for each material sample relative to the reference sample}}{50}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces \relax }}{51}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces \relax }}{51}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Monte Carlo neutrino spectrum as a function of L/E}}{40}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces $^{227}$Ac decay chain}}{41}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Material sample vials}}{44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Detector used for material adsorption studies}}{44}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Typical RnPo energy and PSD distributions}}{45}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical RnPo $\Delta $t distribution}}{46}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces $^{227}$Ac rate for each material sample}}{47}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces $^{215}$Po energy distribution for reference sample with two Gaussian fit}}{47}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces $^{215}$Po mean versus time for the reference sample}}{48}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces $^{215}$Po 1$\sigma $ width versus time for the reference sample}}{48}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces $^{227}$Ac rate for each material sample relative to the reference sample}}{49}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces RnPo energy spectra for viton and PEEK at the first and last time bins}}{51}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces The 1$\sigma $ width of two Gaussians fit to the $^{219}$Rn energy spectrum versus time for the viton o-ring material sample. Black (circle): higher energy Gaussian, Magenta (square): lower energy Gaussian.\relax }}{51}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

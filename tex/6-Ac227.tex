@@ -227,47 +227,62 @@ An example of a typical RnPo $\Delta$t distribution can be seen in Figure~\ref{f
 The RnPo rate was calculated for each material sample and the reference sample over a period of about six months. These results can be seen in Figure~\ref{fig:ratevstimeallsamples}.
 Though statistical errors vary from around 0.6-1\%, overall rates vary at a rate of around 12\%, indicating systematic variations.
 
-\begin{figure}[H]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/RateVsTime_AllSamples}
 	\caption[\Ac rate for each material sample]{\Ac rate for each material sample. Errors are statistical.}
 	\label{fig:ratevstimeallsamples}
 \end{figure}
 
-Systematic variations can be better understood by looking at the behavior of the Po energy distribution through time.
+Systematic variations can be better understood by looking at the behavior of the \Po energy distribution through time.
 This was done by fitting this distribution for the reference sample with a sum of two Gaussians to account for the non-Gaussian nature of the peak as demonstrated in Figure~\ref{fig:poenfittimebin23s2}.
-The mean and 1$\sigma$ width of each of these Gaussians is show in Figures~\ref{fig:poenmeanvstimes2} and ~\ref{fig:poenwidthvstimes2}.
+The mean and 1$\sigma$ width of each of these Gaussians versus time is show in Figures~\ref{fig:poenmeanvstimes2} and ~\ref{fig:poenwidthvstimes2}.
 It can be seen that the \Po energy mean varies about 5\% and the width around 15\%.
 
-The amount of variation seen in measured rates and the \Po energy distribution, indicates that the system is not repeatable and introduces significant systematic errors. 
-Though the PMT and acrylic holder were glued in place, the sample vials were repeatedly removed and replaced, possibly shifting the placement of the acrylic holder and the optical grease.
-If the experiment were to be repeated a more robust detector system would be needed to eliminate these systematic errors.
-
-\begin{figure}[H]
+\begin{figure}[!b]
 	\centering
 	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2}
 	\caption[\Po energy distribution for reference sample with two Gaussian fit]{\Po energy distribution for the reference sample, fit with a sum of two Gaussians. The total fit is seen in red, while the two Gaussians are drawn as the pink and black dashed lines.}
 	\label{fig:poenfittimebin23s2}
 \end{figure}
 
-\begin{figure}[H]
+The amount of variation seen in measured rates and the \Po energy distribution indicate that the system is not repeatable and, as such, introduces significant systematic errors. 
+Though the PMT and acrylic holder were glued in place, the sample vials were repeatedly removed and replaced, possibly shifting the placement of the acrylic holder and the optical grease.
+If the experiment were to be repeated a more robust detector system would be needed to eliminate these systematic errors.
+
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/BNL/PoEnMeanVsTime_S2}
 	\caption[\Po mean versus time for the reference sample]{The mean of the two Gaussians fit to the \Po distribution for the reference sample.}
 	\label{fig:poenmeanvstimes2}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/BNL/PoEnWidthVsTime_S2}
 	\caption[\Po 1$\sigma$ width versus time for the reference sample]{The 1 $\sigma$ width of the two Gaussians fit to the \Po distributions for the reference sample.}
 	\label{fig:poenwidthvstimes2}
 \end{figure}
 
+To account for these variations all material sample rates, $R_M$, were compared to the reference sample rate, $R_{ref}$.
+The ratio of the rates was calculated for each time bin as
+\begin{equation}
+ratio = \frac{R_M}{R_{ref.}}
+\end{equation}
+\begin{equation}
+\sigma_{ratio} = ratio \times \sqrt{\left(\frac{\sigma_{M}}{R_{M}}\right)^2+\left(\frac{\sigma_{ref.}}{R_{ref.}}\right)^2}
+\end{equation}
+and the results are shown in Figure~\ref{fig:relratevstimeallsamples}.
+The ratio of rates versus time, for each material, were fit with a constant and a straight line, the results of which are tabulated in Tables~\ref{tab:MatFitC} and \ref{tab:MatFitLine} respectively.
+
+Except for the case of viton (discussed in the next section) there is no clear decrease in rate observed over the six month period for any material.
+Though the chi-squared results for the constant fits are not ideal, the fits to a straight line result in slopes with 50\% error to greater than 100\% error, indicating that a decrease in rate is not a good model.
+Since no obvious and significant decrease was observed it was concluded that \Ac was not adsorbing onto materials and next steps were taken to include the source in the final detector.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/RelRateVsTime_AllSamples}
-	\caption[\Ac rate for each material sample relative to the reference sample]{\Ac rate for each material sample relative to the reference sample.}
+	\caption[\Ac rate for each material sample relative to the reference sample]{\Ac rate for each material sample, $M$, relative to the reference sample.}
 	\label{fig:relratevstimeallsamples}
 \end{figure}
 
@@ -317,27 +332,54 @@ If the experiment were to be repeated a more robust detector system would be nee
 \label{tab:MatFitLine}
 \end{table}
 
+\subsubsection{Viton}
+
+Observation of the rate of \Ac in the viton o-ring material sample vial initially indicates a decrease in rate over time, about 10\% compared to the reference vial over a six month period.
+Upon further inspection, though, it becomes clear that the energy spectrum, of the Rn events in particular, shift toward the system threshold as time goes on.
+This causes a loss of events, not due to adsorbance, but rather due to threshold effects.
+
+Figure~\ref{fig:rnpoenfirstandlast} shows the \Rn and \Po energy distributions in the first and last time bins for both viton and PEEK.
+It can be seen that at the last time bin the viton distributions sit against the threshold, compared to the PEEK distributions which approach but do not get close to the threshold.
+To quantify this the \Rn spectrum was fit with a sum of two Gaussians and the widths versus time are shown in Figure~\ref{fig:rnenwidths8}.
+It can be seen that the lower energy Gaussian becomes narrower as time goes on, indicating a loss of events due to threshold effects.
+Therefore, it was concluded that the decrease in \Ac rate observed in the viton o-ring sample was due to threshold effects rather than adsorption.
+
+
 \begin{figure}[H]
+	\begin{subfigure}{1\linewidth}
 	\centering
 	\includegraphics[width=1.\linewidth]{"tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8"}
-	\caption{}
+	%\caption{}
 	\label{fig:rnpoenfirstandlasts8}
-\end{figure}
-
-\begin{figure}[h]
+\end{subfigure}
+\begin{subfigure}{1\linewidth}
 	\centering
 	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S6}
-	\caption{}
+	%\caption{}
 	\label{fig:rnpoenfirstandlasts6}
+\end{subfigure}
+\caption[RnPo energy spectra for viton and PEEK at the first and last time bins]{\Rn and \Po energy spectra for both the viton o-ring (top) and PEEK (bottom) material samples during the first and last time bins.}
+\label{fig:rnpoenfirstandlast}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/BNL/RnEnWidth_S8}
+	\caption{The 1$\sigma$ width of two Gaussians fit to the \Rn energy spectrum versus time for the viton o-ring material sample. Black (circle): higher energy Gaussian, Magenta (square): lower energy Gaussian.}
+	\label{fig:rnenwidths8}
 \end{figure}
 
 
 
+\section{\Ac in the PROSPECT AD}
 
+\subsection{Spiking of the LiLS}
 
-\section{Event Selection in the PROSPECT AD}
+\subsection{Data Set}
 
-\section{Detector Stability Results}
+\subsection{Event Selection}
 
-\section{Volume Variation Results}
+\subsection{Detector Stability Results}
+
+\subsection{Volume Variation Results}
 
