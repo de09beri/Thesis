@@ -3,7 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
 A level-1 auxiliary file: tex/0-Acknowledgements.aux
-A level-1 auxiliary file: tex/1-Introduction.aux
 A level-1 auxiliary file: tex/2-Neutrinos.aux
 A level-1 auxiliary file: tex/3-ReactorNeutrinos.aux
 A level-1 auxiliary file: tex/4-Prospect.aux
@@ -29,7 +28,7 @@ Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
 You've used 62 entries,
             1791 wiz_defined-function locations,
-            869 strings with 12722 characters,
+            868 strings with 12700 characters,
 and the built_in function-call counts, 12967 in all, are:
 = -- 1139
 > -- 530

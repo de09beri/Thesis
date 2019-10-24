@@ -373,11 +373,180 @@ Therefore, it was concluded that the decrease in \Ac rate observed in the viton 
 
 \section{\Ac in the PROSPECT AD}
 
-\subsection{Spiking of the LiLS}
+Material compatibility testing determined that \Ac did not adsorb onto detector materials, confirming that it could be used as a uniformly distributed source.
+It will be noted here that \Ac spiked LiLS was added to a prototype detector that consisted of two stacked segments.
+This was done to determine that the \Ac did not degrade the performance of the liquid scintillator and that it did not introduce significant background.
+Initial results from the prototype concluded that it did neither and provided the last step of evidence needed before addition to the full-scale detector.
+
+\subsection{Spiking the LiLS}
+
+After concluding that \Ac would be added to the AD, the goal was to obtain a final activity of 0.01 Bq/segment. 
+Assuming a total LiLS mass of 4600 kg and an active mass of 3939 kg implies a total \Ac activity of 1.8 Bq.
+The stock solution from which the LiLS would be spiked was the same stock that was used for the material studies, which had an activity of $\sim$9.13 Bq/g on December 13, 2017, the day the spiking procedure was performed.
+This means that $\sim$200 mg of the stock was needed to spike the LiLS.
+
+In order to add \Ac to the total detector, a vial of spiked LiLS was added to a 55-gallon drum of LiLS prepared previously for detector filling.
+Before the detector was filled all drums were added to an ISO-tank and bubbled with nitrogen to ensure thorough mixing of the LiLS from all drums and the \Ac.
+
+Spiking of the drum was done by adding the stock solution to an intermediate vial of production LiLS before spiking the vial that is added to the drum. 
+This was done to offset the estimated 10 mg uncertainty of the balance used to weigh the vials and allows an assessment of the activity of the remaining vial.
+The procedure was also repeated in a second set of vials so that both vials could be measured.
+
+The spiking procedure was performed using four vials, V0, V1, V2, and V3.
+The steps were:
+\begin{enumerate}
+	\item Fill all four vials with production LiLS
+	\item Fill V1 and V2 with the \Ac spiked LiLS stock solution
+	\item Fill V0 with solution from V1 until desired activity is reached
+	\item Fill V3 with solution from V2 until desired activity is reached
+	\item Empty V0 into drum of production LiLS 
+\end{enumerate}
+See Figure~\ref{fig:spikingprocedure} for a graphic of these steps along with Table~\ref{tab:SpikeProc} for a list of the weights of all solutions added and removed from the vials.
+Filling of all vials was performed using pipettes, therefore, some drops inevitably remained in the pipette at every step.
+Vials V1 and V2 were gently swirled after the addition of the \Ac spiked LiLS in an attempt to mix the solution.
+
+\begin{figure}[!hb]
+	\centering
+	\includegraphics[width=0.5\linewidth]{tex/6-ac227-images/BNL/SpikingProcedure}
+	\caption{A graphic of the procedure used to spike the drum of LiLS with \Ac for filling of the AD.}
+	\label{fig:spikingprocedure}
+\end{figure}
+
+\begin{table}[!ht]
+	\centering
+\begin{tabular}{r|c|c|c|c}
+	\hline 
+	& \textbf{V0} & \textbf{V1} & \textbf{V2} & \textbf{V3} \\ 
+	\hline 
+	\textbf{Production LiLS added, $m_1$ (g)}  & 7.92 & 10.90 & 10.92 & 7.925 \\ 
+	\hline 
+	\textbf{\Ac spiked solution added, $m_2$ (g)} &  & 1.20 & 1.18 &  \\ 
+	\hline 
+	\textbf{Solution removed, $m_3$ (g)} &  & 2.047 & 2.09 &  \\ 
+	\hline 
+	\textbf{Solution added, $m_4$ (g)} & 1.885 &  &  & 1.98 \\ 
+	\hline 
+\end{tabular} 
+\caption{The weight of all solutions added and removed from the four vials for spiking of the LiLS with \Ac for filling of the AD.}
+\label{tab:SpikeProc}
+\end{table}
+
+The expected \Ac rate, $A$, in vials V0(V3) can be calculated as
+\begin{equation}
+	A = C~m_2 \frac{m_4}{m_1 + m_2}
+\end{equation}
+where $C$ is the activity of the \Ac spiked stock solution, 9.13 Bq/g, $m_1$ is the amount of production LiLS added to V1(V2), $m_2$ is the amount of the stock solution added to V1(V2), and $m_4$ is the amount of solution from V1(V2) that was added to V0(V3).
+The expected rate in vials V1(V2) is calculated as 
+\begin{equation}
+A = C~m_2 \left(1 - \frac{m_3}{m_1 + m_2}\right)
+\end{equation}
+where $m_3$ is the amount of solution removed from V1(V2).
+The expected \Ac activity for each vial is listed in Table~\ref{tab:SpikeExpA}.
+
+\begin{table}
+	\centering
+\begin{tabular}{c|c}
+	\hline 
+	\textbf{Vial} & \textbf{Expected Activity (Bq)} \\ 
+	\hline 
+	V0 & 1.71 \\ 
+	\hline 
+	V1 & 9.10 \\ 
+	\hline 
+	V2 & 8.91 \\ 
+	\hline 
+	V3 & 1.76 \\ 
+	\hline 
+\end{tabular} 
+\caption{Expected \Ac activity in vials prepared for spiking the LiLS. }
+\label{tab:SpikeExpA}
+\end{table}
+
+\todo{MAKE PLOTS FOR THESE VIALS}
+
 
 \subsection{Data Set}
 
+PROSPECT began taking data in March 2018.
+The data set used for the \Ac analysis runs from March 5, 2018 - October 6, 2018, with a break from March 31, 2018 - April 17, 2018 when the detector was off for maintenance. 
+The total runtime is 4048.9 hrs, with 4011.7 hrs of livetime data.
+2293.7 hrs of the runtime is reactor on data, and 1755.2 hrs of reactor off. 
+
+During the data collection period used for this analysis, several PMTs exhibited abnormal behavior, including current instabilities, and are no longer in operation.
+Preliminary theories for the cause of this are that LiLS leaked into the PMT housings and damaged the voltage dividers, but this has yet to be confirmed. 
+To account for this all segments that `turned off' during the data period are excluded in this analysis. 
+The result is 90 active segments, as shown in Figure~\ref{fig:segments}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/AD_DataSet/Segments}
+	\caption{Graphic of 154 segments of the PROSPECT AD. Grayed out segments are those that `turned off' during the data period and are excluded in this analysis.}
+	\label{fig:segments}
+\end{figure}
+
+
 \subsection{Event Selection}
+
+RnPo events in the PROSPECT detector were found by looking at event clusters.
+A cluster is defined as a collection of events that occur within 20 ns of each other.
+Time coincident events were found by first looking for delay (Po) events. 
+It was required that these events existed in a single multiplicity cluster and passed broad energy and PSD cuts outlined in Table~\ref{tab:RnPoCuts}.
+
+Coincident prompt events were found by looking in a 5$\tau$ time window before the delay event, where $\tau$ is the lifetime of \Po, 2.57 ms.
+It was required that the highest energy event in a given cluster in that time window occurred in the same segment as the delay event and passed the energy and PSD cuts in Table~\ref{tab:RnPoCuts}.
+The distance between the prompt and delay event was also required to be less than 250 mm. 
+Accidental prompt events were found by looking in a 5$\tau$ time window offset 10$\tau$ before the delay event. 
+The same cuts applied to coincidental prompt events were applied to accidental prompt events.
+
+\begin{table}[ht]
+	\centering
+\begin{tabular}{c|c}
+	\hline 
+	Prompt Energy & 0.48 $<$ E $<$ 1.18 MeVee \\ 
+	\hline 
+	Delay Energy & 0.61 $<$ E $<$ 1.18 MeVee \\ 
+	\hline 
+	PSD & 0.16 $<$ PSD $<$ 0.36 \\ 
+	\hline 
+	$\Delta z = |z_{\textrm{delay}} - z_{\textrm{prompt}}|$ & $\Delta z < 250$ mm  \\ 
+	\hline 
+	$\Delta t = t_{\textrm{delay}} - t_{\textrm{prompt}}$ & $\Delta t < 5\tau$ ms \\ 
+	\hline 
+\end{tabular} 
+\caption{Broad cuts used to find RnPo events, where $\tau$ is the lifetime of \Po, 2.57 ms.}
+\label{tab:RnPoCuts}
+\end{table}
+
+In addition to energy, PSD, and position cuts a pileup veto was applied to all events.
+At the time of a trigger event all boards are signaled to begin a 592 ns acquisition window. 
+Events arriving at the end of this window do not re-trigger the data acquisition system, thus causing truncated waveforms.
+In order to avoid using these truncated events, any cluster preceded by another cluster in a 800 ns window is vetoed. 
+
+The broad energy and PSD cuts listed in Table~\ref{tab:RnPoCuts} are applied on a first pass analysis of the PROSPECT data.
+Changes in detector performance over time, including decreasing energy resolution and PSD, required a second pass of the data, in which the lower bounds of the energy and PSD cuts were changed to be 4$\sigma$ lower than the mean of the distributions for a given time bin or segment.
+The PSD versus energy and \Po energy versus \Rn energy distributions, after accidental subtraction, can be seen in Figure~\ref{fig:RnPoPSDEn}.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0}
+		\caption{RnPo PSD versus Energy.}
+		\label{fig:rnpopsdvsentimebin0}
+	\end{subfigure}\hspace{0cm}%
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0}
+		\caption{\Po energy versus \Rn energy.}
+		\label{fig:poenvsrnentimebin0}
+	\end{subfigure}
+	\caption{RnPo distributions for all cells integrated over all time.}
+	\label{fig:RnPoPSDEn}
+\end{figure}
+
+\subsection{Rate Calculation}
+
+livetime, dead time, efficiency, rate 
 
 \subsection{Detector Stability Results}
 
