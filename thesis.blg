@@ -17,54 +17,58 @@ Warning--entry type for "Heffron" isn't style-file defined
 --line 975 of file ThesisBib.bib.bib
 Warning--entry type for "Hackett" isn't style-file defined
 --line 984 of file ThesisBib.bib.bib
+I was expecting a `,' or a `}'---line 1184 of file ThesisBib.bib.bib
+ :  URL = "
+ :         https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2800",
+I'm skipping whatever remains of this entry
 Warning--entry type for "ENSDF" isn't style-file defined
---line 1218 of file ThesisBib.bib.bib
-Warning--entry type for "CAENDigit" isn't style-file defined
 --line 1226 of file ThesisBib.bib.bib
-Warning--entry type for "CAENWD" isn't style-file defined
+Warning--entry type for "CAENDigit" isn't style-file defined
 --line 1234 of file ThesisBib.bib.bib
+Warning--entry type for "CAENWD" isn't style-file defined
+--line 1242 of file ThesisBib.bib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 62 entries,
+You've used 63 entries,
             1791 wiz_defined-function locations,
-            868 strings with 12700 characters,
-and the built_in function-call counts, 12967 in all, are:
-= -- 1139
-> -- 530
+            873 strings with 12803 characters,
+and the built_in function-call counts, 13096 in all, are:
+= -- 1150
+> -- 534
 < -- 3
-+ -- 203
-- -- 141
-* -- 815
-:= -- 2105
-add.period$ -- 193
-call.type$ -- 62
-change.case$ -- 63
++ -- 205
+- -- 142
+* -- 816
+:= -- 2125
+add.period$ -- 196
+call.type$ -- 63
+change.case$ -- 64
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 531
-empty$ -- 1345
-format.name$ -- 141
-if$ -- 2890
+cite$ -- 66
+duplicate$ -- 536
+empty$ -- 1363
+format.name$ -- 142
+if$ -- 2921
 int.to.chr$ -- 0
-int.to.str$ -- 62
+int.to.str$ -- 63
 missing$ -- 49
-newline$ -- 318
-num.names$ -- 66
-pop$ -- 142
+newline$ -- 323
+num.names$ -- 67
+pop$ -- 148
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 245
+skip$ -- 248
 stack$ -- 0
 substring$ -- 920
-swap$ -- 77
+swap$ -- 78
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 118
-width$ -- 64
-write$ -- 673
-(There were 8 warnings)
+while$ -- 119
+width$ -- 65
+write$ -- 683
+(There was 1 error message)

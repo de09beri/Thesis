@@ -594,13 +594,34 @@ The rate is then calculated as
 	\sigma_R = R \times \sqrt{\left(\frac{\sigma_N}{N}\right)^2 + \left(\frac{\sigma_\tau}{\tau}\right)^2  +  \frac{2\sigma_{N\tau}}{N\tau} + \left(\frac{\sigma_{eff.}}{eff.}\right)^2}
 \end{equation}
 where $N$ and $\tau$ are results of the $\Delta t$ fit.
+The robustness of this fit can be tracked by observing the resulting values for $\tau$ per individual segment and versus time for all segments and comparing the averages to the currently accepted value for the lifetime of \Po, 2.569 $\pm$ 0.007 ms.
+These results are shown in Figure~\ref{fig:tau}.
+The average lifetime per individual segment is 2.564 $\pm$ 0.002ms, and versus time for all segments in 2.565 $\pm$ 0.002 ms, in great agreement with the accepted lifetime.
 
-\begin{figure}[!b]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76}
+	\includegraphics[width=0.65\linewidth]{tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76}
 	\caption{Coincidental (black), accidental (magenta), and background subtracted (blue) $\Delta t$ distributions for a typical segment integrated over all time. A fit of Equation~\ref{eq:dtexp} to the background subtraction distribution is shown in red along with its results.}
 	\label{fig:rnpodtseg76}
 \end{figure}
+
+\begin{figure}[h]
+	\begin{subfigure}{1\linewidth}
+	\centering
+	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/AD_RateCalc/LifetimePerCell}
+	\caption{}
+	\label{fig:lifetimepercell}
+\end{subfigure}
+\begin{subfigure}{1\linewidth}
+	\centering
+	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/AD_RateCalc/LifetimeVsTime}
+	\caption{}
+	\label{fig:lifetimevstime}
+\end{subfigure}
+\caption{The value of $\tau$ obtained from the exponential fit to the $\Delta t$ distribution for each individual segment integrated over all time (a) and for all segments versus time (b). The currently accepted value for $\tau$, 2.569 $\pm$ 0.007 ms, is marked by the shaded green area. A constant fit to the data is shown as the dashed red line.}
+\label{fig:tau}
+\end{figure}
+
 
 The uncorrected livetime is calculated, for each data run, as the time from the beginning of the run to the time of the last delay candidate event. 
 This is summed for all analyzed runs. 
@@ -683,56 +704,322 @@ Figures~\ref{fig:efficiencypercell} and \ref{fig:efficiencyvstime} show the effi
 \subsection{Detector Performance as Tracked with \Ac}
 
 Though \Ac was added to the detector to track the product of efficiency$\times$volume for all segments, the mono-energetic \Po $\alpha$ is also useful for tracking the performance of the detector and the applied calibrations.
+Figure~\ref{fig:EvsT} shows the mean and 1$\sigma$ width of the \Po energy distribution versus time, integrated over all segments. 
+It can be seen that the resolution is not stable over time, but rather decreases by $\sim$20\% over a period of 7 months.
+This is due to an overall decrease in light collection over time, implying some factor of scintillator degradation, whose cause is not yet understood.
+
+To correct for this in the IBD analysis a variable called $E_{smear}$ was introduced, in which all energy distributions are artificially smeared to match the worst resolution in a given data taking period.
+The results of this are also shown in Figure~\ref{fig:EvsT}, and it can be seen that the new $E_{smear}$ resolution values are time-stable within $\pm$3\% and the mean values within $\pm$0.4\%.
+Note that the sharp variations in the energy mean values correspond to changes in calibration constants.
+
+Though introducing the $E_{smear}$ variable corrects for changing detector characteristics, the \Ac analysis uses $E$. 
+The decreasing resolution is accounted for by applying $\sigma$-based cuts to the energy.
 
 
 \begin{figure}[h]
+\begin{subfigure}{1\linewidth}
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoEnMeanVsTime}
 	\caption{}
 	\label{fig:poenmeanvstime}
-\end{figure}
-
-\begin{figure}[h]
+\end{subfigure}
+\begin{subfigure}{1\linewidth}
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime}
 	\caption{}
 	\label{fig:poensigmavstime}
+\end{subfigure}
+\caption{Mean (a) and 1$\sigma$ width (b) of the \Po energy distribution versus time integrated over all segments. Both before applied a correction (E) and after correction (ESmear) are shown. Shaded areas are reactor on periods.}
+\label{fig:EvsT}
 \end{figure}
 
+The mean and width of the \Po PSD distribution versus time are shown in Figure~\ref{fig:PSDvsT}.
+Similar behavior as was seen in the energy distribution also occurs to the PSD.
+Over the 7 month period the PSD distribution increases in width by $\sim$11\% as the mean decreases by $\sim$9\%.
+This is accounted for the \Ac analysis by the use of $\sigma$-based cuts on the PSD distributions.
 
 \begin{figure}[h]
+\begin{subfigure}{1\linewidth}
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime}
 	\caption{}
 	\label{fig:popsdmeanvstime}
-\end{figure}
-
-
-\begin{figure}[h]
+\end{subfigure}
+\begin{subfigure}{1\linewidth}
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime}
 	\caption{}
 	\label{fig:popsdsigmavstime}
+\end{subfigure}
+\caption{Mean (a) and 1$\sigma$ width (b) of the \Po PSD distribution versus time integrated over all segments. Shaded areas are reactor on periods.}
+\label{fig:PSDvsT}
 \end{figure}
 
+The $z$ resolution of $\alpha$ events, which are highly localized, can be seen by looking at the width of the distribution of the distance between \Rn and \Po signals. 
+This is plotted versus time, integrated over all segments, in Figure~\ref{fig:rnpodzsigmavstime}.
+It can be seen that the width increases by 7\% over the 7 month period, about 3.5 mm. 
+This variation is accounted for in the \Ac analysis in the same way as was done for energy and PSD, by using $\sigma$-based cuts.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime}
-	\caption{}
+	\caption{1$\sigma$ width of the $\Delta z$ distribution versus time. Shaded areas are reactor on periods.}
 	\label{fig:rnpodzsigmavstime}
 \end{figure}
 
-\todo{INCLUDE SEGMENT PLOT}
+Features of the \Po distribution are also useful to compare stability between segments. 
+Figure~\ref{fig:histsvsseg} shows the distributions of the \Po energy, energy resolution, position, and position resolution in all individual segments. 
+For Hamamatsu segments the energy scale and resolution are identical between segments to within $\sim \pm$0.25\% and $\sim \pm$6.5\% respectively. 
+The ET segments vary more than the Hamamatsu segments, but for the case of the IBD analysis these segments are considered outside of the fiducial volume.
 
+The alignment of $z$ between all segments can be observed by looking at the distribution of the mean of the position distribution for all segments.
+It can be seen that, for Hamamatsu segments, all position reconstructions are aligned within $\pm$7 mm. 
+The width of the $\Delta z$ distributions in Hamamatsu segments have a segment-to-segment variation of $\sim \pm$4 mm.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{tex/6-ac227-images/DetPerformance/HistsVsSeg}
+	\caption{Segment-to-segment stability of the \Po energy (a), energy resolution (b), position reconstruction (c), and position resolution (d). Distributions are shown separately for Hamamatsu and ET segments.}
+	\label{fig:histsvsseg}
+\end{figure}
+
+\Ac has proven to be useful in tracking energy, energy resolution, position, and position resolution over time and between segments.
+Though IBD events are characteristically very different from RnPo $\alpha$ events, in energy and spatial event topologies, these distributions help to provide limits on systematic errors applied to the IBD analysis due to changing resolution effects and position reconstruction.
+They also provide useful cross-checks for the behavior of new variables, such as $E_{smear}$, and tracking calibration performance over time.
 
 \subsection{\Ac Rate versus Time}
 
+Observing the rate of \Ac in the AD over time provides a cross-check of the analysis while giving insight into the behavior of the detector.
+Figure~\ref{fig:ratevstimefit} shows the \Ac rate measured versus time, integrated over all segments.
+This is fit twice with an exponential of the form
+\begin{equation}
+	f(t) = R_0e^{\frac{-(t-t_0)\ln(2)}{t_{1/2}}}
+	\label{eq:DtExp}
+\end{equation}
+where $R_0$ is allowed to vary both times and $t_{1/2}$, the half-life of \Ac (21.772 $\pm$ 0.003 yrs), is fixed for one fit and allowed to vary in the other.
+	
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=1\linewidth]{tex/6-ac227-images/RateVsTime/RateVsTime_Fit}
+	\caption{\Ac rate as measured versus time integrated over all segments. Fit with two exponentials, one in which the half-life of \Ac is allowed to vary (red) and one in which it is fixed (black). Errors are statistical. Shaded areas are reactor on periods.}
+	\label{fig:ratevstimefit}
+\end{figure}
+
+When the half-life is allowed to vary, the fit returns a half-life of 11.73 $\pm$ 0.69 yrs, suggesting that the measured rate of \Ac in the AD is falling 1.56 $\pm$ 0.21 \% faster than expectation over a period of 7 months.
+The reason for this discrepancy is unclear.
+Measurements of the \Po lifetime versus time, Figure~\ref{fig:lifetimevstime}, are consistent with its accepted lifetime, suggesting that the analysis is correctly accepting and measuring RnPo events.
+The use of $\sigma$-based cuts for energy, PSD, and $\Delta z$ result in efficiencies that are always 99.9\% or higher, ruling out loss of events due to changing resolution as a solution.
+
+One hypothesis is that \Ac is falling out of the LiLS solution. 
+The process by which this would occur is unclear but a similar loss of rate over time has been seen in other event selections, such as neutron capture time. \todo{include plot of this?}
+
+In an attempt to gain more insight the detector was split into five sections of two rows each, as shown in Figure~\ref{fig:adsegmentsrows}.
+The \Ac rate in each of these sections was measured and fit with the exponential in Equation~\ref{eq:DtExp}, allowing the half-life to vary.
+See Figure~\ref{fig:ratevstimerows} for the rates and fits, and Figure~\ref{fig:achalflifevsrow} for the half-lives from the fit results versus row.
+
+Though these results are statistics limited, a gradient from top to bottom can be seen in which the half-life gets shorter as one moves to the top of the detector.
+This could be a sign of \Ac falling out of solution and sinking to the bottom of the detector.
+The process by which this would happen, though, is unclear.
+It is also not understood if it would sink in each individual segment, in which case a gradient might not be measured, or if it would all sink to the bottom.
+
+In any case, the fact that the measured \Ac rate deviates from expectation indicates that it is not a clear proxy for a relative segment-by-segment volume$\times$efficiency measurement.
+To account for this a 1\% systematic error will be applied to the segment-by-segment measured \Ac rates.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\linewidth]{tex/6-ac227-images/RateVsTime/AD_Segments_Rows}
+	\caption{The PROSPECT detector divided into five sections of two rows each. Segments shaded in red are excluded from this analysis.}
+	\label{fig:adsegmentsrows}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/RateVsTime/RateVsTime_Rows}
+	\caption{The measured \Ac rate versus time for each section of two rows, fit with an exponential in which the half-life is allowed to vary.}
+	\label{fig:ratevstimerows}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/RateVsTime/AcHalfLifevsRow}
+	\caption{The half-life results from fitting the \Ac rate versus time for five sections of two rows.}
+	\label{fig:achalflifevsrow}
+\end{figure}
+
+
+
 \subsection{\Ac Rate in Individual Segments}
+
+The measured \Ac rate in each segment can be seen in Figure~\ref{fig:ratepercell}. 
+Statistical errors for each segment are around 0.6\%.
+The average rate, including Hamamatsu and ET segments, is 3.262 $\pm$ 0.002 mHz, 67\% lower than the original spiking goal of 0.01 Bq/segment.
+The majority of segments vary $\pm$1\% from the average. 
+
+The most glaring outliers are the top row, which are $\sim$1.5\% below average. 
+A possible explanation for this is that the top row is not completely filled with scintillator, but the reason for these lower rates in unclear.
+
+If the focus is shifted to only Hamamatsu segments, the fiducial segments, the average is found to be 3.270 $\pm$ 0.002 mHz, see Figure~\ref{fig:ratepercellnoet}.
+The measured \Ac rates in all fiducial segments agree to within $\pm$2\%.
+A histogram of the individual segment rates is shown in Figure~\ref{fig:histratepercell}.
+The standard deviation of only the Hamamatsu segments is 0.026 mHz.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{tex/6-ac227-images/RatePerSeg/RatePerCell}
+	\caption{The \Ac per individual segment integrated over all time. Dashed line represents the average over all segments. Dotted lines are $\pm$1\% and $\pm$2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical.}
+	\label{fig:ratepercell}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{tex/6-ac227-images/RatePerSeg/RatePerCell_noET}
+	\caption{The \Ac per individual segment integrated over all time. Dashed line represents the average over only Hamamatsu segments. Dotted lines are $\pm$1\% and $\pm$2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical. \todo{remove ETs from plot}}
+	\label{fig:ratepercellnoet}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/RatePerSeg/HistRatePerCell}
+	\caption{Histogram of the individual segment \Ac rates. Blue (solid): Hamamatsu and ET segments, StdDev = 0.031 mHz. Black (dashed): only Hamamatsu segments, StdDev = 0.026 mHz.}
+	\label{fig:histratepercell}
+\end{figure}
+
 
 
 \subsection{Systematic Errors}
 
 \subsubsection{Energy, PSD, and $\Delta$z Cuts}
+In an effort to determine what level of systematic error to apply to the measured \Ac rates per segment a study was performed on the energy, PSD, and $\Delta z$ cuts.
+For each cut (prompt and delay energy and PSD, and $\Delta$z) the width of the cut was changed from 2.5$\sigma$ about the mean to 4.0$\sigma$ in steps of 0.5$\sigma$ with the exception of an added step at 3.8$\sigma$.
+The rate per segment was calculated for each of these instances and compared to the rate per segment when all cuts were at 4.0$\sigma$.
+An example of the calculated rate per segment when the delayed energy cut is changed in this way can be seen in Figure~\ref{fig:ratevscelldelayecut}. 
+
+For each segment and each cut, the quantity 
+\begin{equation}
+\frac{R_{4\sigma} - R_{i\sigma}}{R_{4\sigma}}
+\label{eq:Sys}
+\end{equation}
+is calculated, where $R_{4\sigma}$ is the rate when a 4$\sigma$ cut is used and $R_{i\sigma}$ is the rate when a i$\sigma$ cut is used where (i: 2.5, 3.0, 3.5, 3.8).
+This process was completed for the total data set and for a simulation set.
+The simulation was done as an \Ac source dissolved in the scintillator in the AD with no reactor or ambient background.
+The distributions of these results for data can be seen in Figure~\ref{fig:CutSys}.
+
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=1\linewidth]{tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut}
+	\caption{\Ac rate per segment for different $\sigma$-based cuts on the delayed energy.}
+	\label{fig:ratevscelldelayecut}
+\end{figure}
+
+The mean of each of these distributions is found and plotted according to the $\sigma$ cut used in Figure~\ref{fig:cutstudyresults}. 
+The simulation results are shown in the same figure.
+It can be seen that the mean of all distributions converge to zero at 4$\sigma$ with the maximum change in rate being $\sim$0.6 \% at 2.5$\sigma$.
+
+If the method used to calculate efficiency was perfect (implying that all distributions are true Gaussians), then the rate would not depend on the $\sigma$ cut that is applied.
+The results of this study show that this is not true and, therefore, a systematic error of 0.15\% will be applied to all measured \Ac rates per segment.
+
+\begin{figure}[H]
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut}
+		\caption{Prompt Energy}
+	\end{subfigure}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECut}
+		\caption{Delay Energy}
+	\end{subfigure}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptPSDCut}
+		\caption{Prompt PSD}
+	\end{subfigure}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.85\linewidth]{tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayPSDCut}
+		\caption{Delay PSD}
+	\end{subfigure}
+	\begin{subfigure}{1\linewidth}
+		\centering
+		\includegraphics[width=0.425\linewidth]{tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut}
+		\caption{$\Delta$z}
+	\end{subfigure}
+	\caption{Pictured here are distributions created by calculating for each cell the difference between the rate using a given $\sigma$ cut and the rate using a 4$\sigma$ cut normalized by the rate using a 4$\sigma$ cut for data.}
+	\label{fig:CutSys}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/Systematics_Cuts/CutStudyResults}
+	\caption{The mean of the distributions shown in Figure~\ref{fig:CutSys}. Solid lines: data. Dashed lines: simulation. Connecting lines are not fits; only meant to help guide the eye of the reader.}
+	\label{fig:cutstudyresults}
+\end{figure}
+
 \subsubsection{Other Coincident Alphas}
+
+There are two known event types with coincident alphas that occur in the PROSPECT AD that could contaminate the RnPo selection group. The first is an $\alpha$-$\alpha$ coincidence in the $^{232}$Th chain (the chain responsible for $^{212}$Bi$\rightarrow^{212}$Po (BiPo) events): $^{220}$Rn$\rightarrow ^{216}$Po$\rightarrow ^{212}$Pb. As listed in Table~\ref{tab:CoincAlpha}, the energy of these alphas fall in the selection range of the \Ac RnPo's (0.48/0.61-1.18 MeV) making it possible for them to be selected and not correctly background subtracted. 
+
+The other possible event is the triple alpha decay in the \Ac chain: $^{223}$Ra$\rightarrow$\Rn$\rightarrow$\Po$\rightarrow ^{211}$Pb. Choosing a background subtraction window that occurs before a given selected delay event (Po) helps to get rid of most of this contamination, but the rate of remaining events can be calculated.
+
+Using the information found in Table~\ref{tab:CoincAlpha} and the time windows chosen for the \Ac RnPo selection it is possible to calculate the amount of contamination that is expected from the other alpha coincidences. 
+Starting with the $^{232}$Th RnPo's, the fraction of $^{220}$Rn$\rightarrow ^{216}$Po alphas that are selected as `true' \Ac events, based on energy and time cuts, is $\sim$0.0061. 
+If the rate of these events is approximated to be 0.085 Hz (based on a BiPo rate of 0.0547 Hz  \cite{Jones2800:2019}) then the rate of selection is $\sim$0.00052 Hz. 
+If we approximate a total \Ac rate of 0.29 Hz, and therefore a rate of 0.24 Hz in the 0.5 - 12.845 ms time window used for selection, then the $^{232}$Th RnPo's will make up $\sim$0.22\% of the \Ac RnPo signal selection in the selection time window.
+Therefore, a systematic error of 0.22\% will be applied.
+
+The triple alpha in the \Ac chain contributes much less to the RnPo signal selection. Due to the nature of the background subtraction the probability that $^{223}$Ra$\rightarrow$\Rn coincident events pass both the energy cuts and the subtraction is 0.00083\%. No systematic error will be applied for these event types.
+
+See Table~\ref{tab:CoincAlphaRate} for a summary of the energy and time cut efficiencies for both coincident alpha event types. 
+
+\begin{table}[t]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline 
+		\textbf{Isotope} & \textbf{t$_{1/2}$ [ms]} & \textbf{E [MeV]} & \textbf{QE [MeVee]} & \textbf{1$\sigma$ width [MeVee] (5\% res.)} \\ 
+		\hline 
+		$^{220}$Rn & 55600 & 6.2881 & 0.5942 & 0.0412 \\ 
+		\hline 
+		$^{216}$Po & 145 & 6.7783 & 0.6776 & 0.0412 \\ 
+		\hline \hline
+		$^{223}$Ra & 9.88$\times$10$^{8}$ & 5.7162 & 0.5031 & 0.0355 \\ 
+		\hline 
+		$^{219}$Rn & 3860 & 6.8191 & 0.6847 & 0.0414 \\ 
+		\hline 
+		$^{215}$Po & 1.781 & 7.3861 & 0.7876 & 0.0444 \\ 
+		\hline 
+	\end{tabular} 
+	\caption{Dominant $\alpha$ energies for coincident $\alpha$ event chains that could contaminate the \Ac RnPo signal. Also given are the quenched energies (QE) and 1$\sigma$ widths based on a 5\% energy resolution.}
+	\label{tab:CoincAlpha}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline 
+		\textbf{Prompt} & \textbf{Delay} & \textbf{t$_{1/2}$ [ms]} & \textbf{Energy Cut Eff.} & \textbf{Time Cut Eff.} & \textbf{Rate [mHz]} \\ 
+		\hline 
+		$^{220}$Rn & $^{216}$Po & 145 & 0.925 & 0.0066 & 0.52  \\ 
+		\hline 
+		$^{223}$Ra & $^{219}$Rn & 3860 & 0.815 & 0.000010  & 0.0021 \\ 
+		\hline 
+	\end{tabular} 
+	\caption{Energy and time cut efficiencies and resulting rates (assuming an \Ac rate of 240 mHz) for both coincident $\alpha$ event chains that could contribute to contamination of the \Ac RnPo signal selection.}
+	\label{tab:CoincAlphaRate}
+\end{table}
+
+
+\subsection{\Ac Rates per Baseline}
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/Baseline/AD_Segments_Baselines}
+	\caption{The PROSPECT AD divided into six baselines used in the oscillation analysis described in the following chapter. Yellow: fiducial segments, gray: excluded segments.}
+	\label{fig:adsegmentsbaselines}
+\end{figure}
+
+
+
+

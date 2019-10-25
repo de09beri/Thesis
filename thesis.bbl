@@ -350,4 +350,9 @@ CAEN.
 \newblock {CAEN WaveDump}.
 \newblock {https://www.caen.it/products/caen-wavedump/}.
 
+\bibitem{Jones2800:2019}
+{D. Jones}.
+\newblock {Docdb 2800:BiPo Technote for PRD}.
+\newblock {PROSPECT DocDB 2800-v1}, URL =, 2019.
+
 \end{thebibliography}

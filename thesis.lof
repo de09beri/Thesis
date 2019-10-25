@@ -50,16 +50,33 @@
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Graphic of 154 segments of the PROSPECT AD. Grayed out segments are those that `turned off' during the data period and are excluded in this analysis.\relax }}{57}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces RnPo distributions for all cells integrated over all time.\relax }}{58}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Coincidental (black), accidental (magenta), and background subtracted (blue) $\Delta t$ distributions for a typical segment integrated over all time. A fit of Equation~\ref {eq:dtexp} to the background subtraction distribution is shown in red along with its results.\relax }}{59}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces The dead time, as a fraction of livetime, due to the pileup veto versus time. Shaded areas are reactor on periods.\relax }}{60}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Energy (a), PSD (b), and $\Delta z$ (c) distributions for RnPo events in a typical segment integrated over all time. Also shown are the results of fitting each distribution with a Gaussian for the purpose of calculating the cut efficiencies.\relax }}{61}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Cut efficiencies calculated for RnPo events in individual segments integrated over all time.\relax }}{62}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Cut efficiencies calculated for RnPo events versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{62}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces \relax }}{63}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces \relax }}{63}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces \relax }}{63}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces \relax }}{64}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces \relax }}{64}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces The value of $\tau $ obtained from the exponential fit to the $\Delta t$ distribution for each individual segment integrated over all time (a) and for all segments versus time (b). The currently accepted value for $\tau $, 2.569 $\pm $ 0.007 ms, is marked by the shaded green area. A constant fit to the data is shown as the dashed red line.\relax }}{60}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces The dead time, as a fraction of livetime, due to the pileup veto versus time. Shaded areas are reactor on periods.\relax }}{61}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Energy (a), PSD (b), and $\Delta z$ (c) distributions for RnPo events in a typical segment integrated over all time. Also shown are the results of fitting each distribution with a Gaussian for the purpose of calculating the cut efficiencies.\relax }}{62}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Cut efficiencies calculated for RnPo events in individual segments integrated over all time.\relax }}{62}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Cut efficiencies calculated for RnPo events versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{63}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Mean (a) and 1$\sigma $ width (b) of the $^{215}$Po energy distribution versus time integrated over all segments. Both before applied a correction (E) and after correction (ESmear) are shown. Shaded areas are reactor on periods.\relax }}{64}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Mean (a) and 1$\sigma $ width (b) of the $^{215}$Po PSD distribution versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{65}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces 1$\sigma $ width of the $\Delta z$ distribution versus time. Shaded areas are reactor on periods.\relax }}{66}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Segment-to-segment stability of the $^{215}$Po energy (a), energy resolution (b), position reconstruction (c), and position resolution (d). Distributions are shown separately for Hamamatsu and ET segments.\relax }}{66}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces $^{227}$Ac rate as measured versus time integrated over all segments. Fit with two exponentials, one in which the half-life of $^{227}$Ac is allowed to vary (red) and one in which it is fixed (black). Errors are statistical. Shaded areas are reactor on periods.\relax }}{67}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces The PROSPECT detector divided into five sections of two rows each. Segments shaded in red are excluded from this analysis.\relax }}{68}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces The measured $^{227}$Ac rate versus time for each section of two rows, fit with an exponential in which the half-life is allowed to vary.\relax }}{69}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces The half-life results from fitting the $^{227}$Ac rate versus time for five sections of two rows.\relax }}{69}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces The $^{227}$Ac per individual segment integrated over all time. Dashed line represents the average over all segments. Dotted lines are $\pm $1\% and $\pm $2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical.\relax }}{70}
+\contentsline {figure}{\numberline {5.33}{\ignorespaces The $^{227}$Ac per individual segment integrated over all time. Dashed line represents the average over only Hamamatsu segments. Dotted lines are $\pm $1\% and $\pm $2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical. {\color {blue} [\textbf {remove ETs from plot}]}\relax }}{71}
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Histogram of the individual segment $^{227}$Ac rates. Blue (solid): Hamamatsu and ET segments, StdDev = 0.031 mHz. Black (dashed): only Hamamatsu segments, StdDev = 0.026 mHz.\relax }}{71}
+\contentsline {figure}{\numberline {5.35}{\ignorespaces $^{227}$Ac rate per segment for different $\sigma $-based cuts on the delayed energy.\relax }}{72}
+\contentsline {figure}{\numberline {5.36}{\ignorespaces Pictured here are distributions created by calculating for each cell the difference between the rate using a given $\sigma $ cut and the rate using a 4$\sigma $ cut normalized by the rate using a 4$\sigma $ cut for data.\relax }}{73}
+\contentsline {figure}{\numberline {5.37}{\ignorespaces The mean of the distributions shown in Figure~\ref {fig:CutSys}. Solid lines: data. Dashed lines: simulation. Connecting lines are not fits; only meant to help guide the eye of the reader.\relax }}{74}
+\contentsline {figure}{\numberline {5.38}{\ignorespaces The PROSPECT AD divided into six baselines used in the oscillation analysis described in the following chapter. Yellow: fiducial segments, gray: excluded segments.\relax }}{76}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \relax }}{77}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \relax }}{79}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \relax }}{79}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \relax }}{80}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces \relax }}{80}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces \relax }}{81}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
