@@ -156,9 +156,17 @@ A modified version of Wavedump 3.7.2 \cite{CAENWD} was used to start and stop th
 
 \subsection{Data Analysis}
 
-The raw waveforms are analyzed to calculate the energy, PSD, and time of each signal. 
-The energy is determined by taking an integral of the waveform in ADC units and then converted to nC by... 
-The PSD is defined as... \todo{DEFINE these values}
+The raw waveforms are analyzed to calculate the energy and PSD of each signal. 
+Each collected waveform consists of 250 2 ns samples.
+The energy is measured by taking the integral of the waveform using the trapezoidal rule in ADC units.
+The total energy is converted to nC using
+\begin{equation}
+E[nC] = E[ADC] \times \frac{1\times10^9}{R\times\textrm{sample-rate}\times n[ADC/V]}
+\end{equation}
+where $R$, the resistance, is 50 $\Omega$, the sample-rate is $5\times10^8$ Hz, and $n = (2^{14} -1)/2 = 8191.50$ ADC/V.
+The tail and total fractions used to calculate the PSD are both measured from the leading half-maximum point.
+The total is measured as the integral from 10 samples before the half-max to 140 samples after.
+The tail is measured as the integral from 19 samples after the half-max to 140 samples after.
 
 The \Ac coincident alpha events, labeled RnPo events for the remainder of this document, are found by applying a set of timing, energy, and PSD cuts along with an accidental background subtraction.
 Po events are found first by applying the energy and PSD cuts listed in Tabel~\ref{tab:MatCuts}. 
@@ -443,26 +451,51 @@ A = C~m_2 \left(1 - \frac{m_3}{m_1 + m_2}\right)
 where $m_3$ is the amount of solution removed from V1(V2).
 The expected \Ac activity for each vial is listed in Table~\ref{tab:SpikeExpA}.
 
+The \Ac rate in vials V1, V2, and V3 were measured after adding V0 to the drum of LiLS.
+The rate of \Ac in V3 should be similar to the rate in AD, recalling that the goal was 1.8 Bq.
+A plot of the measured rates for each vial is shown in Figure~\ref{fig:ADVials}.
+Each of these rates was fit with a constant, with the results of these fits listed in Table~\ref{tab:SpikeExpA}.
+It can be seen that the measured rates in V1 and V2 are about 4\% higher than expectation, and the rate in V3 is about 50\% lower.
+A possible explanation for this discrepancy is that the solution was not sufficiently mixed before transferring between the stock solution and the vials and between the vials themselves. 
+If this experiment was to be repeated a more thorough testing of transfer procedures would need to be performed.
+In conclusion, the measured rate in V3 indicates that the \Ac rate in the PROSPECT AD should be around 0.7 Hz, less than half of the initial goal.
+
 \begin{table}
 	\centering
-\begin{tabular}{c|c}
+\begin{tabular}{c|c|c}
 	\hline 
-	\textbf{Vial} & \textbf{Expected Activity (Bq)} \\ 
+	\textbf{Vial} & \textbf{Expected Activity [Bq]} & \textbf{Measured Rate [Hz]} \\ 
 	\hline 
-	V0 & 1.71 \\ 
+	V0 & 1.71 & \\ 
 	\hline 
-	V1 & 9.10 \\ 
+	V1 & 9.10 &  9.48 $\pm$ 0.04  \\ 
 	\hline 
-	V2 & 8.91 \\ 
+	V2 & 8.91 & 9.38 $\pm$ 0.06\\ 
 	\hline 
-	V3 & 1.76 \\ 
+	V3 & 1.76 & 0.696 $\pm$ 0.001 \\ 
 	\hline 
 \end{tabular} 
-\caption{Expected \Ac activity in vials prepared for spiking the LiLS. }
+\caption{Expected and measured \Ac activity in vials prepared for spiking the LiLS. }
 \label{tab:SpikeExpA}
 \end{table}
 
-\todo{MAKE PLOTS FOR THESE VIALS}
+\begin{figure}[H]
+	\centering
+\begin{subfigure}{1\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/AD_Rates}
+	%\caption{}
+	\label{fig:adrates}
+\end{subfigure}
+\begin{subfigure}{1\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/AD_RateV3}
+	%\caption{}
+	\label{fig:adratev3}
+\end{subfigure}
+\caption{Measured \Ac rates of vials used in the procedure performed to add \Ac to the LiLS of the PROSPECT AD. Top: intermediate vials V1 and V2. Bottom: V3, filled in the same method as the vial that was added to the drum of LiLS. All rates were fit with a constant, the results drawn as solid lines with hashed lines representing the error.}
+\label{fig:ADVials}
+\end{figure}
 
 
 \subsection{Data Set}
@@ -498,7 +531,7 @@ The distance between the prompt and delay event was also required to be less tha
 Accidental prompt events were found by looking in a 5$\tau$ time window offset 10$\tau$ before the delay event. 
 The same cuts applied to coincidental prompt events were applied to accidental prompt events.
 
-\begin{table}[ht]
+\begin{table}[!t]
 	\centering
 \begin{tabular}{c|c}
 	\hline 
@@ -546,9 +579,160 @@ The PSD versus energy and \Po energy versus \Rn energy distributions, after acci
 
 \subsection{Rate Calculation}
 
-livetime, dead time, efficiency, rate 
+The \Ac rate per segment, or for a given time period, is found by fitting the background subtracted $\Delta t$ distribution, where $\Delta t = t_{\textrm{delay}} - t_{\textrm{prompt}}$, with
+\begin{equation}
+	f(t) = Ne^{-t/\tau}
+	\label{eq:dtexp}
+\end{equation}
+where $N$ and $\tau$, the lifetime of \Po, are allowed to vary.
+For an example of these distributions and fit for a typical segment see Figure~\ref{fig:rnpodtseg76}.
+The rate is then calculated as
+\begin{equation}
+	R = \frac{N~\tau}{\Delta t\textrm{-bin-width}\times\textrm{livetime}\times\textrm{efficiency}}
+\end{equation}
+\begin{equation}
+	\sigma_R = R \times \sqrt{\left(\frac{\sigma_N}{N}\right)^2 + \left(\frac{\sigma_\tau}{\tau}\right)^2  +  \frac{2\sigma_{N\tau}}{N\tau} + \left(\frac{\sigma_{eff.}}{eff.}\right)^2}
+\end{equation}
+where $N$ and $\tau$ are results of the $\Delta t$ fit.
 
-\subsection{Detector Stability Results}
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76}
+	\caption{Coincidental (black), accidental (magenta), and background subtracted (blue) $\Delta t$ distributions for a typical segment integrated over all time. A fit of Equation~\ref{eq:dtexp} to the background subtraction distribution is shown in red along with its results.}
+	\label{fig:rnpodtseg76}
+\end{figure}
 
-\subsection{Volume Variation Results}
+The uncorrected livetime is calculated, for each data run, as the time from the beginning of the run to the time of the last delay candidate event. 
+This is summed for all analyzed runs. 
+This livetime is corrected for the dead time introduced by the pileup veto.
+This correction is calculated as the number of clusters, $NClusts$, times the pileup veto time, 800 ns.
+Figure~\ref{fig:vetotimevstime} shows the dead time, as a fraction of livetime, versus time.
+Because the veto is applied to both prompt and delay candidates the livetime is corrected with 2$\times$ the dead time as
+\begin{equation}
+	\textrm{livetime} = \sum(t_{\textrm{finalPo}} - t_0) - 2.0 \times NClusts \times 800\textrm{ns}
+\end{equation}
+When measuring the rate per segment the same livetime is applied to all segments. 
 
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime}
+	\caption{The dead time, as a fraction of livetime, due to the pileup veto versus time. Shaded areas are reactor on periods.}
+	\label{fig:vetotimevstime}
+\end{figure}
+
+
+
+The efficiency is calculated for energy and PSD cuts on both prompt and delay events, and for the $\Delta z$ cut.
+This is done by fitting each distribution with a Gaussian $\pm 2\sigma$ from the mean, with the exception of the prompt energy which is fit from -1.3$\sigma$ to +0.6$\sigma$.
+The efficiency is then calculated as the ratio of the integral of the Gaussian
+between the cuts for that distribution to the integral between $\pm \infty$, as defined in Equation~\ref{eq:Eff}.
+The error on the efficiency is treated as a binomial error.
+For an example of the distributions and fits for a typical segment see Figure~\ref{fig:RnPoDist}.
+
+\begin{align}
+	\text{Eff} = \frac{\int_{\text{low-cut}}^{\text{high-cut}}g(u) du}{\int_{-\infty}^{\infty}g(u) du}
+	&& \sigma_{\text{Eff}} =\sqrt{\frac{\text{Eff}(1-\text{Eff})}{N}}
+	\label{eq:Eff}
+\end{align}	
+
+It should be noted here that although the \Rn energy distribution has a high energy tail, due to the accompanying gammas, the efficiency is calculated using a single Gaussian fit around the peak.
+This is valid as long as the high energy cut is always wide enough to include the whole high energy tail, which is true for this analysis.
+
+In general the total efficiency is 99.9\% or higher, for RnPo rates calculated in individual segments or versus time.
+Figures~\ref{fig:efficiencypercell} and \ref{fig:efficiencyvstime} show the efficiency calculated for all distributions for all individual segments and versus time, respectively.
+
+\begin{figure}[H]
+	\begin{subfigure}{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76}
+	\caption{}
+	\label{fig:rnpoenseg76}
+\end{subfigure}%
+\begin{subfigure}{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76}
+	\caption{}
+	\label{fig:rnpopsdseg76}
+\end{subfigure}
+\begin{subfigure}{1\linewidth}
+	\centering
+	\includegraphics[width=0.475\linewidth]{tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76}
+	\caption{}
+	\label{fig:rnpodzseg76}
+\end{subfigure}
+\caption{Energy (a), PSD (b), and $\Delta z$ (c) distributions for RnPo events in a typical segment integrated over all time. Also shown are the results of fitting each distribution with a Gaussian for the purpose of calculating the cut efficiencies.}
+\label{fig:RnPoDist}
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell}
+	\caption{Cut efficiencies calculated for RnPo events in individual segments integrated over all time.}
+	\label{fig:efficiencypercell}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime}
+	\caption{Cut efficiencies calculated for RnPo events versus time integrated over all segments. Shaded areas are reactor on periods.}
+	\label{fig:efficiencyvstime}
+\end{figure}
+
+
+\subsection{Detector Performance as Tracked with \Ac}
+
+Though \Ac was added to the detector to track the product of efficiency$\times$volume for all segments, the mono-energetic \Po $\alpha$ is also useful for tracking the performance of the detector and the applied calibrations.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoEnMeanVsTime}
+	\caption{}
+	\label{fig:poenmeanvstime}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime}
+	\caption{}
+	\label{fig:poensigmavstime}
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime}
+	\caption{}
+	\label{fig:popsdmeanvstime}
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime}
+	\caption{}
+	\label{fig:popsdsigmavstime}
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime}
+	\caption{}
+	\label{fig:rnpodzsigmavstime}
+\end{figure}
+
+\todo{INCLUDE SEGMENT PLOT}
+
+
+
+\subsection{\Ac Rate versus Time}
+
+\subsection{\Ac Rate in Individual Segments}
+
+
+\subsection{Systematic Errors}
+
+\subsubsection{Energy, PSD, and $\Delta$z Cuts}
+\subsubsection{Other Coincident Alphas}

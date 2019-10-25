@@ -1,8 +1,8 @@
 \select@language {english}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
-\contentsline {chapter}{LIST OF FIGURES}{viii}
-\contentsline {chapter}{LIST OF TABLES}{x}
+\contentsline {chapter}{LIST OF FIGURES}{ix}
+\contentsline {chapter}{LIST OF TABLES}{xi}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }CHAPTER\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
 \contentsline {chapter}{\numberline {1}\uppercase {Neutrinos}}{1}
@@ -42,20 +42,24 @@
 \contentsline {subsection}{\numberline {5.2.1}Material and Scintillator Preparation}{42}
 \contentsline {subsection}{\numberline {5.2.2}Detector}{44}
 \contentsline {subsection}{\numberline {5.2.3}Data Analysis}{45}
-\contentsline {subsection}{\numberline {5.2.4}Results}{46}
-\contentsline {subsubsection}{\numberline {5.2.4.1}Viton}{50}
-\contentsline {section}{\numberline {5.3}$^{227}$Ac in the PROSPECT AD}{52}
-\contentsline {subsection}{\numberline {5.3.1}Spiking the LiLS}{52}
-\contentsline {subsection}{\numberline {5.3.2}Data Set}{54}
-\contentsline {subsection}{\numberline {5.3.3}Event Selection}{55}
-\contentsline {subsection}{\numberline {5.3.4}Rate Calculation}{57}
-\contentsline {subsection}{\numberline {5.3.5}Detector Stability Results}{57}
-\contentsline {subsection}{\numberline {5.3.6}Volume Variation Results}{57}
-\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{58}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{59}
+\contentsline {subsection}{\numberline {5.2.4}Results}{47}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Viton}{51}
+\contentsline {section}{\numberline {5.3}$^{227}$Ac in the PROSPECT AD}{53}
+\contentsline {subsection}{\numberline {5.3.1}Spiking the LiLS}{53}
+\contentsline {subsection}{\numberline {5.3.2}Data Set}{56}
+\contentsline {subsection}{\numberline {5.3.3}Event Selection}{57}
+\contentsline {subsection}{\numberline {5.3.4}Rate Calculation}{59}
+\contentsline {subsection}{\numberline {5.3.5}Detector Performance as Tracked with $^{227}$Ac }{61}
+\contentsline {subsection}{\numberline {5.3.6}$^{227}$Ac Rate versus Time}{62}
+\contentsline {subsection}{\numberline {5.3.7}$^{227}$Ac Rate in Individual Segments}{62}
+\contentsline {subsection}{\numberline {5.3.8}Systematic Errors}{62}
+\contentsline {subsubsection}{\numberline {5.3.8.1}Energy, PSD, and $\Delta $z Cuts}{62}
+\contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{62}
+\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{65}
+\contentsline {chapter}{\numberline {7}CONCLUSIONS}{66}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{60}
+\contentsline {chapter}{BIBLIOGRAPHY}{67}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{66}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{67}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{73}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{74}

@@ -36,18 +36,29 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces $^{227}$Ac decay chain}}{41}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Material sample vials}}{44}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Detector used for material adsorption studies}}{44}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Typical RnPo energy and PSD distributions}}{45}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical RnPo $\Delta $t distribution}}{46}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Typical RnPo energy and PSD distributions}}{46}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical RnPo $\Delta $t distribution}}{47}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces $^{227}$Ac rate for each material sample}}{47}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces $^{215}$Po energy distribution for reference sample with two Gaussian fit}}{47}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces $^{215}$Po mean versus time for the reference sample}}{48}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces $^{215}$Po 1$\sigma $ width versus time for the reference sample}}{48}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces $^{227}$Ac rate for each material sample relative to the reference sample}}{49}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces RnPo energy spectra for viton and PEEK at the first and last time bins}}{51}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces The 1$\sigma $ width of two Gaussians fit to the $^{219}$Rn energy spectrum versus time for the viton o-ring material sample. Black (circle): higher energy Gaussian, Magenta (square): lower energy Gaussian.\relax }}{51}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces A graphic of the procedure used to spike the drum of LiLS with $^{227}$Ac for filling of the AD.\relax }}{53}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Graphic of 154 segments of the PROSPECT AD. Grayed out segments are those that `turned off' during the data period and are excluded in this analysis.\relax }}{55}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces RnPo distributions for all cells integrated over all time.\relax }}{56}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces $^{215}$Po energy distribution for reference sample with two Gaussian fit}}{48}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces $^{215}$Po mean versus time for the reference sample}}{49}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces $^{215}$Po 1$\sigma $ width versus time for the reference sample}}{49}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces $^{227}$Ac rate for each material sample relative to the reference sample}}{50}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces RnPo energy spectra for viton and PEEK at the first and last time bins}}{52}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces The 1$\sigma $ width of two Gaussians fit to the $^{219}$Rn energy spectrum versus time for the viton o-ring material sample. Black (circle): higher energy Gaussian, Magenta (square): lower energy Gaussian.\relax }}{52}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces A graphic of the procedure used to spike the drum of LiLS with $^{227}$Ac for filling of the AD.\relax }}{54}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Measured $^{227}$Ac rates of vials used in the procedure performed to add $^{227}$Ac to the LiLS of the PROSPECT AD. Top: intermediate vials V1 and V2. Bottom: V3, filled in the same method as the vial that was added to the drum of LiLS. All rates were fit with a constant, the results drawn as solid lines with hashed lines representing the error.\relax }}{56}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Graphic of 154 segments of the PROSPECT AD. Grayed out segments are those that `turned off' during the data period and are excluded in this analysis.\relax }}{57}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces RnPo distributions for all cells integrated over all time.\relax }}{58}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Coincidental (black), accidental (magenta), and background subtracted (blue) $\Delta t$ distributions for a typical segment integrated over all time. A fit of Equation~\ref {eq:dtexp} to the background subtraction distribution is shown in red along with its results.\relax }}{59}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces The dead time, as a fraction of livetime, due to the pileup veto versus time. Shaded areas are reactor on periods.\relax }}{60}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Energy (a), PSD (b), and $\Delta z$ (c) distributions for RnPo events in a typical segment integrated over all time. Also shown are the results of fitting each distribution with a Gaussian for the purpose of calculating the cut efficiencies.\relax }}{61}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Cut efficiencies calculated for RnPo events in individual segments integrated over all time.\relax }}{62}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Cut efficiencies calculated for RnPo events versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{62}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces \relax }}{63}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces \relax }}{63}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces \relax }}{63}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces \relax }}{64}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces \relax }}{64}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
