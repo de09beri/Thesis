@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
 \contentsline {chapter}{LIST OF FIGURES}{xii}
@@ -60,14 +60,16 @@
 \contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{77}
 \contentsline {section}{\numberline {6.2}IBD Event Selection}{78}
 \contentsline {subsection}{\numberline {6.2.1}Cuts}{78}
-\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{79}
-\contentsline {section}{\numberline {6.3}Data Set}{79}
-\contentsline {section}{\numberline {6.4}Oscillation Results}{81}
-\contentsline {section}{\numberline {6.5}Spectrum Results}{82}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{83}
+\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{80}
+\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{81}
+\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{82}
+\contentsline {section}{\numberline {6.3}Data Set}{82}
+\contentsline {section}{\numberline {6.4}Oscillation Results}{84}
+\contentsline {section}{\numberline {6.5}Spectrum Results}{85}
+\contentsline {chapter}{\numberline {7}CONCLUSIONS}{86}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{84}
+\contentsline {chapter}{BIBLIOGRAPHY}{87}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{90}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{91}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{93}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{94}

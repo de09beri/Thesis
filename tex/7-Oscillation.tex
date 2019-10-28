@@ -44,10 +44,84 @@ These are:
 	\item Pileup Veto: Applied to both prompt and delayed clusters, if the candidate cluster is preceded by another cluster in a window of $<$ 800 ns, the candidate cluster is vetoed
 	\item Shower Veto: Veto delayed clusters that exist in a (0,100) $\mu$s window around cosmic muon clusters (E$_{\textrm{rec}} >$ 15 MeV); Veto delayed clusters that exist within (-200,+200)~$\mu$s of events with PSD $> 3\sigma$ from the gamma-like PSD band mean and E $>$ 0.25 MeV
 	\item Fiducialization: Reject events in which a prompt or delayed event occurs in the outer ring of segments; reject events that occur outside of $z$ = (-448, 448) mm 
-
 \end{itemize}
+For an example of how the PSD and energy cuts look in PSD versus energy space for prompt events correlated with a delayed neutron capture see Figure~\ref{fig:psdvsecorrnli}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/7-oscillation-images/PSDvsE_Corr_nLi}
+	\caption{PSD versus energy distribution for prompt events correlated with a delayed neutron capture on $^6$Li. The cuts used for identifying nLi events is represented by the blue rectangle. The upper limit of the cut used for identifying electron-like signals is shown as the pink curve.}
+	\label{fig:psdvsecorrnli}
+\end{figure}
+
+
 
 \subsection{Backgrounds}
+
+The two primary backgrounds to the IBD signal are time-correlated cosmogenic neutron events and accidental coincidences of ambient $\gamma$-rays and nLi captures.
+Cosmic muons moving through the lead shielding can create multiple neutrons that may be selected as delayed events.
+The shower veto helps to reduce this background, introducing a dead-time that varies between 5.5\% and 6.9\% for reactor off and on times respectively.
+Along with this veto, the IBD selection is applied to reactor off data and the resulting distributions are subtracted from the reactor on results.
+
+Accidental coincidences are handled by selecting prompt-delay pairs with $\Delta t$ = (-12,-2) ms.
+This provides a high statistics sample of events that are scaled to match the correlated time window and then subtracted from the correlated events. 
+This is done for both reactor on and off data sets.
+
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/7-oscillation-images/IBD_E}
+	\caption{The prompt energy spectra, after background subtraction, of IBD events for 24 hours of both reactor on and off data. Prominent peaks at 2.2 MeV and 4.4 MeV are due to neutron captures on Hydrogen and inelastic neutron scatters on $^{12}$C respectively.}
+	\label{fig:ibde}
+\end{figure}
+
+Figure~\ref{fig:ibde} shows the prompt energy spectra for 24 hours both of reactor on and off data after applying all cuts and accidental background subtraction.
+Prominent peaks at 2.2 MeV and 4.4 MeV exist in both reactor on and off data.
+Cosmogenic muons can create several neutrons. One of these will capture on hydrogen (nH), producing a 2.2 MeV $\gamma$, which will be followed by another neutron capturing on $^6$Li. 
+These time-coincident events are reduced by the shower veto, but not completely removed.
+
+High energy neutrons (fast neutrons) will also inelastically scatter off of $^{12}$C in the scintillator causing the reaction:
+\begin{equation}
+	n + ^{12}C \rightarrow n' + ^{12}C^*
+\end{equation}
+As $^{12}$C$^*$ de-excites it will release a 4.4 MeV photon, while the scattered neutron thermalizes and captures on $^{6}$Li, mimicking the IBD signal.
+
+
+\subsection{Atmospheric Correction}
+
+Cosmogenic rates vary according to changes in pressure, therefore, a scaling factor for this effect needs to be introduced in order to perform accurate background subtraction.
+To determine the size of this correction fast neutron events with a prompt proton recoil and a delayed nLi capture (FN+nLi) were studied. 
+The prompt event was required to have PSD $>3\sigma$ from the gamma-like PSD band mean, otherwise all other cuts used were the same as the ones used for IBD selection.
+
+\begin{figure}[!b]
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{tex/7-oscillation-images/FNnLi_Rate}
+		%\caption{}
+		\label{fig:fnnlirate}
+	\end{subfigure}
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{tex/7-oscillation-images/FNnLi_RateVsPressure}
+		%\caption{}
+		\label{fig:fnnliratevspressure}
+	\end{subfigure}
+	\caption[]{(Left) The rate of fast neutron and nLi capture coincidences (blue) and pressure (red) versus time. (Right) FN+nLi rates as a function of pressure with a linear fit. \cite{Kyzylova2370:2018}}
+	\label{fig:atm}
+\end{figure}
+
+
+Figure~\ref{fig:atm} shows the rate of these coincident events and pressure versus time, along with rate versus pressure.
+It can be seen that the event rate and pressure are inversely correlated. 
+The rate of FN+nLi events as a function of pressure was fit with a linear function and the results of the fit were used to define the atmospheric correction, $k_p$, according to
+\begin{equation}
+k_p = \frac{m \cdot \bar{p_{on}} + c}{m \cdot \bar{p_{off}} + c}
+\end{equation}
+where $m$ and $c$ are the slope and y-intercept of the fit and $p_{on (off)}$ is the average pressure during reactor on (off).
+For this analysis the atmospheric correction was found to be $<$ 1\%.
+
+
+\subsection{Background Subtraction}
+
 
 
 
@@ -60,13 +134,6 @@ These are:
 \end{figure}
 
 
-
-\noindent Background:
-\begin{itemize}
-	\item Cosmogenics
-	\item Atmospheric correction
-	\item Background subtraction
-\end{itemize}
 
 \begin{figure}[H]
 	\centering
