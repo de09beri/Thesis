@@ -1,4 +1,4 @@
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
 \contentsline {chapter}{LIST OF FIGURES}{xii}
@@ -64,13 +64,15 @@
 \contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{81}
 \contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{82}
 \contentsline {section}{\numberline {6.3}Data Set}{82}
-\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{84}
-\contentsline {section}{\numberline {6.5}Oscillation Search Result}{84}
-\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{87}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{88}
+\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{83}
+\contentsline {section}{\numberline {6.5}Oscillation Search}{84}
+\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{85}
+\contentsline {subsection}{\numberline {6.5.2}Results}{88}
+\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{90}
+\contentsline {chapter}{\numberline {7}CONCLUSIONS}{91}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{89}
+\contentsline {chapter}{BIBLIOGRAPHY}{92}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
-\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{95}
-\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{96}
+\contentsline {chapter}{\numberline {A}SOME ADDITIONAL STUFF}{98}
+\contentsline {chapter}{\numberline {B}MORE ADDITIONAL STUFF}{99}

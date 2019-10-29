@@ -353,11 +353,32 @@ CAEN.
 \bibitem{Jones2800:2019}
 {D. Jones}.
 \newblock {Docdb 2800:BiPo Technote for PRD}.
-\newblock {PROSPECT DocDB 2800-v1}, URL =, 2019.
+\newblock {PROSPECT DocDB 2800-v1}, %URL =, 2019.
 
 \bibitem{Kyzylova2370:2018}
 {Olga Kyzylova}.
 \newblock {IBD-like rate and FN+nLi plots}.
-\newblock {PROSPECT DocDB 2370-v8}, URL =, 2018.
+\newblock {PROSPECT DocDB 2370-v8}, %URL =, 2018.
+
+\bibitem{Vogel:1999zy}
+P.~Vogel and John~F. Beacom.
+\newblock {Angular distribution of neutron inverse beta decay, anti-neutrino(e)
+  + p ---> e+ + n}.
+\newblock {\em Phys. Rev.}, D60:053003, 1999.
+
+\bibitem{ConantThesis}
+Andrew Conant.
+\newblock {ANTINEUTRINO SPECTRUM CHARACTERIZATION OF THE HIGH FLUX ISOTOPE
+  REACTOR USING NEUTRONIC SIMULATIONS}.
+
+\bibitem{PSurukuchi:2338}
+Pranava Surukuchi.
+\newblock {Al28 contribution}.
+\newblock {PROSPECT DocDB 2338-v2}, May 2018.
+
+\bibitem{PSurukuchi:2346}
+Pranava Surukuchi.
+\newblock {Non-equillibrium isotope correction}.
+\newblock {PROSPECT DocDB 2346-v2}, May 2018.
 
 \end{thebibliography}

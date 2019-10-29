@@ -17,62 +17,64 @@ Warning--entry type for "Heffron" isn't style-file defined
 --line 975 of file ThesisBib.bib
 Warning--entry type for "Hackett" isn't style-file defined
 --line 984 of file ThesisBib.bib
-I was expecting a `,' or a `}'---line 1184 of file ThesisBib.bib
- :  URL = "
- :         https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2800",
+Warning--entry type for "ConantThesis" isn't style-file defined
+--line 993 of file ThesisBib.bib
+I was expecting a `,' or a `}'---line 1191 of file ThesisBib.bib
+ :  %URL = "
+ :          https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2800",
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1192 of file ThesisBib.bib
- :  URL = "
- :         https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2370",
+I was expecting a `,' or a `}'---line 1199 of file ThesisBib.bib
+ :  %URL = "
+ :          https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2370",
 I'm skipping whatever remains of this entry
 Warning--entry type for "ENSDF" isn't style-file defined
---line 1235 of file ThesisBib.bib
+--line 1261 of file ThesisBib.bib
 Warning--entry type for "CAENDigit" isn't style-file defined
---line 1243 of file ThesisBib.bib
+--line 1269 of file ThesisBib.bib
 Warning--entry type for "CAENWD" isn't style-file defined
---line 1251 of file ThesisBib.bib
+--line 1277 of file ThesisBib.bib
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 64 entries,
+You've used 68 entries,
             1791 wiz_defined-function locations,
-            878 strings with 12915 characters,
-and the built_in function-call counts, 13225 in all, are:
-= -- 1161
-> -- 538
+            898 strings with 13418 characters,
+and the built_in function-call counts, 13814 in all, are:
+= -- 1209
+> -- 558
 < -- 3
-+ -- 207
-- -- 143
-* -- 817
-:= -- 2145
-add.period$ -- 199
-call.type$ -- 64
-change.case$ -- 65
++ -- 216
+- -- 148
+* -- 837
+:= -- 2236
+add.period$ -- 210
+call.type$ -- 68
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 541
-empty$ -- 1381
-format.name$ -- 143
-if$ -- 2952
+cite$ -- 71
+duplicate$ -- 565
+empty$ -- 1457
+format.name$ -- 148
+if$ -- 3088
 int.to.chr$ -- 0
-int.to.str$ -- 64
-missing$ -- 49
-newline$ -- 328
-num.names$ -- 68
-pop$ -- 154
+int.to.str$ -- 68
+missing$ -- 50
+newline$ -- 347
+num.names$ -- 72
+pop$ -- 172
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 251
+skip$ -- 268
 stack$ -- 0
-substring$ -- 920
-swap$ -- 79
+substring$ -- 938
+swap$ -- 83
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 120
-width$ -- 66
-write$ -- 693
+while$ -- 125
+width$ -- 70
+write$ -- 731
 (There were 2 error messages)

@@ -79,7 +79,7 @@ Prominent peaks at 2.2 MeV and 4.4 MeV exist in both reactor on and off data.
 Cosmogenic muons can create several neutrons. One of these will capture on hydrogen (nH), producing a 2.2 MeV $\gamma$, which will be followed by another neutron capturing on $^6$Li. 
 These time-coincident events are reduced by the shower veto, but not completely removed.
 
-High energy neutrons (fast neutrons) will also inelastically scatter off of $^{12}$C in the scintillator causing the reaction:
+Fast neutrons will also inelastically scatter off of $^{12}$C in the scintillator causing the reaction:
 \begin{equation}
 	n + ^{12}C \rightarrow n' + ^{12}C^*
 \end{equation}
@@ -161,52 +161,160 @@ These two segments exist in a corner of the detector that does not sit on the mo
 	& Signal &  & 25461 $\pm$ 238 (771/day) \\ 
 	\hline 
 \end{tabular} 
-\caption{The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time. The gap in data corresponds to a detector maintenance period.}
+\caption{The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time.}
 \label{tab:datastats}
 \end{table}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/EvtRates}
-	\caption{Accidentals-subtracted IBD candidate event rate per day (black) and measured accidental rate (red) as a function of time. IBD candidate rates are corrected for dead time and exposure time. The shaded regions (green) are reactor on periods. Errors are statistical.}
+	\includegraphics[width=0.9\linewidth]{tex/7-oscillation-images/EvtRates}
+	\caption{Accidentals-subtracted IBD candidate event rate per day (black) and measured accidental rate (red) as a function of time. IBD candidate rates are corrected for dead time and exposure time. The shaded regions (green) are reactor on periods. Errors are statistical. The gap in data corresponds to a detector maintenance period.}
 	\label{fig:evtrates}
 \end{figure}
 
 
 \section{IBD Rates versus Basline}
 
+IBD rates as a function of distance from the reactor, $r$, are expected to fall as $1/r^2$. 
+The fiducial volume of the reactor was divided into 14 baselines and the IBD rate at each baseline, scaled by active mass and relative efficiency, is plotted in Figure~\ref{fig:ibdvsbaseline}.
+The data shows good agreement with a fit of the form $C/r^2$, producing a $\chi^2/NDF = 10.89/13$, confirming the inverse square law behavior. 
+It can be noted that there is $\sim$40\% decrease in flux from the front to the back of the detector. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{tex/7-oscillation-images/IBDvsBaseline}
-	\caption{}
+	\caption{Background subtracted IBD event rate as a function of distance from the reactor center binned into 14 unique baselines. Data is fit with $C/r^2$ (dashed, magenta) and produces a $\chi^2/NDF = 10.89/13$. Errors are statistical.}
 	\label{fig:ibdvsbaseline}
 \end{figure}
 
+\todo{Correct for Ac-227 results and show corrected plot}
 
 
-\section{Oscillation Search Result}
+\section{Oscillation Search}
 
-The construction of PROSPECT as a segmented detector allows the comparison of $\bar{\nu_e}$ spectrum between baselines rather than to a predicted reactor $\bar{\nu_e}$ spectrum. 
-Therefore, the search for a sterile neutrino was carried out by comparing the measured IBD spectrum as a function of baseline (the L vs E spectrum) to a predicted L vs E spectrum constructed using MC simulations. For this analysis 6 position (baseline) bins and 16 energy bins were used.
+The construction of PROSPECT as a segmented detector allows the comparison of $\bar{\nu_e}$ spectrum between baselines rather than to a calculated reactor $\bar{\nu_e}$ spectrum. 
+Therefore, the search for a sterile neutrino was carried out by comparing the measured IBD spectrum as a function of baseline (the L vs E spectrum) to a predicted L vs E spectrum constructed using MC simulations. 
+The MC unoscillated prompt spectrum, $P_{null}(L,E_p)$, is described by:
+\begin{equation}
+	P_{null}(L,E_p) = W_{th} \cdot S(E_\nu)/4\pi L^2 \cdot t \cdot \epsilon_D(L,E_\nu,E_p) \cdot \rho_PV_D \cdot \sigma(E)
+\end{equation}
+where $W_{th}$ is the thermal power of the reactor, $S(E_\nu)$ is the $\bar{\nu_{e}}$ spectrum at energy E, $L$ is the given baseline, $t$ is the exposure time, $\rho_P$ is the proton density of the LS, $V_D$ is the active volume of the detector, $\sigma(E)$ is the IBD cross-section, and $\epsilon_D(L,E_\nu,E_p)$ is the detection efficiency and encompasses all detector effects.
+This prompt spectrum is divided into 6 baseline (position) bins and 16 energy bins to create the L vs E spectra.
 
 To compare the spectra at different baselines a covariance-matrix based $\chi^2$ test-statistic was built according to:
 \begin{equation}	
-	\chi^2 = \Delta^TV^{-1}_{tot}\Delta
+	\chi^2 = \mathbf{\Delta^TV^{-1}_{tot}\Delta}
+	\label{eq:chiosc}
 \end{equation}
-where $V_{tot}$ is a covariance matrix constructed from the statistical and systematic uncertainties.
-$\Delta$ is a 96-element vector representing the relative agreement between the measured ($M_{l,e}$) and predicted ($P_{l,e}$) L vs E spectra in the $l^{th}$ baseline bin and $e^{th}$ energy bin:
+where $\mathbf{V_{tot}}$ is a covariance matrix constructed from the statistical and systematic uncertainties.
+$\mathbf{\Delta}$ is a 96-element vector representing the relative agreement between the measured ($M_{l,e}$) and predicted ($P_{l,e}$) L vs E spectra in the $l^{th}$ baseline bin and $e^{th}$ energy bin:
 \begin{equation}
 	\Delta_{l,e} = M_{l,e} - M_e\frac{P_{l,e}}{P_e}.
+	\label{eq:deltaosc}
 \end{equation}
 $M_e$ and $P_e$ are the detector-wide spectrum rates in the $e^{th}$ energy bin and are defined as
 \begin{equation}
 	M_e = \sum_{l=1}^{6}M_{l,e}~\textrm{and}~P_e = \sum_{l=1}^{6}P_{l,e}.
 \end{equation}
 
+The predicted L vs E spectrum is modeled to include sterile neutrino oscillations as
+\begin{equation}
+	P_{l,e}(\Delta m_{14}^2,\theta_{14}) = P_{l,e}(0,0)\left(1-sin^22\theta_{14}sin^2\left(1.27\Delta m_{14}^2\frac{L}{E}   \right)\right)
+\end{equation}
+where $m_{14}^2$ and $\theta_{14}$ describe mixing between one active neutrino flavor state and one sterile neutrino state.
+The search for sterile neutrino oscillations is then carried out by minimizing the $\chi^2$ in Equation~\ref{eq:chiosc} by varying the parameters $m_{14}^2$ and $\theta_{14}$.
+
+\subsection{Uncertainties}
+
+Statistical and systematic uncertainties are included in the form of covariance matrices $\mathbf{V_{stat}}$ and $\mathbf{V_{syst}}$.
+The statistical uncertainties are directly calculated from data using Poisson statistics, resulting in an uncorrelated, diagonal matrix.
+Since the predicted L vs E spectra are normalized by the baseline-integrated spectra rates ($M_e$), as shown in Equation~\ref{eq:deltaosc}, off-diagonal terms need to be added to take into account the correlation between $M_{l,e}$ and $M_e$.
+Therefore, the full statistical covariance matrix is included as:
+\begin{equation}
+	V_{stat,l,e} = \sigma^2_{stat,l,e}\left(1-2\frac{M_{l,e}}{M_e}\right) + \sigma^2_{stat,e}\left(\frac{M_{l,e}}{M_e}\right)^2
+\end{equation}
+Beyond this, additional off-diagonal terms are included to account for correlations between position bins with the same energy arising from the use of $M_e$.
+These corrections were estimated by studying Monte Carlo toy's and extracting the resulting covariance matrix.
+
+For each systematic uncertainty a normalized covariance matrix is produced using toy MC datasets and varying each systematic by 1$\sigma$.
+Assuming that all errors are Gaussian, the total covariance matrix is then calculated as the sum of all statistical and systematic matrices as
+\begin{equation}
+	\mathbf{V_{tot}} = \mathbf{V_{stat}} + \sum_{i}\mathbf{V_{syst,i}}.
+\end{equation}
+
+In addition to uncertainties from statistics and detector response, uncertainties about the reactor $\bar{\nu_{e}}$ flux have to be taken into account.
+The MC $\bar{\nu_{e}}$ spectrum is generated using the Huber $^{235}$U flux model \cite{Huber} and the Vogel-Beacom model for IBD cross section \cite{Vogel:1999zy}, not taking into account $\bar{\nu_{e}}$'s that may be generated via processes other than by $^{235}$U fission.
+The fuel used in the HFIR reactor core is U$_3$O$_8$-Al, allowing the possibility of $\bar{\nu_{e}}$ production through neutron activation of the $^{27}$Al:
+\begin{equation}
+	^{27}_{13}Al + ^1_0n \rightarrow ^{28}_{14}Al \rightarrow ^{28}_{14}Si + \beta^- + \bar{\nu_{e}}
+\end{equation}
+$^{28}$Al has a half-life of 2.245 minutes with an endpoint energy of 2.86 MeV \cite{ENSDF}, producing low energy $\bar{\nu_{e}}$'s.
+This process was modeled \cite{ConantThesis}, and aluminum corrections were estimated to contribute $\sim$0.85\% over the full dataset, all with energies below 3 MeV as seen in Figure~\ref{fig:alcontrib} \cite{PSurukuchi:2338}. 
+
+Furthermore, a correction is needed for $\bar{\nu_{e}}$'s produced by long-lived fission isotopes (non-equilibrium isotopes).
+The ILL beta-spectrum measurements \cite{VonFeilitzsch:1982jw, Schreckenbach:1985ep, Hahn:1989zr}, which are used in the Huber spectrum, are based on $\sim$1-day long measurements, compared to an average HFIR reactor cycle, which is about 24 days.
+As there are a number of long-lived isotopes, their $\bar{\nu_{e}}$ contributions were not included in the Huber model but do contribute the spectrum measured by PROSPECT.
+Extrapolating from predictions made in~\cite{Mueller}, non-equilibrium corrections were found to be $\sim$0.5\% over the full dataset, with most contributions below 4 MeV as seen in Figure~\ref{fig:noneqcontrib} \cite{PSurukuchi:2346}.
+
+Including both the aluminum and non-equilibrium contributions to the $\bar{\nu_{e}}$ spectrum results in a 1.3\% increase in the model spectrum, shown in Figure~\ref{fig:spectrumwithcorrections}.
+For a summary of all systematic uncertainties see Table~\ref{tab:sysunc}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/AlContrib}
+	\caption[]{$\bar{\nu_{e}}$ spectrum from $^{28}$Al $\beta$-decay (solid) and $^{235}$U fission (dashed) for both reactor on cycles used in this analysis \cite{PSurukuchi:2338}}.
+	\label{fig:alcontrib}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/NonEqContrib}
+	\caption[]{$\bar{\nu_{e}}$ spectrum from non-equilibrium isotopes (solid) and $^{235}$U fission (dashed) for both reactor on cycles uses in this analysis \cite{PSurukuchi:2346}.}
+	\label{fig:noneqcontrib}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/SpectrumWithCorrections}
+	\caption{The normalized $\bar{\nu_{e}}$ as predicted by Huber+Vogel-Beacom with and without the aluminum + non-equilibrium corrections (1.3\%).}
+	\label{fig:spectrumwithcorrections}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+	\hline 
+	\textbf{Parameter} & \textbf{Nominal Value} & \textbf{Uncertainty} \\ 
+	\hline 
+	Background normalization  & - & 5\% \\ 
+	Uncorrelated (n,H) to (n,C$^*$) peak & - & 5\% \\ 
+	Background scaling & - & 0.2\% \\ 
+	\hline 
+	Birks' nonlinearity ($k_{B1}$) & 0.100 mm/MeV & 0.012 mm/MeV \\ 
+	Cherenkov nonlinearity ($k_c$) & 51\% & 4\% \\ 
+	Energy scale ($A$) & 1 & 0.7\% \\ 
+	Energy resolution & 4.45\% & 0.2\% \\ 
+	Energy loss & - & 30 keV \\ 
+	Uncorrelated IBD efficiency & - & 5\% \\ 
+	Uncorrelated volume & - & per segment \\ 
+	Uncorrelated energy resolution & 4.45\% & 0.2\% \\ 
+	Uncorrelated energy loss  & - & 30 keV \\ 
+	Baseline uncertainty & 793.2 cm & 10 cm \\ 
+	\hline 
+	$^{28}$Al spectrum correction & - & 100\% \\ 
+	Non-equilibrium spectrum correction & - & 100\% \\ 
+	\hline 
+\end{tabular} 
+\caption{Summary of systematic uncertainties that were used to generate the covariance matrices used in the oscillation analysis. Uncertainties are correlated unless otherwise noted.}
+\label{tab:sysunc}
+\end{table}
+
+\subsection{Results}
 
 
 
+
+\newpage
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/BaselineSpectra}
