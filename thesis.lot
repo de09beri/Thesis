@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces The Standed Model of Particle Physics}}{3}
 \contentsline {table}{\numberline {1.2}{\ignorespaces Neutrino Oscillation Parameters}}{9}
@@ -19,6 +19,7 @@
 \contentsline {table}{\numberline {5.10}{\ignorespaces Dominant $\alpha $ energies for coincident $\alpha $ event chains that could contaminate the $^{227}$Ac RnPo signal. Also given are the quenched energies (QE) and 1$\sigma $ widths based on a 5\% energy resolution.\relax }}{75}
 \contentsline {table}{\numberline {5.11}{\ignorespaces Energy and time cut efficiencies and resulting rates (assuming an $^{227}$Ac rate of 240 mHz) for both coincident $\alpha $ event chains that could contribute to contamination of the $^{227}$Ac RnPo signal selection.\relax }}{75}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time. The gap in data corresponds to a detector maintenance period.\relax }}{83}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

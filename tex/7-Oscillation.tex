@@ -114,46 +114,98 @@ Figure~\ref{fig:atm} shows the rate of these coincident events and pressure vers
 It can be seen that the event rate and pressure are inversely correlated. 
 The rate of FN+nLi events as a function of pressure was fit with a linear function and the results of the fit were used to define the atmospheric correction, $k_p$, according to
 \begin{equation}
-k_p = \frac{m \cdot \bar{p_{on}} + c}{m \cdot \bar{p_{off}} + c}
+k_p = \frac{m \cdot \bar{p}_{on} + c}{m \cdot \bar{p}_{off} + c}
 \end{equation}
-where $m$ and $c$ are the slope and y-intercept of the fit and $p_{on (off)}$ is the average pressure during reactor on (off).
+where $m$ and $c$ are the slope and y-intercept of the fit and $\bar{p}_{on (off)}$ is the average pressure during reactor on (off).
 For this analysis the atmospheric correction was found to be $<$ 1\%.
 
 
 \subsection{Background Subtraction}
 
-
+To obtain the final measured IBD events the correlated and accidental events are subtracted for both reactor on and off time periods.
+Due to differences in reactor on and off exposure time, as well as differences between accidental and coincidental acceptance time windows, accidental and reactor off events have to be correctly scaled.
+Therefore, the number of IBD candidates, $N_{IBD}$, is measured as:
+\begin{equation}
+\begin{split}
+	N_{IBD} &= N_{corr-acc, on} - k_p \cdot N_{corr-acc, off} \\
+				 &= N_{corr, on} - \frac{\Delta t_{corr}}{\Delta t_{acc}} N_{acc, on} - k_p \frac{t_{on}}{t_{off}}\left(N_{corr, off} - \frac{\Delta t_{corr}}{\Delta t_{acc}}N_{acc,off}\right)
+\end{split}
+\end{equation}
 
 
 \section{Data Set}
+
+The dataset used in this analysis consists of 30.26 (33) reactor on and 26.19 (28) reactor off effective (calendar) days.
+The rate of correlated and accidental rates for each of these periods are listed in Table~\ref{tab:datastats}.
+A total of 25461 IBD events were detected (771/day), with a signal-to-background ratio of 2.20 and 1.32 for accidental and correlated background, respectively.
+The correlated and accidental rates per day as a function of time for events in the prompt energy region (0.8, 7.2) MeV can be seen in Figure~\ref{fig:evtrates}.
+
+Due to current instabilities observed in some PMT's during the data-taking period 31 segments were excluded in this analysis: (0, 1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 18, 21, 23, 24, 27, 32, 34, 40, 44, 52, 68, 79, 86, 102, 115, 122, 127, 130, 139).
+Two segments not in the outer shell were also added to the non-fiducial volume due to high background rates: (25, 26).
+These two segments exist in a corner of the detector that does not sit on the monolith and therefore they see many $\gamma$-rays from beam lines under the floor.
+
+\begin{table}[H]
+\begin{tabular}{|c|c|c|c|}
+	\hline 
+	\textbf{Reactor} & \textbf{Event Type} & \textbf{Time [days]} & \textbf{Counts} \\ 
+	\hline 
+	& Correlated + Accidental &  & 56378 $\pm$ 1708 \\ 
+	On & Accidental (scaled) & 30.26 & 11580 $\pm$ 12 \\ 
+	& Correlated &  & 44797 $\pm$ 238 \\ 
+	\hline 
+	& Correlated + Accidental (scaled) & & 20262 $\pm$ 153   \\ 
+	Off &  Accidental (scaled) & 26.19  & 925 $\pm$ 4   \\ 
+	& Correlated (scaled) & & 19337 $\pm$ 153 \\ 
+	\hline 
+	\hline 
+	& Signal &  & 25461 $\pm$ 238 (771/day) \\ 
+	\hline 
+\end{tabular} 
+\caption{The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time. The gap in data corresponds to a detector maintenance period.}
+\label{tab:datastats}
+\end{table}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/EvtRates}
-	\caption{}
+	\caption{Accidentals-subtracted IBD candidate event rate per day (black) and measured accidental rate (red) as a function of time. IBD candidate rates are corrected for dead time and exposure time. The shaded regions (green) are reactor on periods. Errors are statistical.}
 	\label{fig:evtrates}
 \end{figure}
 
 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/RxOffSpectrum}
-	\caption{}
-	\label{fig:rxoffspectrum}
-\end{figure}
-
+\section{IBD Rates versus Basline}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/IBDvsBaseline}
+	\includegraphics[width=1\linewidth]{tex/7-oscillation-images/IBDvsBaseline}
 	\caption{}
 	\label{fig:ibdvsbaseline}
 \end{figure}
 
 
 
-\section{Oscillation Results}
+\section{Oscillation Search Result}
+
+The construction of PROSPECT as a segmented detector allows the comparison of $\bar{\nu_e}$ spectrum between baselines rather than to a predicted reactor $\bar{\nu_e}$ spectrum. 
+Therefore, the search for a sterile neutrino was carried out by comparing the measured IBD spectrum as a function of baseline (the L vs E spectrum) to a predicted L vs E spectrum constructed using MC simulations. For this analysis 6 position (baseline) bins and 16 energy bins were used.
+
+To compare the spectra at different baselines a covariance-matrix based $\chi^2$ test-statistic was built according to:
+\begin{equation}	
+	\chi^2 = \Delta^TV^{-1}_{tot}\Delta
+\end{equation}
+where $V_{tot}$ is a covariance matrix constructed from the statistical and systematic uncertainties.
+$\Delta$ is a 96-element vector representing the relative agreement between the measured ($M_{l,e}$) and predicted ($P_{l,e}$) L vs E spectra in the $l^{th}$ baseline bin and $e^{th}$ energy bin:
+\begin{equation}
+	\Delta_{l,e} = M_{l,e} - M_e\frac{P_{l,e}}{P_e}.
+\end{equation}
+$M_e$ and $P_e$ are the detector-wide spectrum rates in the $e^{th}$ energy bin and are defined as
+\begin{equation}
+	M_e = \sum_{l=1}^{6}M_{l,e}~\textrm{and}~P_e = \sum_{l=1}^{6}P_{l,e}.
+\end{equation}
+
+
+
 
 \begin{figure}[H]
 	\centering
@@ -171,7 +223,7 @@ For this analysis the atmospheric correction was found to be $<$ 1\%.
 
 
 
-\section{Spectrum Results}
+\section{Measured Antineutrino Spectrum}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/Spectrum}

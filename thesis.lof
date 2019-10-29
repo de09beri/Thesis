@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Spectrum of solar neutrino fluxes}}{7}
 \addvspace {10\p@ }
@@ -74,12 +74,11 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic of the IBD interaction is the PROSPECT AD.\relax }}{78}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces PSD versus energy distribution for prompt events correlated with a delayed neutron capture on $^6$Li. The cuts used for identifying nLi events is represented by the blue rectangle. The upper limit of the cut used for identifying electron-like signals is shown as the pink curve.\relax }}{79}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces The prompt energy spectra, after background subtraction, of IBD events for 24 hours of both reactor on and off data. Prominent peaks at 2.2 MeV and 4.4 MeV are due to neutron captures on Hydrogen and inelastic neutron scatters on $^{12}$C respectively.\relax }}{80}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces \relax }}{82}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces \relax }}{83}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces \relax }}{83}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces \relax }}{84}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces \relax }}{84}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces \relax }}{85}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Accidentals-subtracted IBD candidate event rate per day (black) and measured accidental rate (red) as a function of time. IBD candidate rates are corrected for dead time and exposure time. The shaded regions (green) are reactor on periods. Errors are statistical.\relax }}{83}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces \relax }}{84}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \relax }}{85}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces \relax }}{86}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \relax }}{87}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
