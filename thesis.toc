@@ -56,22 +56,22 @@
 \contentsline {subsubsection}{\numberline {5.3.8.1}Energy, PSD, and $\Delta $z Cuts}{72}
 \contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{74}
 \contentsline {subsection}{\numberline {5.3.9}$^{227}$Ac Rates per Baseline}{75}
-\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{77}
-\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{77}
-\contentsline {section}{\numberline {6.2}IBD Event Selection}{78}
-\contentsline {subsection}{\numberline {6.2.1}Cuts}{78}
-\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{80}
-\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{81}
-\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{82}
-\contentsline {section}{\numberline {6.3}Data Set}{82}
-\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{83}
-\contentsline {section}{\numberline {6.5}Oscillation Search}{84}
-\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{85}
-\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{88}
-\contentsline {subsection}{\numberline {6.5.3}Results}{89}
-\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{91}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{93}
+\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{78}
+\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{78}
+\contentsline {section}{\numberline {6.2}IBD Event Selection}{79}
+\contentsline {subsection}{\numberline {6.2.1}Cuts}{79}
+\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{81}
+\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{82}
+\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{83}
+\contentsline {section}{\numberline {6.3}Data Set}{83}
+\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{84}
+\contentsline {section}{\numberline {6.5}Oscillation Search}{85}
+\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{86}
+\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{89}
+\contentsline {subsection}{\numberline {6.5.3}Results}{90}
+\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{92}
+\contentsline {chapter}{\numberline {7}CONCLUSIONS}{94}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{94}
+\contentsline {chapter}{BIBLIOGRAPHY}{95}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 

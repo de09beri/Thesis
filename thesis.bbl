@@ -1,5 +1,17 @@
 \begin{thebibliography}{10}
 
+\bibitem{PhysRevLett.121.251802}
+J.~Ashenfelter et~al.
+\newblock {First Search for Short-Baseline Neutrino Oscillations at HFIR with
+  PROSPECT}.
+\newblock {\em Phys. Rev. Lett.}, 121:251802, Dec 2018.
+
+\bibitem{Ashenfelter:2018jrx}
+J.~Ashenfelter et~al.
+\newblock {Measurement of the Antineutrino Spectrum from $^{235}$U Fission at
+  HFIR with PROSPECT}.
+\newblock {\em Phys. Rev. Lett.}, 122(25):251801, 2019.
+
 \bibitem{Hahn:1911}
 {L. Meitner} {O. von Baeyer}, {O. Hahn}.
 \newblock {Uber die $\beta$-Strahlen des aktiven Niederschlags des Thoriums}.
@@ -237,18 +249,6 @@ H.~De~Kerret et~al.
 J.~Ashenfelter et~al.
 \newblock {The PROSPECT Reactor Antineutrino Experiment}.
 \newblock {\em Nucl. Instrum. Meth.}, A922:287--309, 2019.
-
-\bibitem{PhysRevLett.121.251802}
-J.~Ashenfelter et~al.
-\newblock {First Search for Short-Baseline Neutrino Oscillations at HFIR with
-  PROSPECT}.
-\newblock {\em Phys. Rev. Lett.}, 121:251802, Dec 2018.
-
-\bibitem{Ashenfelter:2018jrx}
-J.~Ashenfelter et~al.
-\newblock {Measurement of the Antineutrino Spectrum from $^{235}$U Fission at
-  HFIR with PROSPECT}.
-\newblock {\em Phys. Rev. Lett.}, 122(25):251801, 2019.
 
 \bibitem{HFIRTech}
 Germina Ilas, David Chandler, Brian Ade, Eva Sunny, Ben Betzler, and Dan
