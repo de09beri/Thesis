@@ -139,6 +139,88 @@ Raymond Davis.
 \newblock Nobel lecture: A half-century with solar neutrinos.
 \newblock {\em Rev. Mod. Phys.}, 75:985--994, Aug 2003.
 
+\bibitem{Aguilar:2001ty}
+A.~Aguilar-Arevalo et~al.
+\newblock {Evidence for neutrino oscillations from the observation of
+  anti-neutrino(electron) appearance in a anti-neutrino(muon) beam}.
+\newblock {\em Phys. Rev.}, D64:112007, 2001.
+
+\bibitem{AguilarArevalo:2008rc}
+A.~A. Aguilar-Arevalo et~al.
+\newblock {Unexplained Excess of Electron-Like Events From a 1-GeV Neutrino
+  Beam}.
+\newblock {\em Phys. Rev. Lett.}, 102:101802, 2009.
+
+\bibitem{AguilarArevalo:2010wv}
+A.~A. Aguilar-Arevalo et~al.
+\newblock {Event Excess in the MiniBooNE Search for $\bar \nu_\mu \rightarrow
+  \bar \nu_e$ Oscillations}.
+\newblock {\em Phys. Rev. Lett.}, 105:181801, 2010.
+
+\bibitem{PhysRevLett.110.161801}
+A.~A. Aguilar-Arevalo et~al.
+\newblock Improved search for
+  ${\overline{\ensuremath{\nu}}}_{\ensuremath{\mu}}\ensuremath{\rightarrow}{\overline{\ensuremath{\nu}}}_{e}$
+  oscillations in the miniboone experiment.
+\newblock {\em Phys. Rev. Lett.}, 110:161801, Apr 2013.
+
+\bibitem{1998114}
+W~Hampel et~al.
+\newblock Final results of the 51cr neutrino source experiments in gallex.
+\newblock {\em Physics Letters B}, 420(1):114 -- 126, 1998.
+
+\bibitem{KAETHER201047}
+F.~Kaether, W.~Hampel, G.~Heusser, J.~Kiko, and T.~Kirsten.
+\newblock Reanalysis of the gallex solar neutrino flux and source experiments.
+\newblock {\em Physics Letters B}, 685(1):47 -- 54, 2010.
+
+\bibitem{PhysRevC.59.2246}
+J.~N. Abdurashitov et~al.
+\newblock Measurement of the response of a gallium metal solar neutrino
+  experiment to neutrinos from a ${}^{51}\mathrm{Cr}$ source.
+\newblock {\em Phys. Rev. C}, 59:2246--2263, Apr 1999.
+
+\bibitem{PhysRevC.73.045805}
+J.~N. Abdurashitov, V.~N. Gavrin, S.~V. Girin, V.~V. Gorbachev, P.~P. Gurkina,
+  T.~V. Ibragimova, A.~V. Kalikhov, N.~G. Khairnasov, T.~V. Knodel, V.~A.
+  Matveev, I.~N. Mirmov, A.~A. Shikhin, E.~P. Veretenkin, V.~M. Vermul, V.~E.
+  Yants, G.~T. Zatsepin, T.~J. Bowles, S.~R. Elliott, W.~A. Teasdale, B.~T.
+  Cleveland, W.~C. Haxton, J.~F. Wilkerson, J.~S. Nico, A.~Suzuki, K.~Lande,
+  Yu.~S. Khomyakov, V.~M. Poplavsky, V.~V. Popov, O.~V. Mishin, A.~N. Petrov,
+  B.~A. Vasiliev, S.~A. Voronov, A.~I. Karpenko, V.~V. Maltsev, N.~N. Oshkanov,
+  A.~M. Tuchkov, V.~I. Barsanov, A.~A. Janelidze, A.~V. Korenkova, N.~A.
+  Kotelnikov, S.~Yu. Markov, V.~V. Selin, Z.~N. Shakirov, A.~A. Zamyatina, and
+  S.~B. Zlokazov.
+\newblock Measurement of the response of a ga solar neutrino experiment to
+  neutrinos from a $^{37}\mathrm{Ar}$ source.
+\newblock {\em Phys. Rev. C}, 73:045805, Apr 2006.
+
+\bibitem{PhysRevC.80.015807}
+J.~N. Abdurashitov, V.~N. Gavrin, V.~V. Gorbachev, P.~P. Gurkina, T.~V.
+  Ibragimova, A.~V. Kalikhov, N.~G. Khairnasov, T.~V. Knodel, I.~N. Mirmov,
+  A.~A. Shikhin, E.~P. Veretenkin, V.~E. Yants, G.~T. Zatsepin, T.~J. Bowles,
+  S.~R. Elliott, W.~A. Teasdale, J.~S. Nico, B.~T. Cleveland, and J.~F.
+  Wilkerson.
+\newblock Measurement of the solar neutrino capture rate with gallium metal.
+  iii. results for the 2002--2007 data-taking period.
+\newblock {\em Phys. Rev. C}, 80:015807, Jul 2009.
+
+\bibitem{PhysRevC.83.065504}
+Carlo Giunti and Marco Laveder.
+\newblock Statistical significance of the gallium anomaly.
+\newblock {\em Phys. Rev. C}, 83:065504, Jun 2011.
+
+\bibitem{PhysRevD.82.053005}
+Carlo Giunti and Marco Laveder.
+\newblock Short-baseline electron neutrino disappearance, tritium beta decay,
+  and neutrinoless double-beta decay.
+\newblock {\em Phys. Rev. D}, 82:053005, Sep 2010.
+
+\bibitem{Abazajian:2012ys}
+K.~N. Abazajian et~al.
+\newblock {Light Sterile Neutrinos: A White Paper}.
+\newblock 2012.
+
 \bibitem{HayesVogel}
 A.~C. Hayes and Petr Vogel.
 \newblock {Reactor Neutrino Spectra}.
@@ -214,17 +296,6 @@ D.~Adey et~al.
 \newblock {Improved Measurement of the Reactor Antineutrino Flux at Daya Bay}.
 \newblock 2018.
 \newblock arXiv:1808.10836 [hep-ex].
-
-\bibitem{Abazajian:2012ys}
-K.~N. Abazajian et~al.
-\newblock {Light Sterile Neutrinos: A White Paper}.
-\newblock 2012.
-
-\bibitem{Aguilar:2001ty}
-A.~Aguilar-Arevalo et~al.
-\newblock {Evidence for neutrino oscillations from the observation of
-  anti-neutrino(electron) appearance in a anti-neutrino(muon) beam}.
-\newblock {\em Phys. Rev.}, D64:112007, 2001.
 
 \bibitem{Aguilar-Arevalo:2013pmq}
 A.~A. Aguilar-Arevalo et~al.
