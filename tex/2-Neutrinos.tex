@@ -13,7 +13,7 @@ Describing his idea as a ``desperate remedy'', this new particle would have to b
 In 1934, Enrico Fermi further developed the theory of beta decay, including Pauli's particle but renaming it the neutrino, meaning ``little neutral one'' \cite{Fermi:1934hr}.
 Due to the nature of the weakly interacting neutrino, experimental discovery would take another 20 years.
 
-In 1956 Clyde Cowan and Fred Reines accomplished the amazing feat of discovering this elusive particle experimentally by taking advantage of the inverse beta decay (IBD) process \cite{Cowan}:
+In 1956 Clyde Cowan and Fred Reines discovered this elusive particle experimentally by taking advantage of the inverse beta decay (IBD) process \cite{Cowan}:
 
 \begin{equation}
 	\bar{\nu} + p \rightarrow n + e^{+}
@@ -25,9 +25,9 @@ As would become the challenge for every neutrino detector thereafter, Cowan and 
 Their original idea was to place a detector underground about 40 meters away from a fission bomb. 
 This would create a large instantaneous flux of neutrinos providing a sufficient signal to background ratio. 
 
-After some thought, though, they realized that by detecting the neutron \textit{and} the positron they could discriminate the IBD signal from the background with much higher success. 
+After some thought, though, they realized that by detecting both the neutron \textit{and} the positron they could discriminate the IBD signal from the background with much higher success. 
 This would allow the use of a nuclear reactor instead of a fission bomb as a neutrino source, giving them the opportunity to patiently watch for neutrinos rather than be restricted to one chance with a bomb. 
-The final detector that would facilitate the discovery of the electron anti-neutrino, $\bar{\nu_{e}}$, contained 1400 liters of liquid scintillator viewed by 110 photomultiplier tubes and 200 liters of water with dissolved cadmium chloride, and was placed near the fission reactor at the Savannah River Plant in South Carolina. 
+The final detector that would facilitate the discovery of the electron anti-neutrino, $\bar{\nu_{e}}$, contained 1400 liters of liquid scintillator viewed by 110 photomultiplier tubes and 200 liters of water with dissolved cadmium chloride, and was placed near the fission reactor at the Savannah River Plant in South Carolina \cite{Cowan}. 
 
 The mechanisms behind the detector developed by Cowan and Reines worked as follows. 
 Neutrinos from the reactor enter the detector and interact with protons in the water. 
@@ -111,8 +111,7 @@ The PMNS matrix relates flavor to mass eigenstates and can be written in factori
 		& & e^{i\beta}
 	\end{pmatrix}
 \end{equation}
-where $s_{ij} = \sin\theta_{ij}$ and $c_{ij} = \cos\theta_{ij}$, $\theta_{ij} = [0,\pi/2]$,
-$\delta = [0,2\pi]$ is the Dirac charge parity (CP) violation phase, and $\alpha$ and $\beta$ are two Majorana CP violation phases.
+where $s_{ij} = \sin\theta_{ij}$ and $c_{ij} = \cos\theta_{ij}$, $0 \leq \theta_{ij} \leq \pi/2$, $0 \leq \delta \leq 2\pi$ is the Dirac charge parity (CP) violation phase, and $\alpha$ and $\beta$ are two real Majorana CP violation phases.
 
 As a neutrino, $\nu_\alpha$, propagates in time the mass eigenstates evolve differently (assuming that $m_{1} \neq m_{2} \neq m_{3}$), resulting in a new flavor state, $\nu_{\beta}$.
 Massive neutrinos move through time and space as
@@ -198,7 +197,7 @@ The corresponding survival probability, the chance that a neutrino $\nu_\alpha$ 
 There are several aspects of note about this probability. It can be seen that the amplitude of the oscillation probability, $\sin^2\left(2\theta_{12}\right)$, depends on the mixing angle $\theta_{12}$, while the mass splitting, $\Delta m^2_{12}$, the energy of the neutrino, $E$, and the distance traveled, $L$, determine the frequency of oscillation. 
 The probability is non-zero only when $\Delta m^2_{12}$ is non-zero, indicating that if an experiment observes neutrino oscillation, then at least one of the neutrinos must have mass.
 Finally, the dependence of oscillation on the factor $\frac{L}{E}$ allows experiments to decide the placement of neutrino detectors based on what features of neutrinos they would like to study. 
-Theoretical models alone do not prove neutrino oscillation, however. The first experimental evidence for oscillation and neutrino mass will be described in Section~\ref{sec:NeutrinoOsc}.
+Theoretical models alone do not prove neutrino oscillation, however.
 
 \section{Discovery of Neutrino Oscillation} \label{sec:NeutrinoOsc}
 
@@ -221,7 +220,8 @@ Davis was looking for the reaction
 in which a neutrino would enter the tank and transform chlorine into argon. 
 Argon is a noble gas, making it easy to chemically separate from a large amount of chlorine-rich solvent.
 This allowed Davis to extract and count the argon atoms, essentially counting the number of neutrinos that had been captured.
-The chlorine reaction has a threshold of 814 keV, which, according to standard solar models (see Figure~\ref{fig:solarflux}), allowed the Homestake experiment to detect neutrinos created by $^8$Be in the sun (and $^7$Be, \textit{pep}, $^{13}$N, and $^{15}$O at lower rates).
+Note that the half-life of $^{37}$Ar is 35.011 days, meaning that this chemistry had to be done quickly and often.
+The chlorine reaction has a threshold of 814 keV, which, according to standard solar models (see Figure~\ref{fig:solarflux}), allowed the Homestake experiment to detect neutrinos created by $^8$B in the sun (and $^7$Be, \textit{pep}, $^{13}$N, and $^{15}$O at lower rates).
 
 In the end, with the Homestake experiment Davis calculated a rate of solar neutrinos that was one third of the rate predicted by calculations made by Bahcall using the Standard Model \cite{Davis}. 
 This discrepancy became known as the solar neutrino problem, and in the following years Bruno Pontecorvo wrote several theoretical papers proposing neutrino oscillation as a solution \cite{Pont1968,Pont1977}.
@@ -238,8 +238,17 @@ With their large mass, good energy resolution, and ability to determine neutrino
 The first direct evidence for solar neutrino flavor change came from the Sudbury Neutrino Observatory (SNO) in 2001 \cite{SNO,SNOOsc}. 
 The SNO detector was an imaging Cherenkov detector using heavy water.
 They were able to observe neutrino flavor change through three different processes: elastic scattering of electrons, the $\nu_e - d$ charged current reaction (CC), and the $\nu_x - d$ neutral current reaction (NC).
-The CC reaction has a threshold of -1.4 MeV, allowing SNO to accurately measure the shape of the $^{8}$B neutrino spectrum.
+The CC reaction has a threshold of 1.4 MeV, allowing SNO to accurately measure the shape of the $^{8}$B neutrino spectrum.
 The CC is also only sensitive to $\nu_{e}$, whereas the NC reaction is sensitive to all three active neutrino flavors, allowing SNO to compare measured fluxes from each reaction and ultimately confirm the theory of neutrino oscillation.
+See Figure~\ref{fig:expsolarflux} for a comparison of the measured solar neutrino flux from SNO to previously mentioned solar neutrino experiments and theoretical predictions.
+
+\begin{figure}[t!]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/2-neutrinos-images/ExpSolarFlux}
+	\caption[]{A comparison of the measured solar neutrino flux from six experiments along with theoretical predictions of Bahcall \textit{et al.} \cite{Bahcall:2000nu} (shaded gray). The height of the bars for predictions have been made the same for visual comparison. \cite{RevModPhys.75.985}}
+	\label{fig:expsolarflux}
+\end{figure}
+
 
 Nearly a century after the initial postulation of the neutrino the scientific community has in hand experimental evidence of three neutrino flavors, mathematical models that include these neutrinos in the Standard Model of Particle Physics, and theoretical and experimental proof that neutrinos oscillate and therefore have mass.
 These findings, along with developments in technology and techniques, set the stage for current, and future, neutrino experiments to transform their goals from observing anomalies to making precise measurements of the physics behind the anomalies.
@@ -275,5 +284,8 @@ The current best-fit values of the 3-neutrino oscillation parameters as found ex
 	\caption[Neutrino Oscillation Parameters]{The current best-fit values and 3$\sigma$ allowed ranges of the 3-neutrino oscillation parameters as determined experimentally \cite{PDG}. The values (values in brackets) correspond to $m_1 < m_2 < m_3 \hspace{0.1cm} (m_3 < m_1 < m_2)$.}
 	\label{tab:ParamValues}
 \end{table}
+
+In the search for measuring these parameters hints have arisen at the existence of additional neutrino states with masses at the eV scale. 
+
 
 
