@@ -7,18 +7,18 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces Calibration sources}}{28}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces $\alpha $ and $\gamma $ energies of $^{219}$Rn and $^{215}$Po decays}}{44}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Samples used to test if $^{227}$Ac or its daughters would adsorb onto detector materials.\relax }}{45}
-\contentsline {table}{\numberline {5.3}{\ignorespaces The weight of $^{227}$Ac spiked LiLS that was added to each sample vial.\relax }}{45}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Energy, PSD, and time cuts used to find RnPo events where $\tau _{\textrm {Po}}$ = 2.57 ms. Energy and PSD cuts are applied to both prompt and delay events.\relax }}{47}
-\contentsline {table}{\numberline {5.5}{\ignorespaces The results of fitting the relative rate for each material sample with a constant.\relax }}{52}
-\contentsline {table}{\numberline {5.6}{\ignorespaces The results of fitting the relative rate for each material with a straight line.\relax }}{52}
-\contentsline {table}{\numberline {5.7}{\ignorespaces The weight of all solutions added and removed from the four vials for spiking of the LiLS with $^{227}$Ac for filling of the AD.\relax }}{57}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Expected and measured $^{227}$Ac activity in vials prepared for spiking the LiLS. \relax }}{57}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Broad cuts used to find RnPo events, where $\tau $ is the lifetime of $^{215}$Po , 2.57 ms.\relax }}{60}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Dominant $\alpha $ energies for coincident $\alpha $ event chains that could contaminate the $^{227}$Ac RnPo signal. Also given are the quenched energies (QE) and 1$\sigma $ widths based on a 5\% energy resolution.\relax }}{77}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Energy and time cut efficiencies and resulting rates (assuming an $^{227}$Ac rate of 240 mHz) for both coincident $\alpha $ event chains that could contribute to contamination of the $^{227}$Ac RnPo signal selection.\relax }}{77}
+\contentsline {table}{\numberline {5.1}{\ignorespaces $\alpha $ and $\gamma $ energies of $^{219}$Rn and $^{215}$Po decays}}{45}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Samples used to test if $^{227}$Ac or its daughters would adsorb onto detector materials.\relax }}{46}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The weight of $^{227}$Ac spiked LiLS that was added to each sample vial.\relax }}{46}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Energy, PSD, and time cuts used to find RnPo events where $\tau _{\textrm {Po}}$ = 2.57 ms. Energy and PSD cuts are applied to both prompt and delay events.\relax }}{48}
+\contentsline {table}{\numberline {5.5}{\ignorespaces The results of fitting the relative rate for each material sample with a constant.\relax }}{53}
+\contentsline {table}{\numberline {5.6}{\ignorespaces The results of fitting the relative rate for each material with a straight line.\relax }}{53}
+\contentsline {table}{\numberline {5.7}{\ignorespaces The weight of all solutions added and removed from the four vials for spiking of the LiLS with $^{227}$Ac for filling of the AD.\relax }}{58}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Expected and measured $^{227}$Ac activity in vials prepared for spiking the LiLS. \relax }}{58}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Broad cuts used to find RnPo events, where $\tau $ is the lifetime of $^{215}$Po , 2.57 ms.\relax }}{61}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Dominant $\alpha $ energies for coincident $\alpha $ event chains that could contaminate the $^{227}$Ac RnPo signal. Also given are the quenched energies (QE) and 1$\sigma $ widths based on a 5\% energy resolution.\relax }}{78}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Energy and time cut efficiencies and resulting rates (assuming an $^{227}$Ac rate of 240 mHz) for both coincident $\alpha $ event chains that could contribute to contamination of the $^{227}$Ac RnPo signal selection.\relax }}{78}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time.\relax }}{86}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of systematic uncertainties that were used to generate the covariance matrices used in the oscillation analysis. Uncertainties are correlated unless otherwise noted.\relax }}{91}
+\contentsline {table}{\numberline {6.1}{\ignorespaces The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time.\relax }}{87}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of systematic uncertainties that were used to generate the covariance matrices used in the oscillation analysis. Uncertainties are correlated unless otherwise noted.\relax }}{92}
 \addvspace {10\p@ }

@@ -18,67 +18,67 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic of a segment}}{26}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Construction of a row}}{26}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Completed inner detector}}{27}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Source tube positions}}{28}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Source tube positions}}{29}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Source capsule on timing belt}}{29}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces LiLS UV-Vis absorption spectra}}{30}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces DAQ schematic}}{31}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces DAQ schematic}}{32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Typical waveform}}{33}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces PSD vs. psuedo-energy for neutron coincident events}}{34}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Muon $dt$ versus signal amplitude}}{35}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Muon $dt$ for a single segment}}{35}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces $z(dt)$ curves for all cells}}{35}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Energy position dependence}}{36}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces MC-data comparison of reconstructed energy}}{40}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces MC-data reconstructed energy peak ratio for $\gamma $ sources}}{41}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Typical waveform}}{34}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces PSD vs. psuedo-energy for neutron coincident events}}{35}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Muon $dt$ versus signal amplitude}}{36}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Muon $dt$ for a single segment}}{36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces $z(dt)$ curves for all cells}}{36}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Energy position dependence}}{37}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces MC-data comparison of reconstructed energy}}{41}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces MC-data reconstructed energy peak ratio for $\gamma $ sources}}{42}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Monte Carlo neutrino spectrum as a function of L/E}}{42}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces $^{227}$Ac decay chain}}{43}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Material sample vials}}{46}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Detector used for material adsorption studies}}{46}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Typical RnPo energy and PSD distributions}}{48}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical RnPo $\Delta $t distribution}}{49}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces $^{227}$Ac rate for each material sample}}{49}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces $^{215}$Po energy distribution for reference sample with two Gaussian fit}}{50}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces $^{215}$Po mean versus time for the reference sample}}{51}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces $^{215}$Po 1$\sigma $ width versus time for the reference sample}}{51}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces $^{227}$Ac rate for each material sample relative to the reference sample}}{52}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces RnPo energy spectra for viton and PEEK at the first and last time bins}}{54}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces The 1$\sigma $ width of two Gaussians fit to the $^{219}$Rn energy spectrum versus time for the viton o-ring material sample. Black (circle): higher energy Gaussian, Magenta (square): lower energy Gaussian.\relax }}{54}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces A graphic of the procedure used to spike the drum of LiLS with $^{227}$Ac for filling of the AD.\relax }}{56}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Measured $^{227}$Ac rates of vials used in the procedure performed to add $^{227}$Ac to the LiLS of the PROSPECT AD. Top: intermediate vials V1 and V2. Bottom: V3, filled in the same method as the vial that was added to the drum of LiLS. All rates were fit with a constant, the results drawn as solid lines with hashed lines representing the error.\relax }}{58}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Graphic of 154 segments of the PROSPECT AD. Grayed out segments are those that `turned off' during the data period and are excluded in this analysis.\relax }}{59}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces RnPo distributions for all cells integrated over all time.\relax }}{60}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Coincidental (black), accidental (magenta), and background subtracted (blue) $\Delta t$ distributions for a typical segment integrated over all time. A fit of Equation~\ref {eq:dtexp} to the background subtraction distribution is shown in red along with its results.\relax }}{61}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces The value of $\tau $ obtained from the exponential fit to the $\Delta t$ distribution for each individual segment integrated over all time (a) and for all segments versus time (b). The currently accepted value for $\tau $, 2.569 $\pm $ 0.007 ms, is marked by the shaded green area. A constant fit to the data is shown as the dashed red line.\relax }}{62}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces The dead time, as a fraction of livetime, due to the pileup veto versus time. Shaded areas are reactor on periods.\relax }}{63}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Energy (a), PSD (b), and $\Delta z$ (c) distributions for RnPo events in a typical segment integrated over all time. Also shown are the results of fitting each distribution with a Gaussian for the purpose of calculating the cut efficiencies.\relax }}{64}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Cut efficiencies calculated for RnPo events in individual segments integrated over all time.\relax }}{64}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Cut efficiencies calculated for RnPo events versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{65}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Mean (a) and 1$\sigma $ width (b) of the $^{215}$Po energy distribution versus time integrated over all segments. Both before applied a correction (E) and after correction (ESmear) are shown. Shaded areas are reactor on periods.\relax }}{66}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Mean (a) and 1$\sigma $ width (b) of the $^{215}$Po PSD distribution versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{67}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces 1$\sigma $ width of the $\Delta z$ distribution versus time. Shaded areas are reactor on periods.\relax }}{68}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Segment-to-segment stability of the $^{215}$Po energy (a), energy resolution (b), position reconstruction (c), and position resolution (d). Distributions are shown separately for Hamamatsu and ET segments.\relax }}{68}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces $^{227}$Ac rate as measured versus time integrated over all segments. Fit with two exponentials, one in which the half-life of $^{227}$Ac is allowed to vary (red) and one in which it is fixed (black). Errors are statistical. Shaded areas are reactor on periods.\relax }}{69}
-\contentsline {figure}{\numberline {5.29}{\ignorespaces The PROSPECT detector divided into five sections of two rows each. Segments shaded in red are excluded from this analysis.\relax }}{70}
-\contentsline {figure}{\numberline {5.30}{\ignorespaces The measured $^{227}$Ac rate versus time for each section of two rows, fit with an exponential in which the half-life is allowed to vary.\relax }}{71}
-\contentsline {figure}{\numberline {5.31}{\ignorespaces The half-life results from fitting the $^{227}$Ac rate versus time for five sections of two rows.\relax }}{71}
-\contentsline {figure}{\numberline {5.32}{\ignorespaces The $^{227}$Ac per individual segment integrated over all time. Dashed line represents the average over all segments. Dotted lines are $\pm $1\% and $\pm $2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical.\relax }}{72}
-\contentsline {figure}{\numberline {5.33}{\ignorespaces The $^{227}$Ac per individual segment integrated over all time. Dashed line represents the average over only Hamamatsu segments. Dotted lines are $\pm $1\% and $\pm $2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical. {\color {blue} [\textbf {remove ETs from plot}]}\relax }}{73}
-\contentsline {figure}{\numberline {5.34}{\ignorespaces Histogram of the individual segment $^{227}$Ac rates. Blue (solid): Hamamatsu and ET segments, StdDev = 0.031 mHz. Black (dashed): only Hamamatsu segments, StdDev = 0.026 mHz.\relax }}{73}
-\contentsline {figure}{\numberline {5.35}{\ignorespaces $^{227}$Ac rate per segment for different $\sigma $-based cuts on the delayed energy.\relax }}{74}
-\contentsline {figure}{\numberline {5.36}{\ignorespaces Pictured here are distributions created by calculating for each cell the difference between the rate using a given $\sigma $ cut and the rate using a 4$\sigma $ cut normalized by the rate using a 4$\sigma $ cut for data.\relax }}{75}
-\contentsline {figure}{\numberline {5.37}{\ignorespaces The mean of the distributions shown in Figure~\ref {fig:CutSys}. Solid lines: data. Dashed lines: simulation. Connecting lines are not fits; only meant to help guide the eye of the reader.\relax }}{76}
-\contentsline {figure}{\numberline {5.38}{\ignorespaces \relax }}{78}
-\contentsline {figure}{\numberline {5.39}{\ignorespaces \relax }}{78}
-\contentsline {figure}{\numberline {5.40}{\ignorespaces The PROSPECT AD divided into six baselines used in the oscillation analysis described in the following chapter. Yellow: fiducial segments, gray: excluded segments.\relax }}{79}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Monte Carlo neutrino spectrum as a function of L/E}}{43}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces $^{227}$Ac decay chain}}{44}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Material sample vials}}{47}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Detector used for material adsorption studies}}{47}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Typical RnPo energy and PSD distributions}}{49}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Typical RnPo $\Delta $t distribution}}{50}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces $^{227}$Ac rate for each material sample}}{50}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces $^{215}$Po energy distribution for reference sample with two Gaussian fit}}{51}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces $^{215}$Po mean versus time for the reference sample}}{52}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces $^{215}$Po 1$\sigma $ width versus time for the reference sample}}{52}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces $^{227}$Ac rate for each material sample relative to the reference sample}}{53}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces RnPo energy spectra for viton and PEEK at the first and last time bins}}{55}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces The 1$\sigma $ width of two Gaussians fit to the $^{219}$Rn energy spectrum versus time for the viton o-ring material sample. Black (circle): higher energy Gaussian, Magenta (square): lower energy Gaussian.\relax }}{55}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces A graphic of the procedure used to spike the drum of LiLS with $^{227}$Ac for filling of the AD.\relax }}{57}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Measured $^{227}$Ac rates of vials used in the procedure performed to add $^{227}$Ac to the LiLS of the PROSPECT AD. Top: intermediate vials V1 and V2. Bottom: V3, filled in the same method as the vial that was added to the drum of LiLS. All rates were fit with a constant, the results drawn as solid lines with hashed lines representing the error.\relax }}{59}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Graphic of 154 segments of the PROSPECT AD. Grayed out segments are those that `turned off' during the data period and are excluded in this analysis.\relax }}{60}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces RnPo distributions for all cells integrated over all time.\relax }}{61}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Coincidental (black), accidental (magenta), and background subtracted (blue) $\Delta t$ distributions for a typical segment integrated over all time. A fit of Equation~\ref {eq:dtexp} to the background subtraction distribution is shown in red along with its results.\relax }}{62}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces The value of $\tau $ obtained from the exponential fit to the $\Delta t$ distribution for each individual segment integrated over all time (a) and for all segments versus time (b). The currently accepted value for $\tau $, 2.569 $\pm $ 0.007 ms, is marked by the shaded green area. A constant fit to the data is shown as the dashed red line.\relax }}{63}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces The dead time, as a fraction of livetime, due to the pileup veto versus time. Shaded areas are reactor on periods.\relax }}{64}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Energy (a), PSD (b), and $\Delta z$ (c) distributions for RnPo events in a typical segment integrated over all time. Also shown are the results of fitting each distribution with a Gaussian for the purpose of calculating the cut efficiencies.\relax }}{65}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Cut efficiencies calculated for RnPo events in individual segments integrated over all time.\relax }}{65}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Cut efficiencies calculated for RnPo events versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{66}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Mean (a) and 1$\sigma $ width (b) of the $^{215}$Po energy distribution versus time integrated over all segments. Both before applied a correction (E) and after correction (ESmear) are shown. Shaded areas are reactor on periods.\relax }}{67}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Mean (a) and 1$\sigma $ width (b) of the $^{215}$Po PSD distribution versus time integrated over all segments. Shaded areas are reactor on periods.\relax }}{68}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces 1$\sigma $ width of the $\Delta z$ distribution versus time. Shaded areas are reactor on periods.\relax }}{69}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Segment-to-segment stability of the $^{215}$Po energy (a), energy resolution (b), position reconstruction (c), and position resolution (d). Distributions are shown separately for Hamamatsu and ET segments.\relax }}{69}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces $^{227}$Ac rate as measured versus time integrated over all segments. Fit with two exponentials, one in which the half-life of $^{227}$Ac is allowed to vary (red) and one in which it is fixed (black). Errors are statistical. Shaded areas are reactor on periods.\relax }}{70}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces The PROSPECT detector divided into five sections of two rows each. Segments shaded in red are excluded from this analysis.\relax }}{71}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces The measured $^{227}$Ac rate versus time for each section of two rows, fit with an exponential in which the half-life is allowed to vary.\relax }}{72}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces The half-life results from fitting the $^{227}$Ac rate versus time for five sections of two rows.\relax }}{72}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces The $^{227}$Ac per individual segment integrated over all time. Dashed line represents the average over all segments. Dotted lines are $\pm $1\% and $\pm $2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical.\relax }}{73}
+\contentsline {figure}{\numberline {5.33}{\ignorespaces The $^{227}$Ac per individual segment integrated over all time. Dashed line represents the average over only Hamamatsu segments. Dotted lines are $\pm $1\% and $\pm $2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical. {\color {blue} [\textbf {remove ETs from plot}]}\relax }}{74}
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Histogram of the individual segment $^{227}$Ac rates. Blue (solid): Hamamatsu and ET segments, StdDev = 0.031 mHz. Black (dashed): only Hamamatsu segments, StdDev = 0.026 mHz.\relax }}{74}
+\contentsline {figure}{\numberline {5.35}{\ignorespaces $^{227}$Ac rate per segment for different $\sigma $-based cuts on the delayed energy.\relax }}{75}
+\contentsline {figure}{\numberline {5.36}{\ignorespaces Pictured here are distributions created by calculating for each cell the difference between the rate using a given $\sigma $ cut and the rate using a 4$\sigma $ cut normalized by the rate using a 4$\sigma $ cut for data.\relax }}{76}
+\contentsline {figure}{\numberline {5.37}{\ignorespaces The mean of the distributions shown in Figure~\ref {fig:CutSys}. Solid lines: data. Dashed lines: simulation. Connecting lines are not fits; only meant to help guide the eye of the reader.\relax }}{77}
+\contentsline {figure}{\numberline {5.38}{\ignorespaces \relax }}{79}
+\contentsline {figure}{\numberline {5.39}{\ignorespaces \relax }}{79}
+\contentsline {figure}{\numberline {5.40}{\ignorespaces The PROSPECT AD divided into six baselines used in the oscillation analysis described in the following chapter. Yellow: fiducial segments, gray: excluded segments.\relax }}{80}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic of the IBD interaction is the PROSPECT AD.\relax }}{81}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces PSD versus energy distribution for prompt events correlated with a delayed neutron capture on $^6$Li. The cuts used for identifying nLi events is represented by the blue rectangle. The upper limit of the cut used for identifying electron-like signals is shown as the pink curve.\relax }}{82}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces The prompt energy spectra, after background subtraction, of IBD events for 24 hours of both reactor on and off data. Prominent peaks at 2.2 MeV and 4.4 MeV are due to neutron captures on Hydrogen and inelastic neutron scatters on $^{12}$C respectively.\relax }}{83}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Accidentals-subtracted IBD candidate event rate per day (black) and measured accidental rate (red) as a function of time. IBD candidate rates are corrected for dead time and exposure time. The shaded regions (green) are reactor on periods. Errors are statistical. The gap in data corresponds to a detector maintenance period.\relax }}{86}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Background subtracted IBD event rate as a function of distance from the reactor center binned into 14 unique baselines. Data is fit with $C/r^2$ (dashed, magenta) and produces a $\chi ^2/NDF = 10.89/13$. Errors are statistical.\relax }}{87}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The normalized $\mathaccentV {bar}016{\nu _{e}}$ as predicted by Huber+Vogel-Beacom with and without the aluminum + non-equilibrium corrections (1.3\%).\relax }}{90}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Ratio of the measured IBD prompt energy spectra to the predicted baseline-integrated spectrum, for 6 baseline bins. Error bars include statistical and systematic uncertainties. Also shown are the no-oscillation expectation (gray, dashed) and an oscillated expectation based on the best fit Reactor Antineutrino Anomaly parameters (teal, dashed). \cite {PhysRevLett.121.251802}\relax }}{93}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Reconstructed visible prompt energy of IBD events (black), along with correlated IBD candidates in reactor on (blue, solid) and reactor off (red, dashed) periods. Errors are statistical. The reactor off spectrum has been scaled by the relative exposure time between on and off. \cite {Ashenfelter:2018jrx}\relax }}{95}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic of the IBD interaction is the PROSPECT AD.\relax }}{82}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces PSD versus energy distribution for prompt events correlated with a delayed neutron capture on $^6$Li. The cuts used for identifying nLi events is represented by the blue rectangle. The upper limit of the cut used for identifying electron-like signals is shown as the pink curve.\relax }}{83}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The prompt energy spectra, after background subtraction, of IBD events for 24 hours of both reactor on and off data. Prominent peaks at 2.2 MeV and 4.4 MeV are due to neutron captures on Hydrogen and inelastic neutron scatters on $^{12}$C respectively.\relax }}{84}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Accidentals-subtracted IBD candidate event rate per day (black) and measured accidental rate (red) as a function of time. IBD candidate rates are corrected for dead time and exposure time. The shaded regions (green) are reactor on periods. Errors are statistical. The gap in data corresponds to a detector maintenance period.\relax }}{87}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Background subtracted IBD event rate as a function of distance from the reactor center binned into 14 unique baselines. Data is fit with $C/r^2$ (dashed, magenta) and produces a $\chi ^2/NDF = 10.89/13$. Errors are statistical.\relax }}{88}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The normalized $\mathaccentV {bar}016{\nu _{e}}$ as predicted by Huber+Vogel-Beacom with and without the aluminum + non-equilibrium corrections (1.3\%).\relax }}{91}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Ratio of the measured IBD prompt energy spectra to the predicted baseline-integrated spectrum, for 6 baseline bins. Error bars include statistical and systematic uncertainties. Also shown are the no-oscillation expectation (gray, dashed) and an oscillated expectation based on the best fit Reactor Antineutrino Anomaly parameters (teal, dashed). \cite {PhysRevLett.121.251802}\relax }}{94}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Reconstructed visible prompt energy of IBD events (black), along with correlated IBD candidates in reactor on (blue, solid) and reactor off (red, dashed) periods. Errors are statistical. The reactor off spectrum has been scaled by the relative exposure time between on and off. \cite {Ashenfelter:2018jrx}\relax }}{96}
 \addvspace {10\p@ }
