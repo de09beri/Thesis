@@ -291,6 +291,28 @@ Xin Qian and Jen-Chieh Peng.
 \newblock {Physics with Reactor Neutrinos}.
 \newblock {\em Rept. Prog. Phys.}, 82(3):036201, 2019.
 
+\bibitem{Vogel:1999zy}
+P.~Vogel and John~F. Beacom.
+\newblock {Angular distribution of neutron inverse beta decay, anti-neutrino(e)
+  + p ---> e+ + n}.
+\newblock {\em Phys. Rev.}, D60:053003, 1999.
+
+\bibitem{Apollonio:1999ae}
+M.~Apollonio et~al.
+\newblock {Limits on neutrino oscillations from the CHOOZ experiment}.
+\newblock {\em Phys. Lett.}, B466:415--430, 1999.
+
+\bibitem{Apollonio:2002gd}
+M.~Apollonio et~al.
+\newblock {Search for neutrino oscillations on a long baseline at the CHOOZ
+  nuclear power station}.
+\newblock {\em Eur. Phys. J.}, C27:331--374, 2003.
+
+\bibitem{Boehm:2001ik}
+F.~Boehm et~al.
+\newblock {Final results from the Palo Verde neutrino oscillation experiment}.
+\newblock {\em Phys. Rev.}, D64:112001, 2001.
+
 \bibitem{Eguchi:2002dm}
 K.~Eguchi et~al.
 \newblock {First results from KamLAND: Evidence for reactor anti-neutrino
@@ -350,6 +372,21 @@ H.~De~Kerret et~al.
   Neutron Capture Detection}.
 \newblock 2019.
 \newblock arXiv:1901.09445 [hep-ex].
+
+\bibitem{An:2017osx}
+F.~P. An et~al.
+\newblock {Evolution of the Reactor Antineutrino Flux and Spectrum at Daya
+  Bay}.
+\newblock {\em Phys. Rev. Lett.}, 118(25):251801, 2017.
+
+\bibitem{PhysRevLett.122.232501}
+G.~Bak, J.~H. Choi, H.~I. Jang, J.~S. Jang, S.~H. Jeon, K.~K. Joo, K.~Ju, D.~E.
+  Jung, J.~G. Kim, J.~H. Kim, J.~Y. Kim, S.~B. Kim, S.~Y. Kim, W.~Kim, E.~Kwon,
+  D.~H. Lee, H.~G. Lee, Y.~C. Lee, I.~T. Lim, D.~H. Moon, M.~Y. Pac, Y.~S.
+  Park, C.~Rott, H.~Seo, J.~W. Seo, S.~H. Seo, C.~D. Shin, J.~Y. Yang, J.~Yoo,
+  and I.~Yu.
+\newblock Fuel-composition dependent reactor antineutrino yield at reno.
+\newblock {\em Phys. Rev. Lett.}, 122:232501, Jun 2019.
 
 \bibitem{LongNIM}
 J.~Ashenfelter et~al.
@@ -465,12 +502,6 @@ CAEN.
 {Olga Kyzylova}.
 \newblock {IBD-like rate and FN+nLi plots}.
 \newblock {PROSPECT DocDB 2370-v8}, %URL =, 2018.
-
-\bibitem{Vogel:1999zy}
-P.~Vogel and John~F. Beacom.
-\newblock {Angular distribution of neutron inverse beta decay, anti-neutrino(e)
-  + p ---> e+ + n}.
-\newblock {\em Phys. Rev.}, D60:053003, 1999.
 
 \bibitem{ConantThesis}
 Andrew Conant.

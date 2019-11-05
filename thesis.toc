@@ -12,8 +12,8 @@
 \contentsline {chapter}{\numberline {2}\uppercase {Reactor Neutrinos}}{11}
 \contentsline {section}{\numberline {2.1}Production of Reactor Neutrinos}{11}
 \contentsline {section}{\numberline {2.2}Measuring the Reactor Antineutrino Flux and Spectrum}{12}
-\contentsline {section}{\numberline {2.3}Detection of Reactor Neutrinos}{14}
-\contentsline {section}{\numberline {2.4}The Reactor Antineutrino Anomaly}{15}
+\contentsline {section}{\numberline {2.3}Detection of Reactor Neutrinos}{15}
+\contentsline {section}{\numberline {2.4}The Reactor Antineutrino Anomaly}{16}
 \contentsline {chapter}{\numberline {3}PROSPECT}{21}
 \contentsline {section}{\numberline {3.1}Experimental Site}{21}
 \contentsline {subsection}{\numberline {3.1.1}HFIR}{21}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 NOV 2019 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 NOV 2019 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1406,7 +1406,7 @@ File: tex/3-reactorneutrinos-images/NuclideChart_U235.pdf Graphic file (type pd
 f)
  <use tex/3-reactorneutrinos-images/NuclideChart_U235.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/NuclideChart_U235.pdf us
-ed on input line 20.
+ed on input line 21.
 (pdftex.def)             Requested size: 303.53267pt x 227.65465pt.
 
 
@@ -1421,9 +1421,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: tex/3-reactorneutrinos-images/Spectrum.png Graphic file (type png)
 <use tex/3-reactorneutrinos-images/Spectrum.png>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrum.png used on inp
-ut line 50.
+ut line 51.
 (pdftex.def)             Requested size: 281.85036pt x 195.05846pt.
- [13 <./tex/3-reactorneutrinos-images/Spectrum.png>] [14]
+ [13 <./tex/3-reactorneutrinos-images/Spectrum.png>] [14] [15]
 Package epstopdf Info: Source file: <tex/3-reactorneutrinos-images/vogel-fig02.
 eps>
 (epstopdf)                    date: 2019-07-22 17:47:09
@@ -1435,41 +1435,33 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=tex/3-reactorneutrinos-ima
 ges/vogel-fig02-eps-converted-to.pdf tex/3-reactorneutrinos-images/vogel-fig02.
 eps>
-(epstopdf)             \includegraphics on input line 116.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf, id=165, 508.90
+<tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf, id=168, 508.90
 125pt x 498.86375pt>
 File: tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
 <use tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/vogel-fig02-eps-converte
-d-to.pdf used on input line 116.
+d-to.pdf used on input line 124.
 (pdftex.def)             Requested size: 238.49232pt x 233.78851pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15]
-<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=169, 561.6992pt x 258.60815p
+ [16 <./tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>]
+<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=183, 561.6992pt x 258.60815p
 t>
 File: tex/3-reactorneutrinos-images/DayaBayFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/DayaBayFlux.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/DayaBayFlux.pdf used on 
-input line 135.
+input line 145.
 (pdftex.def)             Requested size: 303.53267pt x 139.74892pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16 <./tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>]
 <tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=184, 540.55484pt x 376.6756
 6pt>
 File: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf used on
- input line 147.
+ input line 152.
 (pdftex.def)             Requested size: 260.17465pt x 181.30229pt.
  [17 <./tex/3-reactorneutrinos-images/DayaBayFlux.pdf>]
 Missing character: There is no â in font cmr12!
@@ -1482,7 +1474,7 @@ File: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf Graphic file (type pdf
 )
  <use tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf use
-d on input line 164.
+d on input line 170.
 (pdftex.def)             Requested size: 303.53267pt x 220.01974pt.
  [18 <./tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>]
 <tex/3-reactorneutrinos-images/Spectrums.pdf, id=216, 1770.28087pt x 751.42572p
@@ -1490,10 +1482,10 @@ t>
 File: tex/3-reactorneutrinos-images/Spectrums.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/Spectrums.pdf>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrums.pdf used on in
-put line 176.
+put line 184.
 (pdftex.def)             Requested size: 433.62001pt x 184.04932pt.
-) [19 <./tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, page is rotated 90
- degrees>] [20 <./tex/3-reactorneutrinos-images/Spectrums.pdf>]
+ [19 <./tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, page is rotated 90 
+degrees>]) [20 <./tex/3-reactorneutrinos-images/Spectrums.pdf>]
 \openout2 = `tex/4-Prospect.aux'.
 
  (./tex/4-Prospect.tex
@@ -2480,10 +2472,10 @@ No file thesis.ind.
 (./tex/5-Analysis.aux) (./tex/6-Ac227.aux) (./tex/7-Oscillation.aux)
 (./tex/8-Conclusions.aux)) ) 
 Here is how much of TeX's memory you used:
- 13482 strings out of 492995
- 252543 string characters out of 6132704
- 281224 words of memory out of 5000000
- 16731 multiletter control sequences out of 15000+600000
+ 13487 strings out of 492995
+ 252629 string characters out of 6132704
+ 281249 words of memory out of 5000000
+ 16736 multiletter control sequences out of 15000+600000
  16519 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,55p,10405b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2505,7 +2497,7 @@ pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (119 pages, 21692099 bytes).
+Output written on thesis.pdf (119 pages, 21695529 bytes).
 PDF statistics:
  5785 PDF objects out of 6186 (max. 8388607)
  3355 compressed objects within 34 object streams
