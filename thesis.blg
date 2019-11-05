@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/0-Abstract.aux
@@ -11,79 +11,79 @@ A level-1 auxiliary file: tex/6-Ac227.aux
 A level-1 auxiliary file: tex/7-Oscillation.aux
 A level-1 auxiliary file: tex/8-Conclusions.aux
 The style file: unsrt.bst
-Database file #1: ThesisBib.bib
+Database file #1: ThesisBib.bib.bib
 Warning--entry type for "Heffron" isn't style-file defined
---line 1006 of file ThesisBib.bib
+--line 1006 of file ThesisBib.bib.bib
 Warning--entry type for "Hackett" isn't style-file defined
---line 1015 of file ThesisBib.bib
+--line 1015 of file ThesisBib.bib.bib
 Warning--entry type for "ConantThesis" isn't style-file defined
---line 1024 of file ThesisBib.bib
+--line 1024 of file ThesisBib.bib.bib
 Warning--entry type for "SurukuchiThesis" isn't style-file defined
---line 1032 of file ThesisBib.bib
-I was expecting a `,' or a `}'---line 1230 of file ThesisBib.bib
+--line 1032 of file ThesisBib.bib.bib
+I was expecting a `,' or a `}'---line 1230 of file ThesisBib.bib.bib
  :  %URL = "
  :          https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2800",
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1238 of file ThesisBib.bib
+I was expecting a `,' or a `}'---line 1238 of file ThesisBib.bib.bib
  :  %URL = "
  :          https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2370",
 I'm skipping whatever remains of this entry
 Warning--entry type for "ENSDF" isn't style-file defined
---line 1300 of file ThesisBib.bib
+--line 1300 of file ThesisBib.bib.bib
 Warning--entry type for "CAENDigit" isn't style-file defined
---line 1308 of file ThesisBib.bib
+--line 1308 of file ThesisBib.bib.bib
 Warning--entry type for "CAENWD" isn't style-file defined
---line 1316 of file ThesisBib.bib
-Repeated entry---line 1341 of file ThesisBib.bib
+--line 1316 of file ThesisBib.bib.bib
+Repeated entry---line 1341 of file ThesisBib.bib.bib
  : @article{Aguilar:2001ty
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1544 of file ThesisBib.bib
+Repeated entry---line 1544 of file ThesisBib.bib.bib
  : @article{Abazajian:2012ys
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 82 entries,
+You've used 83 entries,
             1791 wiz_defined-function locations,
-            976 strings with 16742 characters,
-and the built_in function-call counts, 17697 in all, are:
-= -- 1490
-> -- 854
+            980 strings with 16794 characters,
+and the built_in function-call counts, 17815 in all, are:
+= -- 1498
+> -- 858
 < -- 3
-+ -- 320
-- -- 238
-* -- 1182
-:= -- 2912
-add.period$ -- 251
-call.type$ -- 82
-change.case$ -- 83
++ -- 322
+- -- 239
+* -- 1183
+:= -- 2929
+add.period$ -- 253
+call.type$ -- 83
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 687
-empty$ -- 1776
-format.name$ -- 238
-if$ -- 3890
+cite$ -- 86
+duplicate$ -- 692
+empty$ -- 1794
+format.name$ -- 239
+if$ -- 3918
 int.to.chr$ -- 0
-int.to.str$ -- 82
+int.to.str$ -- 83
 missing$ -- 63
-newline$ -- 416
-num.names$ -- 86
-pop$ -- 190
+newline$ -- 420
+num.names$ -- 87
+pop$ -- 197
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 322
+skip$ -- 326
 stack$ -- 0
 substring$ -- 1223
-swap$ -- 97
+swap$ -- 98
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 155
-width$ -- 84
-write$ -- 881
+while$ -- 156
+width$ -- 85
+write$ -- 889
 (There were 4 error messages)

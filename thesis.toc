@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\select@language {english}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
 \contentsline {chapter}{LIST OF FIGURES}{xii}
@@ -9,69 +9,69 @@
 \contentsline {section}{\numberline {1.1}Discovery of the Neutrino}{1}
 \contentsline {section}{\numberline {1.2}Neutrinos in the Standard Model and Beyond}{3}
 \contentsline {section}{\numberline {1.3}Discovery of Neutrino Oscillation}{6}
-\contentsline {chapter}{\numberline {2}\uppercase {Reactor Neutrinos}}{10}
-\contentsline {section}{\numberline {2.1}Production of Reactor Neutrinos}{10}
-\contentsline {section}{\numberline {2.2}Measuring the Reactor Antineutrino Flux and Spectrum}{11}
-\contentsline {section}{\numberline {2.3}Detection of Reactor Neutrinos}{13}
-\contentsline {section}{\numberline {2.4}The Reactor Antineutrino Anomaly}{14}
-\contentsline {chapter}{\numberline {3}PROSPECT}{19}
-\contentsline {section}{\numberline {3.1}Experimental Site}{19}
-\contentsline {subsection}{\numberline {3.1.1}HFIR}{19}
-\contentsline {subsection}{\numberline {3.1.2}Backgrounds at HFIR}{20}
-\contentsline {section}{\numberline {3.2}Design}{21}
-\contentsline {subsection}{\numberline {3.2.1}Active Detector}{22}
-\contentsline {subsubsection}{\numberline {3.2.1.1}PMT Housings}{22}
-\contentsline {subsubsection}{\numberline {3.2.1.2}Optical Grid}{22}
-\contentsline {subsubsection}{\numberline {3.2.1.3}Segment Supports}{23}
-\contentsline {subsubsection}{\numberline {3.2.1.4}Radioactive Calibration System}{25}
-\contentsline {subsubsection}{\numberline {3.2.1.5}Liquid Scintillator}{27}
-\contentsline {subsection}{\numberline {3.2.2}Containment Vessels and Shielding}{28}
-\contentsline {section}{\numberline {3.3}Data Acquisition System}{29}
-\contentsline {chapter}{\numberline {4}\uppercase {PROSPECT Analysis Framework and Calibration}}{30}
-\contentsline {section}{\numberline {4.1}Pulse Shape Discrimination}{30}
-\contentsline {section}{\numberline {4.2}Data Processing and Calibration}{31}
-\contentsline {subsection}{\numberline {4.2.1}Timing to Position Curves}{32}
-\contentsline {subsection}{\numberline {4.2.2}Energy Calibration}{34}
-\contentsline {section}{\numberline {4.3}Monte Carlo Simulation}{35}
-\contentsline {subsection}{\numberline {4.3.1}Nonlinearity}{35}
-\contentsline {subsection}{\numberline {4.3.2}Energy Response}{36}
-\contentsline {subsection}{\numberline {4.3.3}Energy Resolution}{36}
-\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{40}
-\contentsline {section}{\numberline {5.1}Motivation}{40}
-\contentsline {section}{\numberline {5.2}Material Compatibility}{42}
-\contentsline {subsection}{\numberline {5.2.1}Material and Scintillator Preparation}{42}
-\contentsline {subsection}{\numberline {5.2.2}Detector}{44}
-\contentsline {subsection}{\numberline {5.2.3}Data Analysis}{45}
-\contentsline {subsection}{\numberline {5.2.4}Results}{47}
-\contentsline {subsubsection}{\numberline {5.2.4.1}Viton}{51}
-\contentsline {section}{\numberline {5.3}$^{227}$Ac in the PROSPECT AD}{53}
-\contentsline {subsection}{\numberline {5.3.1}Spiking the LiLS}{53}
-\contentsline {subsection}{\numberline {5.3.2}Data Set}{56}
-\contentsline {subsection}{\numberline {5.3.3}Event Selection}{57}
-\contentsline {subsection}{\numberline {5.3.4}Rate Calculation}{59}
-\contentsline {subsection}{\numberline {5.3.5}Detector Performance as Tracked with $^{227}$Ac }{63}
-\contentsline {subsection}{\numberline {5.3.6}$^{227}$Ac Rate versus Time}{67}
-\contentsline {subsection}{\numberline {5.3.7}$^{227}$Ac Rate in Individual Segments}{70}
-\contentsline {subsection}{\numberline {5.3.8}Systematic Errors}{72}
-\contentsline {subsubsection}{\numberline {5.3.8.1}Energy, PSD, and $\Delta $z Cuts}{72}
-\contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{74}
-\contentsline {subsection}{\numberline {5.3.9}$^{227}$Ac Rates per Baseline}{75}
-\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{78}
-\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{78}
-\contentsline {section}{\numberline {6.2}IBD Event Selection}{79}
-\contentsline {subsection}{\numberline {6.2.1}Cuts}{79}
-\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{81}
-\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{82}
-\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{83}
-\contentsline {section}{\numberline {6.3}Data Set}{83}
-\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{84}
-\contentsline {section}{\numberline {6.5}Oscillation Search}{85}
-\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{86}
-\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{89}
-\contentsline {subsection}{\numberline {6.5.3}Results}{90}
-\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{92}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{94}
+\contentsline {chapter}{\numberline {2}\uppercase {Reactor Neutrinos}}{11}
+\contentsline {section}{\numberline {2.1}Production of Reactor Neutrinos}{11}
+\contentsline {section}{\numberline {2.2}Measuring the Reactor Antineutrino Flux and Spectrum}{12}
+\contentsline {section}{\numberline {2.3}Detection of Reactor Neutrinos}{14}
+\contentsline {section}{\numberline {2.4}The Reactor Antineutrino Anomaly}{15}
+\contentsline {chapter}{\numberline {3}PROSPECT}{20}
+\contentsline {section}{\numberline {3.1}Experimental Site}{20}
+\contentsline {subsection}{\numberline {3.1.1}HFIR}{20}
+\contentsline {subsection}{\numberline {3.1.2}Backgrounds at HFIR}{21}
+\contentsline {section}{\numberline {3.2}Design}{22}
+\contentsline {subsection}{\numberline {3.2.1}Active Detector}{23}
+\contentsline {subsubsection}{\numberline {3.2.1.1}PMT Housings}{23}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Optical Grid}{23}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Segment Supports}{24}
+\contentsline {subsubsection}{\numberline {3.2.1.4}Radioactive Calibration System}{26}
+\contentsline {subsubsection}{\numberline {3.2.1.5}Liquid Scintillator}{28}
+\contentsline {subsection}{\numberline {3.2.2}Containment Vessels and Shielding}{29}
+\contentsline {section}{\numberline {3.3}Data Acquisition System}{30}
+\contentsline {chapter}{\numberline {4}\uppercase {PROSPECT Analysis Framework and Calibration}}{31}
+\contentsline {section}{\numberline {4.1}Pulse Shape Discrimination}{31}
+\contentsline {section}{\numberline {4.2}Data Processing and Calibration}{32}
+\contentsline {subsection}{\numberline {4.2.1}Timing to Position Curves}{33}
+\contentsline {subsection}{\numberline {4.2.2}Energy Calibration}{35}
+\contentsline {section}{\numberline {4.3}Monte Carlo Simulation}{36}
+\contentsline {subsection}{\numberline {4.3.1}Nonlinearity}{36}
+\contentsline {subsection}{\numberline {4.3.2}Energy Response}{37}
+\contentsline {subsection}{\numberline {4.3.3}Energy Resolution}{37}
+\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{41}
+\contentsline {section}{\numberline {5.1}Motivation}{41}
+\contentsline {section}{\numberline {5.2}Material Compatibility}{43}
+\contentsline {subsection}{\numberline {5.2.1}Material and Scintillator Preparation}{43}
+\contentsline {subsection}{\numberline {5.2.2}Detector}{45}
+\contentsline {subsection}{\numberline {5.2.3}Data Analysis}{46}
+\contentsline {subsection}{\numberline {5.2.4}Results}{48}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Viton}{52}
+\contentsline {section}{\numberline {5.3}$^{227}$Ac in the PROSPECT AD}{54}
+\contentsline {subsection}{\numberline {5.3.1}Spiking the LiLS}{54}
+\contentsline {subsection}{\numberline {5.3.2}Data Set}{57}
+\contentsline {subsection}{\numberline {5.3.3}Event Selection}{58}
+\contentsline {subsection}{\numberline {5.3.4}Rate Calculation}{60}
+\contentsline {subsection}{\numberline {5.3.5}Detector Performance as Tracked with $^{227}$Ac }{64}
+\contentsline {subsection}{\numberline {5.3.6}$^{227}$Ac Rate versus Time}{68}
+\contentsline {subsection}{\numberline {5.3.7}$^{227}$Ac Rate in Individual Segments}{71}
+\contentsline {subsection}{\numberline {5.3.8}Systematic Errors}{73}
+\contentsline {subsubsection}{\numberline {5.3.8.1}Energy, PSD, and $\Delta $z Cuts}{73}
+\contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{75}
+\contentsline {subsection}{\numberline {5.3.9}$^{227}$Ac Rates per Baseline}{76}
+\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{79}
+\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{79}
+\contentsline {section}{\numberline {6.2}IBD Event Selection}{80}
+\contentsline {subsection}{\numberline {6.2.1}Cuts}{80}
+\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{82}
+\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{83}
+\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{84}
+\contentsline {section}{\numberline {6.3}Data Set}{84}
+\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{85}
+\contentsline {section}{\numberline {6.5}Oscillation Search}{86}
+\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{87}
+\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{90}
+\contentsline {subsection}{\numberline {6.5.3}Results}{91}
+\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{93}
+\contentsline {chapter}{\numberline {7}CONCLUSIONS}{95}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{95}
+\contentsline {chapter}{BIBLIOGRAPHY}{96}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
