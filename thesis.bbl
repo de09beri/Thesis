@@ -234,6 +234,14 @@ A.~C. Hayes and Petr Vogel.
 NNDC.
 \newblock {Chart of Nuclides}.
 
+\bibitem{ENDF}
+International Atomic~Energy Agency.
+\newblock {Evaluated Nuclear Data File}.
+\newblock Evaluated Nuclear Data File.
+
+\bibitem{JEFF}
+Nuclear~Energy Agency.
+
 \bibitem{VonFeilitzsch:1982jw}
 F.~Von~Feilitzsch, A.~A. Hahn, and K.~Schreckenbach.
 \newblock {EXPERIMENTAL BETA SPECTRA FROM PU-239 AND U-235 THERMAL NEUTRON
@@ -282,6 +290,18 @@ Patrick Huber.
 Xin Qian and Jen-Chieh Peng.
 \newblock {Physics with Reactor Neutrinos}.
 \newblock {\em Rept. Prog. Phys.}, 82(3):036201, 2019.
+
+\bibitem{Eguchi:2002dm}
+K.~Eguchi et~al.
+\newblock {First results from KamLAND: Evidence for reactor anti-neutrino
+  disappearance}.
+\newblock {\em Phys. Rev. Lett.}, 90:021802, 2003.
+
+\bibitem{Araki:2004mb}
+T.~Araki et~al.
+\newblock {Measurement of neutrino oscillation with KamLAND: Evidence of
+  spectral distortion}.
+\newblock {\em Phys. Rev. Lett.}, 94:081801, 2005.
 
 \bibitem{An:2015qga}
 F.~P. An et~al.

@@ -1,7 +1,9 @@
 \chapter{\uppercase{Reactor Neutrinos}}
 
-Nuclear reactors are a pure source of electron antineutrinos, $\bar{\nu_e}$, as a result of the fission of isotopes used in the reactor fuel. The first neutrino was discovered using the nuclear reactor at the Savannah River Plant, and reactor sites continue to be popular homes for neutrino detectors. 
-In order to perform precision reactor neutrino studies it is important to understand the reactor neutrino flux and spectrum.
+Fission of isotopes used in reactor fuel cause a chain reaction that results in several  $\beta$ decays, creating electron antineutrinos, $\bar{\nu_{e}}$.
+For this reason, nuclear reactors are a powerful and pure source of $\bar{\nu_{e}}$, meaning that there are no reactions taking place in the reactor core that create the other neutrino flavors.
+The first neutrino was discovered using the nuclear reactor at the Savannah River Plant due to its continuous flux of $\bar{\nu_{e}}$ and the ability to get close to the core.
+Reactor sites continue to be popular homes for neutrino detectors, making it important to understand the reactor neutrino flux and spectrum. 
 
 \section{Production of Reactor Neutrinos}
 
@@ -16,7 +18,7 @@ In general a nuclear reactor will produce $\sim 6 \times 10^{20} \bar{\nu_e}$ pe
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/3-reactorneutrinos-images/NuclideChart_U235}
-	\caption[Fission of $^{235}$U.]{A schematic of the fission of $^{235}$U \cite{NucChart}. After collision with a neutron $^{235}$U will split into two unstable nuclei (pink arrows) which will then $\beta$ decay (white arrows) until stable.}
+	\caption[Fission of $^{235}$U.]{A schematic of the fission of $^{235}$U \cite{NucChart}. After collision with a neutron $^{235}$U will split into two unstable nuclei (arrows, pink) which will then $\beta$ decay (arrows, white) until stable.}
 	\label{fig:nucchart}
 \end{figure}
 
@@ -28,7 +30,7 @@ The total $\bar{\nu_{e}}$ flux, $S(E_\nu)$, produced by a nuclear reactor can be
 	S(E_\nu) = \frac{W_{th}}{\sum_{i}(f_i/F)e_i}\sum_{i}\frac{f_i}{F}\left(\frac{dN_i}{dE_\nu}\right) ,
 \end{equation}
 where $f_i/F$ is the fission fraction for each given isotope $i$, $W_{th}$ is the reactor thermal energy, $e_i$ is the 
-average energy released per fission by each isotope, and $dN_i/dE_\nu$ is the cumulative $\bar{\nu_e}$ spectrum of $i$ normalized per fission.
+average energy released per fission by each isotope, and $dN_i/dE_\nu$ is the cumulative $\bar{\nu_e}$ spectrum of $i$ normalized per fission \cite{HayesVogel}.
 
 There are two methods used to determine the $\bar{\nu_e}$ spectrum, \textit{ab initio} summation and electron spectrum conversion.
 In the \textit{ab initio} approach the spectrum is determined by summing the contributions of all $\beta$-decay branches of all fission fragments,
@@ -36,11 +38,11 @@ In the \textit{ab initio} approach the spectrum is determined by summing the con
 	\frac{dN_i}{dE_{\bar{\nu}}} =  \sum_{n}Y_n(Z,A,t)\sum_{n,i}b_{n,i}(E^i_0)P_{\bar{\nu}}(E_{\bar{\nu}},E^i_0,Z) ,
 \end{equation}
 where $Y_n(Z,A,t)$ is the number of $\beta$ decays of the fission fragment $Z, A$ at time $t$, $b_{n,i}(E^i_0)$ are the branching ratios with endpoint energies $E^i_0$, and $P_{\bar{\nu}}(E_{\bar{\nu}},E^i_0,Z)$ is the normalized $\bar{\nu_e}$ spectrum for the branch $n, i$.
-This method relies on nuclear databases, such as the Evaluated Nuclear Data File (ENDF) and Joint Evaluated Fission and Fusion (JEFF) databases, for information about the branching ratios and decay energies. 
+This method relies on nuclear databases, such as the Evaluated Nuclear Data File (ENDF) \cite{ENDF} and Joint Evaluated Fission and Fusion (JEFF) \cite{JEFF} databases, for information about the branching ratios and decay energies. 
 The antineutrino spectrum for the four main reactor isotopes calculated using \textit{ab initio} summation was done in Ref.~\cite{HayesVogel} and the result can be seen in Figure~\ref{fig:spectrum}. 
 
 Though seemingly straightforward, this approach comes with some caveats.
-The shear number of daughter isotopes ($>$1000) and individual $\beta$ decay branches ($>$6000) make the summation non-trivial.
+The sheer number of daughter isotopes ($>$1000) and individual $\beta$ decay branches ($>$6000) make the summation non-trivial.
 This, along with the fact that not all branching ratios are known, and that the fission yields have been determined by several different database groups but don't always agree and have large uncertainties bring into question the validity of using only this method. 
 
 \begin{figure}[t]
@@ -50,7 +52,7 @@ This, along with the fact that not all branching ratios are known, and that the 
 	\label{fig:spectrum}
 \end{figure}
 
-The other approach to determine the $\bar{\nu_{e}}$ spectrum, the conversion method, relies on converting a measured electron spectrum into an antineutrino spectrum. 
+The other approach to determining the $\bar{\nu_{e}}$ spectrum, sometimes called the conversion method, relies on converting a measured electron spectrum into an antineutrino spectrum. 
 This involves fitting an experimentally defined total beta spectrum with individual beta spectrum  according to their amplitudes, $a_i$, 
 \begin{equation}
 	\frac{dN_i}{dE_e} = \sum_{i}a_iP(E,E^i_0,Z)
@@ -77,6 +79,7 @@ In 2011 Mueller \textit{et al.} improved the prediction of the reactor antineutr
 This was followed by a further improvement by Huber who applied higher order corrections making use of the conversion method and minimizing the use of the databases as much as possible \cite{Huber}.
 
 Though much work has been done to accurately model the reactor antineutrino spectra both methods are subject to uncertainties in the subdominant corrections to beta-decay. This includes radiative, weak magnetism, and finite size corrections along with uncertainties in the spectrum shape of forbidden transitions which are summarized in Ref.\cite{HayesVogel}. 
+
 Besides the model uncertainties there are also experimental uncertainties that arise from knowing the thermal power of the reactor, its time-dependent fuel composition, and the fission energies of the dominant isotopes.
 All of these uncertainties result in a 10-20\% relative uncertainty on the reactor antineutrino spectra using the \textit{ab initio} method and $\sim$5 \% uncertainty on the conversion approach \cite{Qian:2018wid}.
 
@@ -92,9 +95,16 @@ The IBD reaction energy threshold is 1.8 MeV and the cross section is relatively
 where $E_e$ and $p_e$ are the energy and momentum of the final-state positron. 
 
 An IBD event is selected by a pair of coincident signals consisting of a positron ionization and annihilation as the prompt signal and a time delayed neutron capture on a proton or nucleus as the delay signal. 
-The neutrino energy can be backtracked from the prompt signal as
-\begin{equation}	
-	E_{\bar{\nu}} = E_{prompt} + 0.78~\textrm{MeV} + T_n
+The positron, carrying most of the $\bar{\nu_{e}}$ energy, will produce two 511 keV gammas as a result of the pair annihilation, which means that the minimum energy of the prompt signal is 1.022 MeV.
+These two gammas will Compton scatter initiating a release of more electrons which will scintillate.
+The positron ionization, annihilation, and Compton scattering are detected as one signal, giving the prompt energy, $E_{prompt}$.
+
+The neutrino energy, $E_{\bar{\nu_{e}}}$, can then be backtracked from this prompt signal as 
+\begin{equation}
+\begin{split}
+	E_{\bar{\nu_{e}}} &= E_{prompt} + (1.8~\textrm{MeV} - 1.022~\textrm{MeV}) + T_n \\
+			&\approx E_{prompt} + 0.78~\textrm{MeV}
+\end{split}
 \end{equation}
 where $T_n$ is the kinetic energy of the recoil neutron which is much smaller than the energy of the neutrino and can therefore be ignored in most cases. 
 The IBD cross-section increases with energy, whereas the $\bar{\nu_{e}}$ spectrum decreases with energy creating a detected energy spectrum that peaks around 3.8 MeV and dies off after $\sim$8 MeV, as seen in Figure~\ref{fig:vogel-fig02}. 
@@ -114,6 +124,8 @@ In addition to great background rejection and good reconstruction of the neutrin
 Several experiments have, and continue to use reactor antineutrinos as a probe of neutrino oscillation. 
 A reactor neutrino disappearance $P(\bar{\nu_{e}} \rightarrow \bar{\nu_{e}})$ experiment located at a distance L $\sim$ 1 km can measure $\sin^2\Delta_{31}$. At that baseline, the amplitude of the oscillation at the first maximum of $\sin^2\Delta_{31}$ is $\sin^22\theta_{13}$ (recall Eq.~\ref{eq:oscprob}), providing a direct measurement of $\theta_{13}$.
 Three experiments were designed to make a measurement of this mixing angle, Daya Bay in China, RENO in Korea, and Double Chooz in France. 
+At a longer baseline of, on average, 180 km, the Kamioka Liquid scintillator
+Anti-Neutrino Detector (KamLAND) experiment was positioned to make measurements of $\theta_{12}$ and $\Delta m^2_{12}$ \cite{Eguchi:2002dm, Araki:2004mb}.
 
 The Daya Bay Reactor Neutrino Experiment was located at the Daya Bay nuclear reactor power plant in southern China that consists of six 2.9 GW$_{th}$ reactors. They employed two groups of near (512 m, 561 m) and one group of far (1,579 m) antineutrino detectors (AD) in order to suppress the reactor flux uncertainties \cite{An:2015qga,DayaBayAnomaly}.
 The IBD yield measured for each AD is shown in Figure~\ref{fig:dayabayflux} and it can be seen that, after correcting for small variations of fission fractions among the different sites, all rates are consistent with each other. Though results between detectors agree, the disagreement between the experimental results and most recent model calculations (Huber+Mueller) is troubling. 

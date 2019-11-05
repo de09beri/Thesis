@@ -30,60 +30,69 @@ I was expecting a `,' or a `}'---line 1238 of file ThesisBib.bib.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "ENSDF" isn't style-file defined
 --line 1300 of file ThesisBib.bib.bib
+Warning--entry type for "ENDF" isn't style-file defined
+--line 1307 of file ThesisBib.bib.bib
+Warning--entry type for "JEFF" isn't style-file defined
+--line 1315 of file ThesisBib.bib.bib
+Unbalanced braces---line 1321 of file ThesisBib.bib.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "CAENDigit" isn't style-file defined
---line 1308 of file ThesisBib.bib.bib
+--line 1324 of file ThesisBib.bib.bib
 Warning--entry type for "CAENWD" isn't style-file defined
---line 1316 of file ThesisBib.bib.bib
-Repeated entry---line 1341 of file ThesisBib.bib.bib
+--line 1332 of file ThesisBib.bib.bib
+Repeated entry---line 1357 of file ThesisBib.bib.bib
  : @article{Aguilar:2001ty
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1544 of file ThesisBib.bib.bib
+Repeated entry---line 1560 of file ThesisBib.bib.bib
  : @article{Abazajian:2012ys
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 83 entries,
+You've used 87 entries,
             1791 wiz_defined-function locations,
-            980 strings with 16794 characters,
-and the built_in function-call counts, 17815 in all, are:
-= -- 1498
-> -- 858
+            1001 strings with 17193 characters,
+and the built_in function-call counts, 18464 in all, are:
+= -- 1549
+> -- 882
 < -- 3
-+ -- 322
-- -- 239
-* -- 1183
-:= -- 2929
-add.period$ -- 253
-call.type$ -- 83
-change.case$ -- 84
++ -- 332
+- -- 245
+* -- 1209
+:= -- 3030
+add.period$ -- 263
+call.type$ -- 87
+change.case$ -- 87
 chr.to.int$ -- 0
-cite$ -- 86
-duplicate$ -- 692
-empty$ -- 1794
-format.name$ -- 239
-if$ -- 3918
+cite$ -- 90
+duplicate$ -- 720
+empty$ -- 1874
+format.name$ -- 245
+if$ -- 4065
 int.to.chr$ -- 0
-int.to.str$ -- 83
-missing$ -- 63
-newline$ -- 420
-num.names$ -- 87
-pop$ -- 197
+int.to.str$ -- 87
+missing$ -- 65
+newline$ -- 438
+num.names$ -- 91
+pop$ -- 211
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 326
+skip$ -- 347
 stack$ -- 0
-substring$ -- 1223
-swap$ -- 98
+substring$ -- 1259
+swap$ -- 102
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 156
-width$ -- 85
-write$ -- 889
-(There were 4 error messages)
+while$ -- 162
+width$ -- 89
+write$ -- 925
+(There were 5 error messages)
