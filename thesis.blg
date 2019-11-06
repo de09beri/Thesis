@@ -20,79 +20,79 @@ Warning--entry type for "ConantThesis" isn't style-file defined
 --line 1024 of file ThesisBib.bib.bib
 Warning--entry type for "SurukuchiThesis" isn't style-file defined
 --line 1032 of file ThesisBib.bib.bib
-I was expecting a `,' or a `}'---line 1230 of file ThesisBib.bib.bib
+I was expecting a `,' or a `}'---line 1240 of file ThesisBib.bib.bib
  :  %URL = "
  :          https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2800",
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1238 of file ThesisBib.bib.bib
+I was expecting a `,' or a `}'---line 1248 of file ThesisBib.bib.bib
  :  %URL = "
  :          https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2370",
 I'm skipping whatever remains of this entry
 Warning--entry type for "ENSDF" isn't style-file defined
---line 1300 of file ThesisBib.bib.bib
+--line 1310 of file ThesisBib.bib.bib
 Warning--entry type for "ENDF" isn't style-file defined
---line 1307 of file ThesisBib.bib.bib
+--line 1317 of file ThesisBib.bib.bib
 Warning--entry type for "JEFF" isn't style-file defined
---line 1315 of file ThesisBib.bib.bib
-Unbalanced braces---line 1321 of file ThesisBib.bib.bib
+--line 1325 of file ThesisBib.bib.bib
+Unbalanced braces---line 1331 of file ThesisBib.bib.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CAENDigit" isn't style-file defined
---line 1324 of file ThesisBib.bib.bib
+--line 1334 of file ThesisBib.bib.bib
 Warning--entry type for "CAENWD" isn't style-file defined
---line 1332 of file ThesisBib.bib.bib
-Repeated entry---line 1357 of file ThesisBib.bib.bib
+--line 1342 of file ThesisBib.bib.bib
+Repeated entry---line 1367 of file ThesisBib.bib.bib
  : @article{Aguilar:2001ty
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1560 of file ThesisBib.bib.bib
+Repeated entry---line 1570 of file ThesisBib.bib.bib
  : @article{Abazajian:2012ys
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 92 entries,
+You've used 93 entries,
             1791 wiz_defined-function locations,
-            1026 strings with 18199 characters,
-and the built_in function-call counts, 19920 in all, are:
-= -- 1648
-> -- 1006
+            1030 strings with 18270 characters,
+and the built_in function-call counts, 20051 in all, are:
+= -- 1659
+> -- 1010
 < -- 3
-+ -- 375
-- -- 283
-* -- 1339
-:= -- 3291
-add.period$ -- 278
-call.type$ -- 92
-change.case$ -- 92
++ -- 377
+- -- 284
+* -- 1342
+:= -- 3311
+add.period$ -- 281
+call.type$ -- 93
+change.case$ -- 93
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 765
-empty$ -- 1987
-format.name$ -- 283
-if$ -- 4365
+cite$ -- 96
+duplicate$ -- 770
+empty$ -- 2005
+format.name$ -- 284
+if$ -- 4396
 int.to.chr$ -- 0
-int.to.str$ -- 92
+int.to.str$ -- 93
 missing$ -- 70
-newline$ -- 463
-num.names$ -- 96
-pop$ -- 216
+newline$ -- 468
+num.names$ -- 97
+pop$ -- 222
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 366
+skip$ -- 369
 stack$ -- 0
 substring$ -- 1355
-swap$ -- 107
+swap$ -- 108
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 172
-width$ -- 94
-write$ -- 980
+while$ -- 173
+width$ -- 95
+write$ -- 990
 (There were 5 error messages)

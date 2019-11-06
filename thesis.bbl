@@ -242,6 +242,10 @@ International Atomic~Energy Agency.
 \bibitem{JEFF}
 Nuclear~Energy Agency.
 
+\bibitem{ENSDF}
+National Nuclear~Data Center.
+\newblock {ENSDF Database}.
+
 \bibitem{VonFeilitzsch:1982jw}
 F.~Von~Feilitzsch, A.~A. Hahn, and K.~Schreckenbach.
 \newblock {EXPERIMENTAL BETA SPECTRA FROM PU-239 AND U-235 THERMAL NEUTRON
@@ -455,6 +459,11 @@ M.~Mendenhall.
 \newblock {AD1 Calibrations tech note}.
 \newblock {PROSPECT DocDB 2314-v2}, May 2018.
 
+\bibitem{MM:1131}
+M.~Mendenhall.
+\newblock {Calibration algorithms overview}.
+\newblock {PROSPECT DocDB 1131-v3}, December 2016.
+
 \bibitem{BIRKS1964269}
 J.B. BIRKS.
 \newblock Chapter 8 - organic liquid scintillators.
@@ -471,10 +480,6 @@ Xianyi Zhang.
 Pranava Surukuchi.
 \newblock {Sensitivity public talks}.
 \newblock {PROSPECT DocDB 1534-v9}, August 2017.
-
-\bibitem{ENSDF}
-National Nuclear~Data Center.
-\newblock {ENSDF Database}.
 
 \bibitem{Kirby2011}
 H.~W. Kirby and L.~R. Morss.
