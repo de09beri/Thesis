@@ -811,9 +811,7 @@ Measurements of the \Po lifetime versus time, Figure~\ref{fig:lifetimevstime}, a
 The use of $\sigma$-based cuts for energy, PSD, and $\Delta z$ result in efficiencies that are always 99.9\% or higher, ruling out loss of events due to changing resolution as a solution.
 
 One hypothesis is that \Ac is falling out of the LiLS solution. 
-The process by which this would occur is unclear but a similar loss of rate over time has been seen in other event selections, such as neutron capture time. \todo{include plot of this?}
-
-In an attempt to gain more insight the detector was split into five sections of two rows each, as shown in Figure~\ref{fig:adsegmentsrows}.
+The process by which this would occur is unclear, but, in an attempt to gain more insight the detector was split into five sections of two rows each, as shown in Figure~\ref{fig:adsegmentsrows}.
 The \Ac rate in each of these sections was measured and fit with the exponential in Equation~\ref{eq:DtExp}, allowing the half-life to vary.
 See Figure~\ref{fig:ratevstimerows} for the rates and fits, and Figure~\ref{fig:achalflifevsrow} for the half-lives from the fit results versus row.
 
@@ -888,6 +886,9 @@ The standard deviation of only the Hamamatsu segments is 0.026 mHz.
 
 
 \subsection{Systematic Errors}
+
+Systematic uncertainties in this analysis come from three sources:
+(i) the \Ac rate is falling faster than expectation (for this a 1\% systematic is applied), (ii) the energy, PSD, and $\Delta z$ cut efficiencies are calculated by assuming that all distributions are true Gaussians (for this a 0.15\% error is assigned), and (iii) the presence of other coincident alpha decays in the background that could contaminate the RnPo selection (for this a 0.22\% error is assigned).
 
 \subsubsection{Energy, PSD, and $\Delta$z Cuts}
 In an effort to determine what level of systematic error to apply to the measured \Ac rates per segment a study was performed on the energy, PSD, and $\Delta z$ cuts.
@@ -1009,31 +1010,36 @@ See Table~\ref{tab:CoincAlphaRate} for a summary of the energy and time cut effi
 \end{table}
 
 
-\subsection{\Ac Rates per Baseline}
+\subsection{\Ac Rates per Baseline} \label{sec:AcBaseRates}
 
-\begin{figure}[h]
+The original goal of adding \Ac to the PROSPECT detector was to measure relative volume differences and apply these corrections to the oscillation analysis. 
+The oscillation analysis is carried out by dividing the detector into baselines, or distances from the reactor core, and comparing the measured spectra between baselines.
+A similar process can be done for the \Ac rates, and then corrections can be applied to the number of IBD counts versus baseline based on the \Ac results.
+
+The detector was divided into 10 individual baselines, where baseline 1 is closest to the reactor core.
+Figure~\ref{fig:adsegments} shows the configuration of baselines that was chosen for this data set.
+The \Ac rate measured for each segment was then averaged over each baseline (error-weighted) and then plotted relative to the average rate in the first baseline.
+The results of this can be seen in Figure~\ref{fig:fidratevsbaseline}.
+Note that the rates used in this part of the analysis were measured using an additional $z$-fiducial cut of {-448 $< z <$ 448 mm}, in order to use the same fiducial volume as the oscillation analysis.
+
+It can be seen that the average rates vary less than $\sim$0.5\% over all baselines.
+As the oscillation analysis for this data set is not yet completed, these results cannot currently be applied as corrections to the IBD rate versus baseline. 
+Instead, the same analysis described in this chapter was applied to the data set used for the published oscillation results and corrections were applied accordingly and are described in the next chapter.
+
+\begin{figure}[!t]
 	\centering
-	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/Baseline/RelativeAvgRateFid}
-	\caption{}
-	\label{fig:relativeavgratefid}
-\end{figure}
-
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/Baseline/AD_Segments}
-	\caption{}
+	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/Baseline/AD_Segments}
+	\caption{The PROSPECT AD divided into 10 baselines, where baseline 1 is closest to the reactor. Segments in white are either fiducial segments or were turned off.}
 	\label{fig:adsegments}
 \end{figure}
 
-
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/Baseline/AD_Segments_Baselines}
-	\caption{The PROSPECT AD divided into six baselines used in the oscillation analysis described in the following chapter. Yellow: fiducial segments, gray: excluded segments.}
-	\label{fig:adsegmentsbaselines}
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/Baseline/FidRateVsBaseline}
+	\caption{The \Ac rate for fiducial $z$ volume averaged over each of the 10 defined baselines and relative to the first baseline. Error bars are statistical, systematic errors are shown as the shaded region.}
+	\label{fig:fidratevsbaseline}
 \end{figure}
+
 
 
 

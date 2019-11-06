@@ -1,8 +1,8 @@
 \select@language {english}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
-\contentsline {chapter}{LIST OF FIGURES}{xii}
-\contentsline {chapter}{LIST OF TABLES}{xiv}
+\contentsline {chapter}{LIST OF FIGURES}{xiii}
+\contentsline {chapter}{LIST OF TABLES}{xv}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }CHAPTER\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
 \contentsline {chapter}{\numberline {1}\uppercase {Neutrinos}}{1}
@@ -52,26 +52,26 @@
 \contentsline {subsection}{\numberline {5.3.5}Detector Performance as Tracked with $^{227}$Ac }{66}
 \contentsline {subsection}{\numberline {5.3.6}$^{227}$Ac Rate versus Time}{70}
 \contentsline {subsection}{\numberline {5.3.7}$^{227}$Ac Rate in Individual Segments}{73}
-\contentsline {subsection}{\numberline {5.3.8}Systematic Errors}{75}
+\contentsline {subsection}{\numberline {5.3.8}Systematic Errors}{74}
 \contentsline {subsubsection}{\numberline {5.3.8.1}Energy, PSD, and $\Delta $z Cuts}{75}
-\contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{77}
-\contentsline {subsection}{\numberline {5.3.9}$^{227}$Ac Rates per Baseline}{78}
-\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{81}
-\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{81}
-\contentsline {section}{\numberline {6.2}IBD Event Selection}{82}
-\contentsline {subsection}{\numberline {6.2.1}Cuts}{82}
-\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{84}
-\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{85}
-\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{86}
-\contentsline {section}{\numberline {6.3}Data Set}{86}
-\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{87}
-\contentsline {section}{\numberline {6.5}Oscillation Search}{88}
-\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{89}
-\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{92}
-\contentsline {subsection}{\numberline {6.5.3}Results}{93}
-\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{95}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{97}
+\contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{78}
+\contentsline {subsection}{\numberline {5.3.9}$^{227}$Ac Rates per Baseline}{79}
+\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{82}
+\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{82}
+\contentsline {section}{\numberline {6.2}IBD Event Selection}{83}
+\contentsline {subsection}{\numberline {6.2.1}Cuts}{83}
+\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{85}
+\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{86}
+\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{87}
+\contentsline {section}{\numberline {6.3}Data Set}{87}
+\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{88}
+\contentsline {section}{\numberline {6.5}Oscillation Search}{90}
+\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{92}
+\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{95}
+\contentsline {subsection}{\numberline {6.5.3}Results}{96}
+\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{98}
+\contentsline {chapter}{\numberline {7}CONCLUSIONS}{100}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{98}
+\contentsline {chapter}{BIBLIOGRAPHY}{101}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 

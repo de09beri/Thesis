@@ -176,9 +176,16 @@ These two segments exist in a corner of the detector that does not sit on the mo
 \section{IBD Rates versus Basline}
 
 IBD rates as a function of distance from the reactor, $r$, are expected to fall as $1/r^2$. 
-The fiducial volume of the reactor was divided into 14 baselines and the IBD rate at each baseline, scaled by active mass and relative efficiency, is plotted in Figure~\ref{fig:ibdvsbaseline}.
+The fiducial volume of the reactor was divided into 14 baselines (see Figure~\ref{fig:adsegmentsrows}) and the IBD rate at each baseline, scaled by active mass and relative efficiency, is plotted in Figure~\ref{fig:ibdvsbaseline}.
 The data shows good agreement with a fit of the form $C/r^2$, producing a $\chi^2/NDF = 10.89/13$, confirming the inverse square law behavior. 
 It can be noted that there is $\sim$40\% decrease in flux from the front to the back of the detector. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/Baseline/AD_Segments_Baselines}
+	\caption{The PROSPECT AD divided into 14 baselines, where baseline 1 is closest to the reactor. Segments in white are either fiducial segments or were turned off.}
+	\label{fig:adsegmentsbaselines}
+\end{figure}
 
 \begin{figure}[H]
 	\centering
@@ -187,7 +194,26 @@ It can be noted that there is $\sim$40\% decrease in flux from the front to the 
 	\label{fig:ibdvsbaseline}
 \end{figure}
 
-\todo{Correct for Ac-227 results and show corrected plot}
+As was described in Section~\ref{sec:AcBaseRates}, the \Ac rate per segment can be used to correct the IBD event rate as a function of baseline for any observed volume variation effects.
+The average measured \Ac rate per baseline, relative to the first baseline, can be seen in Figure~\ref{fig:fidratevsbaselineoscdata}.
+Unlike the data set used in the previous chapter, the data for this oscillation analysis is statistics limited, accounting for the much larger error bars than were present in Figure~\ref{fig:fidratevsbaseline}.
+
+These relative rates were then applied as corrections to the IBD event rate versus baseline, the results of which are shown in Figure~\ref{fig:ibdcountsvsbaselinecorrected}.
+This distribution was then fit with a $1/r^2$ function, producing a $\chi^2/NDF =  8.351/13$.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{tex/7-oscillation-images/FidRateVsBaseline_OscData}
+	\caption{The \Ac rate (for fiducial $z$) averaged over each of the 14 defined baselines, plotted relative to the first baseline. Error bars are statistical, systematic errors are shown as the shaded region.}
+	\label{fig:fidratevsbaselineoscdata}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{tex/7-oscillation-images/IBDCountsVsBaseline_Corrected}
+	\caption{Background subtracted IBD event rate as a function of distance from the reactor center binned into 14 unique baselines, corrected for the measured \Ac rates in Figure~\ref{fig:fidratevsbaselineoscdata}.}
+	\label{fig:ibdcountsvsbaselinecorrected}
+\end{figure}
 
 
 \section{Oscillation Search}
