@@ -29,70 +29,70 @@ I was expecting a `,' or a `}'---line 1248 of file ThesisBib.bib.bib
  :          https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2370",
 I'm skipping whatever remains of this entry
 Warning--entry type for "ENSDF" isn't style-file defined
---line 1310 of file ThesisBib.bib.bib
+--line 1320 of file ThesisBib.bib.bib
 Warning--entry type for "ENDF" isn't style-file defined
---line 1317 of file ThesisBib.bib.bib
+--line 1327 of file ThesisBib.bib.bib
 Warning--entry type for "JEFF" isn't style-file defined
---line 1325 of file ThesisBib.bib.bib
-Unbalanced braces---line 1331 of file ThesisBib.bib.bib
+--line 1335 of file ThesisBib.bib.bib
+Unbalanced braces---line 1341 of file ThesisBib.bib.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CAENDigit" isn't style-file defined
---line 1334 of file ThesisBib.bib.bib
+--line 1344 of file ThesisBib.bib.bib
 Warning--entry type for "CAENWD" isn't style-file defined
---line 1342 of file ThesisBib.bib.bib
-Repeated entry---line 1367 of file ThesisBib.bib.bib
+--line 1352 of file ThesisBib.bib.bib
+Repeated entry---line 1377 of file ThesisBib.bib.bib
  : @article{Aguilar:2001ty
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1570 of file ThesisBib.bib.bib
+Repeated entry---line 1580 of file ThesisBib.bib.bib
  : @article{Abazajian:2012ys
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Abazajian:2012ys
 Warning--empty journal in DayaBayFlux2018
 Warning--empty journal in DoubleChooz:2019qbj
-You've used 93 entries,
+You've used 95 entries,
             1791 wiz_defined-function locations,
-            1030 strings with 18270 characters,
-and the built_in function-call counts, 20051 in all, are:
-= -- 1659
-> -- 1010
+            1041 strings with 18534 characters,
+and the built_in function-call counts, 20399 in all, are:
+= -- 1689
+> -- 1022
 < -- 3
-+ -- 377
-- -- 284
-* -- 1342
-:= -- 3311
-add.period$ -- 281
-call.type$ -- 93
-change.case$ -- 93
++ -- 382
+- -- 287
+* -- 1361
+:= -- 3366
+add.period$ -- 287
+call.type$ -- 95
+change.case$ -- 95
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 770
-empty$ -- 2005
-format.name$ -- 284
-if$ -- 4396
+cite$ -- 98
+duplicate$ -- 784
+empty$ -- 2046
+format.name$ -- 287
+if$ -- 4475
 int.to.chr$ -- 0
-int.to.str$ -- 93
-missing$ -- 70
-newline$ -- 468
-num.names$ -- 97
-pop$ -- 222
+int.to.str$ -- 95
+missing$ -- 71
+newline$ -- 478
+num.names$ -- 99
+pop$ -- 229
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 369
+skip$ -- 376
 stack$ -- 0
-substring$ -- 1355
-swap$ -- 108
+substring$ -- 1373
+swap$ -- 110
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 173
-width$ -- 95
-write$ -- 990
+while$ -- 176
+width$ -- 97
+write$ -- 1011
 (There were 5 error messages)

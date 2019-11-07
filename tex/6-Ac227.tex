@@ -3,10 +3,10 @@
 \section{Motivation}
 
 In the absence of an eV-scale sterile neutrino PROSPECT should measure IBD rates that fall like one over distance from the reactor squared. 
-If sterile neutrino oscillation was detected, after one year PROSPECT would measure the spectrum seen in Figure~\ref{fig:lovere1yr}, given a mass splitting of 1.78 eV$^2$, .
+If sterile neutrino oscillation was detected, after one year PROSPECT would measure the spectrum seen in Figure~\ref{fig:lovere1yr}, given a mass splitting of 1.78 eV$^2$, which is close to the Reactor Antineutrino Anomaly best-fit point (see Figure~\ref{fig:raabestfitpoint}).
 However, a situation could occur in which a sterile neutrino did not exist, or could not be measured with PROSPECT, and an oscillation is still measured.
 This could happen if there are segment to segment volume variations throughout the detector, mimicking an oscillation signal.
-Therefore, it becomes important that the product of efficiency$\times$volume for all segments is well known. 
+Therefore, it becomes important that the relative segment-to-segment volumes are well known.
 
 \begin{figure}[h]
 	\centering
@@ -15,16 +15,15 @@ Therefore, it becomes important that the product of efficiency$\times$volume for
 	\label{fig:lovere1yr}
 \end{figure}
 
-
 This measurement can be accomplished if an event source is uniformly distributed throughout the active volume of the detector. 
 By measuring the rate of this source in each segment the relative volumes can be compared and tracked through time.
-\Ac was chosen as the source and a chloride solution was prepared and dissolved in the liquid scintillator to ensure uniform distribution.
+We chose \Ac as this source and a chloride solution was prepared and dissolved in the liquid scintillator to ensure uniform distribution.
 
-\Ac was chosen for several reasons. First, because an \AaAa coincidence occurs in its decay chain, specifically $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + \Aa, as highlighted in Figure~\ref{fig:ac227chain}.
+We chose \Ac for several reasons. First, because an \AaAa coincidence occurs in its decay chain, specifically $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + \Aa, as highlighted in Figure~\ref{fig:ac227chain}.
 \Rn has a half-life of 3.96 $\pm$ 0.01 s and $\alpha$-decays 100\% of the time, while \Po has a half-life of 1.781 $\pm$ 0.005 ms and $\alpha$-decays  99.99977(2)\% of the time \cite{ENSDF}, so the \AaAa coincidences happen frequently.
-The \Aa decay of \Po is mono-energetic at 7.39 MeV which results in a $\sim$0.78 MeVee signal after quenching, well removed from nLi captures that occur around 0.5 MeVee. 
+The \Aa decay of \Po (see Figure~\ref{fig:215poalphadecay}) is mono-energetic at 7.39 MeV which results in a $\sim$0.78 MeVee signal after quenching, well removed from nLi captures that occur around 0.5 MeVee. 
 In addition, there are no corresponding gammas with the \Po decay, making this a very clean and well defined signal.
-The \Rn \Aa decays are not so nice, as there are four dominant alpha energies and three dominant gamma energies for these decays, as listed in Table~\ref{tab:RnPoE}, but the use of time, energy, and PSD cuts make them easy to pair with corresponding \Po decays.
+The \Rn \Aa decays (see Figure~\ref{fig:219rnalphadecay}) are not so nice, as there are four dominant alpha energies and three dominant gamma energies for these decays, as listed in Table~\ref{tab:RnPoE}, but the use of time, energy, and PSD cuts make them easy to pair with corresponding \Po decays.
 
 \begin{figure}[hb]
 	\centering
@@ -54,17 +53,34 @@ The \Rn \Aa decays are not so nice, as there are four dominant alpha energies an
 \label{tab:RnPoE}
 \end{table}
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.95\linewidth]{tex/6-ac227-images/Actinium_agSpectrum}
-%	\caption[]{\cite{Kirby2011}}
-%	\label{fig:actiniumagspectrum}
-%\end{figure}
+Another reason \Ac is an attractive source is its long half-life, 21.77 years, ensuring that the rate of RnPo\footnote{Short-hand used to refer to the event selection of the  $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + \Aa chain} events remains close to constant over the lifetime of the detector.
+It is also important that the chosen source is in equilibrium with its decay products at the time of use so that constant rates can be measured.
+It takes about 188 days for \Ac to come into equilibrium with its decays products \cite{DBerish:597}, ensuring that between the time the source was obtained and added to the liquid scintillator it can be assumed equilibrium was reached. 
+
+The ability to select RnPo events using a time coincidence analysis means that only a small amount of \Ac needs to be added to the liquid scintillator. 
+This is important because PROSPECT cannot afford to introduce any extra background as it already has no overburden. 
+It should also be noted that $\alpha$'s deposit their energy in the scintillator practically immediately, resulting in a highly localized signal. 
+This also means that all RnPo events occur in the same segment, providing another handle that can be used in the event selection.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/219RnAlphaDecay}
+	\caption[]{The decay scheme of \Rn \cite{ENSDF}.}
+	\label{fig:219rnalphadecay}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/215PoAlphaDecay}
+	\caption[]{The decay scheme of \Po \cite{ENSDF}.}
+	\label{fig:215poalphadecay}
+\end{figure}
+
 
 
 \section{Material Compatibility}
 
-Before \Ac could be added to the PROSPECT detector, it had to be determined that \Ac and its daughters would not adsorb onto detector materials.
+Before \Ac could be added to the PROSPECT detector, it had to be determined that \Ac and its daughters would not adsorb onto detector materials and that it would not degrade the scintillator.
 If it was adsorbed then it would not be a uniform source in the detector, nullifying its use as a method to track relative efficiency$\times$volume throughout the detector.
 To test this six material samples were placed in vials of $^6$Li-LS spiked with \Ac. The rate of \Ac in each sample vial and one reference vial with no material was measured and tracked over a period of 6 months. 
 An observation of a significant decrease in rate, relative to the half-life of \Ac, would indicate that \Ac was adsorbing onto the material.
@@ -82,7 +98,7 @@ This is the stock solution from which all LS was taken for the material studies 
 
 \begin{table}[H]
 	\centering
-\begin{tabular}{|p{0.17\textwidth}|p{0.45\textwidth}|p{0.33\textwidth}|}
+\begin{tabular}{|p{0.16\textwidth}|p{0.4\textwidth}|p{0.33\textwidth}|}
 	\hline 
 	\textbf{Material} & \textbf{Detector Use} & \textbf{Sample Size} \\ 
 	\hline 
@@ -244,7 +260,7 @@ Though statistical errors vary from around 0.6-1\%, overall rates vary at a rate
 
 Systematic variations can be better understood by looking at the behavior of the \Po energy distribution through time.
 This was done by fitting this distribution for the reference sample with a sum of two Gaussians to account for the non-Gaussian nature of the peak as demonstrated in Figure~\ref{fig:poenfittimebin23s2}.
-The mean and 1$\sigma$ width of each of these Gaussians versus time is show in Figures~\ref{fig:poenmeanvstimes2} and ~\ref{fig:poenwidthvstimes2}.
+The mean and 1$\sigma$ width of each of these Gaussians versus time is shown in Figures~\ref{fig:poenmeanvstimes2} and ~\ref{fig:poenwidthvstimes2}.
 It can be seen that the \Po energy mean varies about 5\% and the width around 15\%.
 
 \begin{figure}[!b]
@@ -382,7 +398,7 @@ Therefore, it was concluded that the decrease in \Ac rate observed in the viton 
 \section{\Ac in the PROSPECT AD}
 
 Material compatibility testing determined that \Ac did not adsorb onto detector materials, confirming that it could be used as a uniformly distributed source.
-It will be noted here that \Ac spiked LiLS was added to a prototype detector that consisted of two stacked segments.
+It will be noted here that \Ac spiked LiLS was added to a prototype detector that consisted of two stacked segments \cite{Ashenfelter:2018cli}.
 This was done to determine that the \Ac did not degrade the performance of the liquid scintillator and that it did not introduce significant background.
 Initial results from the prototype concluded that it did neither and provided the last step of evidence needed before addition to the full-scale detector.
 
@@ -525,8 +541,8 @@ A cluster is defined as a collection of events that occur within 20 ns of each o
 Time coincident events were found by first looking for delay (Po) events. 
 It was required that these events existed in a single multiplicity cluster and passed broad energy and PSD cuts outlined in Table~\ref{tab:RnPoCuts}.
 
-Coincident prompt events were found by looking in a 5$\tau$ time window before the delay event, where $\tau$ is the lifetime of \Po, 2.57 ms.
-It was required that the highest energy event in a given cluster in that time window occurred in the same segment as the delay event and passed the energy and PSD cuts in Table~\ref{tab:RnPoCuts}.
+We identified coincident prompt events by looking in a 5$\tau$ time window before the delay event, where $\tau = 2.57$ ms is the lifetime of \Po.
+We required that the highest energy event in a given cluster in that time window occurred in the same segment as the delay event and passed the energy and PSD cuts in Table~\ref{tab:RnPoCuts}.
 The distance between the prompt and delay event was also required to be less than 250 mm. 
 Accidental prompt events were found by looking in a 5$\tau$ time window offset 10$\tau$ before the delay event. 
 The same cuts applied to coincidental prompt events were applied to accidental prompt events.
@@ -832,7 +848,7 @@ To account for this a 1\% systematic error will be applied to the segment-by-seg
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/RateVsTime/RateVsTime_Rows}
+	\includegraphics[width=0.87\linewidth]{tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit}
 	\caption{The measured \Ac rate versus time for each section of two rows, fit with an exponential in which the half-life is allowed to vary.}
 	\label{fig:ratevstimerows}
 \end{figure}
@@ -840,7 +856,7 @@ To account for this a 1\% systematic error will be applied to the segment-by-seg
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/RateVsTime/AcHalfLifevsRow}
-	\caption{The half-life results from fitting the \Ac rate versus time for five sections of two rows.}
+	\caption{The half-life results from fitting the \Ac rate versus time for five sections of two rows as shown in Figure~\ref{fig:ratevstimerows}.}
 	\label{fig:achalflifevsrow}
 \end{figure}
 

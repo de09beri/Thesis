@@ -488,6 +488,11 @@ H.~W. Kirby and L.~R. Morss.
   {The Chemistry of the Actinide and Transactinide Elements}}, chapter~2, pages
   18--51. Springer, 2011.
 
+\bibitem{DBerish:597}
+D.~(Berish) Landschoot.
+\newblock {Review of Actinium 227 as a calibration source}.
+\newblock {PROSPECT DocDB 597-v1}, May 2015.
+
 \bibitem{CAENDigit}
 CAEN.
 \newblock {CAEN Digitizer DT5730}.
@@ -497,6 +502,12 @@ CAEN.
 CAEN.
 \newblock {CAEN WaveDump}.
 \newblock {https://www.caen.it/products/caen-wavedump/}.
+
+\bibitem{Ashenfelter:2018cli}
+J.~Ashenfelter et~al.
+\newblock {Performance of a segmented $^{6}$Li-loaded liquid scintillator
+  detector for the PROSPECT experiment}.
+\newblock {\em JINST}, 13(06):P06023, 2018.
 
 \bibitem{Jones2800:2019}
 {D. Jones}.
