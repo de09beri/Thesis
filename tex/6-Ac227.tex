@@ -415,7 +415,7 @@ The stock solution from which the LiLS was spiked was the same stock that was us
 This means that $\sim$200 mg of the stock was needed to spike the LiLS.
 
 In order to add \Ac to the total detector, a vial of spiked LiLS was added to a 55-gallon drum of LiLS prepared previously for detector filling.
-Before the detector was filled all drums were added to an ISO-tank and bubbled with nitrogen to ensure thorough mixing of the LiLS from all drums and the \Ac.
+Before the detector was filled all drums were added to an ISO-tank (a tank container which is built to the International Organization for Standardization standards) and bubbled with nitrogen to ensure thorough mixing of the LiLS from all drums and the \Ac.
 
 We spiked the drum by diluting the concentration of the stock solution by adding it to an intermediate vial of production LiLS before spiking the vial that was added to the drum. 
 This was done to reduce the relative uncertainty from the $\pm10$ mg uncertainty of the balance used to weigh the vials and allowed an assessment of the activity of the remaining vial.
@@ -431,18 +431,17 @@ The steps were:
 	\item Empty V0 into drum of production LiLS 
 \end{enumerate}
 See Figure~\ref{fig:spikingprocedure} for a graphic of these steps along with Table~\ref{tab:SpikeProc} for a list of the weights of all solutions added and removed from the vials.
-The amount of LiLS that was transfered at each step was initially calculated so that $\sim$10 g would remain in all vials at the end.
-The vials were filled and the transfers were completed using pipettes, therefore, some drops inevitably remained in the pipette at every step.
-Vials V1 and V2 were gently swirled after the addition of the \Ac spiked LiLS in an attempt to mix the solution.
-
-\begin{figure}[!hb]
+\begin{figure}[!b]
 	\centering
 	\includegraphics[width=0.5\linewidth]{tex/6-ac227-images/BNL/SpikingProcedure}
 	\caption{A graphic of the procedure used to spike the drum of LiLS with \Ac for filling of the AD. The numbers indicate the amount of LiLS transfered, rather than the total weight.}
 	\label{fig:spikingprocedure}
 \end{figure}
+The amount of LiLS that was transfered at each step was initially calculated so that $\sim$10 g would remain in all vials at the end.
+The vials were filled and the transfers were completed using pipettes, therefore, some drops inevitably remained in the pipette at every step.
+Vials V1 and V2 were gently swirled after the addition of the \Ac spiked LiLS in an attempt to mix the solution.
 
-\begin{table}[!ht]
+\begin{table}[!t]
 	\centering
 \begin{tabular}{r|c|c|c|c}
 	\hline 
@@ -461,19 +460,23 @@ Vials V1 and V2 were gently swirled after the addition of the \Ac spiked LiLS in
 \label{tab:SpikeProc}
 \end{table}
 
-The expected \Ac rate, $A$, in vials V0(V3) can be calculated as
+The expected \Ac rate, $A$, in vials V0(V3) was calculated as
 \begin{equation}
 	A = C~m_2 \frac{m_4}{m_1 + m_2}
 \end{equation}
 where $C$ is the activity of the \Ac spiked stock solution, 9.13 Bq/g, $m_1$ is the amount of production LiLS added to V1(V2), $m_2$ is the amount of the stock solution added to V1(V2), and $m_4$ is the amount of solution from V1(V2) that was added to V0(V3).
-The expected rate in vials V1(V2) is calculated as 
+The expected rate in vials V1(V2) was then calculated as 
 \begin{equation}
 A = C~m_2 \left(1 - \frac{m_3}{m_1 + m_2}\right)
 \end{equation}
 where $m_3$ is the amount of solution removed from V1(V2).
 The expected \Ac activity for each vial is listed in Table~\ref{tab:SpikeExpA}.
 
-\begin{table}[!t]
+The \Ac rate in vials V1, V2, and V3 were measured after adding V0 to the drum of LiLS.
+The rate of \Ac in V3 should be similar to the rate in AD, recalling that the goal was 1.8 Bq.
+A plot of the measured rates for each vial is shown in Figure~\ref{fig:ADVials}.
+Each of these rates was fit with a constant, with the results of these fits listed in Table~\ref{tab:SpikeExpA}.
+\begin{table}[h]
 	\centering
 	\begin{tabular}{c|c|c}
 		\hline 
@@ -491,11 +494,6 @@ The expected \Ac activity for each vial is listed in Table~\ref{tab:SpikeExpA}.
 	\caption{Expected and measured \Ac activity in vials prepared for spiking the LiLS. }
 	\label{tab:SpikeExpA}
 \end{table}
-
-The \Ac rate in vials V1, V2, and V3 were measured after adding V0 to the drum of LiLS.
-The rate of \Ac in V3 should be similar to the rate in AD, recalling that the goal was 1.8 Bq.
-A plot of the measured rates for each vial is shown in Figure~\ref{fig:ADVials}.
-Each of these rates was fit with a constant, with the results of these fits listed in Table~\ref{tab:SpikeExpA}.
 It can be seen that the measured rates in V1 and V2 are about 4\% higher than expectation, and the rate in V3 is about 50\% lower.
 A possible explanation for this discrepancy is that the solution was not sufficiently mixed before transferring between the stock solution and the vials and between the vials themselves. 
 This is bolstered by the fact that the measured rates in V2+V3 = 10.08 Hz, compared to the expected rate of 10.67 Hz, well within a 10\% systematic error that could be assigned from uncertainties in the mixing and measurement procedure.
@@ -503,17 +501,17 @@ This is bolstered by the fact that the measured rates in V2+V3 = 10.08 Hz, compa
 If this experiment was repeated a more thorough testing of transfer procedures would need to be performed.
 In conclusion, the measured rate in V3 indicates that the \Ac rate in the PROSPECT AD should be around 0.7 Hz in the total volume ($\sim$0.6 Hz in the active volume), less than half of the initial goal.
 
-\begin{figure}[H]
+\begin{figure}[!t]
 	\centering
 \begin{subfigure}{1\linewidth}
 	\centering
-	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/AD_Rates}
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/BNL/AD_Rates}
 	%\caption{}
 	\label{fig:adrates}
 \end{subfigure}
 \begin{subfigure}{1\linewidth}
 	\centering
-	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/AD_RateV3}
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/BNL/AD_RateV3}
 	%\caption{}
 	\label{fig:adratev3}
 \end{subfigure}
@@ -525,9 +523,8 @@ In conclusion, the measured rate in V3 indicates that the \Ac rate in the PROSPE
 \subsection{Data Set}
 
 PROSPECT began taking data in March 2018.
-The data set used for the \Ac analysis runs from March 5, 2018 - October 6, 2018, with a break from March 31, 2018 - April 17, 2018 when the detector was off for maintenance. 
-The total runtime is 4048.9 hrs, with 4011.7 hrs of livetime data.
-2293.7 hrs of the runtime is reactor on data, and 1755.2 hrs of reactor off. 
+The data set used for the \Ac analysis ran from March 5, 2018 - October 6, 2018, with a break from March 31, 2018 - April 17, 2018 when the detector was off for maintenance. 
+The total runtime was 4048.9 hrs (2293.7 hrs reactor on, 1755.2 hrs reactor off), with 4011.7 hrs of livetime data.
 
 During the data collection period used for this analysis, several PMTs exhibited abnormal behavior, including current instabilities, and are no longer in operation.
 Preliminary theories for the cause of this are that LiLS leaked into the PMT housings and damaged the voltage dividers, but this has yet to be confirmed. 
@@ -551,7 +548,7 @@ These events were required to be in a single multiplicity cluster, because \Po e
 
 We identified coincident prompt events by looking in a 5$\tau$ time window before the delay event, where $\tau = 2.57$ ms is the lifetime of $^{215}$Po.
 We required that the highest energy event in a given cluster in that time window occurred in the same segment as the delay event and passed the energy and PSD cuts in Table~\ref{tab:RnPoCuts}.
-Due to the close proximity to the neutron capture on $^6$Li signal ($\sim$0.55 MeVee), only events where $\Delta t = t_{\textrm{delay}}-t_{\textrm{prompt}} > 0.5$~ms were accepted.
+Due to the close proximity to the neutron capture on $^6$Li signal ($\sim$0.55 MeV), only events where $\Delta t = t_{\textrm{delay}}-t_{\textrm{prompt}} > 0.5$~ms were accepted.
 Since the neutron capture time in PROSPECT is about 50 $\mu$s, this cut effectively removes any chance of neutron contamination in the event selection.
 The prompt and delayed alphas are expected to be within a few tens of microns of each other, but, due to detector position resolution, $\Delta z = \abs{z_{\textrm{delay}} - z_{\textrm{prompt}}}$ was required to be less than 250~mm.
 
@@ -562,9 +559,9 @@ The same cuts applied to coincidental prompt events were applied to accidental p
 	\centering
 \begin{tabular}{c|c}
 	\hline 
-	Prompt Energy & 0.48 $<$ E $<$ 1.18 MeVee \\ 
+	Prompt Energy & 0.48 $<$ E $<$ 1.18 MeV \\ 
 	\hline 
-	Delay Energy & 0.61 $<$ E $<$ 1.18 MeVee \\ 
+	Delay Energy & 0.61 $<$ E $<$ 1.18 MeV \\ 
 	\hline 
 	PSD & 0.16 $<$ PSD $<$ 0.36 \\ 
 	\hline 
@@ -586,7 +583,7 @@ The broad energy and PSD cuts listed in Table~\ref{tab:RnPoCuts} are applied on 
 Changes in detector performance over time, including decreasing energy resolution and PSD, required a second pass of the data, in which the lower bounds of the energy and PSD cuts were changed to be 4$\sigma$ lower than the mean of the distributions for a given time bin or segment.
 The range of 4$\sigma$ was chosen in order to avoid large efficiency corrections for these cuts.
 
-To check if these cuts are correctly selecting RnPo events, one can look at the position distribution of \Po events along $z$, as shown for one segment in Figure~\ref{fig:poposseg76}.
+To check if these cuts correctly selected RnPo events, one can look at the position distribution of \Po events along $z$, as shown for one segment in Figure~\ref{fig:poposseg76}.
 As expected this distribution is fairly stable across the length of the segment and almost all events are reconstructed inside of the physical length of the cell (a small percentage are reconstructed in the mineral oil in the front of the PMT face).
 The PSD versus energy and \Po energy versus \Rn energy distributions, after accidental subtraction, can be seen in Figure~\ref{fig:RnPoPSDEn}.
 
@@ -619,14 +616,14 @@ The PSD versus energy and \Po energy versus \Rn energy distributions, after acci
 
 \subsection{Rate Calculation}
 
-The \Ac rate per segment, or for a given time period, is found by fitting the background subtracted $\Delta t$ distribution, where $\Delta t = t_{\textrm{delay}} - t_{\textrm{prompt}}$, with
+The \Ac rate per segment, or for a given time period, was found by fitting the background subtracted $\Delta t$ distribution, where $\Delta t = t_{\textrm{delay}} - t_{\textrm{prompt}}$, with
 \begin{equation}
 	f(t) = Ne^{-t/\tau}
 	\label{eq:dtexp}
 \end{equation}
-where $N$ and $\tau$, the lifetime of $^{215}$Po, are allowed to vary.
+where $N$ and $\tau$, the lifetime of $^{215}$Po, were allowed to vary.
 For an example of these distributions and fit for a typical segment see Figure~\ref{fig:rnpodtseg76}.
-The rate is then calculated as
+The rate was then calculated as
 \begin{equation}
 	R = \frac{N~\tau}{\Delta t\textrm{-bin-width}\times\textrm{livetime}\times\textrm{efficiency}}
 \end{equation}
@@ -664,14 +661,14 @@ The average lifetime per individual segment is 2.564 $\pm$ 0.002ms, and versus t
 
 The uncorrected livetime is calculated, for each data run, as the time from the beginning of the run to the time of the last delay candidate event. 
 This is summed for all analyzed runs. 
-This livetime is corrected for the dead time introduced by the pileup veto.
-This correction is calculated as the number of clusters, $NClusts$, times the pileup veto time, 800 ns.
+This livetime was corrected for the dead time introduced by the pileup veto.
+This correction was calculated as the number of clusters, $NClusts$, times the pileup veto time, 800 ns.
 Figure~\ref{fig:vetotimevstime} shows the dead time, as a fraction of livetime, versus time.
-Because the veto is applied to both prompt and delay candidates the livetime is corrected with 2$\times$ the dead time as
+Because the veto was applied to both prompt and delay candidates the livetime is corrected with 2$\times$ the dead time as
 \begin{equation}
 	\textrm{livetime} = \sum(t_{\textrm{finalPo}} - t_0) - 2.0 \times NClusts \times 800\textrm{ns}
 \end{equation}
-When measuring the rate per segment the same livetime is applied to all segments. 
+When measuring the rate per segment the same livetime was applied to all segments. 
 
 \begin{figure}[!t]
 	\centering
@@ -680,14 +677,14 @@ When measuring the rate per segment the same livetime is applied to all segments
 	\label{fig:vetotimevstime}
 \end{figure}
 
-The efficiency is calculated for energy and PSD cuts on both prompt and delay events, and for the $\Delta z$ cut.
-This is done by fitting each distribution with a Gaussian $\pm 2\sigma$ from the mean.
+The efficiency was calculated for energy and PSD cuts on both prompt and delay events, and for the $\Delta z$ cut.
+This was done by fitting each distribution with a Gaussian $\pm 2\sigma$ from the mean.
 This is true for all distributions expect the prompt energy, which has a non-Gaussian high energy tail due to its accompanying gammas, see Figure~\ref{fig:rnpoenseg76}. 
-Since the high energy cut is always wide enough to include the whole range of this tail, we only care about the low energy cut, which we can approximate with a Gaussian.
-Therefore, prompt energy which is fit with a Gaussian from -1.3$\sigma$ to +0.6$\sigma$.
-The efficiency is then calculated as the ratio of the integral of the Gaussian
+Since the high energy cut was always wide enough to include the whole range of this tail, we only care about the low energy cut, which we can approximate with a Gaussian.
+Therefore, prompt energy was fit with a Gaussian from -1.3$\sigma$ to +0.6$\sigma$.
+The efficiency was then calculated as the ratio of the integral of the Gaussian
 between the cuts for that distribution to the integral between $\pm \infty$, as defined in Equation~\ref{eq:Eff}.
-The error on the efficiency is treated as a binomial error.
+The error on the efficiency was treated as a binomial error.
 For an example of the distributions and fits for a typical segment see Figure~\ref{fig:RnPoDist}.
 
 \begin{align}
@@ -696,7 +693,7 @@ For an example of the distributions and fits for a typical segment see Figure~\r
 	\label{eq:Eff}
 \end{align}	
 
-In general the total efficiency is 99.9\% or higher, for RnPo rates calculated in individual segments or versus time.
+In general the total efficiency was 99.9\% or higher, for RnPo rates calculated in individual segments and versus time.
 Figures~\ref{fig:efficiencypercell} and \ref{fig:efficiencyvstime} show the efficiency calculated for all distributions for all individual segments and versus time, respectively.
 See Table~\ref{tab:Cuts} for a summary of all cuts and their average efficiencies.
 
@@ -760,17 +757,17 @@ See Table~\ref{tab:Cuts} for a summary of all cuts and their average efficiencie
 
 \subsection{Detector Performance as Tracked with \Ac}
 
-Though \Ac was added to the detector in order to measure relative segment-to-segment volume variations, the mono-energetic \Po $\alpha$ is also useful for tracking the performance of the detector and the applied calibrations.
+Though \Ac was added to the detector in order to measure relative segment-to-segment volume variations, the mono-energetic \Po $\alpha$ was also useful for tracking the performance of the detector and the applied calibrations.
 Figure~\ref{fig:EvsT} shows the mean and 1$\sigma$ width of the \Po energy distribution versus time, integrated over all segments. 
-It can be seen that the resolution is not stable over time, but rather decreases by $\sim$20\% over a period of 7 months.
+It can be seen that the resolution was not stable over time, but rather decreased by $\sim$20\% over a period of 7 months.
 This is due to an overall decrease in light collection over time, implying some factor of scintillator degradation such as a loss of transparency or light production, whose cause is not yet understood.
 
-To correct for this in the IBD analysis a variable called $E_{smear}$ was introduced, in which all energy distributions are smeared by artificially adding random noise at the software level to match the worst resolution in a given data taking period.
-The results of this are also shown in Figure~\ref{fig:EvsT}, and it can be seen that the new $E_{smear}$ resolution values are time-stable within $\pm$3\% and the mean values within $\pm$0.4\%.
+To correct for this in the IBD analysis a variable called $E_{smear}$ was introduced, in which all energy distributions were smeared by artificially adding random noise at the software level to match the worst resolution in a given data taking period.
+The results of this are also shown in Figure~\ref{fig:EvsT}, and it can be seen that the new $E_{smear}$ resolution values were time-stable within $\pm$3\% and the mean values within $\pm$0.4\%.
 Note that the sharp variations in the energy mean values correspond to times when a new set of calibration constants were introduced in the analysis.
 
-Though introducing the $E_{smear}$ variable corrects for changing detector characteristics, the \Ac analysis uses $E$. 
-The decreasing resolution is accounted for by applying $\sigma$-based cuts to the energy.
+Though introducing the $E_{smear}$ variable corrected for changing detector characteristics, the \Ac analysis used $E$. 
+The decreasing resolution was accounted for by applying $\sigma$-based cuts to the energy.
 
 \begin{figure}[h]
 \begin{subfigure}{1\linewidth}
@@ -828,10 +825,10 @@ Figure~\ref{fig:histsvsseg} shows the distributions of the \Po energy, energy re
 For Hamamatsu segments the energy scale and resolution are identical between segments to within $\sim \pm$0.25\% and $\sim \pm$6.5\% respectively. 
 The ET segments vary more than the Hamamatsu segments, but for the case of the IBD analysis these segments are considered outside of the fiducial volume.
 
-The position of events, $z$, is reconstructed individually for each cell by a combination of differences in timing and light yield between the two PMTs. 
+The position of events, $z$, was reconstructed individually for each cell by a combination of differences in timing and light yield between the two PMTs. 
 As a result, the reconstructed $z$-position may vary from cell to cell. 
 The relative alignment of the reconstructed $z$-position between segments can be observed by looking at the distribution of the mean of the position distribution for all segments.
-It can be seen that, for Hamamatsu segments, all position reconstructions are aligned within $\pm$7 mm. 
+It can be seen that, for Hamamatsu segments, all position reconstructions were aligned within $\pm$7 mm. 
 The width of the $\Delta z$ distributions in Hamamatsu segments have a segment-to-segment variation of $\sim \pm$4 mm.
 
 \Ac has proven to be useful in tracking energy, energy resolution, position, and position resolution over time and between segments.
@@ -849,12 +846,12 @@ They also provide useful cross-checks for the behavior of new variables, such as
 
 Observing the rate of \Ac in the AD over time provides a cross-check of the analysis while giving insight into the behavior of the detector.
 Figure~\ref{fig:ratevstimefit} shows the \Ac rate measured versus time, integrated over all segments.
-This is fit twice with an exponential of the form
+This was fit twice with an exponential of the form
 \begin{equation}
 	f(t) = R_0e^{\frac{-(t-t_0)\ln(2)}{t_{1/2}}}
 	\label{eq:DtExp}
 \end{equation}
-where $R_0$ is allowed to vary both times and $t_{1/2}$, the half-life of \Ac (21.772 $\pm$ 0.003 yrs), is fixed for one fit and allowed to vary in the other.
+where $R_0$ is allowed to vary both times and $t_{1/2}$, the half-life of \Ac (21.772~$\pm$~0.003~yrs), is fixed for one fit and allowed to vary in the other.
 	
 \begin{figure}[!b]
 	\centering
@@ -863,7 +860,7 @@ where $R_0$ is allowed to vary both times and $t_{1/2}$, the half-life of \Ac (2
 	\label{fig:ratevstimefit}
 \end{figure}
 
-When the half-life is allowed to vary, the fit returns a half-life of 11.73 $\pm$ 0.69 yrs, suggesting that the measured rate of \Ac in the AD is falling 1.56 $\pm$ 0.21 \% faster than expectation over a period of 7 months.
+When the half-life is allowed to vary, the fit returns a half-life of 11.73~$\pm$~0.69~yrs, suggesting that the measured rate of \Ac in the AD is falling 1.56 $\pm$ 0.21 \% faster than expectation over a period of 7 months.
 The reason for this discrepancy is unclear.
 Measurements of the \Po lifetime versus time, Figure~\ref{fig:lifetimevstime}, are consistent with its accepted lifetime, suggesting that the analysis is correctly accepting and measuring RnPo events.
 The use of $\sigma$-based cuts for energy, PSD, and $\Delta z$ result in efficiencies that are always 99.9\% or higher, ruling out loss of events due to changing resolution as a solution.
@@ -879,11 +876,11 @@ The process by which this would happen, though, is unclear.
 It is also not understood if it would sink in each individual segment, in which case a gradient might not be measured, or if it would all sink to the bottom.
 
 In any case, the fact that the measured \Ac rate deviates from expectation indicates that it is not a clear proxy for a relative segment-to-segment volume measurement.
-To account for this a 1\% systematic error will be applied to the segment-by-segment measured \Ac rates.
+To account for this a 1\% systematic error should be applied to the segment-by-segment measured \Ac rates.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.4\linewidth]{tex/6-ac227-images/RateVsTime/AD_Segments_Rows}
+	\includegraphics[width=0.5\linewidth]{tex/6-ac227-images/RateVsTime/AD_Segments_Rows}
 	\caption{The PROSPECT detector divided into five sections of two rows each. Segments shaded in red are excluded from this analysis.}
 	\label{fig:adsegmentsrows}
 \end{figure}
@@ -939,6 +936,8 @@ The standard deviation of only the Hamamatsu segments is 0.026 mHz.
 
 Systematic uncertainties in this analysis come from three sources:
 (i) the \Ac rate is falling faster than expectation (for this a 1\% systematic is applied), (ii) the energy, PSD, and $\Delta z$ cut efficiencies are calculated by assuming that all distributions are true Gaussians (for this a 0.15\% error is assigned), and (iii) the presence of other coincident alpha decays in the background that could contaminate the RnPo selection (for this a 0.22\% error is assigned).
+It should be noted that up to this point only statistical errors have been presented. 
+The systematic errors are never directly applied to the \Ac rates until Section~\ref{sec:AcBaseRates}, in which they are used to visualize how much relative rates as a function of distance from the reactor can vary.  
 
 \subsubsection{Energy, PSD, and $\Delta$z Cuts}
 In an effort to determine what level of systematic error to apply to the measured \Ac rates per segment a study was performed on the energy, PSD, and $\Delta z$ cuts.
@@ -1071,11 +1070,12 @@ The detector was divided into 10 individual baselines, where baseline 1 is close
 Figure~\ref{fig:adsegments} shows the configuration of baselines that was chosen for this data set.
 The \Ac rate measured for each segment was then averaged over each baseline (error-weighted) and then plotted relative to the average rate in the first baseline.
 The results of this can be seen in Figure~\ref{fig:fidratevsbaseline}.
-Note that the rates used in this part of the analysis were measured using an additional $z$-fiducial cut of {-448 $< z <$ 448 mm}, in order to use the same fiducial volume as the oscillation analysis.
+Note that the rates used in this part of the analysis were measured using an additional $z$-fiducial cut of -448~$<~z~<$~448 mm, in order to use the same fiducial volume as the oscillation analysis.
 
-It can be seen that the average rates vary less than $\sim$0.5\% over all baselines.
-As the oscillation analysis for this data set is not yet completed, these results cannot currently be applied as corrections to the IBD rate versus baseline. 
-Instead, the same analysis described in this chapter was applied to the data set used for the published oscillation results and corrections were applied accordingly and are described in the next chapter.
+It can be seen that the average rates vary less than 1\% over all baselines.
+The statistics of this data set do not require volume corrections at this level, but these results provide a lower limit that could be applied to the oscillation analysis.\footnote{As the oscillation analysis for this data set is not yet completed, these results cannot currently be applied as corrections to the IBD rate versus baseline. 
+Instead, the same analysis described in this chapter was applied to the data set used for the published oscillation results and corrections were applied accordingly, as described in the next chapter.}
+For a data set with large statistics, in which volume variations could become an important systematic error, this method of adding \Ac and measuring the decay rates as a proxy for volume is proven to be effective.
 
 \begin{figure}[!t]
 	\centering

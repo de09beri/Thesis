@@ -70,7 +70,7 @@
 \contentsline {figure}{\numberline {5.38}{\ignorespaces $^{227}$Ac rate per segment for different $\sigma $-based cuts on the delayed energy.\relax }}{81}
 \contentsline {figure}{\numberline {5.39}{\ignorespaces Pictured here are distributions created by calculating for each cell the difference between the rate using a given $\sigma $ cut and the rate using a 4$\sigma $ cut normalized by the rate using a 4$\sigma $ cut for data.\relax }}{82}
 \contentsline {figure}{\numberline {5.40}{\ignorespaces The mean of the distributions shown in Figure~\ref {fig:CutSys}. Solid lines: data. Dashed lines: simulation. Connecting lines are not fits; only meant to help guide the eye of the reader.\relax }}{83}
-\contentsline {figure}{\numberline {5.41}{\ignorespaces The PROSPECT AD divided into 10 baselines, where baseline 1 is closest to the reactor. Segments in white are either fiducial segments or were turned off.\relax }}{85}
+\contentsline {figure}{\numberline {5.41}{\ignorespaces The PROSPECT AD divided into 10 baselines, where baseline 1 is closest to the reactor. Segments in white are either fiducial segments or were turned off.\relax }}{86}
 \contentsline {figure}{\numberline {5.42}{\ignorespaces The $^{227}$Ac rate for fiducial $z$ volume averaged over each of the 10 defined baselines and relative to the first baseline. Error bars are statistical, systematic errors are shown as the shaded region.\relax }}{86}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic of the IBD interaction is the PROSPECT AD.\relax }}{88}

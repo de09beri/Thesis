@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 NOV 2019 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 NOV 2019 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1934,24 +1934,27 @@ age is rotated 90 degrees>]
 File: tex/6-ac227-images/BNL/SpikingProcedure.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/BNL/SpikingProcedure.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/SpikingProcedure.pdf used on in
-put line 440.
+put line 436.
 (pdftex.def)             Requested size: 216.81pt x 325.25931pt.
- [61 <./tex/6-ac227-images/BNL/SpikingProcedure.pdf>] [62]
-<tex/6-ac227-images/BNL/AD_Rates.pdf, id=1753, 569.12625pt x 199.74625pt>
+ [61 <./tex/6-ac227-images/BNL/SpikingProcedure.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[62] <tex/6-ac227-images/BNL/AD_Rates.pdf, id=1753, 569.12625pt x 199.74625pt>
 File: tex/6-ac227-images/BNL/AD_Rates.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/AD_Rates.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/AD_Rates.pdf used on input line
- 510.
-(pdftex.def)             Requested size: 433.62001pt x 152.1958pt.
+ 508.
+(pdftex.def)             Requested size: 390.25536pt x 136.9747pt.
 
 <tex/6-ac227-images/BNL/AD_RateV3.pdf, id=1754, 569.12625pt x 213.79875pt>
 File: tex/6-ac227-images/BNL/AD_RateV3.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/AD_RateV3.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/AD_RateV3.pdf used on input lin
-e 516.
-(pdftex.def)             Requested size: 433.62001pt x 162.90305pt.
+e 514.
+(pdftex.def)             Requested size: 390.25536pt x 146.6111pt.
  [63 <./tex/6-ac227-images/BNL/AD_Rates.pdf, page is rotated 90 degrees> <./tex
 /6-ac227-images/BNL/AD_RateV3.pdf, page is rotated 90 degrees>]
 <tex/6-ac227-images/AD_DataSet/Segments.pdf, id=1844, 791.34433pt x 622.90112pt
@@ -1959,7 +1962,7 @@ e 516.
 File: tex/6-ac227-images/AD_DataSet/Segments.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_DataSet/Segments.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_DataSet/Segments.pdf used on inp
-ut line 539.
+ut line 536.
 (pdftex.def)             Requested size: 303.53267pt x 238.92899pt.
  [64 <./tex/6-ac227-images/AD_DataSet/Segments.pdf>] [65]
 <tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf, id=2213, 569.12625pt x 3
@@ -1968,7 +1971,7 @@ File: tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf Graphic file (type p
 df)
  <use tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf u
-sed on input line 595.
+sed on input line 592.
 (pdftex.def)             Requested size: 260.17465pt x 176.21062pt.
 
 <tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.pdf, id
@@ -1979,7 +1982,7 @@ f Graphic file (type pdf)
 <use tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.pdf
 >
 Package pdftex.def Info: tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCe
-llsAllTime_Time0.pdf used on input line 604.
+llsAllTime_Time0.pdf used on input line 601.
 (pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
 
 <tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0.pdf, id=
@@ -1989,7 +1992,7 @@ File: tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0.pdf
 
 <use tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCel
-lsAllTime_Time0.pdf used on input line 610.
+lsAllTime_Time0.pdf used on input line 607.
 (pdftex.def)             Requested size: 151.76633pt x 134.36629pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2001,7 +2004,7 @@ pt>
 File: tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf used o
-n input line 643.
+n input line 640.
 (pdftex.def)             Requested size: 281.85036pt x 190.89043pt.
 
 
@@ -2014,7 +2017,7 @@ File: tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf Graphic file (type pdf
 )
  <use tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf use
-d on input line 651.
+d on input line 648.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
 
 <tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf, id=2265, 569.12625pt x 212.
@@ -2023,7 +2026,7 @@ File: tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf used
- on input line 657.
+ on input line 654.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
 
 
@@ -2036,7 +2039,7 @@ File: tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf used
- on input line 678.
+ on input line 675.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
  [67 <./tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.
 pdf, page is rotated 90 degrees> <./tex/6-ac227-images/AD_EventSelection/PoEnvs
@@ -2046,7 +2049,7 @@ pt>
 File: tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf used o
-n input line 706.
+n input line 703.
 (pdftex.def)             Requested size: 205.96883pt x 139.49345pt.
 
 <tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf, id=2357, 569.12625pt x 385.4
@@ -2054,7 +2057,7 @@ n input line 706.
 File: tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf used 
-on input line 712.
+on input line 709.
 (pdftex.def)             Requested size: 205.96883pt x 139.49345pt.
 
 <tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf, id=2358, 569.12625pt x 385.44
@@ -2062,7 +2065,7 @@ pt>
 File: tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf used o
-n input line 718.
+n input line 715.
 (pdftex.def)             Requested size: 205.97214pt x 139.49345pt.
  [68 <./tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf, page is rotated 90 deg
 rees>]
@@ -2079,7 +2082,7 @@ File: tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf Graphic file (type p
 df)
  <use tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf u
-sed on input line 728.
+sed on input line 725.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 <tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf, id=2540, 569.12625pt x 21
@@ -2088,7 +2091,7 @@ File: tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf Graphic file (type pd
 f)
  <use tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf us
-ed on input line 735.
+ed on input line 732.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
@@ -2106,7 +2109,7 @@ File: tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf Graphic file (type p
 df)
  <use tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf u
-sed on input line 778.
+sed on input line 775.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 <tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf, id=2765, 569.12625pt x 
@@ -2115,7 +2118,7 @@ File: tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf Graphic file (type
 pdf)
  <use tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf 
-used on input line 784.
+used on input line 781.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
@@ -2128,7 +2131,7 @@ File: tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf Graphic file (type
 pdf)
  <use tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf 
-used on input line 800.
+used on input line 797.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 <tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf, id=2767, 569.12625pt x
@@ -2137,7 +2140,7 @@ File: tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf Graphic file (type
  pdf)
  <use tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf
- used on input line 806.
+ used on input line 803.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
@@ -2150,7 +2153,7 @@ File: tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf Graphic file (typ
 e pdf)
  <use tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pd
-f used on input line 821.
+f used on input line 818.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
@@ -2164,7 +2167,7 @@ s rotated 90 degrees>]
 File: tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf used 
-on input line 843.
+on input line 840.
 (pdftex.def)             Requested size: 433.62001pt x 367.81128pt.
  [74 <./tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf, page is rotated 
 90 degrees> <./tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf, page is 
@@ -2179,7 +2182,7 @@ Overfull \vbox (8.73407pt too high) has occurred while \output is active []
 File: tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf used 
-on input line 861.
+on input line 858.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
  [76 <./tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf, page is rotated 90 de
 grees>]
@@ -2189,8 +2192,8 @@ File: tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf Graphic file (type pdf
 )
  <use tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf use
-d on input line 886.
-(pdftex.def)             Requested size: 173.44534pt x 136.48189pt.
+d on input line 883.
+(pdftex.def)             Requested size: 216.81pt x 170.60837pt.
 
 <tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf, id=3078, 599.23pt x 60
 6.35745pt>
@@ -2198,7 +2201,7 @@ File: tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf Graphic file (type
  pdf)
  <use tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf
- used on input line 893.
+ used on input line 890.
 (pdftex.def)             Requested size: 377.24728pt x 381.7389pt.
 
 [77 <./tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf>]
@@ -2208,7 +2211,7 @@ File: tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf used
- on input line 900.
+ on input line 897.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
  [78 <./tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf> <./tex/6-ac227-
 images/RateVsTime/AcHalfLifevsRow.pdf, page is rotated 90 degrees>]
@@ -2217,7 +2220,7 @@ t>
 File: tex/6-ac227-images/RatePerSeg/RatePerCell.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/RatePerSeg/RatePerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RatePerSeg/RatePerCell.pdf used on 
-input line 924.
+input line 921.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
 
 <tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf, id=3639, 569.12625pt x 385.
@@ -2226,7 +2229,7 @@ File: tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf used
- on input line 931.
+ on input line 928.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
  [79 <./tex/6-ac227-images/RatePerSeg/RatePerCell.pdf, page is rotated 90 degre
 es>] [80 <./tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf, page is rotated 
@@ -2238,7 +2241,7 @@ File: tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf Graphic file
 
 <use tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayEC
-ut.pdf used on input line 961.
+ut.pdf used on input line 960.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
 
 <tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf, id=3734, 569.1
@@ -2248,7 +2251,7 @@ le (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_Prompt
-ECut.pdf used on input line 976.
+ECut.pdf used on input line 975.
 (pdftex.def)             Requested size: 184.28981pt x 124.80777pt.
 
 <tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECut.pdf, id=3735, 569.12
@@ -2258,7 +2261,7 @@ e (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayE
-Cut.pdf used on input line 981.
+Cut.pdf used on input line 980.
 (pdftex.def)             Requested size: 184.28981pt x 125.13278pt.
 
 <tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptPSDCut.pdf, id=3736, 569
@@ -2268,7 +2271,7 @@ file (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptPSDCut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_Prompt
-PSDCut.pdf used on input line 986.
+PSDCut.pdf used on input line 985.
 (pdftex.def)             Requested size: 184.28981pt x 124.80777pt.
 
 <tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayPSDCut.pdf, id=3737, 569.
@@ -2278,7 +2281,7 @@ ile (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayPSDCut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayP
-SDCut.pdf used on input line 991.
+SDCut.pdf used on input line 990.
 (pdftex.def)             Requested size: 184.28981pt x 125.13278pt.
 
 <tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf, id=3738, 569.12625p
@@ -2287,15 +2290,15 @@ File: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf Graphic file (t
 ype pdf)
  <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.
-pdf used on input line 996.
+pdf used on input line 995.
 (pdftex.def)             Requested size: 184.28983pt x 124.80777pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 974--999
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 973--998
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 974--999
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 973--998
 []$ $[]$
  []
 
@@ -2307,7 +2310,7 @@ File: tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf Graphic file (typ
 e pdf)
  <use tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pd
-f used on input line 1005.
+f used on input line 1004.
 (pdftex.def)             Requested size: 346.89732pt x 235.55934pt.
 
 [82 <./tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf, page is 
@@ -2318,12 +2321,12 @@ ematics_Cuts/ResidVsCell_DelayPSDCut.pdf, page is rotated 90 degrees> <./tex/6-
 ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf, page is rotated 90 degrees
 >] [83 <./tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf, page is rota
 ted 90 degrees>]
-Overfull \hbox (0.67943pt too wide) in paragraph at lines 1029--1044
+Overfull \hbox (0.67943pt too wide) in paragraph at lines 1028--1043
  [][] 
  []
 
 
-Overfull \hbox (8.97604pt too wide) in paragraph at lines 1050--1059
+Overfull \hbox (8.97604pt too wide) in paragraph at lines 1049--1058
  [][] 
  []
 
@@ -2348,7 +2351,7 @@ Package pdftex.def Info: tex/6-ac227-images/Baseline/FidRateVsBaseline.pdf used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [85 <./tex/6-ac227-images/Baseline/AD_Segments.pdf>] [86 <./tex/6-ac227-image
+) [85] [86 <./tex/6-ac227-images/Baseline/AD_Segments.pdf> <./tex/6-ac227-image
 s/Baseline/FidRateVsBaseline.pdf, page is rotated 90 degrees>]
 \openout2 = `tex/7-Oscillation.aux'.
 
@@ -2592,7 +2595,7 @@ texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on thesis.pdf (131 pages, 22270669 bytes).
+Output written on thesis.pdf (131 pages, 22271556 bytes).
 PDF statistics:
  6163 PDF objects out of 6186 (max. 8388607)
  3595 compressed objects within 36 object streams
