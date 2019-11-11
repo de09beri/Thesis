@@ -2,37 +2,32 @@
 
 \section{Motivation}
 
-In the absence of an eV-scale sterile neutrino PROSPECT should measure IBD rates that fall like one over distance from the reactor squared. 
-If sterile neutrino oscillation was detected, after one year PROSPECT would measure the spectrum seen in Figure~\ref{fig:lovere1yr}, given a mass splitting of 1.78 eV$^2$, which is close to the Reactor Antineutrino Anomaly best-fit point (see Figure~\ref{fig:raabestfitpoint}).
-However, a situation could occur in which a sterile neutrino did not exist, or could not be measured with PROSPECT, and an oscillation is still measured.
-This could happen if there are segment to segment volume variations throughout the detector, mimicking an oscillation signal.
-Therefore, it becomes important that the relative segment-to-segment volumes are well known.
-
-\begin{figure}[h]
+In the absence of an eV-scale sterile neutrino PROSPECT would measure IBD rates that fall like one over distance from the reactor squared. 
+If sterile neutrino oscillation was detected, after one year, PROSPECT would measure something similar to the oscillation signature seen in Figure~\ref{fig:lovere1yr}, given a mass splitting of 1.78 eV$^2$, which is close to the Reactor Antineutrino Anomaly best-fit point (see Figure~\ref{fig:raabestfitpoint}).
+\begin{figure}[!b]
 	\centering
 	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/LoverE_1yr}
 	\caption[Monte Carlo neutrino spectrum as a function of L/E]{The ratio of the oscillated to un-oscillated neutrino spectrum as a function of L/E that would be observed by PROSPECT after 1 year if a sterile neutrino signal was detected \cite{PSurukuchi:1534}.}
 	\label{fig:lovere1yr}
 \end{figure}
+Given that the oscillation signal in PROSPECT is a deviation from an expected 1/$r^2$ neutrino rate fall-off with distance from the reactor, it is crucial to ensure that relative segment-to-segment volume variations do not mimic this signal.
 
-This measurement can be accomplished if an event source is uniformly distributed throughout the active volume of the detector. 
-By measuring the rate of this source in each segment the relative volumes can be compared and tracked through time.
-We chose \Ac as this source and a chloride solution was prepared and dissolved in the liquid scintillator to ensure uniform distribution.
+Relative segment volumes can be measured via an event source uniformly distributed throughout the active volume of the detector. 
+This was accomplished in PROSPECT by mixing a radioactive isotope, \Ac, with the liquid scintillator and using measured decay rates as a proxy for segment volume.
 
 We chose \Ac for several reasons. First, because an \AaAa coincidence occurs in its decay chain, specifically $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + \Aa, as highlighted in Figure~\ref{fig:ac227chain}.
-\Rn has a half-life of 3.96 $\pm$ 0.01 s and $\alpha$-decays 100\% of the time, while \Po has a half-life of 1.781 $\pm$ 0.005 ms and $\alpha$-decays  99.99977(2)\% of the time \cite{ENSDF}, so the \AaAa coincidences happen frequently.
-The \Aa decay of \Po (see Figure~\ref{fig:215poalphadecay}) is mono-energetic at 7.39 MeV which results in a $\sim$0.78 MeVee signal after quenching, well removed from nLi captures that occur around 0.5 MeVee. 
-In addition, there are no corresponding gammas with the \Po decay, making this a very clean and well defined signal.
-The \Rn \Aa decays (see Figure~\ref{fig:219rnalphadecay}) are not so nice, as there are four dominant alpha energies and three dominant gamma energies for these decays, as listed in Table~\ref{tab:RnPoE}, but the use of time, energy, and PSD cuts make them easy to pair with corresponding \Po decays.
-
-\begin{figure}[hb]
+\begin{figure}[!b]
 	\centering
 	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/Ac227Chain}
 	\caption[\Ac decay chain]{The full decay chain of \Ac (a daughter of $^{235}$U), in which the \AaAa coincidence of interest is highlighted \cite{Kirby2011}.}
 	\label{fig:ac227chain}
 \end{figure}
+\Rn has a half-life of 3.96 $\pm$ 0.01 s and $\alpha$-decays 100\% of the time, while \Po has a half-life of 1.781 $\pm$ 0.005 ms and $\alpha$-decays  99.99977(2)\% of the time \cite{ENSDF}.
+The \Aa decay of \Po (see Figure~\ref{fig:215poalphadecay}) is mono-energetic at 7.39 MeV which results in a $\sim$0.78 MeV$_{ee}$\footnote{Due to quenching in the scintillator that causes suppressed light output, the observed energy is sometimes referred to as electron-equivalent energy.} signal in the PROSPECT detector after quenching, well removed from nLi captures on $^6$Li (one half of the signal used for neutrino identification) that occur around 0.5 MeV$_{ee}$. 
+In addition, there are no corresponding gammas with the \Po decay, making this a very clean and well defined signal.
+The \Rn \Aa decays (see Figure~\ref{fig:219rnalphadecay}) are not as clean, with the alpha having a non-negligible probability of decaying to 3 excited states of the daughter in addition to the ground state and thus producing accompanying gamma rays, as listed in Table~\ref{tab:RnPoE}, but the use of time, energy, and PSD cuts make them easy to pair with corresponding \Po decays.
 
-\begin{table}[h]
+\begin{table}[!t]
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|}
 	\hline 
@@ -55,7 +50,7 @@ The \Rn \Aa decays (see Figure~\ref{fig:219rnalphadecay}) are not so nice, as th
 
 Another reason \Ac is an attractive source is its long half-life, 21.77 years, ensuring that the rate of RnPo\footnote{Short-hand used to refer to the event selection of the  $^{219}$Rn $\rightarrow ^{215}$Po + $\alpha \rightarrow ^{211}$Pb + \Aa chain} events remains close to constant over the lifetime of the detector.
 It is also important that the chosen source is in equilibrium with its decay products at the time of use so that constant rates can be measured.
-It takes about 188 days for \Ac to come into equilibrium with its decays products \cite{DBerish:597}, ensuring that between the time the source was obtained and added to the liquid scintillator it can be assumed equilibrium was reached. 
+It takes about 188 days for \Ac to come into equilibrium with its decays products \cite{DBerish:597}, and given the probable amount of time that would pass between obtaining the source and adding it to the liquid scintillator in the detector, it was assumed that equilibrium would be reached. 
 
 The ability to select RnPo events using a time coincidence analysis means that only a small amount of \Ac needs to be added to the liquid scintillator. 
 This is important because PROSPECT cannot afford to introduce any extra background as it already has no overburden. 
@@ -77,26 +72,32 @@ This also means that all RnPo events occur in the same segment, providing anothe
 \end{figure}
 
 
-
+\newpage
 \section{Material Compatibility}
 
 Before \Ac could be added to the PROSPECT detector, it had to be determined that \Ac and its daughters would not adsorb onto detector materials and that it would not degrade the scintillator.
-If it was adsorbed then it would not be a uniform source in the detector, nullifying its use as a method to track relative efficiency$\times$volume throughout the detector.
-To test this six material samples were placed in vials of $^6$Li-LS spiked with \Ac. The rate of \Ac in each sample vial and one reference vial with no material was measured and tracked over a period of 6 months. 
+If it was adsorbed then it would not be a uniform source in the detector, nullifying the ability to use measured decay rates as a proxy of volume.
+To test this six material samples were placed in vials of identically prepared $^6$Li-LS spiked with $^{227}$Ac. The rate of \Ac in each sample vial and one reference vial with no material was measured and tracked over a period of 6 months. 
 An observation of a significant decrease in rate, relative to the half-life of \Ac, would indicate that \Ac was adsorbing onto the material.
 
 \subsection{Material and Scintillator Preparation}
 The materials tested were: ultraviolet transmitting (UVT) acrylic, flourinated ethylene propylene (FEP), polylactide (PLA), polyether ether ketone (PEEK), a RG 188 cable, and viton o-rings. See Table~\ref{tab:materials} for a list of their uses in the detector and sample sizes.
 To prepare the materials they were all placed in a single beaker with ultra-pure water and cleaned ultrasonically for 30 minutes.
-They were then transferred to a watch glass and placed in a 50 C over for two hours.
+They were then transferred to a watch glass and placed in a 50 C oven for two hours.
 After drying they were placed in empty 12 mL vials.
 
 The \Ac used to spike the scintillator was obtained from Eckert and Ziegler as a solution of 3.711$\times$10$^4$ Bq $\pm$ 1.32\% of \Ac in 10.22710 g of 1 M HCl, measured on September 6, 2016.
 0.503 g of this solution was added to 192 g of $^6$Li-LS on December 15, 2016.
-With a half-life of 21.772 $\pm$ 0.003 yrs \cite{ENSDF}, the activity of the \Ac solution before adding to the LiLS was 36788 Bq, yielding a final activity of 94.2 Bq/10 g. 
+With an accepted half-life of 21.772 $\pm$ 0.003 yrs \cite{ENSDF}, the activity of the \Ac solution before adding to the LiLS was 36788 Bq, yielding a final activity of 94.2 Bq/10 g. 
 This is the stock solution from which all LS was taken for the material studies and later on for spiking the detector.
 
-\begin{table}[H]
+Prior to filling all sample vials the threads of each vial were wrapped with teflon tape in an effort to obtain a secure seal. 
+The reference vial was filled on December 15, 2016 with 10.030 g of \Ac spiked LiLS from the stock solution, yielding an expected activity of 94.5 Bq.
+All material vials were filled on February 24, 2017 with the amount of stock solution added to each listed in Table~\ref{tab:MatFill}.
+At the time of filling the rate in each vial was expected to be $\sim$93 Bq.
+For a photograph of all filled material sample vials see Figure~\ref{fig:samples}.
+
+\begin{table}[h]
 	\centering
 \begin{tabular}{|p{0.16\textwidth}|p{0.4\textwidth}|p{0.33\textwidth}|}
 	\hline 
@@ -119,11 +120,11 @@ This is the stock solution from which all LS was taken for the material studies 
 \label{tab:materials}
 \end{table}
 
-\begin{table}[H]
+\begin{table}[h]
 	\centering
 \begin{tabular}{|c|c|c|}
 	\hline 
-	\textbf{Material} & \textbf{Date Filled} & \textbf{Weight of LiLS Added (g)}  \\ 
+	\textbf{Material} & \textbf{Date Filled} & \textbf{LiLS Added (g)}  \\ 
 	\hline 
 	Reference & 12/15/2016 & 10.030 \\ 
 	\hline 
@@ -144,13 +145,7 @@ This is the stock solution from which all LS was taken for the material studies 
 \label{tab:MatFill}
 \end{table}
 
-Prior to filling all sample vials the threads of each vial were wrapped with teflon tape in an effort to obtain a secure seal. 
-The reference vial was filled on December 15, 2016 with 10.030 g of \Ac spiked LiLS from the stock solution, yielding an expected activity of 94.5 Bq.
-All material vials were filled on February 24, 2017 with the amount of stock solution added to each listed in Table~\ref{tab:MatFill}.
-At the time of filling the rate in each vial was expected to be $\sim$93 Bq.
-For a photograph of all filled material sample vials see Figure~\ref{fig:samples}.
-
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/BNL/Samples}
 	\caption[Material sample vials]{Photos of all material sample vials filled with \Ac spiked LiLS, with ruler for scale.}	
@@ -159,39 +154,46 @@ For a photograph of all filled material sample vials see Figure~\ref{fig:samples
 
 \subsection{Detector}
 
-The detector consisted of a 2'' photomultiplier tube coupled using optical grease to a solid cylinder of UVT acrylic painted white with an insert cut out to hold the sample vials, as shown in Figure~\ref{fig:blackbox}.
-Placed in a dark box the PMT is cabled to a CAEN DT55xx Desktop HV Power Supply and a CAEN DT5730 8 Channel 14-bit 500 MS/s Digitizer \cite{CAENDigit}.
+The detector consisted of a 2-inch photomultiplier tube coupled using optical grease to a solid cylinder of UVT acrylic painted with reflective white paint with an insert cut out to hold the sample vials, as shown in Figure~\ref{fig:blackbox}.
+Placed in a dark box the PMT was cabled to a CAEN DT55xx Desktop HV Power Supply and a CAEN DT5730 8 Channel 14-bit 500 MS/s Digitizer \cite{CAENDigit}.
 A modified version of Wavedump 3.7.2 \cite{CAENWD} was used to start and stop the data runs and save the waveforms of the signals.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/BNL/BlackBox}
-	\caption[Detector used for material adsorption studies]{Detector used for material studies, consisting of a 2'' PMT coupled to an acrylic cylinder holding the sample vials, all contained in a dark box. The PMT is cabled to a power supply and digitizer that exist outside of the box.}
+	\includegraphics[width=0.65\linewidth]{tex/6-ac227-images/BNL/BlackBox}
+	\caption[Detector used for material adsorption studies]{Detector used for material studies, consisting of a 2-inch PMT coupled to an acrylic cylinder holding the sample vials, all contained in a dark box. The PMT is cabled to a power supply and digitizer that exist outside of the box.}
 	\label{fig:blackbox}
 \end{figure}
 
 \subsection{Data Analysis}
 
-The raw waveforms are analyzed to calculate the energy and PSD of each signal. 
-Each collected waveform consists of 250 2 ns samples.
-The energy is measured by taking the integral of the waveform using the trapezoidal rule in ADC units.
-The total energy is converted to nC using
+The raw waveforms were analyzed to calculate the energy and PSD of each signal. 
+Each collected waveform consisted of 250 2 ns samples.
+The energy was measured by taking the integral of the waveform using the trapezoidal rule in ADC units.
+The total energy was converted to nC using
 \begin{equation}
 E[nC] = E[ADC] \times \frac{1\times10^9}{R\times\textrm{sample-rate}\times n[ADC/V]}
 \end{equation}
-where $R$, the resistance, is 50 $\Omega$, the sample-rate is $5\times10^8$ Hz, and $n = (2^{14} -1)/2 = 8191.50$ ADC/V.
-The tail and total fractions used to calculate the PSD are both measured from the leading half-maximum point.
-The total is measured as the integral from 10 samples before the half-max to 140 samples after.
-The tail is measured as the integral from 19 samples after the half-max to 140 samples after.
+where $R$, the resistance, is 50 $\Omega$, the sample-rate is $5\times10^8$ Hz, and $n = (2^{14} -1)/2 = 8191.50$ ADC/V, because we used a 14 bit ADC with a 2 V range.
+The tail and total fractions used to calculate the PSD were both measured from the leading half-minimum point of the negative pulses.
+The total pulse area was measured as the integral from 10 samples before the half-min to 140 samples after.
+The tail area was measured as the integral from 19 samples after the half-max to 140 samples after.
+For an example of this for a typical alpha signal in the reference sample see Figure~\ref{fig:waveformbnl}.
 
-The \Ac coincident alpha events, labeled RnPo events for the remainder of this document, are found by applying a set of timing, energy, and PSD cuts along with an accidental background subtraction.
-Po events are found first by applying the energy and PSD cuts listed in Tabel~\ref{tab:MatCuts}. 
-Rn coincidental events are found by looking in a 12.85 ms time window before a given Po event and applying the same energy and PSD cuts.
-This time window is 5 times the lifetime of Po, 2.57 ms, allowing the collection of all possible coincident events.
-Accidental events are found by looking in the same length time window, using the same energy and PSD cuts, but offset 10 Po lifetimes before a given Po event.
-RnPo events are then found by subtracting the accidental events from the coincident events.
-See Figure~\ref{fig:rnpoenpsd} for an example of typical energy and PSD distributions.
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/BNL/Waveform_BNL}
+	\caption{A typical waveform for an alpha event in the reference sample. The leading half-minimum (circle, red) determines the windows for total pulse area (blue) and tail area (magenta).}
+	\label{fig:waveformbnl}
+\end{figure}
 
+The \Ac coincident alpha events, labeled RnPo events for the remainder of this document, were found by applying a set of timing, energy, and PSD cuts along with an accidental background subtraction.
+Po events were found first by applying the energy and PSD cuts listed in Table~\ref{tab:MatCuts}. 
+Rn coincidental events were found by looking in a 12.85 ms time window before a given Po event and applying the same energy and PSD cuts.
+This time window was 5 times the lifetime of Po, 2.57 ms, allowing for the collection of all possible coincident events.
+Accidental events were found by looking in the same length time window, using the same energy and PSD cuts, but offset 10 Po lifetimes before a given Po event.
+RnPo events were then measured by subtracting the accidental events from the coincident events.
+See Figure~\ref{fig:rnpoenpsd} for an example of typical energy and PSD distributions in the reference sample.
 \begin{table}[H]
 	\centering
 	\begin{tabular}{c|c}
@@ -203,11 +205,11 @@ See Figure~\ref{fig:rnpoenpsd} for an example of typical energy and PSD distribu
 		$\Delta$t = t$_{\mathrm{delay}}$ - t$_{\mathrm{prompt}}$ & $\Delta$t $<$ 5$\tau_{\textrm{Po}}$ \\ 
 		\hline 
 	\end{tabular} 
-	\caption{Energy, PSD, and time cuts used to find RnPo events where $\tau_{\textrm{Po}}$ = 2.57 ms. Energy and PSD cuts are applied to both prompt and delay events.}
+	\caption{Energy, PSD, and time cuts used to find RnPo events where $\tau_{\textrm{Po}}=2.57~\textrm{ms}$. Energy and PSD cuts are applied to both prompt and delay events.}
 	\label{tab:MatCuts}
 \end{table}
 
-\begin{figure}[H]
+\begin{figure}[!t]
 	\centering
 	\begin{subfigure}{0.5\linewidth}
 		\centering
@@ -219,39 +221,39 @@ See Figure~\ref{fig:rnpoenpsd} for an example of typical energy and PSD distribu
 		\includegraphics[width=1.\linewidth]{"tex/6-ac227-images/BNL/RnPoPSD_TimeBin23_S2"}
 		\caption{}
 	\end{subfigure}
-	\caption[Typical RnPo energy and PSD distributions]{Typical energy (a) and PSD (b) distributions for RnPo events in the reference sample after accidental background subtraction.}
+	\caption[Typical RnPo energy and PSD distributions]{Typical energy (a) and PSD (b) distributions for 3.4 livetime-hours of RnPo events in the reference sample after accidental background subtraction.}
 	\label{fig:rnpoenpsd}
 \end{figure}
 
-The rate of RnPo events is measured by fitting the RnPo $\Delta$t distribution with
+The rate of RnPo events was then determined by fitting the RnPo $\Delta t$ distribution with
 \begin{equation}
 	f(t) = N_0e^{-t/\tau}
 	\label{eq:MatDtFit}
 \end{equation}
-where $N_0$ and $\tau$, the lifetime of \Po, are allowed to vary. 
-Using the fit results, the rate is then defined as
+where $N_0$ and $\tau$, the lifetime of \Po (accepted as 2.569$\pm$0.007 ms), are allowed to vary. 
+Using the fit results, the rate was then defined as
 \begin{equation}
 	R = \frac{N_0 \tau}{\textrm{bin-width}\times\textrm{livetime}}
 \end{equation}
 \begin{equation}
 	\sigma_R = R \times \sqrt{  \left(\frac{\sigma_{N_0}}{N_0}\right)^2 + \left(\frac{\sigma_{\tau}}{\tau}\right)^2 + \frac{2\sigma_{N_{0}\tau}}{N_0\tau} }
 \end{equation}
-where the livetime is measured, for each run, as the time from the beginning of the run to the last Po event. 
-An example of a typical RnPo $\Delta$t distribution can be seen in Figure~\ref{fig:rnpodttimebin23s2}. It should be noted here that the energy and PSD cuts were made wide enough so that no efficiency correction needed to be applied.
+where the livetime was measured, for each run, as the time from the beginning of the run to the last Po event. 
+An example of a typical RnPo $\Delta t$ distribution can be seen in Figure~\ref{fig:rnpodttimebin23s2}, where fitting $\Delta t$ with Equation~\ref{eq:MatDtFit} resulted in a \Po lifetime of 2.58$\pm$0.02 ms that agrees well with the accepted value of 2.569$\pm$0.007 ms. It should be noted here that the energy and PSD cuts were made wide enough so that no efficiency correction needed to be applied.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.\linewidth]{"tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2"}
-	\caption[Typical RnPo $\Delta$t distribution]{A typical example of the RnPo $\Delta$t distributions for the reference sample. Left: coincidental and accidental distributions found using the defined energy and PSD cuts. Right: the $\Delta$t distribution after subtraction of the accidental distribution, fit with Equation~\ref{eq:MatDtFit}.}
+	\caption[Typical RnPo $\Delta t$ distribution]{A typical example of the RnPo $\Delta t$ distributions for the 3.4 livetime-hours of events in the reference sample. Left: coincidental and accidental distributions found using the defined energy and PSD cuts. Right: the $\Delta t$ distribution after subtraction of the accidental distribution, fit with Equation~\ref{eq:MatDtFit}.}
 	\label{fig:rnpodttimebin23s2}
 \end{figure}
 
 \subsection{Results}
 
 The RnPo rate was calculated for each material sample and the reference sample over a period of about six months. These results can be seen in Figure~\ref{fig:ratevstimeallsamples}.
-Though statistical errors vary from around 0.6-1\%, overall rates vary at a rate of around 12\%, indicating systematic variations.
+Though statistical errors vary from around 0.6-1\%, overall rates fluctuate by as much as $\pm8\%$ about the mean, indicating the size of unaccounted for systematic errors.
 
-\begin{figure}[ht]
+\begin{figure}[!b]
 	\centering
 	\includegraphics[width=1\linewidth]{tex/6-ac227-images/BNL/RateVsTime_AllSamples}
 	\caption[\Ac rate for each material sample]{\Ac rate for each material sample. Errors are statistical.}
@@ -263,30 +265,30 @@ This was done by fitting this distribution for the reference sample with a sum o
 The mean and 1$\sigma$ width of each of these Gaussians versus time is shown in Figures~\ref{fig:poenmeanvstimes2} and ~\ref{fig:poenwidthvstimes2}.
 It can be seen that the \Po energy mean varies about 5\% and the width around 15\%.
 
-\begin{figure}[!b]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2}
 	\caption[\Po energy distribution for reference sample with two Gaussian fit]{\Po energy distribution for the reference sample, fit with a sum of two Gaussians. The total fit is seen in red, while the two Gaussians are drawn as the pink and black dashed lines.}
 	\label{fig:poenfittimebin23s2}
 \end{figure}
 
-The amount of variation seen in measured rates and the \Po energy distribution indicate that the system is not repeatable and, as such, introduces significant systematic errors. 
-Though the PMT and acrylic holder were glued in place, the sample vials were repeatedly removed and replaced, possibly shifting the placement of the acrylic holder and the optical grease.
-If the experiment were to be repeated a more robust detector system would be needed to eliminate these systematic errors.
-
-\begin{figure}[!t]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/BNL/PoEnMeanVsTime_S2}
-	\caption[\Po mean versus time for the reference sample]{The mean of the two Gaussians fit to the \Po distribution for the reference sample.}
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/BNL/PoEnMeanVsTime_S2}
+	\caption[\Po mean versus time for the reference sample]{The mean of the two Gaussians fit to the \Po energy distribution for the reference sample.}
 	\label{fig:poenmeanvstimes2}
 \end{figure}
 
-\begin{figure}[!t]
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/BNL/PoEnWidthVsTime_S2}
-	\caption[\Po 1$\sigma$ width versus time for the reference sample]{The 1 $\sigma$ width of the two Gaussians fit to the \Po distributions for the reference sample.}
+	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/BNL/PoEnWidthVsTime_S2}
+	\caption[\Po 1$\sigma$ width versus time for the reference sample]{The 1 $\sigma$ width of the two Gaussians fit to the \Po energy distributions for the reference sample.}
 	\label{fig:poenwidthvstimes2}
 \end{figure}
+
+The amount of variation seen in measured rates and the \Po energy distribution indicate that the system was not repeatable and, as such, implies significant systematic errors that have not been accounted for. 
+Though the PMT and acrylic holder were glued in place, the sample vials were repeatedly removed and replaced, possibly shifting the placement of the acrylic holder and the optical grease. 
+This could possibly account for day-to-day variations, though large changes over time are not understood. 
 
 To account for these variations all material sample rates, $R_M$, were compared to the reference sample rate, $R_{ref}$.
 The ratio of the rates was calculated for each time bin as
@@ -297,11 +299,14 @@ ratio = \frac{R_M}{R_{ref.}}
 \sigma_{ratio} = ratio \times \sqrt{\left(\frac{\sigma_{M}}{R_{M}}\right)^2+\left(\frac{\sigma_{ref.}}{R_{ref.}}\right)^2}
 \end{equation}
 and the results are shown in Figure~\ref{fig:relratevstimeallsamples}.
-The ratio of rates versus time, for each material, were fit with a constant and a straight line, the results of which are tabulated in Tables~\ref{tab:MatFitC} and \ref{tab:MatFitLine} respectively.
+The ratio of rates versus time, for each material, was fit with a constant and a straight line, the results of which are tabulated in Tables~\ref{tab:MatFitC} and \ref{tab:MatFitLine} respectively.
 
 Except for the case of viton (discussed in the next section) there is no clear decrease in rate observed over the six month period for any material.
 Though the chi-squared results for the constant fits are not ideal, the fits to a straight line result in slopes with 50\% error to greater than 100\% error, indicating that a decrease in rate is not a good model.
-Since no obvious and significant decrease was observed it was concluded that \Ac was not adsorbing onto materials and next steps were taken to include the source in the final detector.
+Variations in rate suggest large systematics that have not been accounted for, which imply that these results cannot be trusted to within $\sim \pm$10\%.
+Though this may be true, the setup of the experiment, which included a large ratio of material surface area to LiLS area (greater than was true for the AD) and a much higher amount of \Ac activity than would be added to the PROSPECT AD, allowed for every chance of adsorption. 
+As such, we could look for general trends that would indicate adsorption.
+Since no obvious decreasing trends were observed and visual inspection of the vials determined that the scintillator had not degraded (yellowed) it was concluded that \Ac was not adsorbing onto materials and next steps were taken to include the source in the final detector.
 
 \begin{figure}[H]
 	\centering
@@ -359,8 +364,8 @@ Since no obvious and significant decrease was observed it was concluded that \Ac
 \subsubsection{Viton}
 
 Observation of the rate of \Ac in the viton o-ring material sample vial initially indicates a decrease in rate over time, about 10\% compared to the reference vial over a six month period.
-Upon further inspection, though, it becomes clear that the energy spectrum, of the Rn events in particular, shift toward the system threshold as time goes on.
-This causes a loss of events, not due to adsorbance, but rather due to threshold effects.
+Upon further inspection, though, it became clear that the energy spectrum, of the Rn events in particular, shift toward the system threshold as time goes on.
+This caused a loss of events, not due to adsorbance, but rather due to threshold effects.
 
 Figure~\ref{fig:rnpoenfirstandlast} shows the \Rn and \Po energy distributions in the first and last time bins for both viton and PEEK.
 It can be seen that at the last time bin the viton distributions sit against the threshold, compared to the PEEK distributions which approach but do not get close to the threshold.
@@ -397,7 +402,7 @@ Therefore, it was concluded that the decrease in \Ac rate observed in the viton 
 
 \section{\Ac in the PROSPECT AD}
 
-Material compatibility testing determined that \Ac did not adsorb onto detector materials, confirming that it could be used as a uniformly distributed source.
+Material compatibility testing determined that \Ac did not significantly adsorb onto detector materials, confirming that it could be used as a uniformly distributed source.
 It will be noted here that \Ac spiked LiLS was added to a prototype detector that consisted of two stacked segments \cite{Ashenfelter:2018cli}.
 This was done to determine that the \Ac did not degrade the performance of the liquid scintillator and that it did not introduce significant background.
 Initial results from the prototype concluded that it did neither and provided the last step of evidence needed before addition to the full-scale detector.
@@ -406,15 +411,15 @@ Initial results from the prototype concluded that it did neither and provided th
 
 After concluding that \Ac would be added to the AD, the goal was to obtain a final activity of 0.01 Bq/segment. 
 Assuming a total LiLS mass of 4600 kg and an active mass of 3939 kg implies a total \Ac activity of 1.8 Bq.
-The stock solution from which the LiLS would be spiked was the same stock that was used for the material studies, which had an activity of $\sim$9.13 Bq/g on December 13, 2017, the day the spiking procedure was performed.
+The stock solution from which the LiLS was spiked was the same stock that was used for the material studies, which had an activity of $\sim$9.13 Bq/g on December 13, 2017, the day the spiking procedure was performed.
 This means that $\sim$200 mg of the stock was needed to spike the LiLS.
 
 In order to add \Ac to the total detector, a vial of spiked LiLS was added to a 55-gallon drum of LiLS prepared previously for detector filling.
 Before the detector was filled all drums were added to an ISO-tank and bubbled with nitrogen to ensure thorough mixing of the LiLS from all drums and the \Ac.
 
-Spiking of the drum was done by adding the stock solution to an intermediate vial of production LiLS before spiking the vial that is added to the drum. 
-This was done to offset the estimated 10 mg uncertainty of the balance used to weigh the vials and allows an assessment of the activity of the remaining vial.
-The procedure was also repeated in a second set of vials so that both vials could be measured.
+We spiked the drum by diluting the concentration of the stock solution by adding it to an intermediate vial of production LiLS before spiking the vial that was added to the drum. 
+This was done to reduce the relative uncertainty from the $\pm10$ mg uncertainty of the balance used to weigh the vials and allowed an assessment of the activity of the remaining vial.
+The procedure was duplicated in a second set of vials so that the first vial could immediately be added to the LiLS drum and the second set could be used to measure the final activity and deduce that of the emptied one.
 
 The spiking procedure was performed using four vials, V0, V1, V2, and V3.
 The steps were:
@@ -426,13 +431,14 @@ The steps were:
 	\item Empty V0 into drum of production LiLS 
 \end{enumerate}
 See Figure~\ref{fig:spikingprocedure} for a graphic of these steps along with Table~\ref{tab:SpikeProc} for a list of the weights of all solutions added and removed from the vials.
-Filling of all vials was performed using pipettes, therefore, some drops inevitably remained in the pipette at every step.
+The amount of LiLS that was transfered at each step was initially calculated so that $\sim$10 g would remain in all vials at the end.
+The vials were filled and the transfers were completed using pipettes, therefore, some drops inevitably remained in the pipette at every step.
 Vials V1 and V2 were gently swirled after the addition of the \Ac spiked LiLS in an attempt to mix the solution.
 
 \begin{figure}[!hb]
 	\centering
 	\includegraphics[width=0.5\linewidth]{tex/6-ac227-images/BNL/SpikingProcedure}
-	\caption{A graphic of the procedure used to spike the drum of LiLS with \Ac for filling of the AD.}
+	\caption{A graphic of the procedure used to spike the drum of LiLS with \Ac for filling of the AD. The numbers indicate the amount of LiLS transfered, rather than the total weight.}
 	\label{fig:spikingprocedure}
 \end{figure}
 
@@ -467,33 +473,35 @@ A = C~m_2 \left(1 - \frac{m_3}{m_1 + m_2}\right)
 where $m_3$ is the amount of solution removed from V1(V2).
 The expected \Ac activity for each vial is listed in Table~\ref{tab:SpikeExpA}.
 
+\begin{table}[!t]
+	\centering
+	\begin{tabular}{c|c|c}
+		\hline 
+		\textbf{Vial} & \textbf{Expected Activity [Bq]} & \textbf{Measured Rate [Hz]} \\ 
+		\hline 
+		V0 & 1.71 & \\ 
+		\hline 
+		V1 & 9.10 &  9.48 $\pm$ 0.04  \\ 
+		\hline 
+		V2 & 8.91 & 9.38 $\pm$ 0.06\\ 
+		\hline 
+		V3 & 1.76 & 0.696 $\pm$ 0.001 \\ 
+		\hline 
+	\end{tabular} 
+	\caption{Expected and measured \Ac activity in vials prepared for spiking the LiLS. }
+	\label{tab:SpikeExpA}
+\end{table}
+
 The \Ac rate in vials V1, V2, and V3 were measured after adding V0 to the drum of LiLS.
 The rate of \Ac in V3 should be similar to the rate in AD, recalling that the goal was 1.8 Bq.
 A plot of the measured rates for each vial is shown in Figure~\ref{fig:ADVials}.
 Each of these rates was fit with a constant, with the results of these fits listed in Table~\ref{tab:SpikeExpA}.
 It can be seen that the measured rates in V1 and V2 are about 4\% higher than expectation, and the rate in V3 is about 50\% lower.
 A possible explanation for this discrepancy is that the solution was not sufficiently mixed before transferring between the stock solution and the vials and between the vials themselves. 
-If this experiment was to be repeated a more thorough testing of transfer procedures would need to be performed.
-In conclusion, the measured rate in V3 indicates that the \Ac rate in the PROSPECT AD should be around 0.7 Hz, less than half of the initial goal.
+This is bolstered by the fact that the measured rates in V2+V3 = 10.08 Hz, compared to the expected rate of 10.67 Hz, well within a 10\% systematic error that could be assigned from uncertainties in the mixing and measurement procedure.
 
-\begin{table}
-	\centering
-\begin{tabular}{c|c|c}
-	\hline 
-	\textbf{Vial} & \textbf{Expected Activity [Bq]} & \textbf{Measured Rate [Hz]} \\ 
-	\hline 
-	V0 & 1.71 & \\ 
-	\hline 
-	V1 & 9.10 &  9.48 $\pm$ 0.04  \\ 
-	\hline 
-	V2 & 8.91 & 9.38 $\pm$ 0.06\\ 
-	\hline 
-	V3 & 1.76 & 0.696 $\pm$ 0.001 \\ 
-	\hline 
-\end{tabular} 
-\caption{Expected and measured \Ac activity in vials prepared for spiking the LiLS. }
-\label{tab:SpikeExpA}
-\end{table}
+If this experiment was repeated a more thorough testing of transfer procedures would need to be performed.
+In conclusion, the measured rate in V3 indicates that the \Ac rate in the PROSPECT AD should be around 0.7 Hz in the total volume ($\sim$0.6 Hz in the active volume), less than half of the initial goal.
 
 \begin{figure}[H]
 	\centering
@@ -538,12 +546,15 @@ The result is 90 active segments, as shown in Figure~\ref{fig:segments}.
 
 RnPo events in the PROSPECT detector were found by looking at event clusters.
 A cluster is defined as a collection of events that occur within 20 ns of each other.
-Time coincident events were found by first looking for delay (Po) events. 
-It was required that these events existed in a single multiplicity cluster and passed broad energy and PSD cuts outlined in Table~\ref{tab:RnPoCuts}.
+Time coincident events were found by first looking for delayed (Po) events. 
+These events were required to be in a single multiplicity cluster, because \Po emits a single mono-energetic alpha with no accompanying gammas, and pass broad energy and PSD cuts as outlined in Table~\ref{tab:RnPoCuts}.
 
-We identified coincident prompt events by looking in a 5$\tau$ time window before the delay event, where $\tau = 2.57$ ms is the lifetime of \Po.
+We identified coincident prompt events by looking in a 5$\tau$ time window before the delay event, where $\tau = 2.57$ ms is the lifetime of $^{215}$Po.
 We required that the highest energy event in a given cluster in that time window occurred in the same segment as the delay event and passed the energy and PSD cuts in Table~\ref{tab:RnPoCuts}.
-The distance between the prompt and delay event was also required to be less than 250 mm. 
+Due to the close proximity to the neutron capture on $^6$Li signal ($\sim$0.55 MeVee), only events where $\Delta t = t_{\textrm{delay}}-t_{\textrm{prompt}} > 0.5$~ms were accepted.
+Since the neutron capture time in PROSPECT is about 50 $\mu$s, this cut effectively removes any chance of neutron contamination in the event selection.
+The prompt and delayed alphas are expected to be within a few tens of microns of each other, but, due to detector position resolution, $\Delta z = \abs{z_{\textrm{delay}} - z_{\textrm{prompt}}}$ was required to be less than 250~mm.
+
 Accidental prompt events were found by looking in a 5$\tau$ time window offset 10$\tau$ before the delay event. 
 The same cuts applied to coincidental prompt events were applied to accidental prompt events.
 
@@ -559,10 +570,10 @@ The same cuts applied to coincidental prompt events were applied to accidental p
 	\hline 
 	$\Delta z = |z_{\textrm{delay}} - z_{\textrm{prompt}}|$ & $\Delta z < 250$ mm  \\ 
 	\hline 
-	$\Delta t = t_{\textrm{delay}} - t_{\textrm{prompt}}$ & $\Delta t < 5\tau$ ms \\ 
+	$\Delta t = t_{\textrm{delay}} - t_{\textrm{prompt}}$ & $0.5 < \Delta t < 5\tau$ ms \\ 
 	\hline 
 \end{tabular} 
-\caption{Broad cuts used to find RnPo events, where $\tau$ is the lifetime of \Po, 2.57 ms.}
+\caption{First pass, broad cuts used to find RnPo events, where $\tau = 2.57~\textrm{ms}$ is the lifetime of \Po. A second pass of the data changes the requirement for the low bounds of energy and PSD to be $< 4 \sigma$ from the mean.}
 \label{tab:RnPoCuts}
 \end{table}
 
@@ -573,25 +584,38 @@ In order to avoid using these truncated events, any cluster preceded by another 
 
 The broad energy and PSD cuts listed in Table~\ref{tab:RnPoCuts} are applied on a first pass analysis of the PROSPECT data.
 Changes in detector performance over time, including decreasing energy resolution and PSD, required a second pass of the data, in which the lower bounds of the energy and PSD cuts were changed to be 4$\sigma$ lower than the mean of the distributions for a given time bin or segment.
+The range of 4$\sigma$ was chosen in order to avoid large efficiency corrections for these cuts.
+
+To check if these cuts are correctly selecting RnPo events, one can look at the position distribution of \Po events along $z$, as shown for one segment in Figure~\ref{fig:poposseg76}.
+As expected this distribution is fairly stable across the length of the segment and almost all events are reconstructed inside of the physical length of the cell (a small percentage are reconstructed in the mineral oil in the front of the PMT face).
 The PSD versus energy and \Po energy versus \Rn energy distributions, after accidental subtraction, can be seen in Figure~\ref{fig:RnPoPSDEn}.
 
-\begin{figure}[H]
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/AD_EventSelection/PoPos_Seg76}
+	\caption{Reconstructed position distribution for \Po events in a typical segment integrated over all time. Vertical dashed lines (purple) are drawn at the limits of the physical length of the segment.}
+	\label{fig:poposseg76}
+\end{figure}
+
+\begin{figure}[h]
 	\centering
 	\begin{subfigure}{0.5\linewidth}
 		\centering
-		\includegraphics[width=0.8\linewidth]{tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0}
+		\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0}
 		\caption{RnPo PSD versus Energy.}
 		\label{fig:rnpopsdvsentimebin0}
 	\end{subfigure}\hspace{0cm}%
 	\begin{subfigure}{0.5\linewidth}
 		\centering
-		\includegraphics[width=0.6\linewidth]{tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0}
+		\includegraphics[width=0.7\linewidth]{tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0}
 		\caption{\Po energy versus \Rn energy.}
 		\label{fig:poenvsrnentimebin0}
 	\end{subfigure}
 	\caption{RnPo distributions for all cells integrated over all time.}
 	\label{fig:RnPoPSDEn}
 \end{figure}
+
+
 
 \subsection{Rate Calculation}
 
@@ -600,7 +624,7 @@ The \Ac rate per segment, or for a given time period, is found by fitting the ba
 	f(t) = Ne^{-t/\tau}
 	\label{eq:dtexp}
 \end{equation}
-where $N$ and $\tau$, the lifetime of \Po, are allowed to vary.
+where $N$ and $\tau$, the lifetime of $^{215}$Po, are allowed to vary.
 For an example of these distributions and fit for a typical segment see Figure~\ref{fig:rnpodtseg76}.
 The rate is then calculated as
 \begin{equation}
@@ -610,11 +634,11 @@ The rate is then calculated as
 	\sigma_R = R \times \sqrt{\left(\frac{\sigma_N}{N}\right)^2 + \left(\frac{\sigma_\tau}{\tau}\right)^2  +  \frac{2\sigma_{N\tau}}{N\tau} + \left(\frac{\sigma_{eff.}}{eff.}\right)^2}
 \end{equation}
 where $N$ and $\tau$ are results of the $\Delta t$ fit.
-The robustness of this fit can be tracked by observing the resulting values for $\tau$ per individual segment and versus time for all segments and comparing the averages to the currently accepted value for the lifetime of \Po, 2.569 $\pm$ 0.007 ms.
+The robustness of this fit can be tracked by observing the resulting values for $\tau$ per individual segment and versus time for all segments and comparing the averages to the currently accepted value for the lifetime of $^{215}$Po, 2.569 $\pm$ 0.007 ms.
 These results are shown in Figure~\ref{fig:tau}.
 The average lifetime per individual segment is 2.564 $\pm$ 0.002ms, and versus time for all segments in 2.565 $\pm$ 0.002 ms, in great agreement with the accepted lifetime.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.65\linewidth]{tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76}
 	\caption{Coincidental (black), accidental (magenta), and background subtracted (blue) $\Delta t$ distributions for a typical segment integrated over all time. A fit of Equation~\ref{eq:dtexp} to the background subtraction distribution is shown in red along with its results.}
@@ -634,10 +658,9 @@ The average lifetime per individual segment is 2.564 $\pm$ 0.002ms, and versus t
 	\caption{}
 	\label{fig:lifetimevstime}
 \end{subfigure}
-\caption{The value of $\tau$ obtained from the exponential fit to the $\Delta t$ distribution for each individual segment integrated over all time (a) and for all segments versus time (b). The currently accepted value for $\tau$, 2.569 $\pm$ 0.007 ms, is marked by the shaded green area. A constant fit to the data is shown as the dashed red line.}
+\caption{The value of $\tau$ obtained from the exponential fit to the $\Delta t$ distribution for each individual segment integrated over all time (a) and for all segments versus time (b). The currently accepted value for $\tau$, 2.569 $\pm$ 0.007 ms, is marked by the shaded green area. A constant fit to the data is shown as the dashed red line. Shaded gray regions in time are reactor on periods.}
 \label{fig:tau}
 \end{figure}
-
 
 The uncorrected livetime is calculated, for each data run, as the time from the beginning of the run to the time of the last delay candidate event. 
 This is summed for all analyzed runs. 
@@ -657,10 +680,11 @@ When measuring the rate per segment the same livetime is applied to all segments
 	\label{fig:vetotimevstime}
 \end{figure}
 
-
-
 The efficiency is calculated for energy and PSD cuts on both prompt and delay events, and for the $\Delta z$ cut.
-This is done by fitting each distribution with a Gaussian $\pm 2\sigma$ from the mean, with the exception of the prompt energy which is fit from -1.3$\sigma$ to +0.6$\sigma$.
+This is done by fitting each distribution with a Gaussian $\pm 2\sigma$ from the mean.
+This is true for all distributions expect the prompt energy, which has a non-Gaussian high energy tail due to its accompanying gammas, see Figure~\ref{fig:rnpoenseg76}. 
+Since the high energy cut is always wide enough to include the whole range of this tail, we only care about the low energy cut, which we can approximate with a Gaussian.
+Therefore, prompt energy which is fit with a Gaussian from -1.3$\sigma$ to +0.6$\sigma$.
 The efficiency is then calculated as the ratio of the integral of the Gaussian
 between the cuts for that distribution to the integral between $\pm \infty$, as defined in Equation~\ref{eq:Eff}.
 The error on the efficiency is treated as a binomial error.
@@ -672,11 +696,9 @@ For an example of the distributions and fits for a typical segment see Figure~\r
 	\label{eq:Eff}
 \end{align}	
 
-It should be noted here that although the \Rn energy distribution has a high energy tail, due to the accompanying gammas, the efficiency is calculated using a single Gaussian fit around the peak.
-This is valid as long as the high energy cut is always wide enough to include the whole high energy tail, which is true for this analysis.
-
 In general the total efficiency is 99.9\% or higher, for RnPo rates calculated in individual segments or versus time.
 Figures~\ref{fig:efficiencypercell} and \ref{fig:efficiencyvstime} show the efficiency calculated for all distributions for all individual segments and versus time, respectively.
+See Table~\ref{tab:Cuts} for a summary of all cuts and their average efficiencies.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.5\linewidth}
@@ -701,7 +723,6 @@ Figures~\ref{fig:efficiencypercell} and \ref{fig:efficiencyvstime} show the effi
 \label{fig:RnPoDist}
 \end{figure}
 
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell}
@@ -716,21 +737,40 @@ Figures~\ref{fig:efficiencypercell} and \ref{fig:efficiencyvstime} show the effi
 	\label{fig:efficiencyvstime}
 \end{figure}
 
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c|c|c|c}
+		\hline
+		\textbf{Cut}         & \textbf{Range} & \textbf{$\langle$Eff$_{\text{Cell}}\rangle$\%} & \textbf{$\langle$Eff$_{\text{Time}}\rangle$\%} \\ \hline
+		Pileup veto & Veto any cluster preceded             &   & \\ 
+		& less than 800 ns by another cluster   &   & \\ \hline
+		PSD         & $\mu - 4\sigma < \text{PSD}_{\text{Rn}} <$ 0.36 & 99.993  & 99.996 \\ 
+		& $\mu - 4\sigma < \text{PSD}_{\text{Po}} <$ 0.36 & 99.994  & 99.997 \\ \hline
+		Energy      & $\mu - 4\sigma < \text{E}_{\text{Rn}} <$ 1.18 MeV & 99.997  & 99.996  \\
+		& $\mu - 4\sigma < \text{E}_{\text{Po}} <$ 1.18 MeV & 99.996  & 99.996 \\ \hline
+		Position    & -1000 $< \text{z}_{\text{Rn/Po}} <$ 1000 mm &    &   \\ 
+		& Segment-Rn = Segment-Po & & \\ \hline
+		$\Delta$z   & $\mu - 4\sigma < \Delta \text{z} < \mu + 4\sigma$   & 99.994   & 99.993  \\ \hline
+		$\Delta$t   & $0.5 < \Delta \text{t} < 12.845$ ms &  &   \\ \hline
+	\end{tabular}
+	\caption{Summary of the chosen cuts and their average efficiencies for determining the \Ac rate in the PROSPECT AD. The means and sigmas are determined by fitting the peaks of all distributions with Gaussians. They are found for each individual segment or each individual time bin (depending on the analysis being done). Average efficiencies are found by fitting the data in Figures~\ref{fig:efficiencypercell} and \ref{fig:efficiencyvstime} with constants.}
+	\label{tab:Cuts}
+\end{table}
+
 
 \subsection{Detector Performance as Tracked with \Ac}
 
-Though \Ac was added to the detector to track the product of efficiency$\times$volume for all segments, the mono-energetic \Po $\alpha$ is also useful for tracking the performance of the detector and the applied calibrations.
+Though \Ac was added to the detector in order to measure relative segment-to-segment volume variations, the mono-energetic \Po $\alpha$ is also useful for tracking the performance of the detector and the applied calibrations.
 Figure~\ref{fig:EvsT} shows the mean and 1$\sigma$ width of the \Po energy distribution versus time, integrated over all segments. 
 It can be seen that the resolution is not stable over time, but rather decreases by $\sim$20\% over a period of 7 months.
-This is due to an overall decrease in light collection over time, implying some factor of scintillator degradation, whose cause is not yet understood.
+This is due to an overall decrease in light collection over time, implying some factor of scintillator degradation such as a loss of transparency or light production, whose cause is not yet understood.
 
-To correct for this in the IBD analysis a variable called $E_{smear}$ was introduced, in which all energy distributions are artificially smeared to match the worst resolution in a given data taking period.
+To correct for this in the IBD analysis a variable called $E_{smear}$ was introduced, in which all energy distributions are smeared by artificially adding random noise at the software level to match the worst resolution in a given data taking period.
 The results of this are also shown in Figure~\ref{fig:EvsT}, and it can be seen that the new $E_{smear}$ resolution values are time-stable within $\pm$3\% and the mean values within $\pm$0.4\%.
-Note that the sharp variations in the energy mean values correspond to changes in calibration constants.
+Note that the sharp variations in the energy mean values correspond to times when a new set of calibration constants were introduced in the analysis.
 
 Though introducing the $E_{smear}$ variable corrects for changing detector characteristics, the \Ac analysis uses $E$. 
 The decreasing resolution is accounted for by applying $\sigma$-based cuts to the energy.
-
 
 \begin{figure}[h]
 \begin{subfigure}{1\linewidth}
@@ -771,7 +811,7 @@ This is accounted for the \Ac analysis by the use of $\sigma$-based cuts on the 
 \label{fig:PSDvsT}
 \end{figure}
 
-The $z$ resolution of $\alpha$ events, which are highly localized, can be seen by looking at the width of the distribution of the distance between \Rn and \Po signals. 
+Position resolution can be determined using the reconstructed position difference of the highly localized coincident alphas.
 This is plotted versus time, integrated over all segments, in Figure~\ref{fig:rnpodzsigmavstime}.
 It can be seen that the width increases by 7\% over the 7 month period, about 3.5 mm. 
 This variation is accounted for in the \Ac analysis in the same way as was done for energy and PSD, by using $\sigma$-based cuts.
@@ -788,9 +828,15 @@ Figure~\ref{fig:histsvsseg} shows the distributions of the \Po energy, energy re
 For Hamamatsu segments the energy scale and resolution are identical between segments to within $\sim \pm$0.25\% and $\sim \pm$6.5\% respectively. 
 The ET segments vary more than the Hamamatsu segments, but for the case of the IBD analysis these segments are considered outside of the fiducial volume.
 
-The alignment of $z$ between all segments can be observed by looking at the distribution of the mean of the position distribution for all segments.
+The position of events, $z$, is reconstructed individually for each cell by a combination of differences in timing and light yield between the two PMTs. 
+As a result, the reconstructed $z$-position may vary from cell to cell. 
+The relative alignment of the reconstructed $z$-position between segments can be observed by looking at the distribution of the mean of the position distribution for all segments.
 It can be seen that, for Hamamatsu segments, all position reconstructions are aligned within $\pm$7 mm. 
 The width of the $\Delta z$ distributions in Hamamatsu segments have a segment-to-segment variation of $\sim \pm$4 mm.
+
+\Ac has proven to be useful in tracking energy, energy resolution, position, and position resolution over time and between segments.
+Though IBD events are characteristically very different from RnPo $\alpha$ events, in energy and spatial event topologies, these distributions help to provide limits on systematic errors applied to the IBD analysis due to changing resolution effects and position reconstruction.
+They also provide useful cross-checks for the behavior of new variables, such as $E_{smear}$, and tracking calibration performance over time.
 
 \begin{figure}[H]
 	\centering
@@ -798,10 +844,6 @@ The width of the $\Delta z$ distributions in Hamamatsu segments have a segment-t
 	\caption{Segment-to-segment stability of the \Po energy (a), energy resolution (b), position reconstruction (c), and position resolution (d). Distributions are shown separately for Hamamatsu and ET segments.}
 	\label{fig:histsvsseg}
 \end{figure}
-
-\Ac has proven to be useful in tracking energy, energy resolution, position, and position resolution over time and between segments.
-Though IBD events are characteristically very different from RnPo $\alpha$ events, in energy and spatial event topologies, these distributions help to provide limits on systematic errors applied to the IBD analysis due to changing resolution effects and position reconstruction.
-They also provide useful cross-checks for the behavior of new variables, such as $E_{smear}$, and tracking calibration performance over time.
 
 \subsection{\Ac Rate versus Time}
 
@@ -836,7 +878,7 @@ This could be a sign of \Ac falling out of solution and sinking to the bottom of
 The process by which this would happen, though, is unclear.
 It is also not understood if it would sink in each individual segment, in which case a gradient might not be measured, or if it would all sink to the bottom.
 
-In any case, the fact that the measured \Ac rate deviates from expectation indicates that it is not a clear proxy for a relative segment-by-segment volume$\times$efficiency measurement.
+In any case, the fact that the measured \Ac rate deviates from expectation indicates that it is not a clear proxy for a relative segment-to-segment volume measurement.
 To account for this a 1\% systematic error will be applied to the segment-by-segment measured \Ac rates.
 
 \begin{figure}[h]
@@ -866,30 +908,22 @@ To account for this a 1\% systematic error will be applied to the segment-by-seg
 
 The measured \Ac rate in each segment can be seen in Figure~\ref{fig:ratepercell}. 
 Statistical errors for each segment are around 0.6\%.
-The average rate, including Hamamatsu and ET segments, is 3.262 $\pm$ 0.002 mHz, 67\% lower than the original spiking goal of 0.01 Bq/segment.
+The average rate, including Hamamatsu and ET segments, is 3.262 $\pm$ 0.002 mHz, in line with the expected factor of 3 less than the desired 0.01 Bq/cell.
 The majority of segments vary $\pm$1\% from the average. 
 
 The most glaring outliers are the top row, which are $\sim$1.5\% below average. 
-A possible explanation for this is that the top row is not completely filled with scintillator, but the reason for these lower rates in unclear.
+A possible explanation for this is that the top row is not completely filled with scintillator, but the reason for these lower rates is unclear.
 
-If the focus is shifted to only Hamamatsu segments, the fiducial segments, the average is found to be 3.270 $\pm$ 0.002 mHz, see Figure~\ref{fig:ratepercellnoet}.
+If the focus is shifted to only Hamamatsu segments, the fiducial segments, the average is found to be 3.270 $\pm$ 0.002 mHz.
 The measured \Ac rates in all fiducial segments agree to within $\pm$2\%.
 A histogram of the individual segment rates is shown in Figure~\ref{fig:histratepercell}.
 The standard deviation of only the Hamamatsu segments is 0.026 mHz.
-
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{tex/6-ac227-images/RatePerSeg/RatePerCell}
 	\caption{The \Ac per individual segment integrated over all time. Dashed line represents the average over all segments. Dotted lines are $\pm$1\% and $\pm$2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical.}
 	\label{fig:ratepercell}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{tex/6-ac227-images/RatePerSeg/RatePerCell_noET}
-	\caption{The \Ac per individual segment integrated over all time. Dashed line represents the average over only Hamamatsu segments. Dotted lines are $\pm$1\% and $\pm$2\% from the average. Blue: Hamamatsu segments, red: ET segments. Errors are statistical. \todo{remove ETs from plot}}
-	\label{fig:ratepercellnoet}
 \end{figure}
 
 \begin{figure}[H]
@@ -975,11 +1009,12 @@ The results of this study show that this is not true and, therefore, a systemati
 
 \subsubsection{Other Coincident Alphas}
 
-There are two known event types with coincident alphas that occur in the PROSPECT AD that could contaminate the RnPo selection group. The first is an $\alpha$-$\alpha$ coincidence in the $^{232}$Th chain (the chain responsible for $^{212}$Bi$\rightarrow^{212}$Po (BiPo) events): $^{220}$Rn$\rightarrow ^{216}$Po$\rightarrow ^{212}$Pb. As listed in Table~\ref{tab:CoincAlpha}, the energy of these alphas fall in the selection range of the \Ac RnPo's (0.48/0.61-1.18 MeV) making it possible for them to be selected and not correctly background subtracted. 
+There are two known event types with coincident alphas that occur in the PROSPECT AD that could contaminate the RnPo selection group. The first is an $\alpha$-$\alpha$ coincidence in the naturally occurring $^{232}$Th chain (the chain responsible for $^{212}$Bi$\rightarrow^{212}$Po (BiPo) events): $^{220}$Rn$\rightarrow ^{216}$Po$\rightarrow ^{212}$Pb. As listed in Table~\ref{tab:CoincAlpha}, the energy of these alphas fall in the selection range of the \Ac RnPo's (0.48/0.61-1.18 MeV) making it possible for them to be selected and not completely removed via the accidental subtraction.
 
-The other possible event is the triple alpha decay in the \Ac chain: $^{223}$Ra$\rightarrow$\Rn$\rightarrow$\Po$\rightarrow ^{211}$Pb. Choosing a background subtraction window that occurs before a given selected delay event (Po) helps to get rid of most of this contamination, but the rate of remaining events can be calculated.
+The other possible event is the triple alpha decay in the \Ac chain: $^{223}$Ra$\rightarrow$\Rn$\rightarrow$\Po$\rightarrow ^{211}$Pb. 
+Choosing an accidental background subtraction window that occurs before a given selected delay event (Po), in the time direction of the $^{223}$Ra contamination, helps to get rid of most of this contamination, but the rate of remaining events can be calculated.
 
-Using the information found in Table~\ref{tab:CoincAlpha} and the time windows chosen for the \Ac RnPo selection it is possible to calculate the amount of contamination that is expected from the other alpha coincidences. 
+Using the information found in Table~\ref{tab:CoincAlpha} and the time windows chosen for the \Ac RnPo selection it is possible to calculate the amount of contamination that is expected from these other alpha coincidences. 
 Starting with the $^{232}$Th RnPo's, the fraction of $^{220}$Rn$\rightarrow ^{216}$Po alphas that are selected as `true' \Ac events, based on energy and time cuts, is $\sim$0.0061. 
 If the rate of these events is approximated to be 0.085 Hz (based on a BiPo rate of 0.0547 Hz  \cite{Jones2800:2019}) then the rate of selection is $\sim$0.00052 Hz. 
 If we approximate a total \Ac rate of 0.29 Hz, and therefore a rate of 0.24 Hz in the 0.5 - 12.845 ms time window used for selection, then the $^{232}$Th RnPo's will make up $\sim$0.22\% of the \Ac RnPo signal selection in the selection time window.
