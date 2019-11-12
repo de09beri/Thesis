@@ -1,15 +1,15 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces The Standed Model of Particle Physics}}{3}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Neutrino Oscillation Parameters}}{10}
+\contentsline {table}{\numberline {1.1}{\ignorespaces The Standard Model of particle physics, composed of fermions and their corresponding antiparticles, the force carries (gauge bosons), and the Higgs boson. The quarks and leptons are listed as fundamental representations of SU(2)$_\textrm {L}$.\relax }}{3}
+\contentsline {table}{\numberline {1.2}{\ignorespaces The current best-fit values and 3$\sigma $ allowed ranges of the 3-neutrino oscillation parameters as determined experimentally \cite {PDG}. The values (values in brackets) correspond to $m_1 < m_2 < m_3 \hspace {0.1cm} (m_3 < m_1 < m_2)$.\relax }}{10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Calibration sources}}{28}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Calibration sources and their properties.\relax }}{28}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Best-fit parameters for absolute energy scale factor, $A$, Birks' constants, $k_{B1}$ and $k_{B2}$, and Cherenkov light collection efficiency, $k_c$, as found by data and MC comparisons.\relax }}{41}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Parameters of Equation~\ref {eq:ERes} found by fitting the results in Figure~\ref {fig:gammares}.\relax }}{42}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces $\alpha $ and $\gamma $ energies of $^{219}$Rn and $^{215}$Po decays}}{46}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Energy and absolute intensity of dominant $\alpha $ and $\gamma $ decay radiation for $^{219}$Rn and $^{215}$Po . Decay energies not listed here have an intensity of $< $0.05\%.\relax }}{46}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Samples used to test if $^{227}$Ac or its daughters would adsorb onto detector materials.\relax }}{50}
 \contentsline {table}{\numberline {5.3}{\ignorespaces The weight of $^{227}$Ac spiked LiLS that was added to each sample vial.\relax }}{50}
 \contentsline {table}{\numberline {5.4}{\ignorespaces Energy, PSD, and time cuts used to find RnPo events where $\tau _{\textrm {Po}}=2.57~\textrm {ms}$. Energy and PSD cuts are applied to both prompt and delay events.\relax }}{52}

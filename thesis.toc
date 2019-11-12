@@ -1,8 +1,8 @@
 \select@language {english}
 \contentsline {chapter}{ABSTRACT}{i}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
-\contentsline {chapter}{LIST OF FIGURES}{xiii}
-\contentsline {chapter}{LIST OF TABLES}{xvi}
+\contentsline {chapter}{LIST OF FIGURES}{xvi}
+\contentsline {chapter}{LIST OF TABLES}{xix}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }CHAPTER\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
 \contentsline {chapter}{\numberline {1}\uppercase {Neutrinos}}{1}

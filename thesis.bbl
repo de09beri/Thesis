@@ -1,17 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{PhysRevLett.121.251802}
-J.~Ashenfelter et~al.
-\newblock {First Search for Short-Baseline Neutrino Oscillations at HFIR with
-  PROSPECT}.
-\newblock {\em Phys. Rev. Lett.}, 121:251802, Dec 2018.
-
-\bibitem{Ashenfelter:2018jrx}
-J.~Ashenfelter et~al.
-\newblock {Measurement of the Antineutrino Spectrum from $^{235}$U Fission at
-  HFIR with PROSPECT}.
-\newblock {\em Phys. Rev. Lett.}, 122(25):251801, 2019.
-
 \bibitem{Hahn:1911}
 {L. Meitner} {O. von Baeyer}, {O. Hahn}.
 \newblock {Uber die $\beta$-Strahlen des aktiven Niederschlags des Thoriums}.
@@ -31,7 +19,7 @@ C.~D. Ellis and W.~A. Wooster.
 
 \bibitem{Fermi:1934hr}
 E.~Fermi.
-\newblock {An attempt of a theory of beta radiation. 1.}
+\newblock {An attempt of a theory of beta radiation.}
 \newblock {\em Z. Phys.}, 88:161--177, 1934.
 
 \bibitem{Cowan}
@@ -74,6 +62,7 @@ Aldo Serenelli.
 \bibitem{NuclideChart}
 IAEA.
 \newblock {Live Chart of Nuclides}, 2013.
+\newblock {https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html}.
 
 \bibitem{Davis}
 Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
@@ -85,7 +74,6 @@ B.~Pontecorvo.
 \newblock {Neutrino Experiments and the Problem of Conservation of Leptonic
   Charge}.
 \newblock {\em Sov. Phys. JETP}, 26:984--988, 1968.
-\newblock [Zh. Eksp. Teor. Fiz.53,1717(1967)].
 
 \bibitem{Pont1977}
 S~M Bilen'kiĭ and Bruno Pontecorvo.
@@ -111,7 +99,6 @@ M.~Altmann et~al.
 E.~Bellotti.
 \newblock {First results from GNO}.
 \newblock {\em Nucl. Phys. Proc. Suppl.}, 91:44--49, 2001.
-\newblock [,44(2001)].
 
 \bibitem{SuperKOsc}
 Y.~Fukuda et~al.
@@ -120,10 +107,10 @@ Y.~Fukuda et~al.
 
 \bibitem{SNO}
 Q.~R. Ahmad et~al.
-\newblock Measurement of the rate of
+\newblock {Measurement of the Rate of
   ${\ensuremath{\nu}}_{e}+\mathit{d}\ensuremath{\rightarrow}\mathit{p}+\mathit{p}+{\mathit{e}}^{\ensuremath{-}}$
-  interactions produced by $^{8}b$ solar neutrinos at the sudbury neutrino
-  observatory.
+  Interactions Produced by $^{8}B$ Solar Neutrinos at the Sudbury Neutrino
+  Observatory}.
 \newblock {\em Phys. Rev. Lett.}, 87:071301, Jul 2001.
 
 \bibitem{SNOOsc}
@@ -185,26 +172,13 @@ J.~N. Abdurashitov et~al.
 \newblock {\em Phys. Rev. C}, 59:2246--2263, Apr 1999.
 
 \bibitem{PhysRevC.73.045805}
-J.~N. Abdurashitov, V.~N. Gavrin, S.~V. Girin, V.~V. Gorbachev, P.~P. Gurkina,
-  T.~V. Ibragimova, A.~V. Kalikhov, N.~G. Khairnasov, T.~V. Knodel, V.~A.
-  Matveev, I.~N. Mirmov, A.~A. Shikhin, E.~P. Veretenkin, V.~M. Vermul, V.~E.
-  Yants, G.~T. Zatsepin, T.~J. Bowles, S.~R. Elliott, W.~A. Teasdale, B.~T.
-  Cleveland, W.~C. Haxton, J.~F. Wilkerson, J.~S. Nico, A.~Suzuki, K.~Lande,
-  Yu.~S. Khomyakov, V.~M. Poplavsky, V.~V. Popov, O.~V. Mishin, A.~N. Petrov,
-  B.~A. Vasiliev, S.~A. Voronov, A.~I. Karpenko, V.~V. Maltsev, N.~N. Oshkanov,
-  A.~M. Tuchkov, V.~I. Barsanov, A.~A. Janelidze, A.~V. Korenkova, N.~A.
-  Kotelnikov, S.~Yu. Markov, V.~V. Selin, Z.~N. Shakirov, A.~A. Zamyatina, and
-  S.~B. Zlokazov.
+Abdurashitov et~al.
 \newblock Measurement of the response of a ga solar neutrino experiment to
   neutrinos from a $^{37}\mathrm{Ar}$ source.
 \newblock {\em Phys. Rev. C}, 73:045805, Apr 2006.
 
 \bibitem{PhysRevC.80.015807}
-J.~N. Abdurashitov, V.~N. Gavrin, V.~V. Gorbachev, P.~P. Gurkina, T.~V.
-  Ibragimova, A.~V. Kalikhov, N.~G. Khairnasov, T.~V. Knodel, I.~N. Mirmov,
-  A.~A. Shikhin, E.~P. Veretenkin, V.~E. Yants, G.~T. Zatsepin, T.~J. Bowles,
-  S.~R. Elliott, W.~A. Teasdale, J.~S. Nico, B.~T. Cleveland, and J.~F.
-  Wilkerson.
+Abdurashitov et~al.
 \newblock Measurement of the solar neutrino capture rate with gallium metal.
   iii. results for the 2002--2007 data-taking period.
 \newblock {\em Phys. Rev. C}, 80:015807, Jul 2009.
@@ -233,29 +207,33 @@ A.~C. Hayes and Petr Vogel.
 \bibitem{NucChart}
 NNDC.
 \newblock {Chart of Nuclides}.
+\newblock https://www.nndc.bnl.gov/nudat2/.
 
 \bibitem{ENDF}
 International Atomic~Energy Agency.
 \newblock {Evaluated Nuclear Data File}.
-\newblock Evaluated Nuclear Data File.
+\newblock {https://www-nds.iaea.org/exfor/endf.htm}.
 
 \bibitem{JEFF}
 Nuclear~Energy Agency.
+\newblock {Joint Evaluated Fission and Fusion (JEFF) Nuclear Data Library}.
+\newblock {https://www.oecd-nea.org/dbdata/jeff/}.
 
 \bibitem{ENSDF}
 National Nuclear~Data Center.
 \newblock {ENSDF Database}.
+\newblock {https://www.nndc.bnl.gov/ensdf/}.
 
 \bibitem{VonFeilitzsch:1982jw}
 F.~Von~Feilitzsch, A.~A. Hahn, and K.~Schreckenbach.
-\newblock {EXPERIMENTAL BETA SPECTRA FROM PU-239 AND U-235 THERMAL NEUTRON
-  FISSION PRODUCTS AND THEIR CORRELATED ANTI-NEUTRINOS SPECTRA}.
+\newblock Experimental beta spectra from pu-239 and u-235 thermal neutron
+  fission products and their correlated anti-neutrinos spectra.
 \newblock {\em Phys. Lett.}, 118B:162--166, 1982.
 
 \bibitem{Schreckenbach:1985ep}
 K.~Schreckenbach, G.~Colvin, W.~Gelletly, and F.~Von~Feilitzsch.
-\newblock {DETERMINATION OF THE ANTI-NEUTRINO SPECTRUM FROM U-235 THERMAL
-  NEUTRON FISSION PRODUCTS UP TO 9.5-MEV}.
+\newblock Determination of the anti-neutrino spectrum from u-235 thermal
+  neutron fission products up to 9.5-mev.
 \newblock {\em Phys. Lett.}, 160B:325--330, 1985.
 
 \bibitem{Hahn:1989zr}
@@ -275,7 +253,7 @@ N.~Haag, A.~Gütlein, M.~Hofmann, L.~Oberauer, W.~Potzel, K.~Schreckenbach, and
 \bibitem{PhysRevC.24.1543}
 P.~Vogel, G.~K. Schenter, F.~M. Mann, and R.~E. Schenter.
 \newblock Reactor antineutrino spectra and their application to
-  antineutrino-induced reactions. ii.
+  antineutrino-induced reactions.
 \newblock {\em Phys. Rev. C}, 24:1543--1553, Oct 1981.
 
 \bibitem{Mueller}
@@ -297,8 +275,8 @@ Xin Qian and Jen-Chieh Peng.
 
 \bibitem{Vogel:1999zy}
 P.~Vogel and John~F. Beacom.
-\newblock {Angular distribution of neutron inverse beta decay, anti-neutrino(e)
-  + p ---> e+ + n}.
+\newblock {Angular distribution of the reaction $\bar{\nu_e} + p \rightarrow
+  e^+ + n$}.
 \newblock {\em Phys. Rev.}, D60:053003, 1999.
 
 \bibitem{Apollonio:1999ae}
@@ -343,9 +321,8 @@ Feng~Peng An et~al.
 
 \bibitem{DayaBayFlux2018}
 D.~Adey et~al.
-\newblock {Improved Measurement of the Reactor Antineutrino Flux at Daya Bay}.
-\newblock 2018.
-\newblock arXiv:1808.10836 [hep-ex].
+\newblock Improved measurement of the reactor antineutrino flux at daya bay.
+\newblock {\em Phys. Rev. D}, 100:052004, Sep 2019.
 
 \bibitem{Aguilar-Arevalo:2013pmq}
 A.~A. Aguilar-Arevalo et~al.
@@ -383,12 +360,14 @@ F.~P. An et~al.
   Bay}.
 \newblock {\em Phys. Rev. Lett.}, 118(25):251801, 2017.
 
+\bibitem{PhysRevLett.123.111801}
+D.~Adey et~al.
+\newblock Extraction of the $^{235}\mathrm{U}$ and $^{239}\mathrm{Pu}$
+  antineutrino spectra at daya bay.
+\newblock {\em Phys. Rev. Lett.}, 123:111801, Sep 2019.
+
 \bibitem{PhysRevLett.122.232501}
-G.~Bak, J.~H. Choi, H.~I. Jang, J.~S. Jang, S.~H. Jeon, K.~K. Joo, K.~Ju, D.~E.
-  Jung, J.~G. Kim, J.~H. Kim, J.~Y. Kim, S.~B. Kim, S.~Y. Kim, W.~Kim, E.~Kwon,
-  D.~H. Lee, H.~G. Lee, Y.~C. Lee, I.~T. Lim, D.~H. Moon, M.~Y. Pac, Y.~S.
-  Park, C.~Rott, H.~Seo, J.~W. Seo, S.~H. Seo, C.~D. Shin, J.~Y. Yang, J.~Yoo,
-  and I.~Yu.
+G.~Bak et~al.
 \newblock Fuel-composition dependent reactor antineutrino yield at reno.
 \newblock {\em Phys. Rev. Lett.}, 122:232501, Jun 2019.
 
@@ -396,6 +375,18 @@ G.~Bak, J.~H. Choi, H.~I. Jang, J.~S. Jang, S.~H. Jeon, K.~K. Joo, K.~Ju, D.~E.
 J.~Ashenfelter et~al.
 \newblock {The PROSPECT Reactor Antineutrino Experiment}.
 \newblock {\em Nucl. Instrum. Meth.}, A922:287--309, 2019.
+
+\bibitem{PhysRevLett.121.251802}
+J.~Ashenfelter et~al.
+\newblock {First Search for Short-Baseline Neutrino Oscillations at HFIR with
+  PROSPECT}.
+\newblock {\em Phys. Rev. Lett.}, 121:251802, Dec 2018.
+
+\bibitem{Ashenfelter:2018jrx}
+J.~Ashenfelter et~al.
+\newblock {Measurement of the Antineutrino Spectrum from $^{235}$U Fission at
+  HFIR with PROSPECT}.
+\newblock {\em Phys. Rev. Lett.}, 122(25):251801, 2019.
 
 \bibitem{HFIRTech}
 Germina Ilas, David Chandler, Brian Ade, Eva Sunny, Ben Betzler, and Dan
@@ -413,12 +404,13 @@ J.~Ashenfelter et~al.
 Blaine~Alexander Heffron.
 \newblock {Characterization of Reactor Background Radiation at HFIR for the
   PROSPECT Experiment}.
-\newblock https://trace.tennessee.edu/utk\_gradthes/4747/.
+\newblock MS, University of Tennessee, 2017.
+  https://trace.tennessee.edu/utk\_gradthes/4747/.
 
 \bibitem{Hackett}
 Brennan Hackett.
 \newblock {DANG and the Background Characterisation of HFIR for PROSPECT}.
-\newblock
+\newblock MS, University of Surrey, 2017.
   https://prospect.yale.edu/sites/default/files/hackett\_brennan\_-\_university\_of\_surrey.pdf.
 
 \bibitem{Ashenfelter:2019lbf}
@@ -521,8 +513,9 @@ J.~Ashenfelter et~al.
 
 \bibitem{ConantThesis}
 Andrew Conant.
-\newblock {ANTINEUTRINO SPECTRUM CHARACTERIZATION OF THE HIGH FLUX ISOTOPE
-  REACTOR USING NEUTRONIC SIMULATIONS}.
+\newblock Antineutrino spectrum characterization of the high flux isotope
+  reactor using neutronic simulations.
+\newblock PhD Dissertation, Georgia Institute of Technology, 2019.
 
 \bibitem{PSurukuchi:2338}
 Pranava Surukuchi.
@@ -539,10 +532,5 @@ Gary~J. Feldman and Robert~D. Cousins.
 \newblock Unified approach to the classical statistical analysis of small
   signals.
 \newblock {\em Phys. Rev. D}, 57:3873--3889, Apr 1998.
-
-\bibitem{SurukuchiThesis}
-Pranava Surukuchi.
-\newblock {Search for Sterile Neutrino Oscillations with the PROSPECT
-  Experiment}.
 
 \end{thebibliography}
