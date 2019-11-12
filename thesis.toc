@@ -69,7 +69,7 @@
 \contentsline {subsection}{\numberline {6.5.1}Uncertainties}{97}
 \contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{100}
 \contentsline {subsection}{\numberline {6.5.3}Results}{101}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{104}
+\contentsline {chapter}{\numberline {7}CONCLUSION}{104}
 \vspace *{0.25in}
 \contentsline {chapter}{BIBLIOGRAPHY}{105}
 \vspace *{0.25in}
