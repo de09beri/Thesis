@@ -69,9 +69,8 @@
 \contentsline {subsection}{\numberline {6.5.1}Uncertainties}{97}
 \contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{100}
 \contentsline {subsection}{\numberline {6.5.3}Results}{101}
-\contentsline {section}{\numberline {6.6}Measured Antineutrino Spectrum}{103}
-\contentsline {chapter}{\numberline {7}CONCLUSIONS}{105}
+\contentsline {chapter}{\numberline {7}CONCLUSIONS}{104}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{106}
+\contentsline {chapter}{BIBLIOGRAPHY}{105}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 

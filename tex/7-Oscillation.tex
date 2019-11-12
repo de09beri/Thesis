@@ -6,17 +6,17 @@ PROSPECT detects $\bar{\nu_e}$'s via the inverse beta decay reaction (IBD):
 \begin{equation}
 	\bar{\nu_e} + p \rightarrow e^+ + n
 \end{equation}
-A reactor $\bar{\nu_e}$ will interact with a proton in the $^6$Li-LS, producing a positron and a neutron.
-The positron will quickly lose energy and annihilate with an electron, producing two 511 keV $\gamma$-rays.
+A reactor $\bar{\nu_e}$ interacts with a proton in the $^6$Li-LS, and produces a positron and a neutron.
+The positron quickly loses energy and annihilates with an electron, producing two 511 keV $\gamma$-rays.
 This is the prompt signal.
 
-Concurrently, the neutron will thermalize by scattering off of protons in the scintillator until it captures on $^6$Li ($\sim$80\% of the time) or H ($\sim$20\% of the time).
-The neutron capture on $^6$Li (nLi) produces a tritium and an alpha with energies 2.05 MeV and 2.75 MeV respectively. 
-These two products will immediately scintillate, and produce a quenched signal of $\sim$0.55 MeVee.
+Concurrently, the neutron thermalizes by scattering off of protons in the scintillator, traveling $\sim10~\mu m$, until it captures on $^6$Li ($\sim$80\% of the time) or H ($\sim$20\% of the time).
+The neutron capture on $^6$Li (nLi) produces a tritium and an alpha, with energies 2.05 MeV and 2.75 MeV respectively, exactly at the neutron capture point.
+These two products immediately scintillate, producing a quenched signal of $\sim$0.55 MeVee.
 This is the delayed signal.
 Figure~\ref{fig:ibd} illustrates this process in the PROSPECT LiLS.
 
-The neutron capture on $^6$Li takes $\sim$40$\mu$s, providing a time separation between the prompt and delayed signals.
+The neutron capture on $^6$Li happens within $\sim$40$\mu$s, providing a time separation between the prompt and delayed signals.
 Making use of the time coincident, PSD, and energy cuts, PROSPECT can identify $\bar{\nu_e}$ events above background. 
 
 \begin{figure}[!t]
@@ -33,13 +33,13 @@ Making use of the time coincident, PSD, and energy cuts, PROSPECT can identify $
 A selection of energy, PSD, and time cuts, along with specified event vetos are utilized to identify IBD signals and reduce background.
 These are:
 \begin{itemize}
-	\item Prompt Cluster Size: $\geq1$
+	\item Prompt Cluster Size: Can be greater than one signal (where a signal consists of two pulses in one segment)
 	\item Prompt PSD: All pulses must have PSD that is $<3\sigma$ from the gamma-like PSD band mean
 	\item Prompt Energy: No cut, but only clusters with a total energy of 0.8 $<$ E$_{\textrm{rec}} <$ 7.2 MeV are used in the oscillation analysis
-	\item Delayed Cluster Size: Single pulse
+	\item Delayed Cluster Size: Must be one signal in one segment
 	\item Delayed PSD: All pulses must have PSD that is $>3.6\sigma$ from the gamma-like PSD band mean
 	\item Delayed Energy: 0.46 $<$ E$_{\textrm{rec}} < $0.60 MeV
-	\item Time Correlation: $\Delta t = (1,120)~\mu$s
+	\item Time between prompt and delayed signals: $\Delta t = (1,120)~\mu$s
 	\item Prompt-Delayed Distance: $\Delta z <$ 18 cm for coincidences in the same segment; $\Delta z <$ 14 cm for coincidences in horizontally/vertically adjacent segments
 	\item Pileup Veto: Applied to both prompt and delayed clusters, if the candidate cluster is preceded by another cluster in a window of $<$ 800 ns, the candidate cluster is vetoed
 	\item Shower Veto: Veto delayed clusters that exist in a (0,100) $\mu$s window around cosmic muon clusters (E$_{\textrm{rec}} >$ 15 MeV); Veto delayed clusters that exist within (-200,+200)~$\mu$s of events with PSD $> 3\sigma$ from the gamma-like PSD band mean and E $>$ 0.25 MeV
@@ -49,7 +49,7 @@ For an example of how the PSD and energy cuts look in PSD versus energy space fo
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{tex/7-oscillation-images/PSDvsE_Corr_nLi}
+	\includegraphics[width=0.5\linewidth]{tex/7-oscillation-images/PSDvsE_Corr_nLi}
 	\caption{PSD versus energy distribution for prompt events correlated with a delayed neutron capture on $^6$Li. The cuts used for identifying nLi events is represented by the blue rectangle. The upper limit of the cut used for identifying electron-like signals is shown as the pink curve.}
 	\label{fig:psdvsecorrnli}
 \end{figure}
@@ -65,16 +65,17 @@ Along with this veto, the IBD selection is applied to reactor off data and the r
 
 Accidental coincidences are handled by selecting prompt-delay pairs with $\Delta t$ = (-12,-2) ms.
 This provides a high statistics sample of events that are scaled to match the correlated time window and then subtracted from the correlated events. 
-This is done for both reactor on and off data sets.
+This is done for both reactor on and off data sets. 
+The results of these background subtractions on the prompt energy spectrum can be seen for both reactor on and off in Figure~\ref{fig:spectrumresults} \cite{Ashenfelter:2018jrx}.
 
 \begin{figure}[!b]
 	\centering
-	\includegraphics[width=0.6\linewidth]{tex/7-oscillation-images/IBD_E}
-	\caption{The prompt energy spectra, after background subtraction, of IBD events for 24 hours of both reactor on and off data. Prominent peaks at 2.2 MeV and 4.4 MeV are due to neutron captures on Hydrogen and inelastic neutron scatters on $^{12}$C respectively.}
-	\label{fig:ibde}
+	\includegraphics[width=0.8\linewidth]{tex/7-oscillation-images/Spectrum}
+	\caption{Reconstructed visible prompt energy of IBD events (black), along with correlated IBD candidates in reactor on (blue, solid) and reactor off (red, dashed) periods. Errors are statistical. The reactor off spectrum has been scaled by the relative exposure time between on and off. \cite{Ashenfelter:2018jrx}}
+	\label{fig:spectrumresults}
 \end{figure}
 
-Figure~\ref{fig:ibde} shows the prompt energy spectra for 24 hours both of reactor on and off data after applying all cuts and accidental background subtraction.
+This figure also shows the reactor off subtracted prompt energy spectrum, which is the reconstructed visible prompt energy of the IBD events.
 Prominent peaks at 2.2 MeV and 4.4 MeV exist in both reactor on and off data.
 Cosmogenic muons can create several neutrons. One of these will capture on hydrogen (nH), producing a 2.2 MeV $\gamma$, which will be followed by another neutron capturing on $^6$Li. 
 These time-coincident events are reduced by the shower veto, but not completely removed.
@@ -109,14 +110,13 @@ The prompt event was required to have PSD $>3\sigma$ from the gamma-like PSD ban
 	\label{fig:atm}
 \end{figure}
 
-
 Figure~\ref{fig:atm} shows the rate of these coincident events and pressure versus time, along with rate versus pressure.
 It can be seen that the event rate and pressure are inversely correlated. 
 The rate of FN+nLi events as a function of pressure was fit with a linear function and the results of the fit were used to define the atmospheric correction, $k_p$, according to
 \begin{equation}
-k_p = \frac{m \cdot \bar{p}_{on} + c}{m \cdot \bar{p}_{off} + c}
+k_p = \frac{m \cdot \bar{p}_{\textrm{on}} + c}{m \cdot \bar{p}_{\textrm{off}} + c}
 \end{equation}
-where $m$ and $c$ are the slope and y-intercept of the fit and $\bar{p}_{on (off)}$ is the average pressure during reactor on (off).
+where $m$ and $c$ are the slope and y-intercept of the fit and $\bar{p}_{\textrm{on (off)}}$ is the average pressure during reactor on (off).
 For this analysis the atmospheric correction was found to be $<$ 1\%.
 
 
@@ -124,11 +124,12 @@ For this analysis the atmospheric correction was found to be $<$ 1\%.
 
 To obtain the final measured IBD events the correlated and accidental events are subtracted for both reactor on and off time periods.
 Due to differences in reactor on and off exposure time, as well as differences between accidental and coincidental acceptance time windows, accidental and reactor off events have to be correctly scaled.
-Therefore, the number of IBD candidates, $N_{IBD}$, is measured as:
+Reactor off results are also scaled according to the atmospheric correction factor $k_p$.
+Therefore, the number of IBD candidates, $N_{\textrm{IBD}}$, is measured as:
 \begin{equation}
 \begin{split}
-	N_{IBD} &= N_{corr-acc, on} - k_p \cdot N_{corr-acc, off} \\
-				 &= N_{corr, on} - \frac{\Delta t_{corr}}{\Delta t_{acc}} N_{acc, on} - k_p \frac{t_{on}}{t_{off}}\left(N_{corr, off} - \frac{\Delta t_{corr}}{\Delta t_{acc}}N_{acc,off}\right)
+	N_{\textrm{IBD}} &= N_{\textrm{corr-acc, on}} - k_p \cdot N_{\textrm{corr-acc, off}} \\
+				 &= N_{\textrm{corr, on}} - \frac{\Delta t_{\textrm{corr}}}{\Delta t_{\textrm{acc}}} N_{\textrm{acc, on}} - k_p \frac{t_{\textrm{on}}}{t_{\textrm{off}}}\left(N_{\textrm{corr, off}} - \frac{\Delta t_{\textrm{corr}}}{\Delta t_{\textrm{acc}}}N_{\textrm{acc,off}}\right)
 \end{split}
 \end{equation}
 
@@ -147,7 +148,7 @@ These two segments exist in a corner of the detector that does not sit on the mo
 \begin{table}[H]
 \begin{tabular}{|c|c|c|c|}
 	\hline 
-	\textbf{Reactor} & \textbf{Event Type} & \textbf{Time [days]} & \textbf{Counts} \\ 
+	\textbf{Reactor} & \textbf{Event Type} & \textbf{Days} & \textbf{Counts} \\ 
 	\hline 
 	& Correlated + Accidental &  & 56378 $\pm$ 1708 \\ 
 	On & Accidental (scaled) & 30.26 & 11580 $\pm$ 12 \\ 
@@ -180,14 +181,14 @@ The fiducial volume of the reactor was divided into 14 baselines (see Figure~\re
 The data shows good agreement with a fit of the form $C/r^2$, producing a $\chi^2/NDF = 10.89/13$, confirming the inverse square law behavior. 
 It can be noted that there is $\sim$40\% decrease in flux from the front to the back of the detector. 
 
-\begin{figure}[h]
+\begin{figure}[!b]
 	\centering
 	\includegraphics[width=0.6\linewidth]{tex/7-oscillation-images/AD_Segments_Baselines}
 	\caption{The PROSPECT AD divided into 14 baselines, where baseline 1 is closest to the reactor. Segments in white are either fiducial segments or were turned off.}
 	\label{fig:adsegmentsbaselines}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!b]
 	\centering
 	\includegraphics[width=1\linewidth]{tex/7-oscillation-images/IBDvsBaseline}
 	\caption{Background subtracted IBD event rate as a function of distance from the reactor center binned into 14 unique baselines. Data is fit with $C/r^2$ (dashed, magenta) and produces a $\chi^2/NDF = 10.89/13$. Errors are statistical.}
@@ -195,16 +196,17 @@ It can be noted that there is $\sim$40\% decrease in flux from the front to the 
 \end{figure}
 
 As was described in Section~\ref{sec:AcBaseRates}, the \Ac rate per segment can be used to correct the IBD event rate as a function of baseline for any observed volume variation effects.
-The average measured \Ac rate per baseline, relative to the first baseline, can be seen in Figure~\ref{fig:fidratevsbaselineoscdata}.
-Unlike the data set used in the previous chapter, the data for this oscillation analysis is statistics limited, accounting for the much larger error bars than were present in Figure~\ref{fig:fidratevsbaseline}.
+The average measured \Ac rate per baseline, relative to the mean over all baselines, can be seen in Figure~\ref{fig:fidratevsbaselineoscdata}.
+It can be seen that most baseline vary to within $\pm$1\%, except for a couple of outliers which vary as far as $\sim \pm$2\%.
+A conservative error of 5\% for volume variation systematics was applied to the oscillation analysis.
 
 These relative rates were then applied as corrections to the IBD event rate versus baseline, the results of which are shown in Figure~\ref{fig:ibdcountsvsbaselinecorrected}.
-This distribution was then fit with a $1/r^2$ function, producing a $\chi^2/NDF =  8.351/13$.
+This distribution was then fit with a $1/r^2$ function, producing a $\chi^2/NDF =  8.722/13$, slightly better than before the correction.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=0.8\linewidth]{tex/7-oscillation-images/FidRateVsBaseline_OscData}
-	\caption{The \Ac rate (for fiducial $z$) averaged over each of the 14 defined baselines, plotted relative to the first baseline. Error bars are statistical, systematic errors are shown as the shaded region.}
+	\caption{The \Ac rate (for fiducial $z$) averaged over each of the 14 defined baselines, plotted relative to the mean. Error bars are statistical, systematic errors are shown as the shaded region.}
 	\label{fig:fidratevsbaselineoscdata}
 \end{figure}
 
@@ -260,7 +262,7 @@ Therefore, the full statistical covariance matrix is included as:
 	V_{stat,l,e} = \sigma^2_{stat,l,e}\left(1-2\frac{M_{l,e}}{M_e}\right) + \sigma^2_{stat,e}\left(\frac{M_{l,e}}{M_e}\right)^2
 \end{equation}
 Beyond this, additional off-diagonal terms are included to account for correlations between position bins with the same energy arising from the use of $M_e$.
-These corrections were estimated by studying Monte Carlo toy's and extracting the resulting covariance matrix.
+These corrections were estimated by studying toy Monte Carlo simulations and extracting the resulting covariance matrix.
 
 For each systematic uncertainty a normalized covariance matrix is produced using toy MC datasets and varying each systematic by 1$\sigma$.
 Assuming that all errors are Gaussian, the total covariance matrix is then calculated as the sum of all statistical and systematic matrices as
@@ -353,16 +355,7 @@ Then, for each point on the grid a $\Delta\chi^2_C$ was defined for a given conf
 	\frac{\sum_{0}^{\Delta\chi^2_C}P(\Delta\chi^2)}{\sum_{0}^{\infty}P(\Delta\chi^2)} = \alpha
 \end{equation}
 where $P(\Delta\chi^2)$ is the distribution of $\Delta\chi^2$ for all toys for the given grid point.
-See Figure~\ref{fig:chi2map} for the distribution of $\Delta\chi^2_C$ values for $\alpha = 95\%$.
 A point on the $\sin^22\theta_{14}-\Delta m^2_{14}$ grid is said to be excluded by data at a $\alpha$ confidence level if $\Delta\chi^2_{data} > \Delta\chi^2_{C}$ where $\Delta\chi^2_{data}$ is the difference between the data and best-fit minimized $\chi^2$.
-
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.7\linewidth]{tex/7-oscillation-images/Chi2Map}
-	\caption[]{Critical $\Delta\chi^2_C$ values for a 95\% confidence level \cite{SurukuchiThesis}.}
-	\label{fig:chi2map}
-\end{figure}
 
 
 \subsection{Results}
@@ -379,7 +372,6 @@ Comparison of the null and sterile neutrino hypotheses results in a $p$-value of
 Figure~\ref{fig:exclusionsensitivityfinal} shows the 95\% confidence level exclusion contour and expected sensitivity from the 33 days of reactor-on PROSPECT data.
 The data-set used in this analysis excludes large portions of the Reactor Antineutrino Anomaly (RAA) allowed region and disfavors the RAA best-fit point at 2$\sigma$ confidence level with a $p$-value of 0.013.
 
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{tex/7-oscillation-images/BaselineSpectra}
@@ -394,22 +386,6 @@ The data-set used in this analysis excludes large portions of the Reactor Antine
 	\label{fig:exclusionsensitivityfinal}
 \end{figure}
 
-
-\section{Measured Antineutrino Spectrum}
-
-Selection criteria for IBD events used in the measurement the antineutrino spectrum were the same as those used in the oscillation analysis, with the exception of the shower veto.
-The veto window around a cosmic muon cluster was increased to (0,200) $\mu$s, and around a fast neutron to (-250,+250) $\mu$s.
-The analysis method for determining the prompt spectrum was also the same used for the oscillation analysis, a subtraction of accidental events from correlated events in both reactor on and off data sets.
-An atmospheric correction factor of $k_p = 0.991 \pm 0.004$ was applied. 
-The resulting prompt energy spectrum of IBD events can be seen in Figure~\ref{fig:spectrumresults}.
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{tex/7-oscillation-images/Spectrum}
-	\caption{Reconstructed visible prompt energy of IBD events (black), along with correlated IBD candidates in reactor on (blue, solid) and reactor off (red, dashed) periods. Errors are statistical. The reactor off spectrum has been scaled by the relative exposure time between on and off. \cite{Ashenfelter:2018jrx}}
-	\label{fig:spectrumresults}
-\end{figure}
 
 
 
