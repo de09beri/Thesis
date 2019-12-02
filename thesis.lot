@@ -6,22 +6,22 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Calibration sources and their properties.\relax }}{28}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Best-fit parameters for absolute energy scale factor, $A$, Birks' constants, $k_{B1}$ and $k_{B2}$, and Cherenkov light collection efficiency, $k_c$, as found by data and MC comparisons.\relax }}{41}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Parameters of Equation~\ref {eq:ERes} found by fitting the results in Figure~\ref {fig:gammares}.\relax }}{42}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Best-fit parameters for absolute energy scale factor, $A$, Birks' constants, $k_{B1}$ and $k_{B2}$, and Cherenkov light collection efficiency, $k_c$, as found by data and MC comparisons.\relax }}{43}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Parameters of Equation~\ref {eq:ERes} found by fitting the results in Figure~\ref {fig:gammares}.\relax }}{45}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Energy and absolute intensity of dominant $\alpha $ and $\gamma $ decay radiation for $^{219}$Rn and $^{215}$Po . Decay energies not listed here have an intensity of $< $0.05\%.\relax }}{46}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Samples used to test if $^{227}$Ac or its daughters would adsorb onto detector materials.\relax }}{50}
-\contentsline {table}{\numberline {5.3}{\ignorespaces The weight of $^{227}$Ac spiked LiLS that was added to each sample vial.\relax }}{50}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Energy, PSD, and time cuts used to find RnPo events where $\tau _{\textrm {Po}}=2.57~\textrm {ms}$. Energy and PSD cuts are applied to both prompt and delay events.\relax }}{52}
-\contentsline {table}{\numberline {5.5}{\ignorespaces The results of fitting the relative rate for each material sample with a constant.\relax }}{57}
-\contentsline {table}{\numberline {5.6}{\ignorespaces The results of fitting the relative rate for each material with a straight line.\relax }}{57}
-\contentsline {table}{\numberline {5.7}{\ignorespaces The weight of all solutions added and removed from the four vials for spiking of the LiLS with $^{227}$Ac for filling of the AD.\relax }}{62}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Expected and measured $^{227}$Ac activity in vials prepared for spiking the LiLS. \relax }}{63}
-\contentsline {table}{\numberline {5.9}{\ignorespaces First pass, broad cuts used to find RnPo events, where $\tau = 2.57~\textrm {ms}$ is the lifetime of $^{215}$Po . A second pass of the data changes the requirement for the low bounds of energy and PSD to be $< 4 \sigma $ from the mean.\relax }}{65}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Summary of the chosen cuts and their average efficiencies for determining the $^{227}$Ac rate in the PROSPECT AD. The means and sigmas are determined by fitting the peaks of all distributions with Gaussians. They are found for each individual segment or each individual time bin (depending on the analysis being done). Average efficiencies are found by fitting the data in Figures~\ref {fig:efficiencypercell} and \ref {fig:efficiencyvstime} with constants.\relax }}{71}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Dominant $\alpha $ energies for coincident $\alpha $ event chains that could contaminate the $^{227}$Ac RnPo signal. Also given are the quenched energies (QE) and 1$\sigma $ widths based on a 5\% energy resolution.\relax }}{84}
-\contentsline {table}{\numberline {5.12}{\ignorespaces Energy and time cut efficiencies and resulting rates (assuming an $^{227}$Ac rate of 240 mHz) for both coincident $\alpha $ event chains that could contribute to contamination of the $^{227}$Ac RnPo signal selection.\relax }}{84}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Energy and absolute intensity of dominant $\alpha $ and $\gamma $ decay radiation for $^{219}$Rn and $^{215}$Po . Decay energies not listed here have an intensity of $< $0.05\%.\relax }}{48}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Samples used to test if $^{227}$Ac or its daughters would adsorb onto detector materials.\relax }}{52}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The weight of $^{227}$Ac spiked LiLS that was added to each sample vial.\relax }}{52}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Energy, PSD, and time cuts used to find RnPo events where $\tau _{\textrm {Po}}=2.57~\textrm {ms}$. Energy and PSD cuts are applied to both prompt and delay events.\relax }}{54}
+\contentsline {table}{\numberline {5.5}{\ignorespaces The results of fitting the relative rate for each material sample with a constant.\relax }}{59}
+\contentsline {table}{\numberline {5.6}{\ignorespaces The results of fitting the relative rate for each material with a straight line.\relax }}{59}
+\contentsline {table}{\numberline {5.7}{\ignorespaces The weight of all solutions added and removed from the four vials for spiking of the LiLS with $^{227}$Ac for filling of the AD.\relax }}{64}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Expected and measured $^{227}$Ac activity in vials prepared for spiking the LiLS. \relax }}{65}
+\contentsline {table}{\numberline {5.9}{\ignorespaces First pass, broad cuts used to find RnPo events, where $\tau = 2.57~\textrm {ms}$ is the lifetime of $^{215}$Po . A second pass of the data changes the requirement for the low bounds of energy and PSD to be $< 4 \sigma $ from the mean.\relax }}{67}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Summary of the chosen cuts and their average efficiencies for determining the $^{227}$Ac rate in the PROSPECT AD. The means and sigmas are determined by fitting the peaks of all distributions with Gaussians. They are found for each individual segment or each individual time bin (depending on the analysis being done). Average efficiencies are found by fitting the data in Figures~\ref {fig:efficiencypercell} and \ref {fig:efficiencyvstime} with constants.\relax }}{73}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Dominant $\alpha $ energies for coincident $\alpha $ event chains that could contaminate the $^{227}$Ac RnPo signal. Also given are the quenched energies (QE) and 1$\sigma $ widths based on a 5\% energy resolution.\relax }}{86}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Energy and time cut efficiencies and resulting rates (assuming an $^{227}$Ac rate of 240 mHz) for both coincident $\alpha $ event chains that could contribute to contamination of the $^{227}$Ac RnPo signal selection.\relax }}{86}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time.\relax }}{93}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of systematic uncertainties that were used to generate the covariance matrices used in the oscillation analysis. Uncertainties are correlated unless otherwise noted.\relax }}{100}
+\contentsline {table}{\numberline {6.1}{\ignorespaces The total number of correlated and accidental events in the prompt energy region (0.8, 7.2) MeV for reactor on and off periods. Time refers to exposure time.\relax }}{95}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of systematic uncertainties that were used to generate the covariance matrices used in the oscillation analysis. Uncertainties are correlated unless otherwise noted.\relax }}{102}
 \addvspace {10\p@ }

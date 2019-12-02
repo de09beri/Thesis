@@ -1,8 +1,8 @@
 \select@language {english}
 \contentsline {chapter}{ABSTRACT}{i}
-\contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}
-\contentsline {chapter}{LIST OF FIGURES}{xvi}
-\contentsline {chapter}{LIST OF TABLES}{xix}
+\contentsline {chapter}{ACKNOWLEDGMENTS}{ii}
+\contentsline {chapter}{LIST OF FIGURES}{xvii}
+\contentsline {chapter}{LIST OF TABLES}{xx}
 \vspace *{0.25in}
 \penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }CHAPTER\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
 \contentsline {chapter}{\numberline {1}\uppercase {Neutrinos}}{1}
@@ -29,48 +29,46 @@
 \contentsline {section}{\numberline {3.3}Data Acquisition System}{31}
 \contentsline {chapter}{\numberline {4}\uppercase {PROSPECT Analysis Framework and Calibration}}{33}
 \contentsline {section}{\numberline {4.1}Pulse Shape Discrimination}{33}
-\contentsline {section}{\numberline {4.2}Data Processing and Calibration}{34}
-\contentsline {subsection}{\numberline {4.2.1}Position Reconstruction}{35}
+\contentsline {section}{\numberline {4.2}Data Processing and Calibration}{35}
+\contentsline {subsection}{\numberline {4.2.1}Position Reconstruction}{36}
 \contentsline {subsection}{\numberline {4.2.2}Energy Calibration}{38}
-\contentsline {section}{\numberline {4.3}Monte Carlo Simulation}{39}
-\contentsline {subsection}{\numberline {4.3.1}Nonlinearity}{39}
-\contentsline {subsection}{\numberline {4.3.2}Energy Response}{40}
-\contentsline {subsection}{\numberline {4.3.3}Energy Resolution}{41}
-\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{44}
-\contentsline {section}{\numberline {5.1}Motivation}{44}
-\contentsline {section}{\numberline {5.2}Material Compatibility}{49}
-\contentsline {subsection}{\numberline {5.2.1}Material and Scintillator Preparation}{49}
-\contentsline {subsection}{\numberline {5.2.2}Detector}{51}
-\contentsline {subsection}{\numberline {5.2.3}Data Analysis}{51}
-\contentsline {subsection}{\numberline {5.2.4}Results}{54}
-\contentsline {subsubsection}{\numberline {5.2.4.1}Viton}{58}
-\contentsline {section}{\numberline {5.3}$^{227}$Ac in the PROSPECT AD}{60}
-\contentsline {subsection}{\numberline {5.3.1}Spiking the LiLS}{60}
-\contentsline {subsection}{\numberline {5.3.2}Data Set}{64}
-\contentsline {subsection}{\numberline {5.3.3}Event Selection}{64}
-\contentsline {subsection}{\numberline {5.3.4}Rate Calculation}{66}
-\contentsline {subsection}{\numberline {5.3.5}Detector Performance as Tracked with $^{227}$Ac }{71}
-\contentsline {subsection}{\numberline {5.3.6}$^{227}$Ac Rate versus Time}{76}
-\contentsline {subsection}{\numberline {5.3.7}$^{227}$Ac Rate in Individual Segments}{79}
-\contentsline {subsection}{\numberline {5.3.8}Systematic Errors}{80}
-\contentsline {subsubsection}{\numberline {5.3.8.1}Energy, PSD, and $\Delta $z Cuts}{80}
-\contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{83}
-\contentsline {subsection}{\numberline {5.3.9}$^{227}$Ac Rates per Baseline}{84}
-\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{87}
-\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{87}
-\contentsline {section}{\numberline {6.2}IBD Event Selection}{88}
-\contentsline {subsection}{\numberline {6.2.1}Cuts}{88}
-\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{90}
-\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{91}
-\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{92}
-\contentsline {section}{\numberline {6.3}Data Set}{92}
-\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{93}
-\contentsline {section}{\numberline {6.5}Oscillation Search}{95}
-\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{97}
-\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{100}
-\contentsline {subsection}{\numberline {6.5.3}Results}{101}
-\contentsline {chapter}{\numberline {7}CONCLUSION}{104}
+\contentsline {section}{\numberline {4.3}Monte Carlo Simulation}{40}
+\contentsline {subsection}{\numberline {4.3.1}Nonlinearity}{40}
+\contentsline {subsection}{\numberline {4.3.2}Energy Response}{41}
+\contentsline {subsection}{\numberline {4.3.3}Energy Resolution}{42}
+\contentsline {chapter}{\numberline {5}\uppercase {$^{227}$Ac as a Calibration Source}}{46}
+\contentsline {section}{\numberline {5.1}Motivation}{46}
+\contentsline {section}{\numberline {5.2}Material Compatibility}{51}
+\contentsline {subsection}{\numberline {5.2.1}Material and Scintillator Preparation}{51}
+\contentsline {subsection}{\numberline {5.2.2}Detector}{53}
+\contentsline {subsection}{\numberline {5.2.3}Data Analysis}{53}
+\contentsline {subsection}{\numberline {5.2.4}Results}{56}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Viton}{60}
+\contentsline {section}{\numberline {5.3}$^{227}$Ac in the PROSPECT AD}{62}
+\contentsline {subsection}{\numberline {5.3.1}Spiking the LiLS}{62}
+\contentsline {subsection}{\numberline {5.3.2}Data Set}{66}
+\contentsline {subsection}{\numberline {5.3.3}Event Selection}{67}
+\contentsline {subsection}{\numberline {5.3.4}Rate Calculation}{69}
+\contentsline {subsection}{\numberline {5.3.5}Detector Performance as Tracked with $^{227}$Ac }{74}
+\contentsline {subsection}{\numberline {5.3.6}$^{227}$Ac Rate versus Time}{78}
+\contentsline {subsection}{\numberline {5.3.7}$^{227}$Ac Rate in Individual Segments}{81}
+\contentsline {subsection}{\numberline {5.3.8}Systematic Errors}{82}
+\contentsline {subsubsection}{\numberline {5.3.8.1}Energy, PSD, and $\Delta $z Cuts}{82}
+\contentsline {subsubsection}{\numberline {5.3.8.2}Other Coincident Alphas}{85}
+\contentsline {subsection}{\numberline {5.3.9}$^{227}$Ac Rates per Baseline}{86}
+\contentsline {chapter}{\numberline {6}\uppercase {Neutrino Oscillation in the PROSPECT AD}}{89}
+\contentsline {section}{\numberline {6.1}Detecting Antineutrinos}{89}
+\contentsline {section}{\numberline {6.2}IBD Event Selection}{90}
+\contentsline {subsection}{\numberline {6.2.1}Cuts}{90}
+\contentsline {subsection}{\numberline {6.2.2}Backgrounds}{92}
+\contentsline {subsection}{\numberline {6.2.3}Atmospheric Correction}{93}
+\contentsline {subsection}{\numberline {6.2.4}Background Subtraction}{94}
+\contentsline {section}{\numberline {6.3}Data Set}{94}
+\contentsline {section}{\numberline {6.4}IBD Rates versus Basline}{96}
+\contentsline {section}{\numberline {6.5}Oscillation Search}{98}
+\contentsline {subsection}{\numberline {6.5.1}Uncertainties}{99}
+\contentsline {subsection}{\numberline {6.5.2}Confidence Interval Assignment}{102}
+\contentsline {subsection}{\numberline {6.5.3}Results}{103}
+\contentsline {chapter}{\numberline {7}CONCLUSION}{106}
 \vspace *{0.25in}
-\contentsline {chapter}{BIBLIOGRAPHY}{105}
-\vspace *{0.25in}
-\penalty -\@highpenalty \relax \vskip 1.0em plus\p@ \@tempdima 1.5em\relax \begingroup \parindent \z@ \rightskip 1.55em\parfillskip -1.55em\unhbox \voidb@x \bfseries \advance \leftskip \@tempdima \hskip -\leftskip \hbox to\@tempdima {\hfil }APPENDICES\penalty \@M \hfil \penalty \@M \hbox to1.55em{\hss }\par \penalty \@highpenalty \endgroup 
+\contentsline {chapter}{BIBLIOGRAPHY}{107}

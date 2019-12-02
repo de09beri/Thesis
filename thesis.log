@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 NOV 2019 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 DEC 2019 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1356,58 +1356,59 @@ e
 ])
 \openout2 = `tex/0-Acknowledgements.aux'.
 
- (./tex/0-Acknowledgements.tex)
+ (./tex/0-Acknowledgements.tex
 [2
 
 
 
-] (./thesis.toc [3
+]) [3] (./thesis.toc [4
 
 
-] [4])
+] [5])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [5] (./thesis.lof [6
+ [6] (./thesis.lof [7
 
-] [7] [8] [9] [10] [11] [12]
-[13] [14] [15])
+] [8] [9] [10] [11]
+[12] [13] [14] [15] [16])
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [16] (./thesis.lot [17
+ [17] (./thesis.lot [18
 
-] [18])
+] [19])
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [19]
+ [20]
 \openout2 = `tex/2-Neutrinos.aux'.
 
- (./tex/2-Neutrinos.tex
+
+(./tex/2-Neutrinos.tex
 CHAPTER 1.
 [1
 
 
 ] [2] [3] [4] [5]
-<tex/2-neutrinos-images/SolarFlux.pdf, id=95, 580.2208pt x 410.11418pt>
+<tex/2-neutrinos-images/SolarFlux.pdf, id=98, 580.2208pt x 410.11418pt>
 File: tex/2-neutrinos-images/SolarFlux.pdf Graphic file (type pdf)
 
 <use tex/2-neutrinos-images/SolarFlux.pdf>
 Package pdftex.def Info: tex/2-neutrinos-images/SolarFlux.pdf used on input lin
-e 211.
+e 209.
 (pdftex.def)             Requested size: 303.53267pt x 214.54346pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7 <./tex/2-neutrinos-images/SolarFlux.pdf, page is rotated 90 degrees>]
-<tex/2-neutrinos-images/ExpSolarFlux.pdf, id=114, 645.89597pt x 491.38942pt>
+<tex/2-neutrinos-images/ExpSolarFlux.pdf, id=117, 645.89597pt x 491.38942pt>
 File: tex/2-neutrinos-images/ExpSolarFlux.pdf Graphic file (type pdf)
 
 <use tex/2-neutrinos-images/ExpSolarFlux.pdf>
 Package pdftex.def Info: tex/2-neutrinos-images/ExpSolarFlux.pdf used on input 
-line 260.
+line 258.
 (pdftex.def)             Requested size: 260.17465pt x 197.9394pt.
  [8]) [9 <./tex/2-neutrinos-images/ExpSolarFlux.pdf, page is rotated 90 degrees
 >] [10]
@@ -1417,7 +1418,7 @@ line 260.
 (./tex/3-ReactorNeutrinos.tex
 CHAPTER 2.
 
-<tex/3-reactorneutrinos-images/NuclideChart_U235.pdf, id=138, 1027.84pt x 770.8
+<tex/3-reactorneutrinos-images/NuclideChart_U235.pdf, id=142, 1027.84pt x 770.8
 8pt>
 File: tex/3-reactorneutrinos-images/NuclideChart_U235.pdf Graphic file (type pd
 f)
@@ -1434,7 +1435,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [12 <./tex/3-reactorneutrinos-images/NuclideChart_U235.pdf>]
-<tex/3-reactorneutrinos-images/Spectrum.png, id=173, 454.69875pt x 314.67563pt>
+<tex/3-reactorneutrinos-images/Spectrum.png, id=176, 454.69875pt x 314.67563pt>
 File: tex/3-reactorneutrinos-images/Spectrum.png Graphic file (type png)
 <use tex/3-reactorneutrinos-images/Spectrum.png>
 Package pdftex.def Info: tex/3-reactorneutrinos-images/Spectrum.png used on inp
@@ -1455,7 +1456,7 @@ eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf, id=185, 508.90
+<tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf, id=188, 508.90
 125pt x 498.86375pt>
 File: tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1465,7 +1466,7 @@ Package pdftex.def Info: tex/3-reactorneutrinos-images/vogel-fig02-eps-converte
 d-to.pdf used on input line 124.
 (pdftex.def)             Requested size: 238.49232pt x 233.78851pt.
  [16 <./tex/3-reactorneutrinos-images/vogel-fig02-eps-converted-to.pdf>]
-<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=198, 561.6992pt x 258.60815p
+<tex/3-reactorneutrinos-images/DayaBayFlux.pdf, id=202, 561.6992pt x 258.60815p
 t>
 File: tex/3-reactorneutrinos-images/DayaBayFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/DayaBayFlux.pdf>
@@ -1473,7 +1474,7 @@ Package pdftex.def Info: tex/3-reactorneutrinos-images/DayaBayFlux.pdf used on
 input line 145.
 (pdftex.def)             Requested size: 303.53267pt x 139.74892pt.
 
-<tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=199, 540.55484pt x 376.6756
+<tex/3-reactorneutrinos-images/WorldAvgFlux.pdf, id=203, 540.55484pt x 376.6756
 6pt>
 File: tex/3-reactorneutrinos-images/WorldAvgFlux.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>
@@ -1485,7 +1486,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-<tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, id=216, 618.8849pt x 448.6
+<tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf, id=219, 618.8849pt x 448.6
 1086pt>
 File: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf Graphic file (type pdf
 )
@@ -1494,7 +1495,7 @@ Package pdftex.def Info: tex/3-reactorneutrinos-images/RAA_BestFitPoint.pdf use
 d on input line 170.
 (pdftex.def)             Requested size: 303.53267pt x 220.01974pt.
  [18 <./tex/3-reactorneutrinos-images/WorldAvgFlux.pdf>]
-<tex/3-reactorneutrinos-images/Spectrums.pdf, id=232, 1770.28087pt x 751.42572p
+<tex/3-reactorneutrinos-images/Spectrums.pdf, id=235, 1770.28087pt x 751.42572p
 t>
 File: tex/3-reactorneutrinos-images/Spectrums.pdf Graphic file (type pdf)
  <use tex/3-reactorneutrinos-images/Spectrums.pdf>
@@ -1511,29 +1512,29 @@ CHAPTER 3.
 
 
 
-] <tex/4-prospect-images/HFIR.pdf, id=287, 932.19421pt x 356.56631pt>
+] <tex/4-prospect-images/HFIR.pdf, id=290, 932.19421pt x 356.56631pt>
 File: tex/4-prospect-images/HFIR.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/HFIR.pdf>
 Package pdftex.def Info: tex/4-prospect-images/HFIR.pdf used on input line 20.
 (pdftex.def)             Requested size: 390.25536pt x 149.2726pt.
  [22 <./tex/4-prospect-images/HFIR.pdf>]
-<tex/4-prospect-images/Shielding.pdf, id=321, 385.68768pt x 289.85017pt>
+<tex/4-prospect-images/Shielding.pdf, id=326, 385.68768pt x 289.85017pt>
 File: tex/4-prospect-images/Shielding.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/Shielding.pdf>
 Package pdftex.def Info: tex/4-prospect-images/Shielding.pdf used on input line
  41.
 (pdftex.def)             Requested size: 216.81pt x 162.93858pt.
-
-<tex/4-prospect-images/AD.pdf, id=322, 762.22186pt x 507.68507pt>
+ [23 <./tex/4-prospect-images/Shielding.pdf>] <tex/4-prospect-images/AD.pdf, id
+=362, 762.22186pt x 507.68507pt>
 File: tex/4-prospect-images/AD.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/AD.pdf>
 Package pdftex.def Info: tex/4-prospect-images/AD.pdf used on input line 56.
 (pdftex.def)             Requested size: 346.89732pt x 231.0513pt.
- [23 <./tex/4-prospect-images/Shielding.pdf>] <tex/4-prospect-images/ADCrossSec
-tion.pdf, id=360, 794.97pt x 614.295pt>
+
+<tex/4-prospect-images/ADCrossSection.pdf, id=363, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/ADCrossSection.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/ADCrossSection.pdf>
@@ -1541,7 +1542,7 @@ Package pdftex.def Info: tex/4-prospect-images/ADCrossSection.pdf used on input
  line 77.
 (pdftex.def)             Requested size: 197.72832pt x 152.786pt.
 
-<tex/4-prospect-images/PMTHousing.pdf, id=361, 794.97pt x 614.295pt>
+<tex/4-prospect-images/PMTHousing.pdf, id=364, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/PMTHousing.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/PMTHousing.pdf>
@@ -1555,48 +1556,48 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [24 <./tex/4-prospect-images/AD.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 105.
+               Default added (so using `tbp') on input line 104.
 
-<tex/4-prospect-images/Pinwheels.pdf, id=498, 441.59581pt x 467.7706pt>
+<tex/4-prospect-images/Pinwheels.pdf, id=501, 441.59581pt x 467.7706pt>
 File: tex/4-prospect-images/Pinwheels.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/Pinwheels.pdf>
 Package pdftex.def Info: tex/4-prospect-images/Pinwheels.pdf used on input line
- 109.
+ 108.
 (pdftex.def)             Requested size: 138.75679pt x 146.97736pt.
 
-<tex/4-prospect-images/FullSegment.pdf, id=499, 794.97pt x 614.295pt>
+<tex/4-prospect-images/FullSegment.pdf, id=502, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/FullSegment.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/FullSegment.pdf>
 Package pdftex.def Info: tex/4-prospect-images/FullSegment.pdf used on input li
-ne 117.
+ne 116.
 (pdftex.def)             Requested size: 203.97214pt x 157.61328pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 123.
+               Default added (so using `tbp') on input line 122.
 
-<tex/4-prospect-images/RowAssembly.pdf, id=500, 791.73323pt x 446.40424pt>
+<tex/4-prospect-images/RowAssembly.pdf, id=503, 791.73323pt x 446.40424pt>
 File: tex/4-prospect-images/RowAssembly.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/RowAssembly.pdf>
 Package pdftex.def Info: tex/4-prospect-images/RowAssembly.pdf used on input li
-ne 125.
+ne 124.
 (pdftex.def)             Requested size: 303.53267pt x 171.14072pt.
 
-<tex/4-prospect-images/CompletedDetector.pdf, id=501, 794.97pt x 614.295pt>
+<tex/4-prospect-images/CompletedDetector.pdf, id=504, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/CompletedDetector.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/CompletedDetector.pdf>
 Package pdftex.def Info: tex/4-prospect-images/CompletedDetector.pdf used on in
-put line 141.
+put line 140.
 (pdftex.def)             Requested size: 303.53267pt x 234.54994pt.
  [25 <./tex/4-prospect-images/ADCrossSection.pdf> <./tex/4-prospect-images/PMTH
 ousing.pdf>] [26 <./tex/4-prospect-images/Pinwheels.pdf> <./tex/4-prospect-imag
 es/FullSegment.pdf> <./tex/4-prospect-images/RowAssembly.pdf, page is rotated 9
 0 degrees>] [27 <./tex/4-prospect-images/CompletedDetector.pdf>]
-<tex/4-prospect-images/ADCalibrationTubes.pdf, id=627, 794.97pt x 614.295pt>
+<tex/4-prospect-images/ADCalibrationTubes.pdf, id=631, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/ADCalibrationTubes.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/ADCalibrationTubes.pdf>
@@ -1607,7 +1608,7 @@ nput line 185.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<tex/4-prospect-images/SourceCapsule.pdf, id=628, 451.19441pt x 122.07768pt>
+<tex/4-prospect-images/SourceCapsule.pdf, id=632, 451.19441pt x 122.07768pt>
 File: tex/4-prospect-images/SourceCapsule.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/SourceCapsule.pdf>
@@ -1620,20 +1621,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28] [29 <./tex/4-prospect-images/ADCalibrationTubes.pdf> <./tex/4-prospect-ima
 ges/SourceCapsule.pdf>]
-<tex/4-prospect-images/LiLS.pdf, id=665, 794.97pt x 614.295pt>
+<tex/4-prospect-images/LiLS.pdf, id=668, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/LiLS.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/LiLS.pdf>
-Package pdftex.def Info: tex/4-prospect-images/LiLS.pdf used on input line 221.
+Package pdftex.def Info: tex/4-prospect-images/LiLS.pdf used on input line 220.
 
 (pdftex.def)             Requested size: 260.17465pt x 201.04951pt.
  [30 <./tex/4-prospect-images/LiLS.pdf, page is rotated 90 degrees>]
-<tex/4-prospect-images/DAQ.pdf, id=683, 794.97pt x 614.295pt>
+<tex/4-prospect-images/DAQ.pdf, id=686, 794.97pt x 614.295pt>
 File: tex/4-prospect-images/DAQ.pdf Graphic file (type pdf)
 
 <use tex/4-prospect-images/DAQ.pdf>
-Package pdftex.def Info: tex/4-prospect-images/DAQ.pdf used on input line 263.
-(pdftex.def)             Requested size: 303.53267pt x 234.54994pt.
+Package pdftex.def Info: tex/4-prospect-images/DAQ.pdf used on input line 262.
+(pdftex.def)             Requested size: 390.25536pt x 301.56958pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1648,20 +1649,20 @@ CHAPTER 4.
 
 
 
-] <tex/5-analysis-images/PSD_Define.pdf, id=707, 975.10391pt x 333.86061pt>
+] <tex/5-analysis-images/PSD_Define.pdf, id=710, 975.10391pt x 333.86061pt>
 File: tex/5-analysis-images/PSD_Define.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/PSD_Define.pdf>
 Package pdftex.def Info: tex/5-analysis-images/PSD_Define.pdf used on input lin
-e 30.
+e 32.
 (pdftex.def)             Requested size: 429.28618pt x 146.98062pt.
 
-<tex/5-analysis-images/PSD_vs_S_NRC.pdf, id=708, 598.62274pt x 434.64725pt>
+<tex/5-analysis-images/PSD_vs_S_NRC.pdf, id=711, 598.62274pt x 434.64725pt>
 File: tex/5-analysis-images/PSD_vs_S_NRC.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/PSD_vs_S_NRC.pdf>
 Package pdftex.def Info: tex/5-analysis-images/PSD_vs_S_NRC.pdf used on input l
-ine 37.
+ine 39.
 (pdftex.def)             Requested size: 260.17465pt x 188.91084pt.
 
 
@@ -1669,131 +1670,125 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34 <./tex/5-analysis-images/PSD_Define.pdf>] [35 <./tex/5-analysis-images/PSD_
 vs_S_NRC.pdf>]
-<tex/5-analysis-images/dt_S_Hobbes.pdf, id=772, 473.778pt x 423.58633pt>
+<tex/5-analysis-images/dt_S_Hobbes.pdf, id=775, 473.778pt x 423.58633pt>
 File: tex/5-analysis-images/dt_S_Hobbes.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/dt_S_Hobbes.pdf>
 Package pdftex.def Info: tex/5-analysis-images/dt_S_Hobbes.pdf used on input li
-ne 76.
+ne 85.
 (pdftex.def)             Requested size: 184.28981pt x 164.76495pt.
 
-<tex/5-analysis-images/HobbesFit.pdf, id=773, 448.0274pt x 459.66742pt>
+<tex/5-analysis-images/HobbesFit.pdf, id=776, 448.0274pt x 459.66742pt>
 File: tex/5-analysis-images/HobbesFit.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/HobbesFit.pdf>
 Package pdftex.def Info: tex/5-analysis-images/HobbesFit.pdf used on input line
- 82.
+ 91.
 (pdftex.def)             Requested size: 162.6075pt x 166.83383pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 74--86
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 83--95
 []$[]$ $[]$ 
  []
 
-<tex/5-analysis-images/z_vs_dt.pdf, id=774, 666.1079pt x 448.73868pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<tex/5-analysis-images/z_vs_dt.pdf, id=777, 666.1079pt x 448.73868pt>
 File: tex/5-analysis-images/z_vs_dt.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/z_vs_dt.pdf>
 Package pdftex.def Info: tex/5-analysis-images/z_vs_dt.pdf used on input line 9
-0.
+9.
 (pdftex.def)             Requested size: 195.12767pt x 131.4524pt.
- [36 <./tex/5-analysis-images/dt_S_Hobbes.pdf> <./tex/5-analysis-images/HobbesF
-it.pdf> <./tex/5-analysis-images/z_vs_dt.pdf, page is rotated 90 degrees>]
-<tex/5-analysis-images/R_vs_dt.pdf, id=814, 549.78317pt x 566.34033pt>
+ [36] [37 <./tex/5-analysis-images/dt_S_Hobbes.pdf> <./tex/5-analysis-images/Ho
+bbesFit.pdf> <./tex/5-analysis-images/z_vs_dt.pdf, page is rotated 90 degrees>]
+
+<tex/5-analysis-images/R_vs_dt.pdf, id=820, 549.78317pt x 566.34033pt>
 File: tex/5-analysis-images/R_vs_dt.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/R_vs_dt.pdf>
 Package pdftex.def Info: tex/5-analysis-images/R_vs_dt.pdf used on input line 1
-11.
+20.
 (pdftex.def)             Requested size: 216.81pt x 223.3347pt.
- [37 <./tex/5-analysis-images/R_vs_dt.pdf>] <tex/5-analysis-images/nLi_vs_dt.pd
-f, id=840, 631.70985pt x 564.49493pt>
+
+<tex/5-analysis-images/nLi_vs_dt.pdf, id=821, 631.70985pt x 564.49493pt>
 File: tex/5-analysis-images/nLi_vs_dt.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/nLi_vs_dt.pdf>
 Package pdftex.def Info: tex/5-analysis-images/nLi_vs_dt.pdf used on input line
- 158.
+ 140.
 (pdftex.def)             Requested size: 216.81pt x 193.73456pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38] [39 <./tex/5-analysis-images/nLi_vs_dt.pdf>] [40]
-<tex/5-analysis-images/GammaE.pdf, id=872, 614.295pt x 794.97pt>
+[38 <./tex/5-analysis-images/R_vs_dt.pdf>] [39 <./tex/5-analysis-images/nLi_vs_
+dt.pdf>] [40] [41] [42]
+<tex/5-analysis-images/GammaE.pdf, id=882, 614.295pt x 794.97pt>
 File: tex/5-analysis-images/GammaE.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/GammaE.pdf>
-Package pdftex.def Info: tex/5-analysis-images/GammaE.pdf used on input line 23
-1.
-(pdftex.def)             Requested size: 303.53267pt x 392.81387pt.
+Package pdftex.def Info: tex/5-analysis-images/GammaE.pdf used on input line 25
+6.
+(pdftex.def)             Requested size: 281.85036pt x 364.74448pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<tex/5-analysis-images/GammaScale.pdf, id=873, 569.12625pt x 414.54875pt>
+<tex/5-analysis-images/GammaScale.pdf, id=883, 569.12625pt x 414.54875pt>
 File: tex/5-analysis-images/GammaScale.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/GammaScale.pdf>
 Package pdftex.def Info: tex/5-analysis-images/GammaScale.pdf used on input lin
-e 238.
-(pdftex.def)             Requested size: 303.53267pt x 221.1014pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<tex/5-analysis-images/GammaRes.pdf, id=874, 569.12625pt x 367.3725pt>
+e 263.
+(pdftex.def)             Requested size: 346.89732pt x 252.69092pt.
+ [43 <./tex/5-analysis-images/GammaE.pdf>] [44 <./tex/5-analysis-images/GammaSc
+ale.pdf, page is rotated 90 degrees>] <tex/5-analysis-images/GammaRes.pdf, id=9
+56, 569.12625pt x 367.3725pt>
 File: tex/5-analysis-images/GammaRes.pdf Graphic file (type pdf)
 
 <use tex/5-analysis-images/GammaRes.pdf>
 Package pdftex.def Info: tex/5-analysis-images/GammaRes.pdf used on input line 
-275.
-(pdftex.def)             Requested size: 303.53267pt x 195.93973pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [41] [42 <./tex/5-analysis-images/GammaE.pdf>] [43 <./tex/5-analysis-images/G
-ammaScale.pdf, page is rotated 90 degrees> <./tex/5-analysis-images/GammaRes.pd
-f, page is rotated 90 degrees>]
+289.
+(pdftex.def)             Requested size: 346.89732pt x 223.93431pt.
+) [45 <./tex/5-analysis-images/GammaRes.pdf, page is rotated 90 degrees>]
 \openout2 = `tex/6-Ac227.aux'.
 
  (./tex/6-Ac227.tex
 CHAPTER 5.
-<tex/6-ac227-images/LoverE_1yr.pdf, id=994, 569.12625pt x 212.795pt>
+<tex/6-ac227-images/LoverE_1yr.pdf, id=1003, 569.12625pt x 212.795pt>
 File: tex/6-ac227-images/LoverE_1yr.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/LoverE_1yr.pdf>
 Package pdftex.def Info: tex/6-ac227-images/LoverE_1yr.pdf used on input line 9
 .
 (pdftex.def)             Requested size: 303.53267pt x 113.49513pt.
- [44
+ [46
 
 
 
  <./tex/6-ac227-images/LoverE_1yr.pdf, page is rotated 90 degrees>]
-<tex/6-ac227-images/Ac227Chain.png, id=1042, 754.82pt x 731.73375pt>
+<tex/6-ac227-images/Ac227Chain.png, id=1052, 754.82pt x 731.73375pt>
 File: tex/6-ac227-images/Ac227Chain.png Graphic file (type png)
 
 <use tex/6-ac227-images/Ac227Chain.png>
 Package pdftex.def Info: tex/6-ac227-images/Ac227Chain.png used on input line 2
 1.
 (pdftex.def)             Requested size: 260.17465pt x 252.21394pt.
- [45 <./tex/6-ac227-images/Ac227Chain.png>]
-<tex/6-ac227-images/219RnAlphaDecay.pdf, id=1048, 550.1126pt x 624.00627pt>
+ [47 <./tex/6-ac227-images/Ac227Chain.png>]
+<tex/6-ac227-images/219RnAlphaDecay.pdf, id=1058, 550.1126pt x 624.00627pt>
 File: tex/6-ac227-images/219RnAlphaDecay.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/219RnAlphaDecay.pdf>
 Package pdftex.def Info: tex/6-ac227-images/219RnAlphaDecay.pdf used on input l
-ine 62.
-(pdftex.def)             Requested size: 390.25536pt x 442.68573pt.
- [46]
-<tex/6-ac227-images/215PoAlphaDecay.pdf, id=1052, 454.5659pt x 353.92094pt>
+ine 63.
+(pdftex.def)             Requested size: 411.93768pt x 467.2799pt.
+ [48]
+<tex/6-ac227-images/215PoAlphaDecay.pdf, id=1062, 454.5659pt x 353.92094pt>
 File: tex/6-ac227-images/215PoAlphaDecay.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/215PoAlphaDecay.pdf>
 Package pdftex.def Info: tex/6-ac227-images/215PoAlphaDecay.pdf used on input l
-ine 69.
-(pdftex.def)             Requested size: 390.25536pt x 303.84764pt.
- [47 <./tex/6-ac227-images/219RnAlphaDecay.pdf>] [48 <./tex/6-ac227-images/215P
+ine 70.
+(pdftex.def)             Requested size: 411.93768pt x 320.72926pt.
+ [49 <./tex/6-ac227-images/219RnAlphaDecay.pdf>] [50 <./tex/6-ac227-images/215P
 oAlphaDecay.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1801,561 +1796,570 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<tex/6-ac227-images/BNL/Samples.pdf, id=1177, 778.59755pt x 246.31413pt>
+<tex/6-ac227-images/BNL/Samples.pdf, id=1186, 778.59755pt x 246.31413pt>
 File: tex/6-ac227-images/BNL/Samples.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/Samples.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/Samples.pdf used on input line 
-150.
+151.
 (pdftex.def)             Requested size: 346.89732pt x 109.74286pt.
- [49] [50 <./tex/6-ac227-images/BNL/Samples.pdf>]
-<tex/6-ac227-images/BNL/BlackBox.pdf, id=1207, 794.80379pt x 474.02719pt>
+ [51] [52 <./tex/6-ac227-images/BNL/Samples.pdf>]
+<tex/6-ac227-images/BNL/BlackBox.pdf, id=1217, 794.80379pt x 474.02719pt>
 File: tex/6-ac227-images/BNL/BlackBox.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/BlackBox.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/BlackBox.pdf used on input line
- 163.
+ 164.
 (pdftex.def)             Requested size: 281.85036pt x 168.09637pt.
- [51 <./tex/6-ac227-images/BNL/BlackBox.pdf, page is rotated 90 degrees>]
-<tex/6-ac227-images/BNL/Waveform_BNL.pdf, id=1221, 569.12625pt x 385.44pt>
+ [53 <./tex/6-ac227-images/BNL/BlackBox.pdf, page is rotated 90 degrees>]
+<tex/6-ac227-images/BNL/Waveform_BNL.pdf, id=1231, 569.12625pt x 385.44pt>
 File: tex/6-ac227-images/BNL/Waveform_BNL.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/Waveform_BNL.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/Waveform_BNL.pdf used on input 
-line 185.
+line 186.
 (pdftex.def)             Requested size: 260.17465pt x 176.21062pt.
 
-<"tex/6-ac227-images/BNL/RnPoEn_TimeBin23_S2".pdf, id=1222, 569.12625pt x 385.4
+<"tex/6-ac227-images/BNL/RnPoEn_TimeBin23_S2".pdf, id=1232, 569.12625pt x 385.4
 4pt>
 File: "tex/6-ac227-images/BNL/RnPoEn_TimeBin23_S2".pdf Graphic file (type pdf)
  <use "tex/6-ac227-images/BNL/RnPoEn_TimeBin23_S2".pdf>
 Package pdftex.def Info: "tex/6-ac227-images/BNL/RnPoEn_TimeBin23_S2".pdf used 
-on input line 216.
+on input line 217.
 (pdftex.def)             Requested size: 216.81pt x 146.83336pt.
 
-<"tex/6-ac227-images/BNL/RnPoPSD_TimeBin23_S2".pdf, id=1223, 569.12625pt x 385.
+<"tex/6-ac227-images/BNL/RnPoPSD_TimeBin23_S2".pdf, id=1233, 569.12625pt x 385.
 44pt>
 File: "tex/6-ac227-images/BNL/RnPoPSD_TimeBin23_S2".pdf Graphic file (type pdf)
 
  <use "tex/6-ac227-images/BNL/RnPoPSD_TimeBin23_S2".pdf>
 Package pdftex.def Info: "tex/6-ac227-images/BNL/RnPoPSD_TimeBin23_S2".pdf used
- on input line 221.
+ on input line 222.
 (pdftex.def)             Requested size: 216.81pt x 146.83336pt.
- [52 <./tex/6-ac227-images/BNL/Waveform_BNL.pdf, page is rotated 90 degrees>]
-<"tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2".pdf, id=1270, 569.12625pt x 206.7
+ [54 <./tex/6-ac227-images/BNL/Waveform_BNL.pdf, page is rotated 90 degrees>]
+<"tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2".pdf, id=1280, 569.12625pt x 206.7
 725pt>
 File: "tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2".pdf Graphic file (type pdf)
  <use "tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2".pdf>
 Package pdftex.def Info: "tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2".pdf used 
-on input line 246.
+on input line 247.
 (pdftex.def)             Requested size: 433.62001pt x 157.54942pt.
- [53 <./tex/6-ac227-images/BNL/RnPoEn_TimeBin23_S2.pdf, page is rotated 90 degr
+ [55 <./tex/6-ac227-images/BNL/RnPoEn_TimeBin23_S2.pdf, page is rotated 90 degr
 ees> <./tex/6-ac227-images/BNL/RnPoPSD_TimeBin23_S2.pdf, page is rotated 90 deg
 rees>]
-<tex/6-ac227-images/BNL/RateVsTime_AllSamples.pdf, id=1362, 569.12625pt x 212.7
+<tex/6-ac227-images/BNL/RateVsTime_AllSamples.pdf, id=1371, 569.12625pt x 212.7
 95pt>
 File: tex/6-ac227-images/BNL/RateVsTime_AllSamples.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/BNL/RateVsTime_AllSamples.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/RateVsTime_AllSamples.pdf used 
-on input line 258.
+on input line 259.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
- [54 <./tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2.pdf, page is rotated 90 degr
+ [56 <./tex/6-ac227-images/BNL/RnPoDt_TimeBin23_S2.pdf, page is rotated 90 degr
 ees> <./tex/6-ac227-images/BNL/RateVsTime_AllSamples.pdf, page is rotated 90 de
 grees>]
-<tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2.pdf, id=1452, 569.12625pt x 385.44
+<tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2.pdf, id=1461, 569.12625pt x 385.44
 pt>
 File: tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2.pdf used o
-n input line 270.
+n input line 271.
 (pdftex.def)             Requested size: 260.17465pt x 176.21062pt.
 
-<tex/6-ac227-images/BNL/PoEnMeanVsTime_S2.pdf, id=1453, 569.12625pt x 212.795pt
+<tex/6-ac227-images/BNL/PoEnMeanVsTime_S2.pdf, id=1462, 569.12625pt x 212.795pt
 >
 File: tex/6-ac227-images/BNL/PoEnMeanVsTime_S2.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/BNL/PoEnMeanVsTime_S2.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/PoEnMeanVsTime_S2.pdf used on i
-nput line 277.
+nput line 278.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
-<tex/6-ac227-images/BNL/PoEnWidthVsTime_S2.pdf, id=1454, 569.12625pt x 212.795p
+<tex/6-ac227-images/BNL/PoEnWidthVsTime_S2.pdf, id=1463, 569.12625pt x 212.795p
 t>
 File: tex/6-ac227-images/BNL/PoEnWidthVsTime_S2.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/BNL/PoEnWidthVsTime_S2.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/PoEnWidthVsTime_S2.pdf used on 
-input line 284.
+input line 285.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[55 <./tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2.pdf, page is rotated 90 degr
+[57 <./tex/6-ac227-images/BNL/PoEnFit_TimeBin23_S2.pdf, page is rotated 90 degr
 ees> <./tex/6-ac227-images/BNL/PoEnMeanVsTime_S2.pdf, page is rotated 90 degree
-s>] [56 <./tex/6-ac227-images/BNL/PoEnWidthVsTime_S2.pdf, page is rotated 90 de
+s>] [58 <./tex/6-ac227-images/BNL/PoEnWidthVsTime_S2.pdf, page is rotated 90 de
 grees>]
-<tex/6-ac227-images/BNL/RelRateVsTime_AllSamples.pdf, id=1591, 569.12625pt x 21
+<tex/6-ac227-images/BNL/RelRateVsTime_AllSamples.pdf, id=1601, 569.12625pt x 21
 2.795pt>
 File: tex/6-ac227-images/BNL/RelRateVsTime_AllSamples.pdf Graphic file (type pd
 f)
  <use tex/6-ac227-images/BNL/RelRateVsTime_AllSamples.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/RelRateVsTime_AllSamples.pdf us
-ed on input line 313.
+ed on input line 314.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
- [57 <./tex/6-ac227-images/BNL/RelRateVsTime_AllSamples.pdf, page is rotated 90
+ [59 <./tex/6-ac227-images/BNL/RelRateVsTime_AllSamples.pdf, page is rotated 90
  degrees>]
-<"tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8".pdf, id=1638, 612.88863pt x 21
+<"tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8".pdf, id=1648, 612.88863pt x 21
 4.46324pt>
 File: "tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8".pdf Graphic file (type pd
 f)
  <use "tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8".pdf>
 Package pdftex.def Info: "tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8".pdf us
-ed on input line 380.
+ed on input line 381.
 (pdftex.def)             Requested size: 433.62001pt x 151.73328pt.
 
-<tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S6.pdf, id=1639, 612.83539pt x 211.
+<tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S6.pdf, id=1649, 612.83539pt x 211.
 40059pt>
 File: tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S6.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S6.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S6.pdf used
- on input line 386.
+ on input line 387.
 (pdftex.def)             Requested size: 433.62001pt x 149.58257pt.
- [58]
-<tex/6-ac227-images/BNL/RnEnWidth_S8.pdf, id=1643, 569.12625pt x 213.79875pt>
+ [60]
+<tex/6-ac227-images/BNL/RnEnWidth_S8.pdf, id=1653, 569.12625pt x 213.79875pt>
 File: tex/6-ac227-images/BNL/RnEnWidth_S8.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/RnEnWidth_S8.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/RnEnWidth_S8.pdf used on input 
-line 396.
+line 397.
 (pdftex.def)             Requested size: 390.25536pt x 146.6111pt.
- [59 <./tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8.pdf> <./tex/6-ac227-image
+ [61 <./tex/6-ac227-images/BNL/RnPoEn_FirstAndLast_S8.pdf> <./tex/6-ac227-image
 s/BNL/RnPoEn_FirstAndLast_S6.pdf> <./tex/6-ac227-images/BNL/RnEnWidth_S8.pdf, p
 age is rotated 90 degrees>]
-[60]
-<tex/6-ac227-images/BNL/SpikingProcedure.pdf, id=1742, 487.1834pt x 730.85945pt
+[62]
+<tex/6-ac227-images/BNL/SpikingProcedure.pdf, id=1752, 487.1834pt x 730.85945pt
 >
 File: tex/6-ac227-images/BNL/SpikingProcedure.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/BNL/SpikingProcedure.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/SpikingProcedure.pdf used on in
-put line 436.
+put line 437.
 (pdftex.def)             Requested size: 216.81pt x 325.25931pt.
- [61 <./tex/6-ac227-images/BNL/SpikingProcedure.pdf>]
+ [63 <./tex/6-ac227-images/BNL/SpikingProcedure.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62] <tex/6-ac227-images/BNL/AD_Rates.pdf, id=1762, 569.12625pt x 199.74625pt>
+[64] <tex/6-ac227-images/BNL/AD_Rates.pdf, id=1772, 569.12625pt x 199.74625pt>
 File: tex/6-ac227-images/BNL/AD_Rates.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/AD_Rates.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/AD_Rates.pdf used on input line
- 508.
+ 509.
 (pdftex.def)             Requested size: 390.25536pt x 136.9747pt.
 
-<tex/6-ac227-images/BNL/AD_RateV3.pdf, id=1763, 569.12625pt x 213.79875pt>
+<tex/6-ac227-images/BNL/AD_RateV3.pdf, id=1773, 569.12625pt x 213.79875pt>
 File: tex/6-ac227-images/BNL/AD_RateV3.pdf Graphic file (type pdf)
 
 <use tex/6-ac227-images/BNL/AD_RateV3.pdf>
 Package pdftex.def Info: tex/6-ac227-images/BNL/AD_RateV3.pdf used on input lin
-e 514.
+e 515.
 (pdftex.def)             Requested size: 390.25536pt x 146.6111pt.
- [63 <./tex/6-ac227-images/BNL/AD_Rates.pdf, page is rotated 90 degrees> <./tex
+ [65 <./tex/6-ac227-images/BNL/AD_Rates.pdf, page is rotated 90 degrees> <./tex
 /6-ac227-images/BNL/AD_RateV3.pdf, page is rotated 90 degrees>]
-<tex/6-ac227-images/AD_DataSet/Segments.pdf, id=1853, 791.34433pt x 622.90112pt
+<tex/6-ac227-images/AD_DataSet/Segments.pdf, id=1863, 791.34433pt x 622.90112pt
 >
 File: tex/6-ac227-images/AD_DataSet/Segments.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_DataSet/Segments.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_DataSet/Segments.pdf used on inp
-ut line 536.
+ut line 537.
 (pdftex.def)             Requested size: 303.53267pt x 238.92899pt.
- [64 <./tex/6-ac227-images/AD_DataSet/Segments.pdf>] [65]
-<tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf, id=2223, 569.12625pt x 3
+ [66 <./tex/6-ac227-images/AD_DataSet/Segments.pdf>] [67]
+<tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf, id=2233, 569.12625pt x 3
 85.44pt>
 File: tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf Graphic file (type p
 df)
  <use tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf u
-sed on input line 592.
+sed on input line 593.
 (pdftex.def)             Requested size: 260.17465pt x 176.21062pt.
 
 <tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.pdf, id
-=2224, 569.12625pt x 386.44376pt>
+=2234, 569.12625pt x 386.44376pt>
 File: tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.pd
 f Graphic file (type pdf)
 
 <use tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.pdf
 >
 Package pdftex.def Info: tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCe
-llsAllTime_Time0.pdf used on input line 601.
+llsAllTime_Time0.pdf used on input line 602.
 (pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
 
 <tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0.pdf, id=
-2225, 569.12625pt x 503.8825pt>
+2235, 569.12625pt x 503.8825pt>
 File: tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0.pdf
  Graphic file (type pdf)
 
 <use tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCellsAllTime_Time0.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_EventSelection/PoEnvsRnEn_AllCel
-lsAllTime_Time0.pdf used on input line 607.
+lsAllTime_Time0.pdf used on input line 608.
 (pdftex.def)             Requested size: 151.76633pt x 134.36629pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66 <./tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf, page is rotated 90
+[68 <./tex/6-ac227-images/AD_EventSelection/PoPos_Seg76.pdf, page is rotated 90
  degrees>]
-<tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf, id=2273, 569.12625pt x 385.44
+<tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf, id=2282, 569.12625pt x 385.44
 pt>
 File: tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf used o
-n input line 640.
+n input line 641.
 (pdftex.def)             Requested size: 281.85036pt x 190.89043pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf, id=2274, 569.12625pt x 212
+<tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf, id=2283, 569.12625pt x 212
 .795pt>
 File: tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf Graphic file (type pdf
 )
  <use tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf use
-d on input line 648.
+d on input line 649.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
 
-<tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf, id=2275, 569.12625pt x 212.
+<tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf, id=2284, 569.12625pt x 212.
 795pt>
 File: tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf used
- on input line 654.
+ on input line 655.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-<tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf, id=2276, 569.12625pt x 212.
+[69 <./tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.p
+df, page is rotated 90 degrees> <./tex/6-ac227-images/AD_EventSelection/PoEnvsR
+nEn_AllCellsAllTime_Time0.pdf, page is rotated 90 degrees>]
+<tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf, id=2374, 569.12625pt x 212.
 795pt>
 File: tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf used
- on input line 675.
+ on input line 676.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
- [67 <./tex/6-ac227-images/AD_EventSelection/RnPoPSDvsEn_AllCellsAllTime_Time0.
-pdf, page is rotated 90 degrees> <./tex/6-ac227-images/AD_EventSelection/PoEnvs
-RnEn_AllCellsAllTime_Time0.pdf, page is rotated 90 degrees>]
-<tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf, id=2366, 569.12625pt x 385.44
+ [70 <./tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf, page is rotated 90 deg
+rees>]
+
+LaTeX Warning: Text page 71 contains only floats.
+
+[71 <./tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf, page is rotated 90 d
+egrees> <./tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf, page is rotated 9
+0 degrees> <./tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf, page is rotate
+d 90 degrees>]
+<tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf, id=2555, 569.12625pt x 385.44
 pt>
 File: tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf used o
-n input line 703.
+n input line 704.
 (pdftex.def)             Requested size: 205.96883pt x 139.49345pt.
 
-<tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf, id=2367, 569.12625pt x 385.4
+<tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf, id=2556, 569.12625pt x 385.4
 4pt>
 File: tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf used 
-on input line 709.
+on input line 710.
 (pdftex.def)             Requested size: 205.96883pt x 139.49345pt.
 
-<tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf, id=2368, 569.12625pt x 385.44
+<tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf, id=2557, 569.12625pt x 385.44
 pt>
 File: tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf used o
-n input line 715.
+n input line 716.
 (pdftex.def)             Requested size: 205.97214pt x 139.49345pt.
- [68 <./tex/6-ac227-images/AD_RateCalc/RnPoDt_Seg76.pdf, page is rotated 90 deg
-rees>]
 
-LaTeX Warning: Text page 69 contains only floats.
-
-[69 <./tex/6-ac227-images/AD_RateCalc/LifetimePerCell.pdf, page is rotated 90 d
-egrees> <./tex/6-ac227-images/AD_RateCalc/LifetimeVsTime.pdf, page is rotated 9
-0 degrees> <./tex/6-ac227-images/AD_RateCalc/VetoTimeVsTime.pdf, page is rotate
-d 90 degrees>]
-<tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf, id=2548, 569.12625pt x 2
+<tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf, id=2558, 569.12625pt x 2
 12.795pt>
 File: tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf Graphic file (type p
 df)
  <use tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf u
-sed on input line 725.
+sed on input line 726.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
-<tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf, id=2549, 569.12625pt x 21
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf, id=2559, 569.12625pt x 21
 2.795pt>
 File: tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf Graphic file (type pd
 f)
  <use tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf us
-ed on input line 732.
+ed on input line 733.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[70 <./tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf, page is rotated 90 degr
+[72 <./tex/6-ac227-images/AD_RateCalc/RnPoEn_Seg76.pdf, page is rotated 90 degr
 ees> <./tex/6-ac227-images/AD_RateCalc/RnPoPSD_Seg76.pdf, page is rotated 90 de
 grees> <./tex/6-ac227-images/AD_RateCalc/RnPoDz_Seg76.pdf, page is rotated 90 d
-egrees> <./tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf, page is rotate
-d 90 degrees>] [71 <./tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf, page
- is rotated 90 degrees>]
-<tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf, id=2774, 569.12625pt x 2
+egrees>]
+Overfull \vbox (59.8448pt too high) has occurred while \output is active []
+
+
+[73 <./tex/6-ac227-images/AD_RateCalc/EfficiencyPerCell.pdf, page is rotated 90
+ degrees> <./tex/6-ac227-images/AD_RateCalc/EfficiencyVsTime.pdf, page is rotat
+ed 90 degrees>]
+<tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf, id=2783, 569.12625pt x 2
 12.795pt>
 File: tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf Graphic file (type p
 df)
  <use tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf u
-sed on input line 775.
+sed on input line 776.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
-<tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf, id=2775, 569.12625pt x 
+<tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf, id=2784, 569.12625pt x 
 212.795pt>
 File: tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf Graphic file (type 
 pdf)
  <use tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf 
-used on input line 781.
+used on input line 782.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf, id=2776, 569.12625pt x 
+<tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf, id=2785, 569.12625pt x 
 212.795pt>
 File: tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf Graphic file (type 
 pdf)
  <use tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf 
-used on input line 797.
+used on input line 798.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
-<tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf, id=2777, 569.12625pt x
+<tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf, id=2786, 569.12625pt x
  212.795pt>
 File: tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf Graphic file (type
  pdf)
  <use tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf
- used on input line 803.
+ used on input line 804.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf, id=2778, 569.12625pt 
+<tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf, id=2787, 569.12625pt 
 x 212.795pt>
 File: tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf Graphic file (typ
 e pdf)
  <use tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pd
-f used on input line 818.
+f used on input line 819.
 (pdftex.def)             Requested size: 390.25536pt x 145.92279pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72] [73 <./tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf, page is rotat
+[74] [75 <./tex/6-ac227-images/DetPerformance/PoEnMeanVsTime.pdf, page is rotat
 ed 90 degrees> <./tex/6-ac227-images/DetPerformance/PoEnSigmaVsTime.pdf, page i
 s rotated 90 degrees>]
-<tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf, id=2871, 613.71863pt x 520.5
+<tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf, id=2880, 613.71863pt x 520.5
 5759pt>
 File: tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf>
 Package pdftex.def Info: tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf used 
-on input line 840.
+on input line 841.
 (pdftex.def)             Requested size: 433.62001pt x 367.81128pt.
- [74 <./tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf, page is rotated 
+ [76 <./tex/6-ac227-images/DetPerformance/PoPSDMeanVsTime.pdf, page is rotated 
 90 degrees> <./tex/6-ac227-images/DetPerformance/PoPSDSigmaVsTime.pdf, page is 
 rotated 90 degrees>]
 Overfull \vbox (8.73407pt too high) has occurred while \output is active []
 
 
-[75 <./tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf, page is rotated
+[77 <./tex/6-ac227-images/DetPerformance/RnPoDzSigmaVsTime.pdf, page is rotated
  90 degrees> <./tex/6-ac227-images/DetPerformance/HistsVsSeg.pdf>]
-<tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf, id=3038, 569.12625pt x 212.7
+<tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf, id=3048, 569.12625pt x 212.7
 95pt>
 File: tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf used 
-on input line 858.
+on input line 859.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
- [76 <./tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf, page is rotated 90 de
+ [78 <./tex/6-ac227-images/RateVsTime/RateVsTime_Fit.pdf, page is rotated 90 de
 grees>]
-<tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf, id=3086, 667.18799pt x 525
+<tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf, id=3096, 667.18799pt x 525
 .00438pt>
 File: tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf Graphic file (type pdf
 )
  <use tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf use
-d on input line 883.
+d on input line 884.
 (pdftex.def)             Requested size: 216.81pt x 170.60837pt.
 
-<tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf, id=3087, 599.23pt x 60
+<tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf, id=3097, 599.23pt x 60
 6.35745pt>
 File: tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf Graphic file (type
  pdf)
  <use tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf
- used on input line 890.
+ used on input line 891.
 (pdftex.def)             Requested size: 377.24728pt x 381.7389pt.
 
-[77 <./tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf>]
-<tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf, id=3566, 569.12625pt x 212.
+[79 <./tex/6-ac227-images/RateVsTime/AD_Segments_Rows.pdf>]
+<tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf, id=3575, 569.12625pt x 212.
 795pt>
 File: tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RateVsTime/AcHalfLifevsRow.pdf used
- on input line 897.
+ on input line 898.
 (pdftex.def)             Requested size: 346.89732pt x 129.71059pt.
- [78 <./tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf> <./tex/6-ac227-
+ [80 <./tex/6-ac227-images/RateVsTime/RateVsTime_Rows_edit.pdf> <./tex/6-ac227-
 images/RateVsTime/AcHalfLifevsRow.pdf, page is rotated 90 degrees>]
-<tex/6-ac227-images/RatePerSeg/RatePerCell.pdf, id=3648, 569.12625pt x 212.795p
+<tex/6-ac227-images/RatePerSeg/RatePerCell.pdf, id=3657, 569.12625pt x 212.795p
 t>
 File: tex/6-ac227-images/RatePerSeg/RatePerCell.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/RatePerSeg/RatePerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RatePerSeg/RatePerCell.pdf used on 
-input line 921.
+input line 922.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
 
-<tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf, id=3649, 569.12625pt x 385.
+<tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf, id=3658, 569.12625pt x 385.
 44pt>
 File: tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf Graphic file (type pdf)
 
  <use tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf>
 Package pdftex.def Info: tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf used
- on input line 928.
+ on input line 929.
 (pdftex.def)             Requested size: 303.53267pt x 205.57611pt.
- [79 <./tex/6-ac227-images/RatePerSeg/RatePerCell.pdf, page is rotated 90 degre
-es>] [80 <./tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf, page is rotated 
+ [81 <./tex/6-ac227-images/RatePerSeg/RatePerCell.pdf, page is rotated 90 degre
+es>] [82 <./tex/6-ac227-images/RatePerSeg/HistRatePerCell.pdf, page is rotated 
 90 degrees>]
-<tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf, id=3742, 569.126
+<tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf, id=3752, 569.126
 25pt x 212.795pt>
 File: tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf Graphic file
  (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayEC
-ut.pdf used on input line 960.
+ut.pdf used on input line 961.
 (pdftex.def)             Requested size: 433.62001pt x 162.13823pt.
 
-<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf, id=3743, 569.1
+<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf, id=3753, 569.1
 2625pt x 385.44pt>
 File: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf Graphic fi
 le (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_Prompt
-ECut.pdf used on input line 975.
+ECut.pdf used on input line 976.
 (pdftex.def)             Requested size: 184.28981pt x 124.80777pt.
 
-<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECut.pdf, id=3744, 569.12
+<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECut.pdf, id=3754, 569.12
 625pt x 386.44376pt>
 File: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECut.pdf Graphic fil
 e (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayE
-Cut.pdf used on input line 980.
+Cut.pdf used on input line 981.
 (pdftex.def)             Requested size: 184.28981pt x 125.13278pt.
 
-<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptPSDCut.pdf, id=3745, 569
+<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptPSDCut.pdf, id=3755, 569
 .12625pt x 385.44pt>
 File: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptPSDCut.pdf Graphic 
 file (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptPSDCut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_Prompt
-PSDCut.pdf used on input line 985.
+PSDCut.pdf used on input line 986.
 (pdftex.def)             Requested size: 184.28981pt x 124.80777pt.
 
-<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayPSDCut.pdf, id=3746, 569.
+<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayPSDCut.pdf, id=3756, 569.
 12625pt x 386.44376pt>
 File: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayPSDCut.pdf Graphic f
 ile (type pdf)
 
 <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayPSDCut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayP
-SDCut.pdf used on input line 990.
+SDCut.pdf used on input line 991.
 (pdftex.def)             Requested size: 184.28981pt x 125.13278pt.
 
-<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf, id=3747, 569.12625p
+<tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf, id=3757, 569.12625p
 t x 385.44pt>
 File: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf Graphic file (t
 ype pdf)
  <use tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DzCut.
-pdf used on input line 995.
+pdf used on input line 996.
 (pdftex.def)             Requested size: 184.28983pt x 124.80777pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 973--998
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 974--999
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 973--998
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 974--999
 []$ $[]$
  []
 
-[81 <./tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf, page is ro
+[83 <./tex/6-ac227-images/Systematics_Cuts/RateVsCell_DelayECut.pdf, page is ro
 tated 90 degrees>]
-<tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf, id=3794, 569.12625pt 
+<tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf, id=3804, 569.12625pt 
 x 386.44376pt>
 File: tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf Graphic file (typ
 e pdf)
  <use tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pd
-f used on input line 1004.
+f used on input line 1005.
 (pdftex.def)             Requested size: 346.89732pt x 235.55934pt.
 
-[82 <./tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf, page is 
+[84 <./tex/6-ac227-images/Systematics_Cuts/ResidVsCell_PromptECut.pdf, page is 
 rotated 90 degrees> <./tex/6-ac227-images/Systematics_Cuts/ResidVsCell_DelayECu
 t.pdf, page is rotated 90 degrees> <./tex/6-ac227-images/Systematics_Cuts/Resid
 VsCell_PromptPSDCut.pdf, page is rotated 90 degrees> <./tex/6-ac227-images/Syst
 ematics_Cuts/ResidVsCell_DelayPSDCut.pdf, page is rotated 90 degrees> <./tex/6-
 ac227-images/Systematics_Cuts/ResidVsCell_DzCut.pdf, page is rotated 90 degrees
->] [83 <./tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf, page is rota
+>] [85 <./tex/6-ac227-images/Systematics_Cuts/CutStudyResults.pdf, page is rota
 ted 90 degrees>]
-Overfull \hbox (0.67943pt too wide) in paragraph at lines 1028--1043
+Overfull \hbox (0.67943pt too wide) in paragraph at lines 1031--1046
  [][] 
  []
 
 
-Overfull \hbox (8.97604pt too wide) in paragraph at lines 1049--1058
+Overfull \hbox (8.97604pt too wide) in paragraph at lines 1052--1061
  [][] 
  []
 
-[84]
-<tex/6-ac227-images/Baseline/AD_Segments.pdf, id=4065, 663.68098pt x 646.88887p
+[86]
+<tex/6-ac227-images/Baseline/AD_Segments.pdf, id=4074, 663.68098pt x 646.88887p
 t>
 File: tex/6-ac227-images/Baseline/AD_Segments.pdf Graphic file (type pdf)
  <use tex/6-ac227-images/Baseline/AD_Segments.pdf>
 Package pdftex.def Info: tex/6-ac227-images/Baseline/AD_Segments.pdf used on in
-put line 1082.
+put line 1084.
 (pdftex.def)             Requested size: 260.17465pt x 253.59845pt.
 
-<tex/6-ac227-images/Baseline/FidRateVsBaseline.pdf, id=4066, 569.12625pt x 301.
-125pt>
-File: tex/6-ac227-images/Baseline/FidRateVsBaseline.pdf Graphic file (type pdf)
+<tex/6-ac227-images/Baseline/RateVsBaseline_PRD_Relative.pdf, id=4075, 569.1262
+5pt x 300.12125pt>
+File: tex/6-ac227-images/Baseline/RateVsBaseline_PRD_Relative.pdf Graphic file 
+(type pdf)
 
- <use tex/6-ac227-images/Baseline/FidRateVsBaseline.pdf>
-Package pdftex.def Info: tex/6-ac227-images/Baseline/FidRateVsBaseline.pdf used
- on input line 1089.
-(pdftex.def)             Requested size: 390.25536pt x 206.49452pt.
+<use tex/6-ac227-images/Baseline/RateVsBaseline_PRD_Relative.pdf>
+Package pdftex.def Info: tex/6-ac227-images/Baseline/RateVsBaseline_PRD_Relativ
+e.pdf used on input line 1091.
+(pdftex.def)             Requested size: 390.25536pt x 205.80621pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [85] [86 <./tex/6-ac227-images/Baseline/AD_Segments.pdf> <./tex/6-ac227-image
-s/Baseline/FidRateVsBaseline.pdf, page is rotated 90 degrees>]
+) [87] [88 <./tex/6-ac227-images/Baseline/AD_Segments.pdf> <./tex/6-ac227-image
+s/Baseline/RateVsBaseline_PRD_Relative.pdf, page is rotated 90 degrees>]
 \openout2 = `tex/7-Oscillation.aux'.
 
 
@@ -2366,14 +2370,14 @@ CHAPTER 6.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./tex/7-oscillation-images/I
 BD.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<tex/7-oscillation-images/IBD.pdf, id=4690, 271.0125pt x 271.0125pt>
+<tex/7-oscillation-images/IBD.pdf, id=4700, 271.0125pt x 271.0125pt>
 File: tex/7-oscillation-images/IBD.pdf Graphic file (type pdf)
 
 <use tex/7-oscillation-images/IBD.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/IBD.pdf used on input line 24
 .
 (pdftex.def)             Requested size: 173.44534pt x 173.45154pt.
- [87
+ [89
 
 
 
@@ -2385,169 +2389,172 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
- [88 <./tex/7-oscillation-images/IBD.pdf>]
-<tex/7-oscillation-images/PSDvsE_Corr_nLi.pdf, id=4994, 277.73247pt x 291.62993
+ [90 <./tex/7-oscillation-images/IBD.pdf>]
+<tex/7-oscillation-images/PSDvsE_Corr_nLi.pdf, id=5004, 277.73247pt x 291.62993
 pt>
 File: tex/7-oscillation-images/PSDvsE_Corr_nLi.pdf Graphic file (type pdf)
  <use tex/7-oscillation-images/PSDvsE_Corr_nLi.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/PSDvsE_Corr_nLi.pdf used on i
 nput line 52.
 (pdftex.def)             Requested size: 216.81pt x 227.66621pt.
- [89 <./tex/7-oscillation-images/PSDvsE_Corr_nLi.pdf>]
-<tex/7-oscillation-images/Spectrum.pdf, id=5028, 746.69987pt x 494.2018pt>
+ [91 <./tex/7-oscillation-images/PSDvsE_Corr_nLi.pdf>]
+<tex/7-oscillation-images/Spectrum.pdf, id=5037, 746.69987pt x 494.2018pt>
 File: tex/7-oscillation-images/Spectrum.pdf Graphic file (type pdf)
 
 <use tex/7-oscillation-images/Spectrum.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/Spectrum.pdf used on input li
 ne 73.
 (pdftex.def)             Requested size: 346.89732pt x 229.5903pt.
- [90 <./tex/7-oscillation-images/Spectrum.pdf>]
-<tex/7-oscillation-images/FNnLi_Rate.pdf, id=5047, 675.68579pt x 533.3823pt>
+ [92 <./tex/7-oscillation-images/Spectrum.pdf>]
+<tex/7-oscillation-images/FNnLi_Rate.pdf, id=5056, 675.68579pt x 533.3823pt>
 File: tex/7-oscillation-images/FNnLi_Rate.pdf Graphic file (type pdf)
 
 <use tex/7-oscillation-images/FNnLi_Rate.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/FNnLi_Rate.pdf used on input 
-line 99.
+line 101.
 (pdftex.def)             Requested size: 205.96883pt x 162.58775pt.
 
-<tex/7-oscillation-images/FNnLi_RateVsPressure.pdf, id=5048, 748.75241pt x 563.
+<tex/7-oscillation-images/FNnLi_RateVsPressure.pdf, id=5057, 748.75241pt x 563.
 90036pt>
 File: tex/7-oscillation-images/FNnLi_RateVsPressure.pdf Graphic file (type pdf)
 
  <use tex/7-oscillation-images/FNnLi_RateVsPressure.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/FNnLi_RateVsPressure.pdf used
- on input line 105.
+ on input line 107.
 (pdftex.def)             Requested size: 205.96883pt x 155.1118pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 97--109
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 99--111
 []$[]$ $[]$ 
  []
 
-[91 <./tex/7-oscillation-images/FNnLi_Rate.pdf> <./tex/7-oscillation-images/FNn
-Li_RateVsPressure.pdf>] [92]
-<tex/7-oscillation-images/EvtRates.pdf, id=5103, 569.12625pt x 272.01625pt>
+[93 <./tex/7-oscillation-images/FNnLi_Rate.pdf> <./tex/7-oscillation-images/FNn
+Li_RateVsPressure.pdf>] [94]
+<tex/7-oscillation-images/EvtRates.pdf, id=5113, 569.12625pt x 272.01625pt>
 File: tex/7-oscillation-images/EvtRates.pdf Graphic file (type pdf)
 
 <use tex/7-oscillation-images/EvtRates.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/EvtRates.pdf used on input li
-ne 171.
+ne 173.
 (pdftex.def)             Requested size: 390.25536pt x 186.53339pt.
- [93 <./tex/7-oscillation-images/EvtRates.pdf, page is rotated 90 degrees>]
-<tex/7-oscillation-images/AD_Segments_Baselines.pdf, id=5151, 697.71996pt x 690
+ [95 <./tex/7-oscillation-images/EvtRates.pdf, page is rotated 90 degrees>]
+<tex/7-oscillation-images/AD_Segments_Baselines.pdf, id=5161, 697.71996pt x 690
 .9093pt>
 File: tex/7-oscillation-images/AD_Segments_Baselines.pdf Graphic file (type pdf
 )
  <use tex/7-oscillation-images/AD_Segments_Baselines.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/AD_Segments_Baselines.pdf use
-d on input line 186.
-(pdftex.def)             Requested size: 260.17465pt x 257.64604pt.
+d on input line 188.
+(pdftex.def)             Requested size: 216.81pt x 214.69624pt.
 
-<tex/7-oscillation-images/IBDvsBaseline.pdf, id=5152, 569.12625pt x 177.66376pt
+<tex/7-oscillation-images/IBDvsBaseline.pdf, id=5162, 569.12625pt x 177.66376pt
 >
 File: tex/7-oscillation-images/IBDvsBaseline.pdf Graphic file (type pdf)
  <use tex/7-oscillation-images/IBDvsBaseline.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/IBDvsBaseline.pdf used on inp
-ut line 193.
-(pdftex.def)             Requested size: 433.62001pt x 135.37013pt.
- [94 <./tex/7-oscillation-images/AD_Segments_Baselines.pdf> <./tex/7-oscillatio
-n-images/IBDvsBaseline.pdf, page is rotated 90 degrees>]
-<tex/7-oscillation-images/FidRateVsBaseline_OscData.pdf, id=5777, 569.12625pt x
- 301.125pt>
-File: tex/7-oscillation-images/FidRateVsBaseline_OscData.pdf Graphic file (type
- pdf)
- <use tex/7-oscillation-images/FidRateVsBaseline_OscData.pdf>
-Package pdftex.def Info: tex/7-oscillation-images/FidRateVsBaseline_OscData.pdf
- used on input line 208.
-(pdftex.def)             Requested size: 346.89732pt x 183.55272pt.
-
-<tex/7-oscillation-images/IBDCountsVsBaseline_Corrected.pdf, id=5778, 569.12625
-pt x 286.06876pt>
-File: tex/7-oscillation-images/IBDCountsVsBaseline_Corrected.pdf Graphic file (
-type pdf)
-
-<use tex/7-oscillation-images/IBDCountsVsBaseline_Corrected.pdf>
-Package pdftex.def Info: tex/7-oscillation-images/IBDCountsVsBaseline_Corrected
-.pdf used on input line 215.
-(pdftex.def)             Requested size: 346.89732pt x 174.37509pt.
+ut line 195.
+(pdftex.def)             Requested size: 390.25536pt x 121.83177pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[95 <./tex/7-oscillation-images/FidRateVsBaseline_OscData.pdf, page is rotated 
-90 degrees>] [96 <./tex/7-oscillation-images/IBDCountsVsBaseline_Corrected.pdf,
- page is rotated 90 degrees>] [97]
-<tex/7-oscillation-images/AlContrib.pdf, id=5875, 766.02066pt x 412.34589pt>
+
+<tex/7-oscillation-images/RateVsBaseline_PRL_Relative.pdf, id=5163, 569.12625pt
+ x 300.12125pt>
+File: tex/7-oscillation-images/RateVsBaseline_PRL_Relative.pdf Graphic file (ty
+pe pdf)
+ <use tex/7-oscillation-images/RateVsBaseline_PRL_Relative.pdf>
+Package pdftex.def Info: tex/7-oscillation-images/RateVsBaseline_PRL_Relative.p
+df used on input line 210.
+(pdftex.def)             Requested size: 368.57965pt x 194.37584pt.
+
+[96 <./tex/7-oscillation-images/AD_Segments_Baselines.pdf>]
+<tex/7-oscillation-images/IBDCountsVsBaseline_PRL_AllzCorrected.pdf, id=5744, 5
+69.12625pt x 300.12125pt>
+File: tex/7-oscillation-images/IBDCountsVsBaseline_PRL_AllzCorrected.pdf Graphi
+c file (type pdf)
+
+<use tex/7-oscillation-images/IBDCountsVsBaseline_PRL_AllzCorrected.pdf>
+Package pdftex.def Info: tex/7-oscillation-images/IBDCountsVsBaseline_PRL_AllzC
+orrected.pdf used on input line 217.
+(pdftex.def)             Requested size: 346.89732pt x 182.94089pt.
+
+[97 <./tex/7-oscillation-images/IBDvsBaseline.pdf, page is rotated 90 degrees> 
+<./tex/7-oscillation-images/RateVsBaseline_PRL_Relative.pdf, page is rotated 90
+ degrees>] [98 <./tex/7-oscillation-images/IBDCountsVsBaseline_PRL_AllzCorrecte
+d.pdf, page is rotated 90 degrees>] [99]
+<tex/7-oscillation-images/AlContrib.pdf, id=5884, 766.02066pt x 412.34589pt>
 File: tex/7-oscillation-images/AlContrib.pdf Graphic file (type pdf)
 
 <use tex/7-oscillation-images/AlContrib.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/AlContrib.pdf used on input l
-ine 292.
+ine 294.
 (pdftex.def)             Requested size: 260.17465pt x 140.05103pt.
-
-<tex/7-oscillation-images/NonEqContrib.pdf, id=5876, 781.37184pt x 400.62656pt>
+ [100]
+<tex/7-oscillation-images/NonEqContrib.pdf, id=5889, 781.37184pt x 400.62656pt>
 File: tex/7-oscillation-images/NonEqContrib.pdf Graphic file (type pdf)
 <use tex/7-oscillation-images/NonEqContrib.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/NonEqContrib.pdf used on inpu
-t line 299.
+t line 301.
 (pdftex.def)             Requested size: 260.17465pt x 133.39922pt.
- [98 <./tex/7-oscillation-images/AlContrib.pdf>]
-<tex/7-oscillation-images/SpectrumWithCorrections.pdf, id=5902, 779.33493pt x 3
+
+<tex/7-oscillation-images/SpectrumWithCorrections.pdf, id=5890, 779.33493pt x 3
 97.68077pt>
 File: tex/7-oscillation-images/SpectrumWithCorrections.pdf Graphic file (type p
 df)
  <use tex/7-oscillation-images/SpectrumWithCorrections.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/SpectrumWithCorrections.pdf u
-sed on input line 306.
+sed on input line 308.
 (pdftex.def)             Requested size: 303.53267pt x 154.88855pt.
- [99 <./tex/7-oscillation-images/NonEqContrib.pdf> <./tex/7-oscillation-images/
-SpectrumWithCorrections.pdf>] [100]
-<tex/7-oscillation-images/BaselineSpectra.pdf, id=5951, 1027.84pt x 770.88pt>
+ [101 <./tex/7-oscillation-images/AlContrib.pdf> <./tex/7-oscillation-images/No
+nEqContrib.pdf> <./tex/7-oscillation-images/SpectrumWithCorrections.pdf>] [102]
+
+<tex/7-oscillation-images/BaselineSpectra.pdf, id=5961, 1027.84pt x 770.88pt>
 File: tex/7-oscillation-images/BaselineSpectra.pdf Graphic file (type pdf)
 
 <use tex/7-oscillation-images/BaselineSpectra.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/BaselineSpectra.pdf used on i
-nput line 377.
+nput line 378.
 (pdftex.def)             Requested size: 390.25536pt x 292.69043pt.
- [101]
-<tex/7-oscillation-images/Exclusion_Sensitivity_Final.pdf, id=5956, 569.12625pt
+ [103]
+<tex/7-oscillation-images/Exclusion_Sensitivity_Final.pdf, id=5965, 569.12625pt
  x 477.785pt>
 File: tex/7-oscillation-images/Exclusion_Sensitivity_Final.pdf Graphic file (ty
 pe pdf)
  <use tex/7-oscillation-images/Exclusion_Sensitivity_Final.pdf>
 Package pdftex.def Info: tex/7-oscillation-images/Exclusion_Sensitivity_Final.p
-df used on input line 384.
+df used on input line 385.
 (pdftex.def)             Requested size: 303.53267pt x 254.82872pt.
 
-[102 <./tex/7-oscillation-images/BaselineSpectra.pdf>]) [103 <./tex/7-oscillati
+[104 <./tex/7-oscillation-images/BaselineSpectra.pdf>]) [105 <./tex/7-oscillati
 on-images/Exclusion_Sensitivity_Final.pdf, page is rotated 90 degrees>]
 \openout2 = `tex/8-Conclusions.aux'.
 
 
 (./tex/8-Conclusions.tex
 CHAPTER 7.
-) [104
+) [106
 
 
 
-] (./thesis.bbl [105
+] (./thesis.bbl [107
 
 
 ]
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ­ in font cmr12!
- [106] [107]
+ [108] [109]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [108] [109] [110] [111])
+ [110] [111] [112] [113])
 No file thesis.ind.
-[112] (./thesis.aux (./tex/0-Abstract.aux) (./tex/0-Acknowledgements.aux)
+[114] (./thesis.aux (./tex/0-Abstract.aux) (./tex/0-Acknowledgements.aux)
 (./tex/2-Neutrinos.aux) (./tex/3-ReactorNeutrinos.aux) (./tex/4-Prospect.aux)
 (./tex/5-Analysis.aux) (./tex/6-Ac227.aux) (./tex/7-Oscillation.aux)
 (./tex/8-Conclusions.aux)) ) 
 Here is how much of TeX's memory you used:
  13627 strings out of 492995
- 255688 string characters out of 6132704
- 285274 words of memory out of 5000000
+ 255782 string characters out of 6132704
+ 285277 words of memory out of 5000000
  16864 multiletter control sequences out of 15000+600000
  16746 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2578,10 +2585,10 @@ texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on thesis.pdf (132 pages, 22118080 bytes).
+Output written on thesis.pdf (135 pages, 22124799 bytes).
 PDF statistics:
- 6137 PDF objects out of 6186 (max. 8388607)
- 3577 compressed objects within 36 object streams
+ 6147 PDF objects out of 6186 (max. 8388607)
+ 3584 compressed objects within 36 object streams
  0 named destinations out of 1000 (max. 500000)
  511 words of extra memory for PDF output out of 10000 (max. 10000000)
 
